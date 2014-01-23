@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php    $section = 'index'; include_once 'header.php' ?>
 
 <!-- Index Page -->
 
@@ -22,4 +22,4 @@
 
 <!-- End Index Page -->
     
-<?php get_footer(); ?>
+<?php include_once 'footer.php' ?>
