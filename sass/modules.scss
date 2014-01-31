@@ -1,130 +1,151 @@
-// MODULES
+//Modules
 
-// Swipe Classes
+/* PRIMARY HEADER ====================== */
 
-.swipe {
-  overflow:hidden;
-  visibility:hidden;
-  position:relative;
-}
-.swipe-wrap {
-  overflow:hidden;
-  position:relative;
-}
-.swipe-wrap > div {
-  position:relative;
-  float:left;
-  width:100%;
-}
-
-.nontouchnav{
-	position: absolute;
-	bottom: 0;
-	top:0;
-	padding: .25em 0;
-	width: 100%;
-	z-index: 1000;
-	text-align: center;
-	font-size: 1.5em;
-	overflow: hidden;
-	
-	@media screen and (min-width:(em(1000))){
-		display:block;
-	}
-	
-	div{
+#header{
+	#logo,#toggle{
 		position:absolute;
-		color:$medium-grey;
-		width: 1.5em;
-		cursor:pointer;
-		text-align:center;
-		top:0;
-		bottom:0;
-		padding-top:27%;
+		top:1em;
+		z-index:1000;
+		font-size:.75em;
+			border:1px solid $dark-grey;
+			text-decoration:none;
+			color:$dark-grey;
+			display:block;
+			padding:1em;
+			text-transform:uppercase;
+			
+			&:hover{
+				color:$white;
+				background-color:$dark-grey;
+			}
+				
+	}
+	#logo{
+		left:1em;
+	}
+	#toggle{
+		right:1em;
+	}
+}
+
+#primary-nav{
+	display:none;
+	position:fixed;
+	width:80%;
+	margin:0;
+	padding:5em 10%;
+	background-color:$action-color;
+	overflow:scroll;
+	top:0;
+	bottom:0;
+	opacity:.95;
+	
+	a{
+		color:$white;
+		text-decoration:none;
+		display:block;
+		border:1px solid transparent;
+		width:90%;
+		padding:.5em 5%;
+		font-size:1.25em;
 		
-		background-color: rgba(255,255,255,0);
-		opacity:0;
-		@include quarter-second-transition;
+		@media screen and (min-width:(em(480))){
+		font-size:1.75em;
+		}
 		
 		&:hover{
-			background-color: rgba(255,255,255,0.75);
-			opacity:0.5;
-			color:$black;
-			@include quarter-second-transition;
+			color:$action-color;
+			background-color:$white;
+		}
+		&:active{
+			color:$white;
+			background-color:$action-color;
+		}
+	}
+	
+	ul{
+		list-style-type:none;
+		text-indent:none;
+		margin:0;
+		padding:0;
+		li{
+			margin:0;
+			padding:0;
 		}
 	}
 
-	.prev{		
-		left:0;
+	.primary{
+		
 	}
 	
-	.next{
-		right:0;
-		//border-left:1px dotted $medium-grey;
+	.secondary{
+		//font-size:1em;
+		background-color:red;
+	}
+	
+	.tertiary{
+		//font-size:1em;
+		background-color:black;
+	}
+	
+}
+
+
+
+
+//Navigation
+
+
+
+/* LAYOUT ====================== */
+
+//Body
+body{
+	margin:0;
+	padding:0;
+
+	//Sections
+	>section{
+		width:90%;
+		clear:both;
+		padding:2em 5%;
+	}
+}
+
+//Articles
+article{
+	width:100%;
+	header{
+		width:90%;
+		padding:2em 5%;
+		text-align:center;
+	}
+	
+	>section{
+		
+	}
+	
+	p{
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+		max-width:(em(750));
+		
+		@media screen and (min-width:(em(800))){
+			
+		}
+	}
+	
+	footer{
+		width:90%;
+		padding:2em 5%;
+		text-align:center;
 	}
 
 }
 
 
-// Responsive Nav Styles
 
-/*! responsive-nav.js v1.0.15 by @viljamis */
 
-//#nav ul {
-//  margin: 0;
-//  padding: 0;
-//  width: 100%;
-//  display: block;
-//  list-style: none;
-//}
-//
-//#nav li {
-//  width: 100%;
-//  display: block;
-//}
-
-.js #info-1 {
-  clip: rect(0 0 0 0);
-  max-height: 0;
-  position: absolute;
-  display: block;
-  overflow: hidden;
-  zoom: 1;
-}
-
-#info-1.opened {
-  max-height: 9999px;
-  padding:0 0 6em 0;
-}
-
-.expand {
-	font-weight:bold;
-  color: white;
-  padding: 0;
-  border: 0;
-  cursor: pointer;
-}
-
-a.closed {
-	transition:2s;
-  
-}
-
-a.opened {
-	display:block;
-	font-size:1.1em;
-	
-	/* Safari */
-	-webkit-transform: rotateY(-180deg);
-	-webkit-transform: rotateZ(-45deg);
-
-	/* Firefox */
-	-moz-transform: rotateZ(-45deg);
-
-	/* IE */
-	-ms-transform: rotateZ(-45deg);
-
-	/* Opera */
-	-o-transform: rotateZ(-45deg);
-
-}
+//Primary Footer
