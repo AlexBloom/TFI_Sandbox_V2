@@ -110,10 +110,10 @@
 
 body {
   font-family: 'Gotham-HTF',helvetica,arial,sans-serif;
-  font-size: 1em; }
-  @media screen and (min-width: 53.33333em) {
+  font-size: .8em; }
+  @media screen and (min-width: 32em) {
     body {
-      font-size: 1.25em; } }
+      font-size: 1em; } }
 
 /* Modular Scale 
 ---------------------- 
@@ -254,15 +254,31 @@ figcaption {
   letter-spacing: .1em;
   line-height: 0em; }
 
+/* Global ====================== */
+a {
+  color: #00afef;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
+  a:hover {
+    background-color: #00afef;
+    color: black; }
+  a:active {
+    background-color: #00afef;
+    color: black; }
+  a:visited {
+    color: #eeeeee; }
+
 /* PRIMARY HEADER ====================== */
 #header #logo, #header #toggle {
-  position: absolute;
+  position: fixed;
   top: 1em;
   z-index: 1000;
-  font-size: .75em;
-  border: 1px solid #222222;
+  font-size: 1em;
   text-decoration: none;
-  color: #222222;
+  color: black;
   display: block;
   padding: 1em;
   text-transform: uppercase; }
@@ -272,19 +288,24 @@ figcaption {
 #header #logo {
   left: 1em; }
 #header #toggle {
-  right: 1em; }
+  right: 1em;
+  width: 1em;
+  height: 1.25em; }
 
 #primary-nav {
-  display: none;
   position: fixed;
   width: 80%;
   margin: 0;
   padding: 5em 10%;
   background-color: #00afef;
-  overflow: scroll;
+  z-index: 999;
   top: 0;
   bottom: 0;
-  opacity: .95; }
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
   #primary-nav a {
     color: white;
     text-decoration: none;
@@ -295,13 +316,16 @@ figcaption {
     font-size: 1.25em; }
     @media screen and (min-width: 32em) {
       #primary-nav a {
-        font-size: 1.75em; } }
+        font-size: 2em; } }
     #primary-nav a:hover {
       color: #00afef;
       background-color: white; }
     #primary-nav a:active {
       color: white;
       background-color: #00afef; }
+    #primary-nav a .current:after {
+      content: "X";
+      float: right; }
   #primary-nav ul {
     list-style-type: none;
     text-indent: none;
@@ -310,10 +334,36 @@ figcaption {
     #primary-nav ul li {
       margin: 0;
       padding: 0; }
-  #primary-nav .secondary {
-    background-color: red; }
-  #primary-nav .tertiary {
-    background-color: black; }
+  #primary-nav .primary a:hover:after {
+    content: "+";
+    float: right; }
+  #primary-nav .secondary a:hover:after, #primary-nav .tertiary a:hover:after {
+    content: ">";
+    float: right; }
+  #primary-nav .primary-link a {
+    padding: 1em; }
+  #primary-nav .secondary-link a {
+    font-size: 1.75em;
+    padding: 1.25em; }
+  #primary-nav .tertiary-link a {
+    text-indent: 2em;
+    font-size: 1.5em;
+    padding: 1.75em; }
+
+.collapsed {
+  max-height: 0;
+  opacity: 0; }
+
+.togglespan {
+  position: absolute; }
+
+.open {
+  opacity: .95;
+  overflow: scroll; }
+
+.closed {
+  opacity: 0;
+  overflow: hidden; }
 
 /* LAYOUT ====================== */
 body {
@@ -322,10 +372,42 @@ body {
   body > section {
     width: 90%;
     clear: both;
-    padding: 2em 5%; }
+    padding: 2em 5%;
+    text-align: center;
+    z-index: 1; }
+
+.full-screen {
+  background: url("../img/content/prototype/full-bleed-bg-image.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  width: 100%;
+  position: relative; }
+  .full-screen .overlay-wrap {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.15); }
+  .full-screen .floating-text {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 10em;
+    overflow: visible;
+    color: white;
+    z-index: 2; }
+  .full-screen img {
+    width: 100%; }
 
 article {
-  width: 100%; }
+  width: 100%;
+  text-align: left; }
   article header {
     width: 90%;
     padding: 2em 5%;
@@ -339,6 +421,31 @@ article {
     width: 90%;
     padding: 2em 5%;
     text-align: center; }
+
+#footer {
+  background-color: #222222;
+  color: #888888;
+  width: 100%;
+  padding: 1em 0;
+  text-align: center; }
+
+#top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1000;
+  display: block;
+  padding: 1em;
+  font-size: 1em;
+  opacity: 0.75;
+  color: #888888;
+  background-color: white; }
+  #top:hover {
+    opacity: 1;
+    color: #00afef; }
+  #top:active {
+    opacity: 1;
+    color: #00afef; }
 
 /* ==========================================================================
    Helper classes

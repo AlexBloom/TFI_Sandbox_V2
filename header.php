@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/custom.css">
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+       <script src="js/vendor/modernizr-2.6.2.min.js"></script> 
     </head>
 
 <body> 
@@ -21,15 +21,18 @@
 	<header class="" id="header">
 
 			<a class="" id="logo" href="index.php">TFI Sandbox</a>
-			<a class="" id="toggle" href="#">Menu</a>
+			<a class="" id="toggle" href="#">
+				<span id="toggleopen" class="togglespan open">☰</span> 
+				<span id="toggleclose" class="togglespan closed">X</span>
+			</a>
 
-	<nav id="primary-nav">
+	<nav id="primary-nav" class="closed">
 	
 		<ul class="primary" id="">
 
 			<li class="primary-link" id="discover"> 
-				<a href="discover.php"> Discover </a> 
-				<ul class="secondary" id="">
+				<a href="#"> Discover </a> 
+				<ul class="secondary" id="discover-secondary">
 					<li class="secondary-link" id=""> 
 						<a href=""> TFI New Media Fund </a> 
 						<ul class="tertiary" id="">
@@ -51,8 +54,8 @@
 			</li>
 		
 			<li class="primary-link" id="participate"> 
-				<a href="participate.php"> Participate </a> 
-				<ul class="secondary" id="">
+				<a href="#"> Participate </a> 
+				<ul class="secondary" id="participate-secondary">
 					<li class="secondary-link" id=""> 
 						<a href=""> TFI Interactive </a>
 						<ul class="tertiary" id="">
@@ -74,8 +77,8 @@
 			</li>
 		
 			<li class="primary-link" id="build"> 
-				<a href="build.php"> Build </a> 
-				<ul class="secondary" id="">
+				<a href="#"> Build </a> 
+				<ul class="secondary" id="build-secondary">
 					<li class="secondary-link" id=""> 
 						<a href=""> Project Management Guide</a>
 						<ul class="tertiary" id="">
