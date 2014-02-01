@@ -23,7 +23,38 @@
 			
 			
 		</p>
+		
 	</article>
+	
+	<ul class="three-columns clearfix" id="home-callouts">
+		<li>
+			<h3>Discover</h3>
+			<p>In the realm of interactivity, the field is constantly expanding.  From Brent Hoff and Alexandre Reben’s Blabdroid to the creative works of the Night Kitchen, explore the projects that are gathering the most attention.</p>
+			<ul>
+				<li> <a href="#">Subsection</a> </li>
+				<li> <a href="#">Subsection</a> </li>
+			</ul>
+		</li>
+		
+		<li>
+			<h3>Participate</h3>
+			<p>TFI has a broad slate of programming that aims to expand the knowledge around interactivity.  Join us!</p>
+			<ul>
+				<li> <a href="#">Subsection</a> </li>
+				<li> <a href="#">Subsection</a> </li>
+			</ul>
+		</li>
+		
+		<li>
+			<h3>Build</h3>
+			<p>Ready, set, go!  Here are a ton of tools, resources and best practices to get you started on your next (or first!) interactive project.</p>
+			<ul>
+				<li> <a href="#">Subsection</a> </li>
+				<li> <a href="#">Subsection</a> </li>
+			</ul>
+		</li>
+	</ul>
+
 </section>
 
 <!-- End Index Page -->

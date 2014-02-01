@@ -1,6 +1,6 @@
 
 
-	<footer class="" id="footer">
+	<footer class="clearfix" id="footer">
 		<small>All content &copy; Tribeca Film Institute 2012&ndash;2014</small>
 		<small>Site by <a href="http://dutchelectric.co">Dutch Electric Co.</a></small>
 		<a class="fixed" id="top" href="#"> Top. </a>

@@ -271,6 +271,23 @@ a {
   a:visited {
     color: #eeeeee; }
 
+.three-columns {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-indent: none; }
+  .three-columns li {
+    float: left;
+    width: 90%;
+    padding: 1em 5%; }
+  @media screen and (min-width: 53.33333em) {
+    .three-columns li:first-child, .three-columns li:last-child {
+      width: 29%;
+      padding: 1em 2%; }
+    .three-columns li {
+      width: 30%;
+      padding: 1em 2%; } }
+
 /* PRIMARY HEADER ====================== */
 #header #logo, #header #toggle {
   position: fixed;
