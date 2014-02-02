@@ -1,22 +1,63 @@
 //Modules
 /* Global ====================== */
 
-a{
-	color:$action-color;
+
+//        ACTION ELEMENTS
+
+a, ul a, p a{
+	color:inherit;
+	text-decoration:underline;
 	@include quarter-second-transition;	
 	
 	&:hover{
-	background-color:$action-color;
-	color:$black;	
+	color:$action-color;
+	text-decoration:underline;
 	}
 	&:active{
-	background-color:$action-color;
-	color:$black;
+	color:$action-color;
 		
 	}
 	&:visited{
-	color:$light-grey;	
+	text-decoration:line-through;	
 	}
+}
+
+button{
+	color:$white;
+	background-color:transparent;
+	padding:1em;
+	margin:1em;
+	border:1px solid transparent;
+	@include quarter-second-transition;
+	
+	&:hover{
+	color:$action-color;
+	background-color:$white;
+	border:1px solid transparent;	
+	}
+	&:hover{
+	color:$action-color;
+	background-color:$white;	
+	}
+}
+
+//        LISTS
+
+.basic-list{
+	list-style-type:none;
+	text-indent:none;
+	padding:0;
+	color:$medium-grey;
+	
+	a{
+		
+	}
+	
+	li{
+		float:none;
+		text-indent:none;
+	}
+	
 }
 
 .three-columns{
@@ -24,8 +65,9 @@ a{
 	margin:0;
 	padding:0;
 	text-indent:none;
+	text-align:left;
 	
-	li{
+	>li{
 		float:left;
 		width:90%;
 		padding:1em 5%;
@@ -84,7 +126,7 @@ a{
 	position:fixed;
 	width:80%;
 	margin:0;
-	padding:5em 10%;
+	padding:0 10%;
 	background-color:$action-color;
 	z-index:999;
 	//overflow:scroll;
@@ -92,6 +134,7 @@ a{
 	bottom:0;
 	//opacity:.95;
 	@include quarter-second-transition;
+	
 	
 	a{
 		color:$white;
@@ -177,20 +220,27 @@ a{
 	
 }
 
+
+
 .open{
 	opacity:.95;
-	//max-height:auto;
+	max-height:auto;
 	overflow:scroll;
 }
 
 .closed{
 	opacity:0;
-	//max-height:0;
+	max-height:0;
 	overflow:hidden;
 }
 
 
-
+#primary-nav.open{
+	padding:7em 10%;
+}
+#primary-nav.closed{
+	padding:0 10%;
+}
 
 
 
@@ -205,12 +255,34 @@ body{
 
 	//Sections
 	>section{
-		width:90%;
-		clear:both;
-		padding:2em 5%;
+		//width:90%;
+		//clear:both;
+		padding:2em 0;
 		text-align:center;
 		z-index:1;
 	}
+}
+
+.overlay-wrap{
+	position:absolute;
+	z-index:2;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:rgba(0,0,0,0.15);
+}
+
+.floating-text{
+	display:block;
+	margin: auto;
+	  position: absolute;
+	  top: 0; left: 0; bottom: 0; right: 0;
+	  height:10em;
+	  overflow:visible;
+	color:$white;
+	z-index:2;
+	
 }
 
 .full-screen{
@@ -221,26 +293,9 @@ body{
 	width:100%;
 	position:relative;
 	
-	.overlay-wrap{
-		position:absolute;
-		z-index:1;
-		top:0;
-		bottom:0;
-		left:0;
-		right:0;
-		background-color:rgba(0,0,0,0.15);
-	}
+
 	
-	.floating-text{
-		margin: auto;
-		  position: absolute;
-		  top: 0; left: 0; bottom: 0; right: 0;
-		  height:10em;
-		  overflow:visible;
-		color:$white;
-		z-index:2;
-		
-	}
+
 	
 	.video-overlay{
 		

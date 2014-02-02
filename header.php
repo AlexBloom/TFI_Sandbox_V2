@@ -20,7 +20,7 @@
 
 	<header class="" id="header">
 
-			<a class="" id="logo" href="index.php">TFI Sandbox</a>
+			<a class="" id="logo" href="index">TFI Sandbox</a>
 			<a class="" id="toggle" href="#">
 				<span id="toggleopen" class="togglespan open">☰</span> 
 				<span id="toggleclose" class="togglespan closed">X</span>

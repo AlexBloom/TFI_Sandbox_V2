@@ -14,6 +14,75 @@
 }
 
 
+
+
+
+
+// PROJECT PAGES
+
+.subnav{
+	margin: 0;
+	padding:1em 0;
+	text-indent:none;
+	li{
+		font-size:2em;
+		float:left;
+		padding:1em;
+	}
+}
+
+.projects{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+.project{
+	padding:0;
+	margin:0;
+}
+
+.project-header{
+	background-color:$action-color;
+	cursor:pointer;
+	position:relative;
+	overflow:hidden;
+	height:400px;
+	img{
+		display:block;
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		width:100%;
+		z-index:2;
+	}
+	.overlay-wrap{
+		
+	}
+}
+
+.project-url{
+	position:absolute;
+	bottom:1em;
+	right:1em;
+}
+
+.project-content .collapsed{
+	max-height:0;
+	overflow:hidden;
+	opacity:0;
+	@include quarter-second-transition;
+}
+
+.project-content .expanded{
+	max-height:auto;
+	overflow:auto;
+	opacity:1;
+	@include quarter-second-transition;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

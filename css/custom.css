@@ -255,28 +255,57 @@ figcaption {
   line-height: 0em; }
 
 /* Global ====================== */
-a {
-  color: #00afef;
+a, ul a, p a {
+  color: inherit;
+  text-decoration: underline;
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
   transition-duration: .25s; }
-  a:hover {
-    background-color: #00afef;
-    color: black; }
-  a:active {
-    background-color: #00afef;
-    color: black; }
-  a:visited {
-    color: #eeeeee; }
+  a:hover, ul a:hover, p a:hover {
+    color: #00afef;
+    text-decoration: underline; }
+  a:active, ul a:active, p a:active {
+    color: #00afef; }
+  a:visited, ul a:visited, p a:visited {
+    text-decoration: line-through; }
+
+button {
+  color: white;
+  background-color: transparent;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid transparent;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
+  button:hover {
+    color: #00afef;
+    background-color: white;
+    border: 1px solid transparent; }
+  button:hover {
+    color: #00afef;
+    background-color: white; }
+
+.basic-list {
+  list-style-type: none;
+  text-indent: none;
+  padding: 0;
+  color: #888888; }
+  .basic-list li {
+    float: none;
+    text-indent: none; }
 
 .three-columns {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  text-indent: none; }
-  .three-columns li {
+  text-indent: none;
+  text-align: left; }
+  .three-columns > li {
     float: left;
     width: 90%;
     padding: 1em 5%; }
@@ -313,7 +342,7 @@ a {
   position: fixed;
   width: 80%;
   margin: 0;
-  padding: 5em 10%;
+  padding: 0 10%;
   background-color: #00afef;
   z-index: 999;
   top: 0;
@@ -376,22 +405,50 @@ a {
 
 .open {
   opacity: .95;
+  max-height: auto;
   overflow: scroll; }
 
 .closed {
   opacity: 0;
+  max-height: 0;
   overflow: hidden; }
+
+#primary-nav.open {
+  padding: 7em 10%; }
+
+#primary-nav.closed {
+  padding: 0 10%; }
 
 /* LAYOUT ====================== */
 body {
   margin: 0;
   padding: 0; }
   body > section {
-    width: 90%;
-    clear: both;
-    padding: 2em 5%;
+    padding: 2em 0;
     text-align: center;
     z-index: 1; }
+
+.overlay-wrap {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.15); }
+
+.floating-text {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 10em;
+  overflow: visible;
+  color: white;
+  z-index: 2; }
 
 .full-screen {
   background: url("../img/content/prototype/full-bleed-bg-image.jpg") no-repeat;
@@ -400,25 +457,6 @@ body {
   padding: 0;
   width: 100%;
   position: relative; }
-  .full-screen .overlay-wrap {
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.15); }
-  .full-screen .floating-text {
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    height: 10em;
-    overflow: visible;
-    color: white;
-    z-index: 2; }
   .full-screen img {
     width: 100%; }
 
@@ -463,6 +501,64 @@ article {
   #top:active {
     opacity: 1;
     color: #00afef; }
+
+.subnav {
+  margin: 0;
+  padding: 1em 0;
+  text-indent: none; }
+  .subnav li {
+    font-size: 2em;
+    float: left;
+    padding: 1em; }
+
+.projects {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.project {
+  padding: 0;
+  margin: 0; }
+
+.project-header {
+  background-color: #00afef;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  height: 400px; }
+  .project-header img {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2; }
+
+.project-url {
+  position: absolute;
+  bottom: 1em;
+  right: 1em; }
+
+.project-content .collapsed {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
+
+.project-content .expanded {
+  max-height: auto;
+  overflow: auto;
+  opacity: 1;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
 
 /* ==========================================================================
    Helper classes

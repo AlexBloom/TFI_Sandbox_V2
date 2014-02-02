@@ -60,6 +60,16 @@ $(document).ready(function () {
    
    //Open Specific Tertiary Menus
    
-	
+   
+   
+   
+   
+   //Open and Close Projects
+$('.project-content').addClass('collapsed');
+       
+	   $('.project-header').click(function() {
+           $('.project-content').toggleClass('collapsed');
+           $('.project-content').siblings().not('.project-header').toggleClass('collapsed');
+       });
 
 });
