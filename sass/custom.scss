@@ -21,16 +21,70 @@
 // PROJECT PAGES
 
 .subnav{
-	margin: 0;
+	margin: 0 auto;
+	width:80%;
+	max-width:50em;
 	padding:1em 0;
 	text-indent:none;
-	li{
-		font-size:2em;
+	dt, dd{
+		font-size:1.25em;
 		float:left;
-		padding:1em;
+		padding:.5em .75em;
+	}
+	dt{
+		font-style:italic;
+		color:$medium-grey;
+	}
+	.active{
+		color:$action-color;
+		border:1px solid $action-color;
 	}
 }
 
+//Jury
+
+.jury{
+	padding:1em 0;
+	background-color:$dark-grey;
+	color:$white;
+}
+
+.jury-members{
+	list-style-type:none;
+	padding:1em 5%;
+	width:90%;
+	
+	li{
+		display:block;
+		float:left;
+		width:90%;
+		padding:1em 5%;
+		text-align:center;
+		
+		img{
+			width:100%;
+			display:block;
+			clear:both;
+			margin-bottom:1em;
+			@include perfect-circle;
+		}
+		
+		span{
+			width:100%;
+		}
+		@media screen and (min-width:(em(480))){
+			width:45%;
+			padding:1em 2.5% 1em 2.5%;
+		}
+		
+		@media screen and (min-width:(em(800))){
+			width:20%;
+			padding:1em 2.5% 1em 2.5%;
+		}
+	}
+}
+
+//Project Lists
 .projects{
 	list-style-type:none;
 	padding:0;
@@ -43,7 +97,7 @@
 }
 
 .project-header{
-	background-color:$action-color;
+	background-color:#777;
 	cursor:pointer;
 	position:relative;
 	overflow:hidden;
@@ -54,6 +108,7 @@
 		left:0;
 		right:0;
 		top:0;
+		bottom:0;
 		width:100%;
 		z-index:2;
 	}
@@ -68,6 +123,12 @@
 	right:1em;
 }
 
+.project-content{
+	width:80%;
+	margin:3em auto;
+	max-width:50em;
+}
+
 .project-content .collapsed{
 	max-height:0;
 	overflow:hidden;
@@ -80,6 +141,61 @@
 	overflow:auto;
 	opacity:1;
 	@include quarter-second-transition;
+}
+
+.team-leaders{
+	list-style-type:none;
+	padding:0;
+	
+	
+	li{
+		display:block;
+		float:left;
+		width:90%;
+		padding:1em 5%;
+		text-align:center;
+		
+		img{
+			width:100%;
+			display:block;
+			clear:both;
+			@include perfect-circle;
+			margin-bottom:2em;
+		}
+		
+		span{
+			width:100%;
+		}
+		
+		@media screen and (min-width:(em(480))){
+			width:45%;
+			padding:1em 2.5% 1em 2.5%;
+		}
+		
+		@media screen and (min-width:(em(800))){
+			width:29%;
+			padding:1em 4% 1em 0;
+		}
+	}
+}
+
+.core-team{
+	list-style-type:none;
+	padding:0;
+	
+	
+	li{
+		display:block;
+		float:left;
+		width:90%;
+		padding:1em 5%;
+		text-align:center;
+		
+		@media screen and (min-width:(em(800))){
+			width:29%;
+			padding:1em 4% 1em 0;
+		}
+	}
 }
 
 

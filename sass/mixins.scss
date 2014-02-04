@@ -49,6 +49,14 @@ transition-duration: .25s;
 border-radius:1em;
 }
 
+@mixin perfect-circle{
+	-webkit-border-radius: 50em;
+	-moz-border-radius: 50em;
+	-ms-border-radius: 50em;
+	-o-border-radius: 50em;
+	border-radius:50em;
+}
+
 @mixin drop-shadow{
 -webkit-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
 -moz-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;

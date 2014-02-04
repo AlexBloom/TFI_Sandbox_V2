@@ -1,23 +1,10 @@
-/* Touch Detection */
-/*var hasTouch = 'ontouchstart' in window || 'createTouch' in document;
 
- ================================================================================================================== Has Touch  
-if(hasTouch){
-}
-
-if($(window).width() <760){
-}
-
-if($(window).width() >760){
-}
-*/
 
 
 $(document).ready(function () {
 
-	// Fire LocalScroll
-	$('body').localScroll();
-	
+		// Fire LocalScroll
+		$('body').localScroll();
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({height:$(window).height()});
@@ -40,7 +27,7 @@ $(document).ready(function () {
 	$('#toggleclose').toggleClass('closed');
    });
    
-   
+  /* 
    //Close Secondary & Tertiary Links
    $('.secondary').addClass('visuallyhidden');
    //$('.tertiary').addClass('visuallyhidden');
@@ -60,16 +47,17 @@ $(document).ready(function () {
    
    //Open Specific Tertiary Menus
    
+   */
    
    
    
-   
-   //Open and Close Projects
+/*   //Open and Close Projects
 $('.project-content').addClass('collapsed');
        
 	   $('.project-header').click(function() {
            $('.project-content').toggleClass('collapsed');
-           $('.project-content').siblings().not('.project-header').toggleClass('collapsed');
+           $('.project-content').siblings().not('.project-content').toggleClass('collapsed');
        });
-
+*/
 });
+   

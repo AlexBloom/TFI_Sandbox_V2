@@ -6,14 +6,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>TFI Sandbox</title>
         <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
+        
+		<meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="viewport" content="width = device-width, initial-scale=1, maximum-scale=1, user-scalable = no">
+		<meta name="keywords" content="Tribeca Film Institute, New Media, Trans Media, Film, Filmmaking, New York City, Resources, Grants, Festivals">
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/custom.css">
 
-       <script src="js/vendor/modernizr-2.6.2.min.js"></script> 
+       <!--<script src="js/vendor/modernizr-2.6.2.min.js"></script> -->
     </head>
 
 <body> 

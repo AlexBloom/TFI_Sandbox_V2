@@ -2,6 +2,8 @@
 /* Global ====================== */
 
 
+
+
 //        ACTION ELEMENTS
 
 a, ul a, p a{
@@ -41,12 +43,32 @@ button{
 	}
 }
 
+.next-section{
+	display:block;
+	position:absolute;
+	bottom:0;
+	text-align:center;
+	width:100%;
+	padding:1em 0;
+	color:$white;
+	text-decoration:none;
+	@include quarter-second-transition;
+	
+	&:hover{
+		//background-color:$white;
+		text-decoration:none;
+		color:$white;
+		padding:1.5em 0 .5em 0;
+	}
+	
+}
+
 //        LISTS
 
 .basic-list{
-	list-style-type:none;
+	list-style-type:disc;
 	text-indent:none;
-	padding:0;
+	padding:0 0 0 1em;
 	color:$medium-grey;
 	
 	a{
@@ -75,14 +97,14 @@ button{
 	
 	@media screen and (min-width:(em(800))){
 	
-		li:first-child, li:last-child{
+		>li:first-child, >li:last-child{
 			width:29%;
-			padding:1em 2%;
+			padding:1em 4% 1em 0;
 		}
 	
-		li{
+		>li{
 			width:30%;
-			padding:1em 2%;
+			padding:1em 4% 1em 0;
 		}
 	}
 }
@@ -307,34 +329,25 @@ body{
 }
 
 //Articles
+
+
 article{
 	width:100%;
 	text-align:left;
-	header{
+	header, footer{
 		width:90%;
 		padding:2em 5%;
 		text-align:center;
 	}
-	
-	>section{
-		
+	.content{
+		width:80%;
+		margin:3em auto;
+		max-width:50em;
 	}
 	
-	p{
-		width:100%;
-		margin-left:auto;
-		margin-right:auto;
-		max-width:(em(750));
-		
-		@media screen and (min-width:(em(800))){
-			
-		}
-	}
-	
-	footer{
-		width:90%;
-		padding:2em 5%;
-		text-align:center;
+	h3{
+		border-top:1px solid $medium-grey;
+		padding-top:1em;
 	}
 
 }
