@@ -2,7 +2,7 @@
 
 <!-- Index Page -->
 
-<section id="" class="full-screen">
+<section id="home-video-container" class="full-screen">
 	<div class="overlay-wrap">
 		<div class="floating-text" id="">
 			<h1>TFI Sandbox V2.0</h1>

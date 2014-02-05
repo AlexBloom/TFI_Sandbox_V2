@@ -1,10 +1,10 @@
 //Modules
-/* Global ====================== */
+/* 
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// GLOBAL */
 
 
-
-
-//        ACTION ELEMENTS
+/* ======================================================== LINKS / BUTTONS  */
 
 a, ul a, p a{
 	color:inherit;
@@ -30,8 +30,7 @@ button{
 	padding:1em;
 	margin:1em;
 	border:1px solid transparent;
-	@include quarter-second-transition;
-	
+	@include quarter-second-transition;	
 	&:hover{
 	color:$action-color;
 	background-color:$white;
@@ -52,43 +51,46 @@ button{
 	padding:1em 0;
 	color:$white;
 	text-decoration:none;
-	@include quarter-second-transition;
-	
+	@include quarter-second-transition;	
 	&:hover{
 		//background-color:$white;
 		text-decoration:none;
 		color:$white;
 		padding:1.5em 0 .5em 0;
-	}
-	
+	}	
 }
 
-//        LISTS
+/* ======================================================== LISTS */
 
 .basic-list{
 	list-style-type:disc;
 	text-indent:none;
 	padding:0 0 0 1em;
 	color:$medium-grey;
-	
-	a{
-		
-	}
-	
 	li{
 		float:none;
 		text-indent:none;
 	}
-	
 }
 
-.three-columns{
+.one-column{
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	text-indent:none;
-	text-align:left;
-	
+	text-align:left;	
+	>li{
+		float:left;
+		width:90%;
+		padding:1em 5%;
+	}
+}
+.two-columns{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-indent:none;
+	text-align:left;	
 	>li{
 		float:left;
 		width:90%;
@@ -96,12 +98,30 @@ button{
 	}
 	
 	@media screen and (min-width:(em(800))){
+		>li{
+			width:45%;
+			padding:1em 5% 1em 0;
+		}
+	}
+}
+
+.three-columns{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-indent:none;
+	text-align:left;	
+	>li{
+		float:left;
+		width:90%;
+		padding:1em 5%;
+	}
 	
+	@media screen and (min-width:(em(800))){
 		>li:first-child, >li:last-child{
 			width:29%;
 			padding:1em 4% 1em 0;
 		}
-	
 		>li{
 			width:30%;
 			padding:1em 4% 1em 0;
@@ -109,23 +129,22 @@ button{
 	}
 }
 
-
-/* PRIMARY HEADER ====================== */
+/* ======================================================== LOGO / TOGGLE / NAVIGATION  */
 
 #header{
-
 	#logo,#toggle{
 			position:fixed;
-		top:1em;
+		top:.5em;
 		z-index:1000;
-		font-size:1em;
+		font-size:1.1em;
 			//border:1px solid $dark-grey;
 			
 			text-decoration:none;
 			color:$black;
 			display:block;
-			padding:1em;
+			padding:.75em 1em;
 			text-transform:uppercase;
+			letter-spacing: .15em;
 			
 			&:hover{
 				color:$white;
@@ -134,16 +153,23 @@ button{
 				
 	}
 	#logo{
-		left:1em;
+		left:.5em;
 	}
 	#toggle{
-		right:1em;
+		right:.5em;
 		width:1em;
 		height:1.25em;
 	}
 }
 
-//Navigation
+.togglespan{
+	position:absolute;
+	font-size:2em;
+}
+#toggleclose{
+	top:.25em;
+}
+
 #primary-nav{
 	position:fixed;
 	width:80%;
@@ -151,111 +177,34 @@ button{
 	padding:0 10%;
 	background-color:$action-color;
 	z-index:999;
-	//overflow:scroll;
 	top:0;
 	bottom:0;
-	//opacity:.95;
-	@include quarter-second-transition;
-	
-	
+	@include quarter-second-transition;	
 	a{
 		color:$white;
 		text-decoration:none;
 		display:block;
 		border:1px solid transparent;
-		width:90%;
-		padding:.5em 5%;
-		font-size:1.25em;
-		
-		@media screen and (min-width:(em(480))){
-		font-size:2em;
+		width:100%;
+		padding:0;
+		span{
+			opacity:0;
+			float:right;
+			padding:0 1em;
 		}
-		
-		
-		
 		&:hover{
-			color:$action-color;
-			background-color:$white;
+			//color:$action-color;
+			//background-color:$white;
+			span{
+				//opacity:1;
+			}
 		}
 		&:active{
 			color:$white;
-			background-color:$action-color;
+			//background-color:$action-color;
 		}
-		
-		.current{
-		
-			&:after{
-				content:"X";
-				float:right;
-			}
-		}
-		
-	}
-	ul{
-		list-style-type:none;
-		text-indent:none;
-		margin:0;
-		padding:0;
-		li{
-			margin:0;
-			padding:0;
-		}
-	}
-	.primary{
-	a{
-		&:hover{
-			&:after{
-				content:"+";
-				float:right;
-			}
-		}
-	}
-		
-	}
-	.secondary, .tertiary{
-	a{
-		&:hover{
-			&:after{
-				content:">";
-				float:right;
-			}
-		}
-	}
-	}
-	
-	.primary-link a{padding:1em;}
-	.secondary-link a{font-size:1.75em; padding:1.25em;}
-	.tertiary-link a{text-indent:2em;font-size:1.5em; padding:1.75em;}
+	}	
 }
-
-.collapsed{
-	max-height:0;
-	opacity:0;
-}
-
-#toggle{
-	
-}
-
-.togglespan{
-	position:absolute;
-	
-}
-
-
-
-.open{
-	opacity:.95;
-	max-height:auto;
-	overflow:scroll;
-}
-
-.closed{
-	opacity:0;
-	max-height:0;
-	overflow:hidden;
-}
-
 
 #primary-nav.open{
 	padding:7em 10%;
@@ -264,6 +213,69 @@ button{
 	padding:0 10%;
 }
 
+.primary /*DL*/ {
+	border-top:1px solid $white;
+	padding:1em 0;
+	color:$white;
+	dt{
+		text-transform:uppercase;
+		letter-spacing:.2em;
+		font-size:1em;
+		opacity:0.75;
+
+	}
+}
+.primary-link /*DD*/{
+	font-size:2em; 
+	line-height:1.25em;
+	padding:0.5em 0;
+	margin:0;
+			
+	@media screen and (min-width:(em(800))){
+	width:50%;
+	float:left;
+	}
+}
+.secondary /*UL*/{
+	text-indent:1em;
+	font-size:.75em;
+	padding:0;
+	margin:0;
+	display:none;
+}
+.secondary-link /*LI*/{
+
+}
+
+
+/* ======================================================== OPEN / CLOSE */
+
+.open{
+	opacity:.95;
+	max-height:auto;
+	overflow:scroll;
+}
+.closed{
+	opacity:0 !important;
+	max-height:0;
+	overflow:hidden;
+}
+
+//Projects
+.expanded{
+	opacity:1;
+	max-height:auto;
+	overflow:auto;
+}
+.collapsed{
+	opacity:0;
+	max-height:0;
+	overflow:hidden;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	border-bottom: 1px solid white;
+	@include quarter-second-transition;
+}
 
 
 
@@ -279,12 +291,11 @@ body{
 	>section{
 		//width:90%;
 		//clear:both;
-		padding:2em 0;
+		padding:2em 0 0 0;
 		text-align:center;
 		z-index:1;
 	}
 }
-
 .overlay-wrap{
 	position:absolute;
 	z-index:2;
@@ -294,7 +305,6 @@ body{
 	right:0;
 	background-color:rgba(0,0,0,0.15);
 }
-
 .floating-text{
 	display:block;
 	margin: auto;
@@ -306,31 +316,23 @@ body{
 	z-index:2;
 	
 }
-
 .full-screen{
-	background: url('../img/content/prototype/full-bleed-bg-image.jpg') no-repeat;
 	background-size:cover;
 	background-position:center;
 	padding:0;
 	width:100%;
 	position:relative;
 	
-
-	
-
-	
 	.video-overlay{
 		
 	}
-
 	img{
 		width:100%;
 	}
 }
 
-//Articles
 
-
+//Articles / Content 
 article{
 	width:100%;
 	text-align:left;
@@ -344,15 +346,11 @@ article{
 		margin:3em auto;
 		max-width:50em;
 	}
-	
 	h3{
 		border-top:1px solid $medium-grey;
 		padding-top:1em;
 	}
-
 }
-
-
 
 
 //Primary Footer
@@ -362,8 +360,8 @@ article{
 	width:100%;
 	padding:1em 0;
 	text-align:center;
+	
 }
-
 #top{
 	position:fixed;
 	bottom:0;
@@ -372,11 +370,11 @@ article{
 	display:block;
 	padding:1em;
 	font-size:1em;
-	opacity:0.75;
-	
+	opacity:0.75;	
 	color:$medium-grey;
 	background-color:$white;
-	
+	text-decoration:none;
+	@include quarter-second-transition;
 	&:hover{
 		opacity:1;
 		color:$action-color;
@@ -385,5 +383,4 @@ article{
 		opacity:1;
 		color:$action-color;
 	}
-
 }

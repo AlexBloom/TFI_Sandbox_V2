@@ -1,13 +1,13 @@
 
 
 
-TRIBECA SANDBOX—SAMPLE CONTENT
+#TRIBECA SANDBOX—SAMPLE CONTENT
 
-DISCOVER
+##DISCOVER
 In the realm of interactivity, the field is constantly expanding.  From Brent Hoff and Alexandre Reben’s Blabdroid to the creative works of the Night Kitchen, explore the projects that are gathering the most attention.
 
-TFI NEW MEDIA FUND
-Subsection 2014
+###TFI NEW MEDIA FUND
+####Subsection 2014
 
 American Promise
 American Promise follows filmmaker-parents who spend 12 years with the camera turned on themselves and another African American family as their firstborn sons enter a prestigious college preparatory school in 1999. An intimate, poignant and complex portrayal of how race and privilege are experienced by African American middle class families today.
@@ -30,7 +30,7 @@ XXX
 
 
 
-INTERACTIVE LANDSCAPE
+###INTERACTIVE LANDSCAPE
 General Template:
 	•	Title - 
 	•	Link - 
@@ -51,10 +51,10 @@ What are we if not our emotions? In a world that increasingly limits sponteneous
 
 
 
-PARTICIPATE
+##PARTICIPATE
 TFI has a broad slate of programming that aims to expand the knowledge around interactivity.  Join us!
 
-TFI INTERACTIVE
+###TFI INTERACTIVE
 Highlights from 2012/2013—selected videos and listed speakers—each with a picture and a blurb on who they are.
 
 2013
@@ -100,7 +100,7 @@ James George and Jonathan Minard, media artists
 
 
 
-TRIBECA HACKS
+###TRIBECA HACKS
 A sizzle reel with a list of past events and hyperlink out to TFI’s upcoming Hack section
 
 Tribeca Hacks Zeega

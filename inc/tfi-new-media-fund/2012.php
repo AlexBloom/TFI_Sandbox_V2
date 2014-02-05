@@ -1,4 +1,4 @@
-<?php include_once 'header.php' ?>
+<?php    $section = 'index'; include_once 'header.php' ?>
 
 <!-- TFI New Media Fund Page -->
 
@@ -9,35 +9,11 @@
 	<nav class="subnav clearfix" id""> 	
 		<dl class="subnav clearfix">
 			<dt>Year:</dt>
-			<dd class="active"><a href="#">2014</a></dd>
-			<dd><a href="#">2013</a></dd>
-			<dd><a href="#">2012</a></dd>
-		</dl>
-	</nav>	
-		
-	<section class="jury" id="">
-		<h2>Meet The Jury</h2>
-		<ul class="jury-members clearfix">
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
-			</li>
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
-			</li>
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
-			</li>
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
-			</li>
-		</ul>
-		
-
-	</section>
+			<dd><a href="2014">2014</a></dd>
+			<dd><a href="2013">2013</a></dd>
+			<dd class="active"><a href="2012">2012</a></dd>
+		</dl>	
+	</nav>
 	
 	<h2 class="projects-title">Funded Projects</h2>
 	<ul class="projects" id="">
@@ -382,8 +358,8 @@
 	<nav class="subnav clearfix" id""> 	
 		<dl class="subnav clearfix">
 			<dt>View another year:</dt>
+			<dd><a href="#">2014</a></dd>
 			<dd><a href="#">2013</a></dd>
-			<dd><a href="#">2012</a></dd>
 		</dl>	
 	</nav>
 	

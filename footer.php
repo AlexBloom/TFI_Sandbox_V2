@@ -2,8 +2,8 @@
 
 	<footer class="clearfix" id="footer">
 		<small>All content &copy; Tribeca Film Institute 2012&ndash;2014</small>
-		<small>Site by <a href="http://dutchelectric.co">Dutch Electric Co.</a></small>
-		<a class="fixed" id="top" href="#header"> Top. </a>
+		<small>Site by <a href="http://digitalfrontiersman.com">The Digital Frontiersman</a></small>
+		<a class="fixed" id="top" href="#header"> &uarr; <br> TOP </a>
 	</footer>
 
  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -14,12 +14,6 @@
 	<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
 	
 	<script src="js/main.js"></script>
-	
-	<script>
-	
-  
-	
-	</script>
 
 	<script>
 	    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

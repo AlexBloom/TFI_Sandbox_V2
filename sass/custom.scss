@@ -14,8 +14,13 @@
 }
 
 
+#home-video-container{
+	background-image: url('../img/content/prototype/full-bleed-bg-image.jpg');
+}
 
-
+#hacks-video-container{
+	background-image: url('../img/content/prototype/project-image.jpg');
+}
 
 
 // PROJECT PAGES
@@ -85,6 +90,12 @@
 }
 
 //Project Lists
+.projects-title{
+	background-color:$medium-grey;
+	color:$white;
+	padding:1em 0;
+	margin:0;
+}
 .projects{
 	list-style-type:none;
 	padding:0;
@@ -101,7 +112,12 @@
 	cursor:pointer;
 	position:relative;
 	overflow:hidden;
-	height:400px;
+	height:300px;
+	
+	@media screen and (min-width:(em(800))){
+		height:500px;
+	}
+	
 	img{
 		display:block;
 		position:absolute;
@@ -115,6 +131,20 @@
 	.overlay-wrap{
 		
 	}
+	.expand-icon{
+		display:block;
+		clear:both;
+		width:100%;
+		padding:.5em 0;
+		opacity:0;
+		@include quarter-second-transition;
+	}
+	&:hover{
+		.expand-icon{
+			padding:.75em 0 .25em 0;
+			opacity:1;
+		}
+	}
 }
 
 .project-url{
@@ -123,38 +153,69 @@
 	right:1em;
 }
 
-.project-content{
+.project-content, .project-content-expanded{
 	width:80%;
 	margin:3em auto;
 	max-width:50em;
+	@include half-second-transition;
+	
+	img{
+		width:100%;
+	}
 }
 
 .project-content .collapsed{
 	max-height:0;
 	overflow:hidden;
 	opacity:0;
-	@include quarter-second-transition;
+	@include half-second-transition;
 }
 
 .project-content .expanded{
 	max-height:auto;
 	overflow:auto;
 	opacity:1;
-	@include quarter-second-transition;
+	@include half-second-transition;
 }
 
-.team-leaders{
+.key-speakers{
 	list-style-type:none;
 	padding:0;
-	
-	
 	li{
 		display:block;
 		float:left;
 		width:90%;
 		padding:1em 5%;
-		text-align:center;
+		text-align:left;		
+		img{
+			width:33%;
+			display:block;
+			float:left;
+			//clear:both;
+			@include perfect-circle;
+			margin:0 1em 2em 0;
+		}
+		span{
+			width:100%;
+			padding:1em 0;
+		}
+		@media screen and (min-width:(em(800))){
+			width:45%;
+			padding:1em 5% 1em 0;
+		}
 		
+	}
+}
+
+.team-leaders{
+	list-style-type:none;
+	padding:0;
+	li{
+		display:block;
+		float:left;
+		width:90%;
+		padding:1em 5%;
+		text-align:center;		
 		img{
 			width:100%;
 			display:block;
@@ -162,7 +223,6 @@
 			@include perfect-circle;
 			margin-bottom:2em;
 		}
-		
 		span{
 			width:100%;
 		}
@@ -182,8 +242,6 @@
 .core-team{
 	list-style-type:none;
 	padding:0;
-	
-	
 	li{
 		display:block;
 		float:left;

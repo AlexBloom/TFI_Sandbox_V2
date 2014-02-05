@@ -27,7 +27,26 @@ $(document).ready(function () {
 	$('#toggleclose').toggleClass('closed');
    });
    
-  /* 
+   
+   //Show Top Link After Scrolling
+   $("#top").addClass('closed')
+   $(window).scroll(function() {
+       var y_scroll_pos = window.pageYOffset;
+       var scroll_pos_test = 400;             
+   	// set to whatever you want it to be
+       if(y_scroll_pos > scroll_pos_test) {
+   	   $("#top").addClass('open');
+	   $("#top").removeClass('closed');
+       }
+   	else
+   	{
+		$("#top").removeClass('open');
+   		$("#top").addClass('closed');
+   	}
+   });
+   
+   
+  /*
    //Close Secondary & Tertiary Links
    $('.secondary').addClass('visuallyhidden');
    //$('.tertiary').addClass('visuallyhidden');
@@ -51,13 +70,32 @@ $(document).ready(function () {
    
    
    
-/*   //Open and Close Projects
+   //Open and Close Projects
 $('.project-content').addClass('collapsed');
        
-	   $('.project-header').click(function() {
-           $('.project-content').toggleClass('collapsed');
-           $('.project-content').siblings().not('.project-content').toggleClass('collapsed');
+	   $('#project-1 .project-header').click(function() {
+           $('#project-1 .project-content').toggleClass('collapsed');
        });
-*/
+	   
+	   $('#project-2 .project-header').click(function() {
+           $('#project-2 .project-content').toggleClass('collapsed');
+       });
+	   
+	   $('#project-3 .project-header').click(function() {
+           $('#project-3 .project-content').toggleClass('collapsed');
+       });
+	   
+	   $('#project-4 .project-header').click(function() {
+           $('#project-4 .project-content').toggleClass('collapsed');
+       });
+	   
+	   $('#project-5 .project-header').click(function() {
+           $('#project-5 .project-content').toggleClass('collapsed');
+       });
+	   
+	   $('#project-6 .project-header').click(function() {
+           $('#project-6 .project-content').toggleClass('collapsed');
+       });
+
 });
    
