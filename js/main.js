@@ -17,31 +17,33 @@ $(document).ready(function () {
 	//Menu Toggle
 	//$('#primary').prepend('<div id="menu-icon">TFI SANDBOX <span> </span> </div>');
 	$('#primary-nav').addClass('closed');
- 
-	$("#toggle").click(function(){
+	
+	$("#logo").click(function(){
 	$('#primary-nav').toggleClass('closed');
 	$('#primary-nav').toggleClass('open');
-	$('#toggleopen').toggleClass('open');
-	$('#toggleopen').toggleClass('closed');
-	$('#toggleclose').toggleClass('open');
-	$('#toggleclose').toggleClass('closed');
    });
+   
+	$("#primary-nav a").click(function(){
+	$('#primary-nav').toggleClass('closed');
+	$('#primary-nav').toggleClass('open');
+  });
+
    
    
    //Show Top Link After Scrolling
-   $("#top").addClass('closed')
+   $("#top").addClass('fadeout')
    $(window).scroll(function() {
        var y_scroll_pos = window.pageYOffset;
        var scroll_pos_test = 400;             
    	// set to whatever you want it to be
        if(y_scroll_pos > scroll_pos_test) {
-   	   $("#top").addClass('open');
-	   $("#top").removeClass('closed');
+   	   $("#top").addClass('fadein');
+	   $("#top").removeClass('fadeout');
        }
    	else
    	{
-		$("#top").removeClass('open');
-   		$("#top").addClass('closed');
+		$("#top").removeClass('fadein');
+   		$("#top").addClass('fadeout');
    	}
    });
    

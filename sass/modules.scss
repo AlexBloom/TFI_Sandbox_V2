@@ -132,134 +132,109 @@ button{
 /* ======================================================== LOGO / TOGGLE / NAVIGATION  */
 
 #header{
-	#logo,#toggle{
-			position:fixed;
-		top:.5em;
+	#logo{
+		position:fixed;
+		left:0;
+		top:0;
 		z-index:1000;
 		font-size:1.1em;
-			//border:1px solid $dark-grey;
-			
-			text-decoration:none;
-			color:$black;
-			display:block;
-			padding:.75em 1em;
-			text-transform:uppercase;
-			letter-spacing: .15em;
-			
-			&:hover{
-				color:$white;
-				background-color:$dark-grey;
-			}
+		width:3.5em;
+		height:3.5em;
+		cursor:pointer;
+		text-decoration:none;
+		display:block;
+		padding:.75em;
+		text-transform:uppercase;
+		letter-spacing: .15em;
+		@include quarter-second-transition;
+		
+		img{
+			width:100%;
+			@include perfect-circle;
+		}	
+		
+		&:hover{
+			img{
 				
+			}
+		}		
 	}
-	#logo{
-		left:.5em;
-	}
-	#toggle{
-		right:.5em;
-		width:1em;
-		height:1.25em;
-	}
-}
-
-.togglespan{
-	position:absolute;
-	font-size:2em;
-}
-#toggleclose{
-	top:.25em;
 }
 
 #primary-nav{
 	position:fixed;
-	width:80%;
-	margin:0;
-	padding:0 10%;
+	width:70%;
+	padding:0;
+	//margin:-.75em 0 0 0;
 	background-color:$action-color;
 	z-index:999;
 	top:0;
 	bottom:0;
-	@include quarter-second-transition;	
-	a{
-		color:$white;
-		text-decoration:none;
-		display:block;
-		border:1px solid transparent;
-		width:100%;
-		padding:0;
-		span{
-			opacity:0;
-			float:right;
-			padding:0 1em;
-		}
-		&:hover{
-			//color:$action-color;
-			//background-color:$white;
-			span{
-				//opacity:1;
-			}
-		}
-		&:active{
-			color:$white;
-			//background-color:$action-color;
-		}
-	}	
+	left:0;
+	max-width:20em;
+	@include quarter-second-transition;		
+	
+	h3{
+		color:$dkblue;
+		margin:.75em;
+		position:fixed;
+		top:0;
+		
+	}
 }
+
+.primary, nav ol {
+	padding: 0;
+	width:100%;
+	color:$white;
+	margin:5em 0 .5em;
+	list-style:decimal-leading-zero!important;
+	li{
+		&:hover{
+			color:$red;
+			}
+		&:active{
+			color:$red;
+		}
+		a{
+			display:block;
+			text-decoration:none;
+			margin-left:-5em;	
+			font-size:1.5em;
+			padding:.25em 1em .25em 5em;
+			line-height:175%;
+			width:150%;
+			&:hover{background-color:$white;color:$red;text-decoration:none;}
+			&:active{background-color:$white;color:$red;text-decoration:none;}
+			
+		}	
+	}
+}
+
 
 #primary-nav.open{
-	padding:7em 10%;
+	padding:0 4% 0 6%;
+	opacity:1;
+	overflow:scroll;
 }
 #primary-nav.closed{
-	padding:0 10%;
-}
-
-.primary /*DL*/ {
-	border-top:1px solid $white;
-	padding:1em 0;
-	color:$white;
-	dt{
-		text-transform:uppercase;
-		letter-spacing:.2em;
-		font-size:1em;
-		opacity:0.75;
-
-	}
-}
-.primary-link /*DD*/{
-	font-size:2em; 
-	line-height:1.25em;
-	padding:0.5em 0;
-	margin:0;
-			
-	@media screen and (min-width:(em(800))){
-	width:50%;
-	float:left;
-	}
-}
-.secondary /*UL*/{
-	text-indent:1em;
-	font-size:.75em;
 	padding:0;
-	margin:0;
-	display:none;
+	opacity:0 !important;
+	overflow:hidden;	
 }
-.secondary-link /*LI*/{
 
+.fadeout{
+	opacity:0;
+	@include quarter-second-transition;
+}
+.fadein{
+	opacity:.75;
+	@include quarter-second-transition;
 }
 
 
 /* ======================================================== OPEN / CLOSE */
 
-.open{
-	opacity:.95;
-	max-height:auto;
-	overflow:scroll;
-}
-.closed{
-	opacity:0 !important;
-	max-height:0;
-	overflow:hidden;
-}
 
 //Projects
 .expanded{
@@ -334,29 +309,65 @@ body{
 
 //Articles / Content 
 article{
-	width:100%;
+	position:relative;
+	//width:100%;
 	text-align:left;
+	width:80%;
+	margin:3em auto;
+	max-width:50em;
+	
 	header, footer{
 		width:90%;
 		padding:2em 5%;
 		text-align:center;
 	}
 	.content{
-		width:80%;
-		margin:3em auto;
-		max-width:50em;
+		
 	}
 	h3{
-		border-top:1px solid $medium-grey;
+		border-top:1px solid;
 		padding-top:1em;
+	}
+	aside{
+		font-size:.85em;
+		font-style:italic;
+		padding:1em 0;
+		clear:both;
+		
+		img{
+			float:left;
+			width:8em;
+			margin:0 1em;
+			@include perfect-circle;
+			
+			@media screen and (min-width:(em(1400))){
+				width:100%;
+				margin:0 0 2em 0;
+			}
+		}
+		
+		@media screen and (min-width:(em(1400))){
+			position:absolute;
+			width:30%;
+			right:-35%;
+		}
+	}
+	.speaker{
+		display: block;
+		margin-left: -4em;
+		position: absolute;
+		opacity:0.5;
+		text-transform:uppercase;
+		font-size:.8em;
+		
 	}
 }
 
 
 //Primary Footer
 #footer{
-	background-color:$dark-grey;
-	color:$medium-grey;
+	background-color:$dkblue;
+	color:$ltblue;
 	width:100%;
 	padding:1em 0;
 	text-align:center;
@@ -370,7 +381,7 @@ article{
 	display:block;
 	padding:1em;
 	font-size:1em;
-	opacity:0.75;	
+	//opacity:0.75;	
 	color:$medium-grey;
 	background-color:$white;
 	text-decoration:none;
