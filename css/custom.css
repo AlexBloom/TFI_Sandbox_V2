@@ -109,7 +109,7 @@
   content: "\25ca"; }
 
 body {
-  font-family: 'Gotham-HTF',helvetica,arial,sans-serif;
+  font-family: "proxima-nova",helvetica,arial,sans-serif;
   font-size: .8em; }
   @media screen and (min-width: 32em) {
     body {

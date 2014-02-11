@@ -24,15 +24,9 @@
 	<header class="clearfix" id="header">
 
 			<a class="" id="logo" href="index.php"><strong>TFI</strong> Sandbox</a>
-			
 	        <button type="button" id="toggle" role="button" aria-label="Toggle Navigation" class="lines-button x2">
 	          <span class="lines"></span>
 	        </button>
-			
-			<!-- <a class="" id="toggle" href="#"> 
-				<span id="toggleopen" class="togglespan open">&#x2261;</span> 
-				<span id="toggleclose" class="togglespan closed">&#xd7;</span>
-			</a>-->
 			
 	</header>
 	<nav id="primary-nav" class="closed">

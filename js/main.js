@@ -83,22 +83,22 @@ $('.project-content').addClass('collapsed');
    	$('#project-1').waypoint(function(direction) {
    		$('.scrollnav-link').removeClass('current');
    		$('#scrollnav-1').addClass('current');
-   	}, { offset: '10%' });
+   	}, { offset: '0' });
 	
    	$('#project-2').waypoint(function(direction) {
    		$('.scrollnav-link').removeClass('current');
    		$('#scrollnav-2').addClass('current');
-   	}, { offset: '10%' });
+   	}, { offset: '0' });
 	
    	$('#project-3').waypoint(function(direction) {
    		$('.scrollnav-link').removeClass('current');
    		$('#scrollnav-3').addClass('current');
-   	}, { offset: '10%' });
+   	}, { offset: '0' });
 	
    	$('#project-4').waypoint(function(direction) {
    		$('.scrollnav-link').removeClass('current');
    		$('#scrollnav-4').addClass('current');
-   	}, { offset: '10%' });
+   	}, { offset: '0' });
 	
    	$('#project-5').waypoint(function(direction) {
    		$('.scrollnav-link').removeClass('current');
