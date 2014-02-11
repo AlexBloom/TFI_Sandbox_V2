@@ -19,12 +19,9 @@ $(document).ready(function () {
 	$('#primary-nav').addClass('closed');
  
 	$("#toggle").click(function(){
+		$(this).toggleClass('close');
 	$('#primary-nav').toggleClass('closed');
 	$('#primary-nav').toggleClass('open');
-	$('#toggleopen').toggleClass('open');
-	$('#toggleopen').toggleClass('closed');
-	$('#toggleclose').toggleClass('open');
-	$('#toggleclose').toggleClass('closed');
    });
    
    
@@ -45,57 +42,76 @@ $(document).ready(function () {
    	}
    });
    
-   
-  /*
-   //Close Secondary & Tertiary Links
-   $('.secondary').addClass('visuallyhidden');
-   //$('.tertiary').addClass('visuallyhidden');
-   
-   //Open Specific Secondary Menus
-   $("#discover").click(function(){
-	   $('#discover-secondary').toggleClass('visuallyhidden');
-   });
-   
-   $("#participate").click(function(){
-	   $('#participate-secondary').toggleClass('visuallyhidden');
-   });
-   
-   $("#build").click(function(){
-	   $('#build-secondary').toggleClass('visuallyhidden');
-   });
-   
-   //Open Specific Tertiary Menus
-   
-   */
-   
-   
-   
    //Open and Close Projects
 $('.project-content').addClass('collapsed');
        
-	   $('#project-1 .project-header').click(function() {
+	   $('#project-1 .local-link').click(function() {
            $('#project-1 .project-content').toggleClass('collapsed');
        });
 	   
-	   $('#project-2 .project-header').click(function() {
+	   $('#project-2 .local-link').click(function() {
            $('#project-2 .project-content').toggleClass('collapsed');
        });
 	   
-	   $('#project-3 .project-header').click(function() {
+	   $('#project-3 .local-link').click(function() {
            $('#project-3 .project-content').toggleClass('collapsed');
        });
 	   
-	   $('#project-4 .project-header').click(function() {
+	   $('#project-4 .local-link').click(function() {
            $('#project-4 .project-content').toggleClass('collapsed');
        });
 	   
-	   $('#project-5 .project-header').click(function() {
+	   $('#project-5 .local-link').click(function() {
            $('#project-5 .project-content').toggleClass('collapsed');
        });
 	   
-	   $('#project-6 .project-header').click(function() {
+	   $('#project-6 .local-link').click(function() {
            $('#project-6 .project-content').toggleClass('collapsed');
        });
+	   
+   
+	   
+     // Add Current Class to ScrollNav of Currently Depressed Item
+    	$('.scrollnav-link').click(function() {
+    		$('.scrollnav-link').removeClass('current');
+    		$(this).addClass('current');
+    	});
+	   
+	   
+   	// Add Current Class to ScrollNav of Currently Viewed Project
+	
+   	$('#project-1').waypoint(function(direction) {
+   		$('.scrollnav-link').removeClass('current');
+   		$('#scrollnav-1').addClass('current');
+   	}, { offset: '10%' });
+	
+   	$('#project-2').waypoint(function(direction) {
+   		$('.scrollnav-link').removeClass('current');
+   		$('#scrollnav-2').addClass('current');
+   	}, { offset: '10%' });
+	
+   	$('#project-3').waypoint(function(direction) {
+   		$('.scrollnav-link').removeClass('current');
+   		$('#scrollnav-3').addClass('current');
+   	}, { offset: '10%' });
+	
+   	$('#project-4').waypoint(function(direction) {
+   		$('.scrollnav-link').removeClass('current');
+   		$('#scrollnav-4').addClass('current');
+   	}, { offset: '10%' });
+	
+   	$('#project-5').waypoint(function(direction) {
+   		$('.scrollnav-link').removeClass('current');
+   		$('#scrollnav-5').addClass('current');
+   	}, { offset: '10%' });
+	
+   	$('#project-6').waypoint(function(direction) {
+   		$('.scrollnav-link').removeClass('current');
+   		$('#scrollnav-6').addClass('current');
+   	}, { offset: '10%' });
+   
 
 });
    
+   
+

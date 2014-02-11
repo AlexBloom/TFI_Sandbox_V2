@@ -21,14 +21,20 @@
 
 <body> 
 
-	<header class="" id="header">
+	<header class="clearfix" id="header">
 
 			<a class="" id="logo" href="index.php"><strong>TFI</strong> Sandbox</a>
-			<a class="" id="toggle" href="#">
+			
+	        <button type="button" id="toggle" role="button" aria-label="Toggle Navigation" class="lines-button x2">
+	          <span class="lines"></span>
+	        </button>
+			
+			<!-- <a class="" id="toggle" href="#"> 
 				<span id="toggleopen" class="togglespan open">&#x2261;</span> 
 				<span id="toggleclose" class="togglespan closed">&#xd7;</span>
-			</a>
-
+			</a>-->
+			
+	</header>
 	<nav id="primary-nav" class="closed">
 		
 				<dl class="primary clearfix" id="discover-primary">
@@ -55,7 +61,7 @@
 				<dl class="primary clearfix" id="participate-primary">
 					<dt class="clearfix">Participate</dt>
 					<dd class="primary-link" id=""> 
-						<a href="tfi-interactive.php"> TFI Interactive </a>
+						<a href="tfi-interactive.php"> TFI Interactive <span>&rarr;</span> </a>
 						<ul class="secondary" id="">
 							<li class="secondary-link"> <a href="#2014"> 2014 </a> </li>
 							<li class="secondary-link"> <a href="#2013"> 2013 </a> </li>
@@ -63,24 +69,24 @@
 						</ul>
 					</dd>
 					<dd class="primary-link" id=""> 
-						<a href="tribeca-hacks.php"> Tribeca Hacks </a>
+						<a href="tribeca-hacks.php"> Tribeca Hacks <span>&rarr;</span> </a>
 						<ul class="secondary" id="">	
 							<li class="secondary-link"> <a href="#upcoming"> Upcoming </a> </li>
 							<li class="secondary-link"> <a href="#completed"> Completed </a> </li>
 						</ul>
 					</dd>
 					<dd class="primary-link"> 
-						<a href=""> Education </a> 
+						<a href=""> Education <span>&rarr;</span> </a> 
 					</dd>
 					<dd class="primary-link"> 
-						<a href=""> MIT Fledgling Fund </a> 
+						<a href=""> MIT Fledgling Fund <span>&rarr;</span> </a> 
 					</dd>
 				</dl>
 
 				<dl class="primary clearfix" id="build-primary">
 					<dt class="clearfix">Build</dt>
 					<dd class="primary-link" id="">
-						<a href=""> Project Management Guide</a> 
+						<a href=""> Project Management Guide <span>&rarr;</span></a> 
 						<ul class="secondary" id="">
 							
 							<li class="secondary-link"> <a href="#"> Building A Team </a> </li>
@@ -92,7 +98,7 @@
 						</ul>
 					</dd>
 					<dd class="primary-link" id="TechResources"> 
-						<a href=""> Tech Resources </a>
+						<a href=""> Tech Resources <span>&rarr;</span> </a>
 						<ul class="secondary" id="">
 							<li class="secondary-link"> <a href="#"> Code 101 </a> </li>
 							<li class="secondary-link"> <a href="#"> Platforms </a> </li>
@@ -100,13 +106,12 @@
 						</ul>
 					</dd>
 					<dd class="primary-link"> 
-						<a href="#"> Funding </a> 
+						<a href="#"> Funding <span>&rarr;</span> </a> 
 					</dd>
 					<dd class="primary-link"> 
-						<a href="#"> Festivals </a> 
+						<a href="#"> Festivals <span>&rarr;</span> </a> 
 					</dd>
 				</dl>
 	
 	</nav>
 
-	</header>

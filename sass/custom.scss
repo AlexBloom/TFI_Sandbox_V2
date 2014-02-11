@@ -25,26 +25,6 @@
 
 // PROJECT PAGES
 
-.subnav{
-	margin: 0 auto;
-	width:80%;
-	max-width:50em;
-	padding:1em 0;
-	text-indent:none;
-	dt, dd{
-		font-size:1.25em;
-		float:left;
-		padding:.5em .75em;
-	}
-	dt{
-		font-style:italic;
-		color:$medium-grey;
-	}
-	.active{
-		color:$action-color;
-		border:1px solid $action-color;
-	}
-}
 
 //Jury
 
@@ -109,7 +89,6 @@
 
 .project-header{
 	background-color:#777;
-	cursor:pointer;
 	position:relative;
 	overflow:hidden;
 	height:300px;
@@ -131,26 +110,20 @@
 	.overlay-wrap{
 		
 	}
-	.expand-icon{
-		display:block;
-		clear:both;
-		width:100%;
-		padding:.5em 0;
-		opacity:0;
-		@include quarter-second-transition;
-	}
-	&:hover{
-		.expand-icon{
-			padding:.75em 0 .25em 0;
-			opacity:1;
-		}
-	}
 }
 
 .project-url{
 	position:absolute;
-	bottom:1em;
-	right:1em;
+	bottom:0;
+	right:0;
+	padding:1em;
+	color:$white;
+	text-decoration:none;
+	&:hover, &:active{
+		color:$white;
+		text-decoration:none;
+		background-color:$dark-grey;
+	}
 }
 
 .project-content, .project-content-expanded{

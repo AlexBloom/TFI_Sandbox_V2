@@ -3,8 +3,11 @@
 <!-- TFI New Media Fund Page -->
 
 <section id="" class="">
-
-	<h1>TFI New Media Fund</h1>
+	<nav class="breadcrumb">
+		<ul>
+			<li> <a href="tfi-new-media-fund.php">TFI New Media Fund</a> </li>
+		</ul>
+	</nav>
 	
 	<nav class="subnav clearfix" id""> 	
 		<dl class="subnav clearfix">
@@ -14,31 +17,18 @@
 			<dd><a href="#">2012</a></dd>
 		</dl>
 	</nav>	
-		
-	<section class="jury" id="">
-		<h2>Meet The Jury</h2>
-		<ul class="jury-members clearfix">
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
-			</li>
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
-			</li>
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
-			</li>
-			<li>
-				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-				<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
-			</li>
-		</ul>
-		
-
-	</section>
 	
+	<nav class="scrollnav">
+		<ul>
+			<li> <a class="scrollnav-link" id="scrollnav-1" href="#project-1"> </a> </li>
+			<li> <a class="scrollnav-link" id="scrollnav-2" href="#project-2"> </a> </li>
+			<li> <a class="scrollnav-link" id="scrollnav-3" href="#project-3"> </a> </li>
+			<li> <a class="scrollnav-link" id="scrollnav-4" href="#project-4"> </a> </li>
+			<li> <a class="scrollnav-link" id="scrollnav-5" href="#project-5"> </a> </li>
+			<li> <a class="scrollnav-link" id="scrollnav-6" href="#project-6"> </a> </li>		
+		</ul>	
+	</nav>
+		
 	<h2 class="projects-title">Funded Projects</h2>
 	<ul class="projects" id="">
 	<li class="project clearfix" id="project-1">
@@ -48,7 +38,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2>American Promise <span class="expand-icon"> &darr; </span> </h2>
+					<h2><a class="local-link" href="#project-1">American Promise <span class="expand-icon"> &darr; </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">American Promise URL &rarr;</a>
 								
@@ -104,7 +94,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2>Project 2 Title <span class="expand-icon"> &darr; </span> </h2>
+					<h2><a class="local-link" href="#project-2">Project 2 Title <span class="expand-icon"> &darr; </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 2 URL &rarr;</a>
 								
@@ -160,7 +150,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2>Project 3 Title <span class="expand-icon"> &darr; </span> </h2>
+					<h2><a class="local-link" href="#project-3">Project 3 Title <span class="expand-icon"> &darr; </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 3 URL &rarr;</a>
 								
@@ -216,7 +206,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2>Project 4 Title <span class="expand-icon"> &darr; </span> </h2>
+					<h2><a class="local-link" href="#project-4">Project 4 Title <span class="expand-icon"> &darr; </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 4 URL &rarr;</a>
 								
@@ -272,7 +262,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2>Project 5 Title <span class="expand-icon"> &darr; </span> </h2>
+					<h2><a class="local-link" href="#project-5">Project 5 Title <span class="expand-icon"> &darr; </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 5 URL &rarr;</a>
 								
@@ -328,7 +318,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2>Project 6 Title <span class="expand-icon"> &darr; </span> </h2>
+					<h2><a class="local-link" href="#project-6">Project 6 Title <span class="expand-icon"> &darr; </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 6 URL &rarr;</a>
 								
@@ -378,6 +368,31 @@
 		</article>
 	</li>	
 	</ul>
+	
+	<section class="jury" id="">
+		<h2>Meet The Jury</h2>
+		<ul class="jury-members clearfix">
+			<li>
+				<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+				<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
+			</li>
+			<li>
+				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
+				<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
+			</li>
+			<li>
+				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
+				<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+			</li>
+			<li>
+				<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
+				<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+			</li>
+		</ul>
+		
+
+	</section>
+	
 	
 	<nav class="subnav clearfix" id""> 	
 		<dl class="subnav clearfix">

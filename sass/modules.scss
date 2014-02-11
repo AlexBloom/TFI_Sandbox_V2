@@ -132,43 +132,150 @@ button{
 /* ======================================================== LOGO / TOGGLE / NAVIGATION  */
 
 #header{
-	#logo,#toggle{
-			position:fixed;
-		top:.5em;
-		z-index:1000;
-		font-size:1.1em;
-			//border:1px solid $dark-grey;
-			
-			text-decoration:none;
-			color:$black;
-			display:block;
-			padding:.75em 1em;
-			text-transform:uppercase;
-			letter-spacing: .15em;
-			
-			&:hover{
-				color:$white;
-				background-color:$dark-grey;
-			}
-				
+	position:fixed;
+	z-index:500;
+	top:0;
+	width:100%;
+	background-color:rgba(255,255,255,.5);
+	padding:0;
+	overflow:hidden;
+	@include quarter-second-transition;
+	&:hover{
+		//background-color:$white;
 	}
+	
+	#logo, #toggle{
+		color:$dark-grey;
+		&:hover{
+			background-color:$white;
+		}
+	}
+	
 	#logo{
-		left:.5em;
+		padding:1em;
+		display:inline-block;
+		text-decoration:none;
+		color:$dark-grey;
+		text-transform:uppercase;
+		letter-spacing: .15em;	
+		&:hover{
+			color:$action-color;
+			background-color:$white;
+		}			
 	}
 	#toggle{
-		right:.5em;
-		width:1em;
-		height:1.25em;
+		float:right;
+		background:none!important;
+		outline:none;
+		border:none;
+		display:block;
+	    span{
+	      display:block;
+	    }
 	}
 }
 
-.togglespan{
-	position:absolute;
-	font-size:2em;
+//BEGIN MENU ICON
+$button-size : 2em; 
+//common to all three-liners
+.lines-button {
+  padding: $button-size/4 $button-size/4;
+  transition: .1s;
+  cursor: pointer;
+  user-select: none;
+  border-radius: $button-size/8;
+  &:hover {
+    opacity: 1;
+  }
+  &:active {
+    transition: 0;
+  }
 }
-#toggleclose{
-	top:.25em;
+//common to all three-liners
+@mixin line {
+  display: inline-block;
+  width: $button-size;
+  height: $button-size/8;
+  background: $dark-grey;
+  border-radius: $button-size/12; 
+  transition: .1s;
 }
+//common to all three-liners
+.lines {
+  @include line;
+  position: relative; 
+  &:before, &:after {
+   @include line;
+    position: absolute;
+    left:0;
+    content: '';
+    -webkit-transform-origin: $button-size/14 center;
+            transform-origin: $button-size/14 center;
+  }
+  &:before { 
+    top: $button-size/4; 
+	width:$button-size/1.25; 
+  }
+  &:after { 
+    top: -$button-size/4;
+	width:$button-size/1.25;  
+  }
+}
+//common to all three-liners
+.lines-button:hover {
+	
+  .lines {
+	  
+    &:before { 
+      //top: $button-size/3.5;
+	  width:$button-size; 
+    }
+    &:after { 
+      //top: -$button-size/3.5;
+	  width:$button-size; 
+    }
+  }
+}
+.lines-button.close {
+  -webkit-transform: scale3d(.8,.8,.8);
+          transform: scale3d(.8,.8,.8);
+}*
+//x2 transitions
+.lines-button.x2{
+    .lines{
+      transition: background .1s .1s ease;
+
+      &:before, &:after{
+        //set transform origin
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+        transition: top .1s .2s ease, -webkit-transform .1s ease;
+        transition: top .1s .2s ease, transform .1s ease;
+      }
+    }
+}
+.lines-button.x2.close{
+  .lines {
+    transition: background .1s 0s ease;
+    background: transparent;
+
+    &:before, &:after{
+      transition: top .1s ease, -webkit-transform .1s .2s ease;//delay the formation of the x till the minus is formed  
+      transition: top .1s ease, transform .1s .2s ease;//delay the formation of the x till the minus is formed  
+      top:0;
+      width: $button-size;
+    }
+    &:before{
+      -webkit-transform: rotate3d(0,0,1,45deg); 
+              transform: rotate3d(0,0,1,45deg); 
+    }
+    &:after{
+      -webkit-transform: rotate3d(0,0,1,-45deg); 
+              transform: rotate3d(0,0,1,-45deg); 
+    }
+  }
+}
+//END MENU ICON
 
 #primary-nav{
 	position:fixed;
@@ -176,7 +283,7 @@ button{
 	margin:0;
 	padding:0 10%;
 	background-color:$action-color;
-	z-index:999;
+	z-index:499;
 	top:0;
 	bottom:0;
 	@include quarter-second-transition;	
@@ -186,22 +293,30 @@ button{
 		display:block;
 		border:1px solid transparent;
 		width:100%;
-		padding:0;
+		padding:.25em 0;
 		span{
+			font-size:75%;
 			opacity:0;
-			float:right;
-			padding:0 1em;
+			float:left;
+			padding:0;
+			margin-left:-.5em;
+			width:0;
+			@include quarter-second-transition;
 		}
 		&:hover{
-			//color:$action-color;
-			//background-color:$white;
+			color:$white;
+			//padding:0 .75em;
+			//font-size:110%;
 			span{
-				//opacity:1;
+				//width:auto;
+				opacity:1;
+				margin-left:0;
+				padding:0 1.5em 0 0;
 			}
 		}
 		&:active{
-			color:$white;
-			//background-color:$action-color;
+			//color:$action-color;
+			//background-color:$white;
 		}
 	}	
 }
@@ -212,7 +327,6 @@ button{
 #primary-nav.closed{
 	padding:0 10%;
 }
-
 .primary /*DL*/ {
 	border-top:1px solid $white;
 	padding:1em 0;
@@ -228,7 +342,7 @@ button{
 .primary-link /*DD*/{
 	font-size:2em; 
 	line-height:1.25em;
-	padding:0.5em 0;
+	padding:0;
 	margin:0;
 			
 	@media screen and (min-width:(em(800))){
@@ -245,6 +359,125 @@ button{
 }
 .secondary-link /*LI*/{
 
+}
+
+/* ======================================================== SECONDARY NAVIGATION MENUS  */
+
+.breadcrumb{
+	position:fixed;
+	top:0;
+	left:10.5em;
+	z-index:501;
+	display:none;
+	@media screen and (min-width:(em(480))){
+		display:block;
+	}
+	ul{
+		padding:0;
+		margin:0;
+		line-height:1.6em;
+	}
+	li{
+		float:left;
+		border-left:1px solid rgba(0,0,0,.05);
+		margin:.5em 0;
+	}
+	a{
+		display:block;
+		margin: -.5em 0;
+		padding:1em;
+		text-decoration:none;
+		color:rgba(0,0,0,.5);
+		&:hover{
+			text-decoration:none;
+			color:$action-color;
+			background-color:$white;
+		}
+		&:active{
+			text-decoration:none;
+		}
+	}
+}
+
+.subnav{
+	margin: 0 auto;
+	width:80%;
+	max-width:50em;
+	padding:1em 0;
+	text-indent:none;
+	dt, dd{
+		font-size:1.25em;
+		float:left;
+		padding:.5em .75em;
+	}
+	dt{
+		font-style:italic;
+		color:$medium-grey;
+	}
+	.active{
+		color:$action-color;
+		border:1px solid $action-color;
+	}
+}
+
+/* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
+.scrollnav {
+	position:fixed;
+	left:0;
+	top:10em;
+	z-index:400;
+
+	ul {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    cursor: default;
+	}
+	
+	li {
+    position: relative;
+    display: block;
+    margin: 3em 2em 3em 1.5em;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: pointer;
+	box-shadow:1px 0 0 2px rgba(0,0,0,.25);
+	background-color:rgba(0,0,0,.5);
+	border-radius:50%;
+	
+	.current{
+		box-shadow: inset 0 0 0 .75em $white;	
+	} 
+		a {
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	    outline: none;
+	    border-radius: 50%;
+	    background-color: #fff;
+	    background-color: rgba(255,255,255,0.3);
+	    text-indent: -999em;
+	    cursor: pointer; /* make the text accessible to screen readers */
+	    position: absolute;
+		
+		background-color: transparent;
+		//@include drop-shadow;
+		box-shadow: inset 0 0 0 2px $white;
+		-webkit-transition: box-shadow 0.3s ease;
+		transition: box-shadow 0.3s ease;
+		
+			&:hover, &:active, &:focus{
+			box-shadow: inset 0 0 0 .75em $white;
+			}
+		
+		}
+		
+	}
+	
+	
 }
 
 
@@ -277,6 +510,30 @@ button{
 	@include quarter-second-transition;
 }
 
+.local-link{
+	text-decoration:none;
+	color:$white;
+	opacity:.75;
+	&:hover, &:active{
+		color:$white;
+		opacity:1;
+		text-decoration:none;	
+	}
+	.expand-icon{
+		display:block;
+		clear:both;
+		//width:100%;
+		padding:.25em 0;
+		opacity:0;
+		@include quarter-second-transition;
+	}
+	&:hover{
+		.expand-icon{
+			padding:.5em 0 .25em 0;
+			opacity:1;
+		}
+	}
+}
 
 
 
