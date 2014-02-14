@@ -58,11 +58,20 @@ border-radius:1em;
 }
 
 @mixin perfect-circle{
-	-webkit-border-radius: 50em;
-	-moz-border-radius: 50em;
-	-ms-border-radius: 50em;
-	-o-border-radius: 50em;
-	border-radius:50em;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius:50%;
+}
+
+@mixin rotate45{
+	/* Safari */	-webkit-transform: rotate(45deg);
+	/* Firefox */	-moz-transform: rotate(45deg);
+	/* IE */	-ms-transform: rotate(45deg);
+	/* Opera */	-o-transform: rotate(45deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
 @mixin drop-shadow{

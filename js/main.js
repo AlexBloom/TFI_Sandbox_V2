@@ -2,22 +2,18 @@
 
 
 $(document).ready(function () {
-
 		// Fire LocalScroll
 		$('body').localScroll();
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({height:$(window).height()});
-
 		$(window).resize(function() {
 			$('.full-screen').css({height:$(window).height()});
 		});
 	
 	
 	//Menu Toggle
-	//$('#primary').prepend('<div id="menu-icon">TFI SANDBOX <span> </span> </div>');
-	$('#primary-nav').addClass('closed');
- 
+	$('#primary-nav').addClass('closed'); 
 	$("#toggle").click(function(){
 		$(this).toggleClass('close');
 	$('#primary-nav').toggleClass('closed');
@@ -42,74 +38,60 @@ $(document).ready(function () {
    	}
    });
    
-   //Open and Close Projects
+   //Open and Close Projects 
+
 $('.project-content').addClass('collapsed');
-       
-	   $('#project-1 .local-link').click(function() {
-           $('#project-1 .project-content').toggleClass('collapsed');
-       });
+    
+$('.local-link').each(function() {
+	$(this).click(function(){
+		$(this).parent().parent().parent().parent().next('.project-content').toggleClass('collapsed');
+		$(this).parent().parent().toggleClass('open');
+		$(this).find('.icon-plus').toggleClass('open');
+	});
+});
 	   
-	   $('#project-2 .local-link').click(function() {
-           $('#project-2 .project-content').toggleClass('collapsed');
-       });
-	   
-	   $('#project-3 .local-link').click(function() {
-           $('#project-3 .project-content').toggleClass('collapsed');
-       });
-	   
-	   $('#project-4 .local-link').click(function() {
-           $('#project-4 .project-content').toggleClass('collapsed');
-       });
-	   
-	   $('#project-5 .local-link').click(function() {
-           $('#project-5 .project-content').toggleClass('collapsed');
-       });
-	   
-	   $('#project-6 .local-link').click(function() {
-           $('#project-6 .project-content').toggleClass('collapsed');
-       });
-	   
-   
-	   
-     // Add Current Class to ScrollNav of Currently Depressed Item
+   // Add Current Class to ScrollNav of Currently Depressed Item
     	$('.scrollnav-link').click(function() {
     		$('.scrollnav-link').removeClass('current');
     		$(this).addClass('current');
-    	});
+    	});	   
 	   
 	   
-   	// Add Current Class to ScrollNav of Currently Viewed Project
-	
-   	$('#project-1').waypoint(function(direction) {
-   		$('.scrollnav-link').removeClass('current');
-   		$('#scrollnav-1').addClass('current');
-   	}, { offset: '0' });
-	
-   	$('#project-2').waypoint(function(direction) {
-   		$('.scrollnav-link').removeClass('current');
-   		$('#scrollnav-2').addClass('current');
-   	}, { offset: '0' });
-	
-   	$('#project-3').waypoint(function(direction) {
-   		$('.scrollnav-link').removeClass('current');
-   		$('#scrollnav-3').addClass('current');
-   	}, { offset: '0' });
-	
-   	$('#project-4').waypoint(function(direction) {
-   		$('.scrollnav-link').removeClass('current');
-   		$('#scrollnav-4').addClass('current');
-   	}, { offset: '0' });
-	
-   	$('#project-5').waypoint(function(direction) {
-   		$('.scrollnav-link').removeClass('current');
-   		$('#scrollnav-5').addClass('current');
-   	}, { offset: '10%' });
-	
-   	$('#project-6').waypoint(function(direction) {
-   		$('.scrollnav-link').removeClass('current');
-   		$('#scrollnav-6').addClass('current');
-   	}, { offset: '10%' });
+   	// Add Current Class to ScrollNav of Currently Scrolled Project With Waypoints	
+  $('.project').each(function() { 
+	  $(this).waypoint(function(direction) {     
+	     if(direction == 'down'){
+			 //find the corresponding scrollnav data attribute
+			 //$(this)
+		     $('.scrollnav-link').addClass('current');
+	     } //if direction is back, remove it
+	      else $('.scrollnav-link').removeClass('current');
+	   },
+	   {
+	     offset: 100
+	   }
+	 ); 
+	}
+  );
+ /* //OG Code
+ $('.local-link').click(function () {	
    
+   
+   $('#project-2').waypoint(
+    function(direction) {   
+      // This div is level with the top  
+      if(direction == 'down'){
+ 	    //console.log($(this), '0')
+ 	     $('#scrollnav-2').addClass('current');
+      } //find('.waypoint-inner')
+        else $('#scrollnav-2').removeClass('current');
+    },
+    {
+      offset: 100
+    }
+  );
+  
+ });*/	
 
 });
    

@@ -71,8 +71,10 @@
 
 //Project Lists
 .projects-title{
-	background-color:$medium-grey;
-	color:$white;
+	//background-color:$medium-grey;
+	color:$dark-grey;
+	text-transform:uppercase;
+	letter-spacing:.1em;
 	padding:1em 0;
 	margin:0;
 }

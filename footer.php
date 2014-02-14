@@ -3,7 +3,7 @@
 	<footer class="clearfix" id="footer">
 		<small>All content &copy; Tribeca Film Institute 2012&ndash;2014</small>
 		<small>Site by <a href="http://digitalfrontiersman.com">The Digital Frontiersman</a></small>
-		<a class="fixed" id="top" href="#header"> &uarr; <br> TOP </a>
+		<a class="fixed" id="top" href="#header"> <span class="icon-up"></span> </a>
 	</footer>
 
  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

@@ -131,8 +131,7 @@ button{
 
 /* ======================================================== LOGO / TOGGLE / NAVIGATION  */
 
-#header{
-	
+#header{	
 	position:fixed;
 	z-index:500;
 	top:0;
@@ -306,20 +305,17 @@ $button-size : 2em;
 		}
 		&:hover{
 			color:$white;
-			//padding:0 .75em;
-			//font-size:110%;
 			span{
-				//width:auto;
 				opacity:1;
 				margin-left:0;
-				padding:0 1.5em 0 0;
+				padding:0 1em 0 0;
 			}
 		}
 		&:active{
 			//color:$action-color;
 			//background-color:$white;
 		}
-	}	
+	}
 }
 
 #primary-nav.open{
@@ -365,13 +361,12 @@ $button-size : 2em;
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
 
 .breadcrumb{
-	position:fixed;
-	top:0;
-	left:10.5em;
-	z-index:501;
-	display:none;
+	position:relative;
 	@media screen and (min-width:(em(480))){
-		display:block;
+		position:fixed;
+		top:0;
+		left:10.5em;
+		z-index:501;
 	}
 	ul{
 		padding:0;
@@ -382,6 +377,8 @@ $button-size : 2em;
 		float:left;
 		border-left:1px solid rgba(0,0,0,.05);
 		margin:.5em 0;
+		max-height:2.5em;
+		overflow:visible;
 	}
 	a{
 		display:block;
@@ -398,6 +395,59 @@ $button-size : 2em;
 			text-decoration:none;
 		}
 	}
+}
+
+.tertiary{
+	float:left;
+	margin: 0;
+	padding:0;
+		.icon-down{
+			display:inline-block;
+			font-size:1em;
+			line-height:0;
+			padding:0 0 0 1em;
+			vertical-align:middle;
+			&:before{
+				font-size:2em;
+			}
+		}
+		dt{
+			display:block;
+			margin:-.5em 0 0 0;
+			padding: 1em;
+			text-decoration:none;
+			color:rgba(0,0,0,.5);
+		}
+		dd{
+			margin:0;
+			padding:0;
+			a{
+				display:block;
+				margin:0;
+				padding:0;
+				max-height:0;
+				overflow:hidden;
+				margin:0;
+				padding:0 1em;
+				background-color:rgba(255,255,255,.5);
+				
+				&:hover{
+					background-color:$white;
+				}
+			}
+		}
+		&:hover, &:active, &:focus{
+			dt{
+				background-color:$white;
+			}
+			dd{
+				a{
+				padding:1em;
+				max-height:2em;
+				//overflow:auto;
+				}
+			}
+		}
 }
 
 .subnav{
@@ -421,11 +471,76 @@ $button-size : 2em;
 	}
 }
 
+.share{
+	position:fixed;
+	right:0;
+	top:40%;
+	z-index:300;
+	.icon-share{
+		display:none;
+		padding:1em;
+		background-color:$white;
+		&:hover{
+			color:$action-color;
+		}
+	}
+	ul{
+		background:rgba(0,0,0,0.5);
+		padding:0;
+		margin:0;
+	}
+	li{
+		position:relative;
+		width:3em;
+		height:3em;
+		border:2px solid white;
+		span{
+			position:absolute;
+			display:block;
+			color:$white;
+			padding:1em;
+			top:0;
+			bottom:0;
+			cursor:pointer;
+		}
+		.action{
+			z-index:1;
+			right:3em;
+			display:block;
+			width:0;
+			transition:.2s;
+			text-align:center;
+			line-height:1em;
+			box-shadow: 0 0 0 2px $white;
+			opacity:0;
+			overflow:hidden;
+		}
+		.icon{
+			z-index:2;
+			width:1em;
+			text-align:center;
+		}
+		.facebook{background-color:#3b5998;color:$white;}
+		.twitter{background-color:#55acee;color:$white;}
+		.google{background-color:#dd4b39;color:$white;}
+		&:hover, &:active{
+			.action{
+				right:3em;
+				opacity:1;
+				width:4em;
+			}
+			.icon-facebook{background-color:#3b5998;color:$white;}
+			.icon-twitter{background-color:#55acee;color:$white;}
+			.icon-google{background-color:#dd4b39;color:$white;}	
+		}
+	}
+}
+
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 .scrollnav {
 	position:fixed;
 	left:0;
-	top:10em;
+	top:25%;
 	z-index:400;
 
 	ul {
@@ -520,18 +635,27 @@ $button-size : 2em;
 		opacity:1;
 		text-decoration:none;	
 	}
-	.expand-icon{
+	.icon-plus{
 		display:block;
 		clear:both;
-		//width:100%;
-		padding:.25em 0;
-		opacity:0;
-		@include quarter-second-transition;
+		border:2px solid $white;
+		width:1em;
+		text-align:center;
+		margin:.5em auto;
+		padding:.25em;
+		@include perfect-circle;	
+		&:before{
+			display:inline-block;
+			@include quarter-second-transition;
+		}
 	}
+	.icon-plus.open:before{
+		@include rotate45;
+	}	
 	&:hover{
-		.expand-icon{
-			padding:.5em 0 .25em 0;
-			opacity:1;
+		.icon-plus{
+			background-color:$white;
+			color:$action-color;
 		}
 	}
 }
@@ -626,19 +750,14 @@ article{
 	right:0;
 	z-index:1000;
 	display:block;
-	padding:1em;
-	font-size:1em;
-	opacity:0.75;	
-	color:$medium-grey;
-	background-color:$white;
+	padding:.5em 1em;	
+	color:$white;
+	border:2px solid $white;
+	background-color:rgba(0,0,0,0.5);
 	text-decoration:none;
 	@include quarter-second-transition;
-	&:hover{
-		opacity:1;
+	&:hover, &:active{
 		color:$action-color;
-	}
-	&:active{
-		opacity:1;
-		color:$action-color;
+		background-color:$white;
 	}
 }

@@ -1,23 +1,46 @@
+<?php include_once 'head.php' ?>
+
+<!-- Custom Meta Info Here -->
+<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
+<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
+<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:site_name" content="TFI Sanxbox" />
+<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
+<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
+<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+
 <?php include_once 'header.php' ?>
 
-<!-- TFI New Media Fund Page -->
+<!-- TFI New Media Fund Page Content -->
+<nav class="breadcrumb">
+	<ul>
+		<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
+		<li>
+			<dl class="tertiary">
+				<!-- Enter Current Page Name as DT Item Here -->
+				<dt> 2014 <span class="icon-down"> <span> </dt>
+				<dd><a href="tfi-new-media-fund-2014"> 2014 </a> </dd>
+				<dd><a href="tfi-new-media-fund-2013"> 2013 </a> </dd>
+				<dd><a href="tfi-new-media-fund-2012"> 2012 </a> </dd>
+			<dl>
+		</li>
+	</ul>
+</nav>
+
+<nav class="share">
+	<span class="icon icon-share"> </span>
+	<ul>
+		<li><span class="action facebook">Share</span><span class="icon icon-facebook"></span> </li>
+		<li><span class="action twitter">Tweet</span><span class="icon icon-twitter"></span> </li>
+		<li><span class="action google">Google+</span><span class="icon icon-google"></span> </li>
+	</ul>
+</nav>
 
 <section id="" class="">
-	<nav class="breadcrumb">
-		<ul>
-			<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
-		</ul>
-	</nav>
-	
-	<nav class="subnav clearfix" id""> 	
-		<dl class="subnav clearfix">
-			<dt>Year:</dt>
-			<dd class="active"><a href="#">2014</a></dd>
-			<dd><a href="#">2013</a></dd>
-			<dd><a href="#">2012</a></dd>
-		</dl>
-	</nav>	
-	
+		
 	<nav class="scrollnav">
 		<ul>
 			<li> <a class="scrollnav-link" id="scrollnav-1" href="#project-1"> </a> </li>
@@ -38,10 +61,11 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2><a class="local-link" href="#project-1">American Promise <span class="expand-icon"> &darr; </span> </a></h2>
-				</div>
-					<a class="project-url" href="#">American Promise URL &rarr;</a>
-								
+						<h2>
+							<a class="local-link" href="#project-1">American Promise <span class="icon-plus"> </span> </a>
+						</h2>
+					</div>
+					<a class="project-url" href="#">American Promise URL &rarr;</a>						
 				</div>
 			</header>
 			
@@ -94,7 +118,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2><a class="local-link" href="#project-2">Project 2 Title <span class="expand-icon"> &darr; </span> </a></h2>
+					<h2><a class="local-link" href="#project-2">Project 2 Title <span class="icon-plus">  </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 2 URL &rarr;</a>
 								
@@ -150,7 +174,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2><a class="local-link" href="#project-3">Project 3 Title <span class="expand-icon"> &darr; </span> </a></h2>
+					<h2><a class="local-link" href="#project-3">Project 3 Title <span class="icon-plus">  </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 3 URL &rarr;</a>
 								
@@ -206,7 +230,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2><a class="local-link" href="#project-4">Project 4 Title <span class="expand-icon"> &darr; </span> </a></h2>
+					<h2><a class="local-link" href="#project-4">Project 4 Title <span class="icon-plus">  </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 4 URL &rarr;</a>
 								
@@ -262,7 +286,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2><a class="local-link" href="#project-5">Project 5 Title <span class="expand-icon"> &darr; </span> </a></h2>
+					<h2><a class="local-link" href="#project-5">Project 5 Title <span class="icon-plus">  </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 5 URL &rarr;</a>
 								
@@ -318,7 +342,7 @@
 				<img src="img/content/prototype/project-image.jpg" alt="Project Image">
 				<div class="overlay-wrap">
 					<div class="floating-text">
-					<h2><a class="local-link" href="#project-6">Project 6 Title <span class="expand-icon"> &darr; </span> </a></h2>
+					<h2><a class="local-link" href="#project-6">Project 6 Title <span class="icon-plus">  </span> </a></h2>
 				</div>
 					<a class="project-url" href="#">Project 6 URL &rarr;</a>
 								
