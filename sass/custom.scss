@@ -78,9 +78,14 @@
 	color:$white;
 	text-decoration:none;
 	&:hover, &:active{
-		color:$white;
+		color:$action-color;
 		text-decoration:none;
-		background-color:$dark-grey;
+		background-color:$white;
+	}
+	&:active{
+		text-decoration:none;
+		color:$white;
+		background-color:$action-color;	
 	}
 }
 

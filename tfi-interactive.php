@@ -1,28 +1,53 @@
-<?php include_once 'header.php' ?>
+<?php include_once 'inc/head.inc' ?>
+
+<!-- Custom Meta Info Here -->
+<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
+<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
+<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:site_name" content="TFI Sanxbox" />
+<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
+<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
+<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+
+<?php include_once 'inc/header.inc' ?>
 
 <!-- TFI Interactive Page -->
 <nav class="breadcrumb">
 	<ul>
-		<li> <a href="tfi-interactive.php"> TFI Interactive </a> </li>
-		<li> 2014 </li>
+		<li> <a href="tfi-new-media-fund.php"> TFI Interactive </a> </li>
+		<li>
+			<dl class="tertiary">
+				<!-- Enter Current Page Name as DT Item Here -->
+				<dt> 2014 <span class="icon-down"> <span> </dt>
+				<dd><a href="tfi-new-media-fund-2014"> 2014 </a> </dd>
+				<dd><a href="tfi-new-media-fund-2013"> 2013 </a> </dd>
+				<dd><a href="tfi-new-media-fund-2012"> 2012 </a> </dd>
+			<dl>
+		</li>
 	</ul>
 </nav>
-<section id="" class="">	
-	<nav class="subnav clearfix" id""> 	
-		<dl class="subnav clearfix">
-			<dt>Year:</dt>
-			<dd class="active"><a href="#">2013</a></dd>
-			<dd><a href="#">2012</a></dd>
-		</dl>
-	</nav>	
+
+<nav class="share">
+	<span class="icon icon-share"> </span>
+	<ul>
+		<li><span class="action facebook">Share</span><span class="icon icon-facebook"></span> </li>
+		<li><span class="action twitter">Tweet</span><span class="icon icon-twitter"></span> </li>
+		<li><span class="action google">Google+</span><span class="icon icon-google"></span> </li>
+	</ul>
+</nav>
+<section id="main" class="">	
+	<section>
 	
 	<h2 class="projects-title">Highlights</h2>
 	
 	<article>
 		<section class="project-content-expanded">		
 
+			<img src="img/content/prototype/project-image.jpg" alt="Video"/>
 			<h3>Highlight Video 1</h3>
-			<img src="img/content/prototype/project-image.jpg" alt="Video"/>
 			<p class="intro">
 				Text about the conference / video. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 			</p>
@@ -30,8 +55,9 @@
 				Text about the conference / video. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
 			</p>
 			
+			
+			<img src="img/content/prototype/project-image.jpg" alt="Video"/>
 			<h3>Highlight Video 2</h3>
-			<img src="img/content/prototype/project-image.jpg" alt="Video"/>
 			<p class="intro">
 				Text about the conference / video. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 			</p>
@@ -39,8 +65,9 @@
 				Text about the conference / video. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt.
 			</p>
 			
-			<h3>Highlight Video 3</h3>
+			
 			<img src="img/content/prototype/project-image.jpg" alt="Video"/>
+			<h3>Highlight Video 3</h3>
 			<p class="intro">
 				Text about the conference / video. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
 			</p>
@@ -118,8 +145,10 @@
 	
 	</article>
 	
+	</section>
+	
 </section>
 
 <!-- End Project Page -->
     
-<?php include_once 'footer.php' ?>
+<?php include_once 'inc/footer.inc' ?>

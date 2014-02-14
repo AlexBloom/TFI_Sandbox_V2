@@ -49,6 +49,7 @@ $('.local-link').each(function() {
 		$(this).find('.icon-plus').toggleClass('open');
 	});
 });
+	
 	   
    // Add Current Class to ScrollNav of Currently Depressed Item
     	$('.scrollnav-link').click(function() {
@@ -58,7 +59,7 @@ $('.local-link').each(function() {
 	   
 	   
    	// Add Current Class to ScrollNav of Currently Scrolled Project With Waypoints	
-  $('.project').each(function() { 
+ /* $('.project').each(function() { 
 	  $(this).waypoint(function(direction) {     
 	     if(direction == 'down'){
 			 //find the corresponding scrollnav data attribute
@@ -73,26 +74,106 @@ $('.local-link').each(function() {
 	   }
 	 ); 
 	}
-  );
- /* //OG Code
- $('.local-link').click(function () {	
-   
-   
+  );*/
+	 
+	 
+  //The Long Hard Stupid Way
+  
+    $('#project-1').waypoint(
+     function(direction) {   
+       // This div is level with the top  
+       if(direction == 'down'){
+  	    $('.scrollnav-link').removeClass('current');
+  	     $('#scrollnav-1').addClass('current');
+       } //find('.waypoint-inner')
+         else $('#scrollnav-1').removeClass('current');
+     },
+     {
+		 offset: 100
+	 }
+   );
+ 
    $('#project-2').waypoint(
     function(direction) {   
       // This div is level with the top  
       if(direction == 'down'){
- 	    //console.log($(this), '0')
+ 	    $('.scrollnav-link').removeClass('current');
  	     $('#scrollnav-2').addClass('current');
       } //find('.waypoint-inner')
         else $('#scrollnav-2').removeClass('current');
+		
     },
     {
-      offset: 100
-    }
+		offset: 100
+	}
+  );
+ 
+    $('#project-3').waypoint(
+     function(direction) {   
+       // This div is level with the top  
+       if(direction == 'down'){
+  	    $('.scrollnav-link').removeClass('current');
+  	     $('#scrollnav-3').addClass('current');
+       } //find('.waypoint-inner')
+         else $('#scrollnav-3').removeClass('current');
+		 
+     },
+     {
+		 offset: 100
+	 }
+   );
+
+   $('#project-4').waypoint(
+    function(direction) {   
+      // This div is level with the top  
+      if(direction == 'down'){
+ 	    $('.scrollnav-link').removeClass('current');
+ 	     $('#scrollnav-4').addClass('current');
+      } //find('.waypoint-inner')
+        else $('#scrollnav-4').removeClass('current');
+		
+    },
+    {
+		offset: 100
+	}
   );
   
- });*/	
+  $('#project-5').waypoint(
+   function(direction) {   
+     // This div is level with the top  
+     if(direction == 'down'){
+	    $('.scrollnav-link').removeClass('current');
+	     $('#scrollnav-5').addClass('current');
+     } //find('.waypoint-inner')
+       else $('#scrollnav-5').removeClass('current');
+	   
+   },
+   {
+	   offset: 100
+   }
+ );
+ 
+ $('#project-6').waypoint(
+  function(direction) {   
+    // This div is level with the top  
+    if(direction == 'down'){
+    $('.scrollnav-link').removeClass('current');
+     $('#scrollnav-6').addClass('current');
+    } //find('.waypoint-inner')
+      else $('#scrollnav-6').removeClass('current');
+	  
+  },
+  {
+	  offset: 100
+  }
+);
+ 
+  
+ 
+ 
+ 
+ 
+ //End Doc Ready Function
 
 });
    

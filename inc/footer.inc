@@ -1,9 +1,9 @@
 
 
 	<footer class="clearfix" id="footer">
-		<small>All content &copy; Tribeca Film Institute 2012&ndash;2014</small>
+		<small>All content &copy; Tribeca Film Institute 2012&ndash;2014</small></br>
 		<small>Site by <a href="http://digitalfrontiersman.com">The Digital Frontiersman</a></small>
-		<a class="fixed" id="top" href="#header"> <span class="icon-up"></span> </a>
+		<a class="fixed" id="top" href="#main"> <span class="icon-up"></span> </a>
 	</footer>
 
  	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

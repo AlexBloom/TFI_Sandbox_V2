@@ -13,7 +13,7 @@
 <body> 
 	<header class="clearfix" id="header">
 
-			<a class="" id="logo" href="index.php"><strong>TFI</strong> Sandbox</a>
+			<a class="" id="logo" href="index"><strong>TFI</strong> Sandbox</a>
 	        <button type="button" id="toggle" role="button" aria-label="Toggle Navigation" class="lines-button x2">
 	          <span class="lines"></span>
 	        </button>
@@ -24,7 +24,7 @@
 				<dl class="primary clearfix" id="discover-primary">
 					<dt class="clearfix">Discover</dt>
 					<dd class="primary-link" id=""> 
-						<a href="tfi-new-media-fund.php"> TFI New Media Fund <span class="icon-right"></span> </a>	
+						<a href="tfi-new-media-fund"> TFI New Media Fund <span class="icon-right"></span> </a>	
 						<ul class="secondary" id="">	
 							<li class="secondary-link" id=""> <a href="#2013"> 2013 </a> </li>
 							<li class="secondary-link" id=""> <a href="#2012"> 2012 </a> </li>
@@ -32,7 +32,7 @@
 						</ul>
 					</dd>
 					<dd class="primary-link" id=""> 	
-						<a href="interactive-landscape.php"> Interactive Landscape <span class="icon-right"></span> </a>
+						<a href="interactive-landscape"> Interactive Landscape <span class="icon-right"></span> </a>
 						<ul class="secondary" id="">		
 							<li class="secondary-link" id=""> <a href="#Web"> Web </a> </li>
 							<li class="secondary-link" id=""> <a href="#Apps"> Apps </a> </li>
@@ -45,7 +45,7 @@
 				<dl class="primary clearfix" id="participate-primary">
 					<dt class="clearfix">Participate</dt>
 					<dd class="primary-link" id=""> 
-						<a href="tfi-interactive.php"> TFI Interactive <span class="icon-right"></span> </a>
+						<a href="tfi-interactive"> TFI Interactive <span class="icon-right"></span> </a>
 						<ul class="secondary" id="">
 							<li class="secondary-link"> <a href="#2014"> 2014 </a> </li>
 							<li class="secondary-link"> <a href="#2013"> 2013 </a> </li>
@@ -53,7 +53,7 @@
 						</ul>
 					</dd>
 					<dd class="primary-link" id=""> 
-						<a href="tribeca-hacks.php"> Tribeca Hacks <span class="icon-right"></span> </a>
+						<a href="tribeca-hacks"> Tribeca Hacks <span class="icon-right"></span> </a>
 						<ul class="secondary" id="">	
 							<li class="secondary-link"> <a href="#upcoming"> Upcoming </a> </li>
 							<li class="secondary-link"> <a href="#completed"> Completed </a> </li>

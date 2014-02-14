@@ -1,4 +1,4 @@
-<?php include_once 'head.php' ?>
+<?php include_once 'inc/head.inc' ?>
 
 <!-- Custom Meta Info Here -->
 <link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
@@ -12,7 +12,7 @@
 <meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
 <meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
 
-<?php include_once 'header.php' ?>
+<?php include_once 'inc/header.inc' ?>
 
 <!-- TFI New Media Fund Page Content -->
 <nav class="breadcrumb">
@@ -39,7 +39,7 @@
 	</ul>
 </nav>
 
-<section id="" class="">
+<section id="main" class="">
 		
 	<nav class="scrollnav">
 		<ul>
@@ -51,7 +51,7 @@
 			<li> <a class="scrollnav-link" id="scrollnav-6" href="#project-6"> </a> </li>		
 		</ul>	
 	</nav>
-		
+<section>		
 	<h2 class="projects-title">Funded Projects</h2>
 	<ul class="projects" id="">
 	<li class="project clearfix" id="project-1">
@@ -417,7 +417,7 @@
 
 	</section>
 	
-	
+</section>	
 	<nav class="subnav clearfix" id""> 	
 		<dl class="subnav clearfix">
 			<dt>View another year:</dt>
@@ -430,4 +430,4 @@
 
 <!-- End Project Page -->
     
-<?php include_once 'footer.php' ?>
+<?php include_once 'inc/footer.inc' ?>

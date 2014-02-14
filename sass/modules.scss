@@ -25,20 +25,41 @@ a, ul a, p a{
 }
 
 button{
-	color:$white;
+	font-family:'proxima-nova';
+	color:rgba(255,255,255,.75);
 	background-color:transparent;
 	padding:1em;
 	margin:1em;
 	border:1px solid transparent;
+	text-transform:uppercase;
+	font-weight:600;
+	letter-spacing:.1em;
+	outline:none;
 	@include quarter-second-transition;	
-	&:hover{
-	color:$action-color;
-	background-color:$white;
-	border:1px solid transparent;	
+	&:hover, &:active{
+		color:$white;
 	}
 	&:hover{
-	color:$action-color;
-	background-color:$white;	
+		.icon{
+			background-color:$white;
+			color:$action-color;
+		}
+	}
+	&:active{
+		.icon{
+			background-color:$action-color;
+			color:$white;
+		}
+	}
+	.icon-play{
+		display:block;
+		vertical-align:bottom;
+		margin:0 auto;
+		width:1em;
+		height:1em;
+		padding:1em .75em 1em 1.25em;
+		border:4px solid $white;
+		@include perfect-circle;	
 	}
 }
 
@@ -48,15 +69,18 @@ button{
 	bottom:0;
 	text-align:center;
 	width:100%;
-	padding:1em 0;
+	padding:2em 0;
 	color:$white;
 	text-decoration:none;
+	font-weight:600;
+	letter-spacing:.1em;
+	text-transform:uppercase;
 	@include quarter-second-transition;	
 	&:hover{
 		//background-color:$white;
 		text-decoration:none;
 		color:$white;
-		padding:1.5em 0 .5em 0;
+		padding:2.5em 0 1.5em 0;
 	}	
 }
 
@@ -161,6 +185,11 @@ button{
 		&:hover{
 			color:$action-color;
 			background-color:$white;
+		}
+		&:active{
+			text-decoration:none;
+			color:$white;
+			background-color:$action-color;	
 		}			
 	}
 	#toggle{
@@ -365,7 +394,7 @@ $button-size : 2em;
 	@media screen and (min-width:(em(480))){
 		position:fixed;
 		top:0;
-		left:10.5em;
+		left:10em;
 		z-index:501;
 	}
 	ul{
@@ -393,6 +422,8 @@ $button-size : 2em;
 		}
 		&:active{
 			text-decoration:none;
+			color:$white;
+			background-color:$action-color;	
 		}
 	}
 }
@@ -427,12 +458,12 @@ $button-size : 2em;
 				padding:0;
 				max-height:0;
 				overflow:hidden;
-				margin:0;
+				margin:1px 0 0 0;
 				padding:0 1em;
-				background-color:rgba(255,255,255,.5);
-				
-				&:hover{
-					background-color:$white;
+				background-color:$white;
+				&:active{
+				color:$white;
+				background-color:$action-color;	
 				}
 			}
 		}
@@ -673,8 +704,11 @@ $button-size : 2em;
 body{
 	margin:0;
 	padding:0;
-
+}
+#main{
+	padding:0;
 	//Sections
+	text-align:center;
 	>section{
 		//width:90%;
 		//clear:both;
@@ -719,7 +753,6 @@ body{
 	}
 }
 
-
 //Articles / Content 
 article{
 	width:100%;
@@ -737,6 +770,9 @@ article{
 	h3{
 		border-top:1px solid $medium-grey;
 		padding-top:1em;
+	}
+	img{
+		width:100%;
 	}
 }
 

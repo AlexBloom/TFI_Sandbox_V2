@@ -266,23 +266,42 @@ a, ul a, p a {
     text-decoration: line-through; }
 
 button {
-  color: white;
+  font-family: 'proxima-nova';
+  color: rgba(255, 255, 255, 0.75);
   background-color: transparent;
   padding: 1em;
   margin: 1em;
   border: 1px solid transparent;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .1em;
+  outline: none;
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
   transition-duration: .25s; }
-  button:hover {
-    color: #00afef;
+  button:hover, button:active {
+    color: white; }
+  button:hover .icon {
     background-color: white;
-    border: 1px solid transparent; }
-  button:hover {
-    color: #00afef;
-    background-color: white; }
+    color: #00afef; }
+  button:active .icon {
+    background-color: #00afef;
+    color: white; }
+  button .icon-play {
+    display: block;
+    vertical-align: bottom;
+    margin: 0 auto;
+    width: 1em;
+    height: 1em;
+    padding: 1em .75em 1em 1.25em;
+    border: 4px solid white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%; }
 
 .next-section {
   display: block;
@@ -290,9 +309,12 @@ button {
   bottom: 0;
   text-align: center;
   width: 100%;
-  padding: 1em 0;
+  padding: 2em 0;
   color: white;
   text-decoration: none;
+  font-weight: 600;
+  letter-spacing: .1em;
+  text-transform: uppercase;
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
@@ -301,7 +323,7 @@ button {
   .next-section:hover {
     text-decoration: none;
     color: white;
-    padding: 1.5em 0 .5em 0; }
+    padding: 2.5em 0 1.5em 0; }
 
 /* ======================================================== LISTS */
 .basic-list {
@@ -385,6 +407,10 @@ button {
     #header #logo:hover {
       color: #00afef;
       background-color: white; }
+    #header #logo:active {
+      text-decoration: none;
+      color: white;
+      background-color: #00afef; }
   #header #toggle {
     float: right;
     background: none !important;
@@ -547,7 +573,7 @@ button {
     .breadcrumb {
       position: fixed;
       top: 0;
-      left: 10.5em;
+      left: 10em;
       z-index: 501; } }
   .breadcrumb ul {
     padding: 0;
@@ -570,7 +596,9 @@ button {
       color: #00afef;
       background-color: white; }
     .breadcrumb a:active {
-      text-decoration: none; }
+      text-decoration: none;
+      color: white;
+      background-color: #00afef; }
 
 .tertiary {
   float: left;
@@ -599,11 +627,12 @@ button {
       padding: 0;
       max-height: 0;
       overflow: hidden;
-      margin: 0;
+      margin: 1px 0 0 0;
       padding: 0 1em;
-      background-color: rgba(255, 255, 255, 0.5); }
-      .tertiary dd a:hover {
-        background-color: white; }
+      background-color: white; }
+      .tertiary dd a:active {
+        color: white;
+        background-color: #00afef; }
   .tertiary:hover dt, .tertiary:active dt, .tertiary:focus dt {
     background-color: white; }
   .tertiary:hover dd a, .tertiary:active dd a, .tertiary:focus dd a {
@@ -817,7 +846,11 @@ button {
 body {
   margin: 0;
   padding: 0; }
-  body > section {
+
+#main {
+  padding: 0;
+  text-align: center; }
+  #main > section {
     padding: 2em 0 0 0;
     text-align: center;
     z-index: 1; }
@@ -873,6 +906,8 @@ article {
   article h3 {
     border-top: 1px solid #888888;
     padding-top: 1em; }
+  article img {
+    width: 100%; }
 
 #footer {
   background-color: #222222;
@@ -958,9 +993,13 @@ article {
   color: white;
   text-decoration: none; }
   .project-url:hover, .project-url:active {
-    color: white;
+    color: #00afef;
     text-decoration: none;
-    background-color: #222222; }
+    background-color: white; }
+  .project-url:active {
+    text-decoration: none;
+    color: white;
+    background-color: #00afef; }
 
 .project-content, .project-content-expanded {
   width: 80%;
