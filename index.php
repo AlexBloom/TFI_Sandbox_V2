@@ -1,14 +1,27 @@
-<?php    $section = 'index'; include_once 'header.php' ?>
+<?php include_once 'head.php' ?>
 
+<!-- Custom Meta Info Here -->
+<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
+<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
+<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:site_name" content="TFI Sanxbox" />
+<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
+<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
+<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+
+<?php include_once 'header.php' ?>
 <!-- Index Page -->
 
 <section id="home-video-container" class="full-screen">
 	<div class="overlay-wrap">
 		<div class="floating-text" id="">
 			<h1>TFI Sandbox V2.0</h1>
-			<button class="" id="">  Watch Video <span>><span>  </button>
+			<button class="" id="">  Watch Video <span class="icon-right"></span>  </button>
 		</div>
-		<a class="next-section" id="" href="#about"> Learn More <br> &darr; </a>
+		<a class="next-section" id="" href="#about"> Learn More <br> <span class="icon-down"></span> </a>
 	</div>
 	<div class="video-overlay" id="">
 		<video></video>

@@ -111,16 +111,16 @@ body {
 15px @ 1:1.5	 
 30px @ 1:1.5	 
 ----------------------*/
-h1, h2, h3, strong {
-  color: #222222; }
-
 h1 {
   font-size: 3.0000em;
   /* 45px */
   line-height: 1.1111em;
   /* 50px */
   margin-top: 0.5556em;
-  margin-bottom: 0.0000em; }
+  margin-bottom: 0.0000em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .1em; }
 
 h2 {
   font-size: 2.2500em;
@@ -854,7 +854,8 @@ body {
   background-position: center;
   padding: 0;
   width: 100%;
-  position: relative; }
+  position: relative;
+  max-height: 1000px !important; }
   .full-screen img {
     width: 100%; }
 

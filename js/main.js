@@ -62,7 +62,8 @@ $('.local-link').each(function() {
 	  $(this).waypoint(function(direction) {     
 	     if(direction == 'down'){
 			 //find the corresponding scrollnav data attribute
-			 //$(this)
+			 $(this).find('data-attribute')
+			 
 		     $('.scrollnav-link').addClass('current');
 	     } //if direction is back, remove it
 	      else $('.scrollnav-link').removeClass('current');
