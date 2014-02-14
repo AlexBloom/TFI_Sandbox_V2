@@ -473,9 +473,14 @@ $button-size : 2em;
 
 .share{
 	position:fixed;
-	right:0;
+	right:1em;
 	top:40%;
 	z-index:300;
+	@media screen and (min-width:(em(800))){
+		right:2em;
+	}
+	
+	
 	.icon-share{
 		display:none;
 		padding:1em;
@@ -696,7 +701,7 @@ body{
 	  overflow:visible;
 	color:$white;
 	z-index:2;
-	
+	@include quarter-second-transition;
 }
 .full-screen{
 	background-size:cover;
@@ -739,8 +744,8 @@ article{
 #footer{
 	background-color:$dark-grey;
 	color:$medium-grey;
-	width:100%;
-	padding:1em 0;
+	width:80%;
+	padding:1em 10%;
 	text-align:center;
 	
 }

@@ -95,7 +95,8 @@
 
 body {
   font-family: "proxima-nova",helvetica,arial,sans-serif;
-  font-size: .8em; }
+  font-size: .8em;
+  color: #333333; }
   @media screen and (min-width: 32em) {
     body {
       font-size: 1em;
@@ -110,6 +111,9 @@ body {
 15px @ 1:1.5	 
 30px @ 1:1.5	 
 ----------------------*/
+h1, h2, h3, strong {
+  color: #222222; }
+
 h1 {
   font-size: 3.0000em;
   /* 45px */
@@ -625,9 +629,12 @@ button {
 
 .share {
   position: fixed;
-  right: 0;
+  right: 1em;
   top: 40%;
   z-index: 300; }
+  @media screen and (min-width: 53.33333em) {
+    .share {
+      right: 2em; } }
   .share .icon-share {
     display: none;
     padding: 1em;
@@ -835,7 +842,12 @@ body {
   height: 10em;
   overflow: visible;
   color: white;
-  z-index: 2; }
+  z-index: 2;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
 
 .full-screen {
   background-size: cover;
@@ -864,8 +876,8 @@ article {
 #footer {
   background-color: #222222;
   color: #888888;
-  width: 100%;
-  padding: 1em 0;
+  width: 80%;
+  padding: 1em 10%;
   text-align: center; }
 
 #top {
@@ -894,42 +906,6 @@ article {
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }
 
-.jury {
-  padding: 1em 0;
-  background-color: #222222;
-  color: white; }
-
-.jury-members {
-  list-style-type: none;
-  padding: 1em 5%;
-  width: 90%; }
-  .jury-members li {
-    display: block;
-    float: left;
-    width: 90%;
-    padding: 1em 5%;
-    text-align: center; }
-    .jury-members li img {
-      width: 100%;
-      display: block;
-      clear: both;
-      margin-bottom: 1em;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
-      border-radius: 50%; }
-    .jury-members li span {
-      width: 100%; }
-    @media screen and (min-width: 32em) {
-      .jury-members li {
-        width: 45%;
-        padding: 1em 2.5% 1em 2.5%; } }
-    @media screen and (min-width: 53.33333em) {
-      .jury-members li {
-        width: 20%;
-        padding: 1em 2.5% 1em 2.5%; } }
-
 .projects-title {
   color: #222222;
   text-transform: uppercase;
@@ -950,10 +926,11 @@ article {
   background-color: #777;
   position: relative;
   overflow: hidden;
-  height: 300px; }
+  height: 20em;
+  z-index: 350; }
   @media screen and (min-width: 53.33333em) {
     .project-header {
-      height: 500px; } }
+      height: 26.66667em; } }
   .project-header img {
     display: block;
     position: absolute;
@@ -963,6 +940,14 @@ article {
     bottom: 0;
     width: 100%;
     z-index: 2; }
+  .project-header .floating-text.open {
+    top: 50%;
+    bottom: 2em;
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -ms-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s; }
 
 .project-url {
   position: absolute;
@@ -1007,6 +992,40 @@ article {
   -ms-transition-duration: .5s;
   -o-transition-duration: .5s;
   transition-duration: .5s; }
+
+.jury {
+  padding: 1em 0;
+  background-color: #222222;
+  color: white; }
+  .jury h2 {
+    color: white; }
+
+.jury-members {
+  list-style-type: none;
+  padding: 1em 5%;
+  width: 90%; }
+  .jury-members li {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 45%;
+    padding: 1em 2.5% 1em 2.5%; }
+    .jury-members li img {
+      width: 100%;
+      display: block;
+      clear: both;
+      margin-bottom: 1em;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%; }
+    .jury-members li span {
+      width: 100%; }
+    @media screen and (min-width: 53.33333em) {
+      .jury-members li {
+        width: 20%;
+        padding: 1em 2.5% 1em 2.5%; } }
 
 .key-speakers {
   list-style-type: none;

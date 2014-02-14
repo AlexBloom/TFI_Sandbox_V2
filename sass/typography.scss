@@ -55,6 +55,7 @@
 body{
 	font-family:"proxima-nova",helvetica,arial,sans-serif;
 	font-size:.8em;
+	color:$text-color;
 	
 	@media screen and (min-width:(em(480))){
 		font-size:1em;
@@ -73,7 +74,7 @@ body{
 15px @ 1:1.5	 
 30px @ 1:1.5	 
 ----------------------*/
-
+h1,h2,h3,strong{color:$dark-grey;}
 
 h1 			{   font-size: 3.0000em; /* 45px */
   				line-height: 1.1111em; /* 50px */

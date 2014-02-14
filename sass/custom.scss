@@ -25,50 +25,6 @@
 
 // PROJECT PAGES
 
-
-//Jury
-
-.jury{
-	padding:1em 0;
-	background-color:$dark-grey;
-	color:$white;
-}
-
-.jury-members{
-	list-style-type:none;
-	padding:1em 5%;
-	width:90%;
-	
-	li{
-		display:block;
-		float:left;
-		width:90%;
-		padding:1em 5%;
-		text-align:center;
-		
-		img{
-			width:100%;
-			display:block;
-			clear:both;
-			margin-bottom:1em;
-			@include perfect-circle;
-		}
-		
-		span{
-			width:100%;
-		}
-		@media screen and (min-width:(em(480))){
-			width:45%;
-			padding:1em 2.5% 1em 2.5%;
-		}
-		
-		@media screen and (min-width:(em(800))){
-			width:20%;
-			padding:1em 2.5% 1em 2.5%;
-		}
-	}
-}
-
 //Project Lists
 .projects-title{
 	//background-color:$medium-grey;
@@ -88,17 +44,15 @@
 	padding:0;
 	margin:0;
 }
-
 .project-header{
 	background-color:#777;
 	position:relative;
 	overflow:hidden;
-	height:300px;
-	
+	height:(em(300));
+	z-index:350;	
 	@media screen and (min-width:(em(800))){
-		height:500px;
+		height:(em(400));
 	}
-	
 	img{
 		display:block;
 		position:absolute;
@@ -109,8 +63,10 @@
 		width:100%;
 		z-index:2;
 	}
-	.overlay-wrap{
-		
+	.floating-text.open{
+		top:50%;
+		bottom:2em;
+		@include quarter-second-transition;
 	}
 }
 
@@ -152,6 +108,56 @@
 	opacity:1;
 	@include half-second-transition;
 }
+
+//Jury
+
+.jury{
+	padding:1em 0;
+	background-color:$dark-grey;
+	color:$white;
+	h2{
+		color:$white;
+	}
+}
+.jury-members{
+	list-style-type:none;
+	padding:1em 5%;
+	width:90%;
+	
+	li{
+		display:block;
+		float:left;
+		//width:90%;
+		//padding:1em 5%;
+		text-align:center;
+		
+		img{
+			width:100%;
+			display:block;
+			clear:both;
+			margin-bottom:1em;
+			@include perfect-circle;
+		}
+		
+		span{
+			width:100%;
+		}
+		//@media screen and (min-width:(em(480))){
+			width:45%;
+			padding:1em 2.5% 1em 2.5%;
+		//}
+		
+		@media screen and (min-width:(em(800))){
+			width:20%;
+			padding:1em 2.5% 1em 2.5%;
+		}
+	}
+}
+
+
+
+//Event Pages
+
 
 .key-speakers{
 	list-style-type:none;
