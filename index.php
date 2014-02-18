@@ -20,13 +20,18 @@
 		<div class="overlay-wrap">
 			<div class="floating-text" id="">
 				<h1>TFI Sandbox V2.0</h1>
-				<button class="play" id="play-home"> <span class="icon icon-play"></span> </button>
+				<button class="play-video" id="play-home"> <span class="icon icon-play"></span> </button>
 			</div>
 			<a class="next-section" id="" href="#about"> Learn More <br> <span class="icon-down"></span> </a>
 		</div>
-		<div class="video-overlay" id="">
-			<video></video>
+		<div class="video-overlay" id="video-1">
+			<div class="video-inner">
+				<button class="close-video" id="close-home"> <span class="icon icon-close"></span> </button>		
+			<iframe src="//player.vimeo.com/video/46274808?byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height:"100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+			</iframe>
+			</div>
 		</div>
+		<video></video>
 	
 	</section>
 	<section id="about">

@@ -22,7 +22,7 @@ $(document).ready(function () {
    
    
    //Show Top Link After Scrolling
-   $("#top").addClass('closed')
+   $("#top").addClass('closed');
    $(window).scroll(function() {
        var y_scroll_pos = window.pageYOffset;
        var scroll_pos_test = 400;             
@@ -77,7 +77,7 @@ $('.local-link').each(function() {
   );*/
 	 
 	 
-  //The Long Hard Stupid Way
+  //Side Nav The Long Hard Stupid Way
   
     $('#project-1').waypoint(
      function(direction) {   
@@ -86,7 +86,7 @@ $('.local-link').each(function() {
   	    $('.scrollnav-link').removeClass('current');
   	     $('#scrollnav-1').addClass('current');
        } //find('.waypoint-inner')
-         else $('#scrollnav-1').removeClass('current');
+         else  $('#scrollnav-1').removeClass('current');
      },
      {
 		 offset: 100
@@ -167,9 +167,17 @@ $('.local-link').each(function() {
 	  offset: 100
   }
 );
- 
-  
- 
+
+// Show and Play Full Screen Videos
+	$(".play-video").click(function(){
+		$('.video-overlay').css("display","block");
+		$('#header').css("display","none");
+	});
+
+	$(".close-video").click(function(){
+		$('.video-overlay').css("display","none");
+		$('#header').css("display","block");
+	});
  
  
  
@@ -178,4 +186,5 @@ $('.local-link').each(function() {
 });
    
    
+
 
