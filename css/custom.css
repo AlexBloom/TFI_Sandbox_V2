@@ -331,49 +331,38 @@ button {
     float: none;
     text-indent: none; }
 
-.one-column {
+.one-column, .two-columns, .three-columns, .four-columns {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-indent: none;
   text-align: left; }
-  .one-column > li {
+  .one-column > li, .two-columns > li, .three-columns > li, .four-columns > li {
     float: left;
     width: 90%;
     padding: 1em 5%; }
 
-.two-columns {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-indent: none;
-  text-align: left; }
+@media screen and (min-width: 53.33333em) {
   .two-columns > li {
-    float: left;
-    width: 90%;
-    padding: 1em 5%; }
-  @media screen and (min-width: 53.33333em) {
-    .two-columns > li {
-      width: 45%;
-      padding: 1em 5% 1em 0; } }
+    width: 45%;
+    padding: 1em 5% 1em 0; } }
 
-.three-columns {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-indent: none;
-  text-align: left; }
+@media screen and (min-width: 53.33333em) {
+  .three-columns > li:first-child, .three-columns > li:last-child {
+    width: 29%;
+    padding: 1em 4% 1em 0; }
   .three-columns > li {
-    float: left;
-    width: 90%;
-    padding: 1em 5%; }
-  @media screen and (min-width: 53.33333em) {
-    .three-columns > li:first-child, .three-columns > li:last-child {
-      width: 29%;
-      padding: 1em 4% 1em 0; }
-    .three-columns > li {
-      width: 30%;
-      padding: 1em 4% 1em 0; } }
+    width: 30%;
+    padding: 1em 4% 1em 0; } }
+
+@media screen and (min-width: 53.33333em) {
+  .four-columns > li {
+    width: 45%;
+    padding: 1em 5% 1em 0; } }
+@media screen and (min-width: 80em) {
+  .four-columns > li {
+    width: 20%;
+    padding: 1em 5% 1em 0; } }
 
 /* ======================================================== LOGO / TOGGLE / NAVIGATION  */
 #header {
@@ -850,12 +839,12 @@ body {
   padding: 0;
   text-align: center; }
   #main > section {
-    padding: 4em 0 0 0;
+    padding: 0 0 0 0;
     text-align: center;
     z-index: 1; }
     @media screen and (min-width: 32em) {
       #main > section {
-        padding: 2em 0 0 0; } }
+        padding: 0 0 0 0; } }
 
 .overlay-wrap {
   position: absolute;
@@ -944,12 +933,21 @@ article {
   width: 100%;
   text-align: left; }
   article header {
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid white;
+    background-color: #888888;
+    color: white; }
   article header, article footer {
     width: 90%;
     padding: 2em 5%;
     text-align: center; }
   article .content {
+    width: 80%;
+    margin: 3em auto;
+    max-width: 50em; }
+    @media screen and (min-width: 80em) {
+      article .content {
+        max-width: 70em; } }
+  article .content-text {
     width: 80%;
     margin: 3em auto;
     max-width: 50em; }
@@ -1187,6 +1185,19 @@ article {
       .core-team li {
         width: 29%;
         padding: 1em 4% 1em 0; } }
+
+#projectmanagement-callouts li {
+  padding: 0 5% !important; }
+  #projectmanagement-callouts li h2, #projectmanagement-callouts li h5 {
+    margin-top: 0 !important; }
+@media screen and (min-width: 53.33333em) {
+  #projectmanagement-callouts > li {
+    min-height: 8em; } }
+@media screen and (min-width: 80em) {
+  #projectmanagement-callouts > li {
+    min-height: 14em; } }
+#projectmanagement-callouts .featured {
+  width: 100%; }
 
 /* ==========================================================================
    Helper classes

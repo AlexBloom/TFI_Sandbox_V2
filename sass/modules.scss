@@ -98,7 +98,7 @@ button{
 	}
 }
 
-.one-column{
+.one-column, .two-columns, .three-columns, .four-columns{
 	list-style-type:none;
 	margin:0;
 	padding:0;
@@ -110,18 +110,7 @@ button{
 		padding:1em 5%;
 	}
 }
-.two-columns{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	text-indent:none;
-	text-align:left;	
-	>li{
-		float:left;
-		width:90%;
-		padding:1em 5%;
-	}
-	
+.two-columns{	
 	@media screen and (min-width:(em(800))){
 		>li{
 			width:45%;
@@ -129,19 +118,7 @@ button{
 		}
 	}
 }
-
 .three-columns{
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	text-indent:none;
-	text-align:left;	
-	>li{
-		float:left;
-		width:90%;
-		padding:1em 5%;
-	}
-	
 	@media screen and (min-width:(em(800))){
 		>li:first-child, >li:last-child{
 			width:29%;
@@ -153,7 +130,23 @@ button{
 		}
 	}
 }
-
+.four-columns{
+	>li{
+	//list-style-type:decimal-leading-zero!important;
+}
+	@media screen and (min-width:(em(800))){
+		>li{
+			width:45%;
+			padding:1em 5% 1em 0;
+		}
+	}
+	@media screen and (min-width:(em(1200))){
+		>li{
+			width:20%;
+			padding:1em 5% 1em 0;
+		}
+	}
+}
 /* ======================================================== LOGO / TOGGLE / NAVIGATION  */
 
 #header{	
@@ -714,10 +707,10 @@ body{
 	padding:0;
 	text-align:center;
 	>section{
-		padding:4em 0 0 0;
+		padding:0 0 0 0;
 		
 		@media screen and (min-width:(em(480))){
-			padding:2em 0 0 0;
+			padding:0 0 0 0;
 		}
 		
 		text-align:center;
@@ -813,6 +806,11 @@ article{
 	text-align:left;
 	header{
 		border-bottom:1px solid $white;
+		background-color:$medium-grey;
+		color:$white;
+		//margin-top:-2em;
+		//padding-top:4em;
+		//text-align:left!important;
 	}
 	header, footer{
 		width:90%;
@@ -820,6 +818,14 @@ article{
 		text-align:center;
 	}
 	.content{
+		width:80%;
+		margin:3em auto;
+		max-width:50em;
+		@media screen and (min-width:(em(1200))){
+			max-width:70em;
+		}
+	}
+	.content-text{
 		width:80%;
 		margin:3em auto;
 		max-width:50em;

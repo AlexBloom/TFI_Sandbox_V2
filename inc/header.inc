@@ -60,17 +60,17 @@
 						</ul>
 					</dd>
 					<dd class="primary-link"> 
-						<a href=""> Education <span class="icon-right"></span> </a> 
+						<a href="education"> Education <span class="icon-right"></span> </a> 
 					</dd>
 					<dd class="primary-link"> 
-						<a href=""> MIT Fledgling Fund <span class="icon-right"></span> </a> 
+						<a href="mit-fledgling-fund"> MIT Fledgling Fund <span class="icon-right"></span> </a> 
 					</dd>
 				</dl>
 
 				<dl class="primary clearfix" id="build-primary">
 					<dt class="clearfix">Build</dt>
 					<dd class="primary-link" id="">
-						<a href=""> Project Management Guide <span class="icon-right"></span></a> 
+						<a href="project-management"> Project Management Guide <span class="icon-right"></span></a> 
 						<ul class="secondary" id="">
 							
 							<li class="secondary-link"> <a href="#"> Building A Team </a> </li>
@@ -82,7 +82,7 @@
 						</ul>
 					</dd>
 					<dd class="primary-link" id="TechResources"> 
-						<a href=""> Tech Resources <span class="icon-right"></span> </a>
+						<a href="tech-resources"> Tech Resources <span class="icon-right"></span> </a>
 						<ul class="secondary" id="">
 							<li class="secondary-link"> <a href="#"> Code 101 </a> </li>
 							<li class="secondary-link"> <a href="#"> Platforms </a> </li>
@@ -90,10 +90,10 @@
 						</ul>
 					</dd>
 					<dd class="primary-link"> 
-						<a href="#"> Funding <span class="icon-right"></span> </a> 
+						<a href="funding"> Funding <span class="icon-right"></span> </a> 
 					</dd>
 					<dd class="primary-link"> 
-						<a href="#"> Festivals <span class="icon-right"></span> </a> 
+						<a href="festivals"> Festivals <span class="icon-right"></span> </a> 
 					</dd>
 				</dl>
 	
