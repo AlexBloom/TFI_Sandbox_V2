@@ -21,7 +21,7 @@
 		<li>
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> Web <span class="icon"> &darr; <span> </dt>
+				<dt> Web <span class="icon icon-down"> <span> </dt>
 				<dd><a href="tfi-new-media-fund-2014"> Web </a> </dd>
 				<dd><a href="tfi-new-media-fund-2013"> App </a> </dd>
 				<dd><a href="tfi-new-media-fund-2012"> Installation </a> </dd>

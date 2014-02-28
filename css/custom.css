@@ -253,9 +253,6 @@ a, ul a, p a {
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
   transition-duration: .25s; }
-  a:hover, ul a:hover, p a:hover {
-    color: #00afef;
-    text-decoration: underline; }
   a:active, ul a:active, p a:active {
     color: #00afef; }
   a:visited, ul a:visited, p a:visited {
@@ -276,13 +273,16 @@ button {
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
-  transition-duration: .25s; }
+  transition-duration: .25s;
+  /*&:hover{
+  	.icon{
+  		background-color:$white;
+  		color:$action-color;
+  	}
+  }*/ }
   button:hover, button:active {
     color: white; }
-  button:hover .icon {
-    background-color: white;
-    color: #00afef; }
-  button:active .icon {
+  button:active .icon, button:focus .icon {
     background-color: #00afef;
     color: white; }
   button .icon-play {
@@ -316,10 +316,6 @@ button {
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
   transition-duration: .25s; }
-  .next-section:hover {
-    text-decoration: none;
-    color: white;
-    padding: 2.5em 0 1.5em 0; }
 
 /* ======================================================== LISTS */
 .basic-list {
@@ -348,10 +344,15 @@ button {
     padding: 1em 5% 1em 0; } }
 
 @media screen and (min-width: 53.33333em) {
-  .three-columns > li:first-child, .three-columns > li:last-child {
+  .three-columns > li {
+    width: 30%;
+    padding: 1em 3% 1em 0; } }
+
+@media screen and (min-width: 53.33333em) {
+  .three-columns-single-row > li:first-child, .three-columns-single-row > li:last-child {
     width: 29%;
     padding: 1em 4% 1em 0; }
-  .three-columns > li {
+  .three-columns-single-row > li {
     width: 30%;
     padding: 1em 4% 1em 0; } }
 
@@ -370,7 +371,7 @@ button {
   z-index: 400;
   top: 0;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: white;
   padding: 0;
   overflow: hidden;
   -webkit-transition-duration: .25s;
@@ -380,8 +381,6 @@ button {
   transition-duration: .25s; }
   #header #logo, #header #toggle {
     color: #222222; }
-    #header #logo:hover, #header #toggle:hover {
-      background-color: white; }
   #header #logo {
     padding: 1em;
     display: inline-block;
@@ -389,9 +388,6 @@ button {
     color: #222222;
     text-transform: uppercase;
     letter-spacing: .15em; }
-    #header #logo:hover {
-      color: #00afef;
-      background-color: white; }
     #header #logo:active {
       text-decoration: none;
       color: white;
@@ -406,13 +402,11 @@ button {
       display: block; }
 
 .lines-button {
-  padding: 0.5em 0.5em;
+  padding: .65em .25em;
   transition: .1s;
   cursor: pointer;
   user-select: none;
   border-radius: 0.25em; }
-  .lines-button:hover {
-    opacity: 1; }
   .lines-button:active {
     transition: 0; }
 
@@ -438,15 +432,10 @@ button {
     transform-origin: 0.14286em center; }
   .lines:before {
     top: 0.5em;
-    width: 1.6em; }
+    width: 2em; }
   .lines:after {
     top: -0.5em;
-    width: 1.6em; }
-
-.lines-button:hover .lines:before {
-  width: 2em; }
-.lines-button:hover .lines:after {
-  width: 2em; }
+    width: 2em; }
 
 .lines-button.close {
   -webkit-transform: scale3d(0.8, 0.8, 0.8);
@@ -511,12 +500,8 @@ button {
       -ms-transition-duration: .25s;
       -o-transition-duration: .25s;
       transition-duration: .25s; }
-    #primary-nav a:hover {
-      color: white; }
-      #primary-nav a:hover span {
-        opacity: 1;
-        margin-left: 0;
-        padding: 0 1em 0 0; }
+    #primary-nav a:active, #primary-nav a:focus {
+      color: black; }
 
 #primary-nav.open {
   padding: 7em 10%; }
@@ -580,14 +565,16 @@ button {
     padding: 1em;
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5); }
-    .breadcrumb a:hover {
-      text-decoration: none;
-      color: #00afef;
-      background-color: white; }
     .breadcrumb a:active {
       text-decoration: none;
       color: white;
       background-color: #00afef; }
+  .breadcrumb .indicator {
+    display: block;
+    margin: -.5em 0;
+    padding: 1em;
+    text-decoration: none;
+    color: #888888; }
 
 .tertiary {
   float: left;
@@ -606,7 +593,8 @@ button {
     margin: -.5em 0 0 0;
     padding: 1em;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.5); }
+    color: rgba(0, 0, 0, 0.5);
+    background-color: white; }
   .tertiary dd {
     margin: 0;
     padding: 0; }
@@ -622,9 +610,7 @@ button {
       .tertiary dd a:active {
         color: white;
         background-color: #00afef; }
-  .tertiary:hover dt, .tertiary:active dt, .tertiary:focus dt {
-    background-color: white; }
-  .tertiary:hover dd a, .tertiary:active dd a, .tertiary:focus dd a {
+  .tertiary .dropdownclick dd a {
     padding: 1em;
     max-height: 2em; }
 
@@ -646,20 +632,18 @@ button {
     border: 1px solid #00afef; }
 
 .share {
-  position: fixed;
-  right: 1em;
-  top: 40%;
-  z-index: 300; }
-  @media screen and (min-width: 53.33333em) {
-    .share {
-      right: 2em; } }
+  position: absolute;
+  top: 6.5em;
+  right: 0; }
   .share .icon-share {
-    display: none;
+    display: block;
     padding: 1em;
-    background-color: white; }
-    .share .icon-share:hover {
-      color: #00afef; }
+    color: white;
+    background-color: #222222; }
+    .share .icon-share:active {
+      background-color: #00afef; }
   .share ul {
+    display: none;
     background: rgba(0, 0, 0, 0.5);
     padding: 0;
     margin: 0; }
@@ -700,22 +684,10 @@ button {
     .share li .google {
       background-color: #dd4b39;
       color: white; }
-    .share li:hover .action, .share li:active .action {
-      right: 3em;
-      opacity: 1;
-      width: 4em; }
-    .share li:hover .icon-facebook, .share li:active .icon-facebook {
-      background-color: #3b5998;
-      color: white; }
-    .share li:hover .icon-twitter, .share li:active .icon-twitter {
-      background-color: #55acee;
-      color: white; }
-    .share li:hover .icon-google, .share li:active .icon-google {
-      background-color: #dd4b39;
-      color: white; }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 .scrollnav {
+  display: none;
   position: fixed;
   left: 0;
   top: 25%;
@@ -756,7 +728,7 @@ button {
       box-shadow: inset 0 0 0 2px white;
       -webkit-transition: box-shadow 0.3s ease;
       transition: box-shadow 0.3s ease; }
-      .scrollnav li a:hover, .scrollnav li a:active, .scrollnav li a:focus {
+      .scrollnav li a:active {
         box-shadow: inset 0 0 0 0.75em white; }
 
 /* ======================================================== OPEN / CLOSE */
@@ -789,9 +761,8 @@ button {
 
 .local-link {
   text-decoration: none;
-  color: white;
-  opacity: .75; }
-  .local-link:hover, .local-link:active {
+  color: white; }
+  .local-link:active {
     color: white;
     opacity: 1;
     text-decoration: none; }
@@ -815,6 +786,9 @@ button {
       -ms-transition-duration: .25s;
       -o-transition-duration: .25s;
       transition-duration: .25s; }
+  .local-link .icon-plus.open {
+    background-color: white;
+    color: #00afef; }
   .local-link .icon-plus.open:before {
     /* Safari */
     -webkit-transform: rotate(45deg);
@@ -826,9 +800,25 @@ button {
     -o-transform: rotate(45deg);
     /* Internet Explorer */
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
-  .local-link:hover .icon-plus {
-    background-color: white;
-    color: #00afef; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+.fade-out {
+  opacity: 0;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
+
+.fade-in {
+  opacity: 1;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
 
 /* LAYOUT ====================== */
 body {
@@ -845,6 +835,11 @@ body {
     @media screen and (min-width: 32em) {
       #main > section {
         padding: 0 0 0 0; } }
+
+section > h2 {
+  padding: 3em 1em 2em !important; }
+section h2 {
+  padding: 0 !important; }
 
 .overlay-wrap {
   position: absolute;
@@ -882,6 +877,16 @@ body {
   max-height: 1000px !important; }
   .full-screen img {
     width: 100%; }
+
+.background-video {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
 
 .video-overlay {
   display: none;
@@ -929,6 +934,36 @@ body {
     -o-border-radius: 50%;
     border-radius: 50%; }
 
+.flexvideo-16-9 {
+  position: relative;
+  padding: 0 0 56.5% 0;
+  height: 0;
+  margin: 1em 0; }
+
+.flexvideo-16-9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.left-column {
+  float: left;
+  padding: 0 2.5%;
+  width: 20%; }
+
+.right-column {
+  float: left;
+  width: 75%; }
+
+.sticky {
+  position: relative;
+  padding: 1em 0; }
+
+.sticky.fixed {
+  position: fixed;
+  top: 50px; }
+
 article {
   width: 100%;
   text-align: left; }
@@ -956,6 +991,8 @@ article {
     padding-top: 1em; }
   article img {
     width: 100%; }
+  article ul, article ol {
+    margin-bottom: 1em; }
 
 #footer {
   background-color: #222222;
@@ -1040,10 +1077,6 @@ article {
   padding: 1em;
   color: white;
   text-decoration: none; }
-  .project-url:hover, .project-url:active {
-    color: #00afef;
-    text-decoration: none;
-    background-color: white; }
   .project-url:active {
     text-decoration: none;
     color: white;
@@ -1187,15 +1220,18 @@ article {
         padding: 1em 4% 1em 0; } }
 
 #projectmanagement-callouts li {
-  padding: 0 5% !important; }
+  list-style-type: none;
+  float: left; }
   #projectmanagement-callouts li h2, #projectmanagement-callouts li h5 {
     margin-top: 0 !important; }
+  #projectmanagement-callouts li a {
+    text-decoration: none; }
 @media screen and (min-width: 53.33333em) {
   #projectmanagement-callouts > li {
     min-height: 8em; } }
 @media screen and (min-width: 80em) {
   #projectmanagement-callouts > li {
-    min-height: 14em; } }
+    min-height: 12em; } }
 #projectmanagement-callouts .featured {
   width: 100%; }
 

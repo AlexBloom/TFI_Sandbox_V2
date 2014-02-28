@@ -15,6 +15,13 @@
 <?php include_once 'inc/header.inc' ?>
 
 <!-- Index Page -->
+<nav class="breadcrumb">
+	<ul>
+		<li> <span class="indicator"> Project Management </span> </li>
+	</ul>
+</nav>
+
+
 <section id="main">
 	<section>
 		<article>
@@ -26,49 +33,55 @@
 				</section>
 			</header>	
 			<section class="content">
-				<ol class="four-columns clearfix" id="projectmanagement-callouts">
-					<li>
+				<ol class="three-columns clearfix" id="projectmanagement-callouts">
+					<li><a href="project-management-timeline.php">
 						<h2>01.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>Building a Team</h5>
 						<p>Assembling the cats you need to succeed</p>
+						</a>
 					</li>
-					<li>
+					<li><a href="project-management-timeline.php">
 						<h2>02.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>Scoping</h5>
 						<p>Describe project goals and establish your level of effort</p>
-						
+						</a>
 					</li>
-					<li>
+					<li><a href="project-management-timeline.php">
 						<h2>03.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>Timeline</h5>
 						<p>Schedule milestones based on scoping</p>
+						</a>
 					</li>
-					<li>
+					<li><a href="project-management-timeline.php">
 						<h2>04.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>Budget</h5>
 						<p>Implement project finances</p>	
+						</a>
 					</li>
-					<li>
+					<li><a href="project-management-timeline.php">
 						<h2>05.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>Distribution</h5>
 						<p>Getting your project to its audience</p>	
+						</a>
 					</li>
-					<li>
+					<li><a href="project-management-timeline.php">
 						<h2>06.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>Sustainability</h5>
 						<p>Supporting the lifespan of your project</p>	
+						</a>
 					</li>
-					<li>
+					<li><a href="project-management-timeline.php">
 						<h2>07.</h2>
 						<span class="icon-pm icon-"></span>
 						<h5>PR / Marketing</h5>
 						<p>Making the public aware of your project</p>	
+						</a>
 					</li>
 				</ol>
 			</section>

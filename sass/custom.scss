@@ -77,11 +77,6 @@
 	padding:1em;
 	color:$white;
 	text-decoration:none;
-	&:hover, &:active{
-		color:$action-color;
-		text-decoration:none;
-		background-color:$white;
-	}
 	&:active{
 		text-decoration:none;
 		color:$white;
@@ -248,25 +243,25 @@
 #projectmanagement-callouts{
 	
 	li{
-		padding:0 5%!important;
+		list-style-type:none;
+		float:left;
 		h2,h5{
 			margin-top:0!important;
 		}
-		//list-style-type:decimal-leading-zero;
+		a{
+			text-decoration:none;
+		}
 	}
 	@media screen and (min-width:(em(800))){
 		>li{
-			//width:40%;
 			min-height:8em;
 		}
 	}
 	@media screen and (min-width:(em(1200))){
 		>li{
-			//width:15%;
-			min-height:14em;
+			min-height:12em;
 		}
 	}
-	
 	.featured{
 		width:100%;
 	}

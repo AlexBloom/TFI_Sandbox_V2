@@ -18,14 +18,14 @@ $(document).ready(function () {
 		$(this).toggleClass('close');
 	$('#primary-nav').toggleClass('closed');
 	$('#primary-nav').toggleClass('open');
+	$('body').toggleClass('overflow-hidden');
    });
-   
    
    //Show Top Link After Scrolling
    $("#top").addClass('closed');
    $(window).scroll(function() {
        var y_scroll_pos = window.pageYOffset;
-       var scroll_pos_test = 400;             
+       var scroll_pos_test = 300;             
    	// set to whatever you want it to be
        if(y_scroll_pos > scroll_pos_test) {
    	   $("#top").addClass('open');
@@ -45,10 +45,31 @@ $('.project-content').addClass('collapsed');
 $('.local-link').each(function() {
 	$(this).click(function(){
 		$(this).parent().parent().parent().parent().next('.project-content').toggleClass('collapsed');
-		$(this).parent().parent().toggleClass('open');
+		//$(this).parent().parent().toggleClass('open');
 		$(this).find('.icon-plus').toggleClass('open');
 	});
 });
+	
+// Sticky Navigations	
+	
+ $('.left-column').waypoint(
+  function(direction) {   
+    // This div is level with the top  
+    if(direction == 'down'){
+     $('.sticky').addClass('fixed');
+    } //find('.waypoint-inner')
+      else  $('.sticky').removeClass('fixed');
+  },
+  {
+	 offset: 50
+ }
+);
+	
+
+	
+	
+	
+	
 	
 	   
    // Add Current Class to ScrollNav of Currently Depressed Item
@@ -56,28 +77,14 @@ $('.local-link').each(function() {
     		$('.scrollnav-link').removeClass('current');
     		$(this).addClass('current');
     	});	   
-	   
-	   
-   	// Add Current Class to ScrollNav of Currently Scrolled Project With Waypoints	
- /* $('.project').each(function() { 
-	  $(this).waypoint(function(direction) {     
-	     if(direction == 'down'){
-			 //find the corresponding scrollnav data attribute
-			 $(this).find('data-attribute')
-			 
-		     $('.scrollnav-link').addClass('current');
-	     } //if direction is back, remove it
-	      else $('.scrollnav-link').removeClass('current');
-	   },
-	   {
-	     offset: 100
-	   }
-	 ); 
-	}
-  );*/
 	 
 	 
-  //Side Nav The Long Hard Stupid Way
+	 
+	 
+	 
+	 
+	 
+  //Side Nav The Long Hard Stupid Way  
   
     $('#project-1').waypoint(
      function(direction) {   

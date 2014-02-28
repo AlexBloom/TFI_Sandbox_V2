@@ -10,14 +10,12 @@ a, ul a, p a{
 	color:inherit;
 	text-decoration:underline;
 	@include quarter-second-transition;	
-	
-	&:hover{
-	color:$action-color;
-	text-decoration:underline;
-	}
+	//	&:hover{
+	//	color:$action-color;
+	//	text-decoration:underline;
+	//	}
 	&:active{
-	color:$action-color;
-		
+	color:$action-color;	
 	}
 	&:visited{
 	text-decoration:line-through;	
@@ -39,13 +37,13 @@ button{
 	&:hover, &:active{
 		color:$white;
 	}
-	&:hover{
+	/*&:hover{
 		.icon{
 			background-color:$white;
 			color:$action-color;
 		}
-	}
-	&:active{
+	}*/
+	&:active,&:focus{
 		.icon{
 			background-color:$action-color;
 			color:$white;
@@ -77,12 +75,11 @@ button{
 	letter-spacing:.1em;
 	text-transform:uppercase;
 	@include quarter-second-transition;	
-	&:hover{
-		//background-color:$white;
-		text-decoration:none;
-		color:$white;
-		padding:2.5em 0 1.5em 0;
-	}	
+//	&:hover{
+//		text-decoration:none;
+//		color:$white;
+//		padding:2.5em 0 1.5em 0;
+//	}	
 }
 
 /* ======================================================== LISTS */
@@ -118,7 +115,16 @@ button{
 		}
 	}
 }
+
 .three-columns{
+	@media screen and (min-width:(em(800))){
+		>li{
+			width:30%;
+			padding:1em 3% 1em 0;
+		}
+	}
+}
+.three-columns-single-row{
 	@media screen and (min-width:(em(800))){
 		>li:first-child, >li:last-child{
 			width:29%;
@@ -133,7 +139,7 @@ button{
 .four-columns{
 	>li{
 	//list-style-type:decimal-leading-zero!important;
-}
+	}
 	@media screen and (min-width:(em(800))){
 		>li{
 			width:45%;
@@ -154,19 +160,19 @@ button{
 	z-index:400;
 	top:0;
 	width:100%;
-	background-color:rgba(255,255,255,.5);
+	background-color:$white;
 	padding:0;
 	overflow:hidden;
 	@include quarter-second-transition;
-	&:hover{
-		//background-color:$white;
-	}
+	//	&:hover{
+	//	background-color:$white;
+	//	}
 	
 	#logo, #toggle{
 		color:$dark-grey;
-		&:hover{
-			background-color:$white;
-		}
+		//	&:hover{
+	//			background-color:$white;
+	//		}
 	}
 	
 	#logo{
@@ -176,10 +182,10 @@ button{
 		color:$dark-grey;
 		text-transform:uppercase;
 		letter-spacing: .15em;	
-		&:hover{
-			color:$action-color;
-			background-color:$white;
-		}
+		//	&:hover{
+	//			color:$action-color;
+	//			background-color:$white;
+	//		}
 		&:active{
 			text-decoration:none;
 			color:$white;
@@ -202,14 +208,14 @@ button{
 $button-size : 2em; 
 //common to all three-liners
 .lines-button {
-  padding: $button-size/4 $button-size/4;
+  padding: .65em .25em;
   transition: .1s;
   cursor: pointer;
   user-select: none;
   border-radius: $button-size/8;
-  &:hover {
-    opacity: 1;
-  }
+	//  &:hover {
+	//    opacity: 1;
+	//  }
   &:active {
     transition: 0;
   }
@@ -237,28 +243,15 @@ $button-size : 2em;
   }
   &:before { 
     top: $button-size/4; 
-	width:$button-size/1.25; 
+	width:$button-size; 
   }
   &:after { 
     top: -$button-size/4;
-	width:$button-size/1.25;  
+	width:$button-size;  
   }
 }
 //common to all three-liners
-.lines-button:hover {
-	
-  .lines {
-	  
-    &:before { 
-      //top: $button-size/3.5;
-	  width:$button-size; 
-    }
-    &:after { 
-      //top: -$button-size/3.5;
-	  width:$button-size; 
-    }
-  }
-}
+
 .lines-button.close {
   -webkit-transform: scale3d(.8,.8,.8);
           transform: scale3d(.8,.8,.8);
@@ -326,16 +319,16 @@ $button-size : 2em;
 			width:0;
 			@include quarter-second-transition;
 		}
-		&:hover{
-			color:$white;
-			span{
-				opacity:1;
-				margin-left:0;
-				padding:0 1em 0 0;
-			}
-		}
-		&:active{
-			//color:$action-color;
+	//		&:hover{
+	//			color:$white;
+	//			span{
+	//				opacity:1;
+	//				margin-left:0;
+	//				padding:0 1em 0 0;
+	//			}
+	//		}
+		&:active,&:focus{
+			color:$black;
 			//background-color:$white;
 		}
 	}
@@ -413,16 +406,23 @@ $button-size : 2em;
 		padding:1em;
 		text-decoration:none;
 		color:rgba(0,0,0,.5);
-		&:hover{
-			text-decoration:none;
-			color:$action-color;
-			background-color:$white;
-		}
+		//	&:hover{
+	//			text-decoration:none;
+	//			color:$action-color;
+	//			background-color:$white;
+	//		}
 		&:active{
 			text-decoration:none;
 			color:$white;
 			background-color:$action-color;	
 		}
+	}
+	.indicator{
+		display:block;
+		margin: -.5em 0;
+		padding:1em;
+		text-decoration:none;
+		color:$medium-grey;
 	}
 }
 
@@ -446,6 +446,7 @@ $button-size : 2em;
 			padding: 1em;
 			text-decoration:none;
 			color:rgba(0,0,0,.5);
+			background-color:$white;
 		}
 		dd{
 			margin:0;
@@ -465,15 +466,12 @@ $button-size : 2em;
 				}
 			}
 		}
-		&:hover, &:active, &:focus{
-			dt{
-				background-color:$white;
-			}
+		.dropdownclick{
 			dd{
 				a{
 				padding:1em;
 				max-height:2em;
-				//overflow:auto;
+				
 				}
 			}
 		}
@@ -501,24 +499,26 @@ $button-size : 2em;
 }
 
 .share{
-	position:fixed;
-	right:1em;
-	top:40%;
-	z-index:300;
+	position:absolute;
+	top:6.5em;
+	//position:fixed;
+	right:0;
+	//top:40%;
+	//z-index:300;
 	@media screen and (min-width:(em(800))){
-		right:2em;
+		//right:2em;
 	}
-	
-	
 	.icon-share{
-		display:none;
+		display:block;
 		padding:1em;
-		background-color:$white;
-		&:hover{
-			color:$action-color;
+		color:$white;
+		background-color:$dark-grey;
+		&:active{
+			background-color:$action-color;
 		}
 	}
 	ul{
+		display:none;
 		background:rgba(0,0,0,0.5);
 		padding:0;
 		margin:0;
@@ -557,21 +557,22 @@ $button-size : 2em;
 		.facebook{background-color:#3b5998;color:$white;}
 		.twitter{background-color:#55acee;color:$white;}
 		.google{background-color:#dd4b39;color:$white;}
-		&:hover, &:active{
-			.action{
-				right:3em;
-				opacity:1;
-				width:4em;
-			}
-			.icon-facebook{background-color:#3b5998;color:$white;}
-			.icon-twitter{background-color:#55acee;color:$white;}
-			.icon-google{background-color:#dd4b39;color:$white;}	
-		}
+	//		&:hover, &:active{
+	//			.action{
+	//				right:3em;
+	//				opacity:1;
+	//				width:4em;
+	//			}
+	//			.icon-facebook{background-color:#3b5998;color:$white;}
+	//			.icon-twitter{background-color:#55acee;color:$white;}
+	//			.icon-google{background-color:#dd4b39;color:$white;}	
+	//		}
 	}
 }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 .scrollnav {
+	display:none;
 	position:fixed;
 	left:0;
 	top:25%;
@@ -612,14 +613,12 @@ $button-size : 2em;
 	    text-indent: -999em;
 	    cursor: pointer; /* make the text accessible to screen readers */
 	    position: absolute;
-		
 		background-color: transparent;
-		//@include drop-shadow;
 		box-shadow: inset 0 0 0 2px $white;
 		-webkit-transition: box-shadow 0.3s ease;
 		transition: box-shadow 0.3s ease;
 		
-			&:hover, &:active, &:focus{
+			&:active{
 			box-shadow: inset 0 0 0 .75em $white;
 			}
 		
@@ -663,11 +662,12 @@ $button-size : 2em;
 .local-link{
 	text-decoration:none;
 	color:$white;
-	opacity:.75;
-	&:hover, &:active{
+	//opacity:.75;
+	&:active{
 		color:$white;
 		opacity:1;
 		text-decoration:none;	
+		
 	}
 	.icon-plus{
 		display:block;
@@ -683,19 +683,26 @@ $button-size : 2em;
 			@include quarter-second-transition;
 		}
 	}
+	.icon-plus.open{
+		background-color:$white;
+		color:$action-color;
+	}
 	.icon-plus.open:before{
 		@include rotate45;
 	}	
-	&:hover{
-		.icon-plus{
-			background-color:$white;
-			color:$action-color;
-		}
-	}
 }
 
-
-
+.overflow-hidden{
+	overflow:hidden;
+}
+.fade-out{
+	opacity:0;
+	@include quarter-second-transition;
+}
+.fade-in{
+	opacity:1;
+	@include quarter-second-transition;
+}
 /* LAYOUT ====================== */
 
 //Body
@@ -715,6 +722,14 @@ body{
 		
 		text-align:center;
 		z-index:1;
+	}
+}
+section{
+	>h2{
+		padding:3em 1em 2em!important;
+	}
+	h2{
+		padding:0!important;
 	}
 }
 .overlay-wrap{
@@ -749,6 +764,20 @@ body{
 	}
 }
 
+
+//Background Videos
+.background-video{
+	display:block;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+
+
 //Fluid Full-Screen Videos
 .video-overlay{
 	display:none;	
@@ -774,7 +803,6 @@ body{
 		height: 100%;
 	}
 }
-
 .close-video{
 	position:absolute;
 	top:0;
@@ -799,6 +827,43 @@ body{
 		}
 }
 
+
+// Fluid Width Videos
+.flexvideo-16-9 {
+	position: relative;
+	padding:0 0 56.5% 0;
+	height: 0;
+	margin: 1em 0;
+}
+.flexvideo-16-9 iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+//Columns / Subnavs
+.left-column{
+	float:left;
+	padding:0 2.5%;
+	width:20%;
+}
+.right-column{
+	float:left;
+	width:75%;
+}
+
+.sticky{
+	position:relative;
+	padding:1em 0;
+}
+.sticky.fixed{
+	position:fixed;
+	top:50px;
+}
 
 //Articles / Content 
 article{
@@ -836,6 +901,9 @@ article{
 	}
 	img{
 		width:100%;
+	}
+	ul,ol{
+		margin-bottom:1em;
 	}
 }
 

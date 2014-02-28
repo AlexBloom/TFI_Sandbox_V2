@@ -31,7 +31,10 @@
 			</iframe>
 			</div>
 		</div>
-		<video></video>
+		
+		<video class="background-video" autoplay loop>
+			<source src="video/videohome.mp4" type="video/mp4">
+		</video>
 	
 	</section>
 	<section id="about">
