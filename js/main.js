@@ -3,8 +3,8 @@
 
 $(document).ready(function () {
 		// Fire LocalScroll
-		$('body').localScroll();
-		$('.right-column').localScroll({offset:-100});
+		$('body').localScroll({offset:-50});
+		$('.main').localScroll({offset:-75});
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({height:$(window).height()});
@@ -21,6 +21,56 @@ $(document).ready(function () {
 	$('#primary-nav').toggleClass('open');
 	$('body').toggleClass('overflow-hidden');
    });
+   
+   
+   
+   // Hide / Show Header on Scroll Credit Marius Craciunoiu
+   $('#header').addClass('nav-show');
+   // Hide Header on on scroll down
+   var didScroll;
+   var lastScrollTop = 0;
+   var delta = 5;
+   var navbarHeight = $('header').outerHeight();
+
+   $(window).scroll(function(event){
+       didScroll = true;
+   });
+
+   setInterval(function() {
+       if (didScroll) {
+           hasScrolled();
+           didScroll = false;
+       }
+   }, 250);
+
+   function hasScrolled() {
+       var st = $(this).scrollTop();
+    
+       // Make sure they scroll more than delta
+       if(Math.abs(lastScrollTop - st) <= delta)
+           return;
+    
+       // If they scrolled down and are past the navbar, add class .nav-up.
+       // This is necessary so you never see what is "behind" the navbar.
+       if (st > lastScrollTop && st > navbarHeight){
+           // Scroll Down
+           $('#header').removeClass('nav-show').addClass('nav-hide');
+		   $('.breadcrumb').removeClass('nav-show').addClass('nav-hide');
+		   
+       } else {
+           // Scroll Up
+           if(st + $(window).height() < $(document).height()) {
+               $('#header').removeClass('nav-hide').addClass('nav-show');
+			   $('.breadcrumb').removeClass('nav-hide').addClass('nav-show');
+			   
+           }
+       }
+    
+       lastScrollTop = st;
+   }
+   
+   
+   
    
    //Show Top Link After Scrolling
    $("#top").addClass('closed');
