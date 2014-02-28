@@ -163,10 +163,8 @@ button{
 	background-color:$white;
 	padding:0;
 	overflow:hidden;
+	@include drop-shadow;
 	@include quarter-second-transition;
-	//	&:hover{
-	//	background-color:$white;
-	//	}
 	
 	#logo, #toggle{
 		color:$dark-grey;
@@ -335,7 +333,7 @@ $button-size : 2em;
 }
 
 #primary-nav.open{
-	padding:7em 10%;
+	padding:6em 10% 0;
 }
 #primary-nav.closed{
 	padding:0 10%;
@@ -377,16 +375,18 @@ $button-size : 2em;
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
 
 .breadcrumb{
-	position:absolute;
-	top:3em;
-	left:0;
-	z-index:501;
-	border-top:1px solid $light-grey;
-	@media screen and (min-width:(em(480))){
+	position:relative;
+	display:block;
+	margin:3.5em 0;
+	clear:both;
+	border-top:1px solid $white;
+	@media screen and (min-width:(em(600))){
 		border-top:none;
 		position:fixed;
+		z-index:501;
 		top:0;
 		left:10em;
+		margin:0;
 	}
 	ul{
 		padding:0;
@@ -471,7 +471,6 @@ $button-size : 2em;
 				a{
 				padding:1em;
 				max-height:2em;
-				
 				}
 			}
 		}
@@ -725,6 +724,7 @@ body{
 	}
 }
 section{
+	position:relative;
 	>h2{
 		padding:3em 1em 2em!important;
 	}
@@ -848,22 +848,37 @@ section{
 //Columns / Subnavs
 .left-column{
 	float:left;
-	padding:0 2.5%;
-	width:20%;
+	width:80%;
+	padding:0 10%;
+	@media screen and (min-width:(em(800))){
+		padding:0 2.5%;
+		width:20%;
+	}	
 }
 .right-column{
 	float:left;
-	width:75%;
+	width:100%;
+	padding:0;
+	@media screen and (min-width:(em(800))){
+		width:75%;
+	}
 }
 
 .sticky{
 	position:relative;
-	padding:1em 0;
+	padding:1em 0 0;
+	ol{
+		padding:0;
+		
+	}
 }
 .sticky.fixed{
-	position:fixed;
-	top:50px;
+	@media screen and (min-width:(em(800))){
+		position:fixed;
+		top:50px;
+	}
 }
+
 
 //Articles / Content 
 article{
@@ -882,10 +897,17 @@ article{
 		padding:2em 5%;
 		text-align:center;
 	}
+	footer{
+		border-top:1px solid $light-grey;
+		position:relative;
+	}
 	.content{
 		width:80%;
-		margin:3em auto;
+		margin:1em auto;
 		max-width:50em;
+		@media screen and (min-width:(em(800))){
+			margin:3em auto;
+		}
 		@media screen and (min-width:(em(1200))){
 			max-width:70em;
 		}
@@ -905,6 +927,30 @@ article{
 	ul,ol{
 		margin-bottom:1em;
 	}
+}
+
+.link-prev,.link-next{
+	padding:1em;
+	display:block;
+	position:absolute;
+	top:0;
+	margin:0;
+	text-decoration:none;
+	span{
+		display:inline-block;
+		margin:0 1em;
+		vertical-align:sub;
+	}
+	@media screen and (min-width:(em(800))){
+		font-size:1.5em;
+		padding:.5em;
+	}
+}
+.link-prev{
+	left:0;
+}
+.link-next{
+	right:0;
 }
 
 

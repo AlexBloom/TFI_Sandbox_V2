@@ -374,6 +374,11 @@ button {
   background-color: white;
   padding: 0;
   overflow: hidden;
+  -webkit-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
@@ -504,7 +509,7 @@ button {
       color: black; }
 
 #primary-nav.open {
-  padding: 7em 10%; }
+  padding: 6em 10% 0; }
 
 #primary-nav.closed {
   padding: 0 10%; }
@@ -538,17 +543,19 @@ button {
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
 .breadcrumb {
-  position: absolute;
-  top: 3em;
-  left: 0;
-  z-index: 501;
-  border-top: 1px solid #eeeeee; }
-  @media screen and (min-width: 32em) {
+  position: relative;
+  display: block;
+  margin: 3.5em 0;
+  clear: both;
+  border-top: 1px solid white; }
+  @media screen and (min-width: 40em) {
     .breadcrumb {
       border-top: none;
       position: fixed;
+      z-index: 501;
       top: 0;
-      left: 10em; } }
+      left: 10em;
+      margin: 0; } }
   .breadcrumb ul {
     padding: 0;
     margin: 0;
@@ -836,10 +843,12 @@ body {
       #main > section {
         padding: 0 0 0 0; } }
 
-section > h2 {
-  padding: 3em 1em 2em !important; }
-section h2 {
-  padding: 0 !important; }
+section {
+  position: relative; }
+  section > h2 {
+    padding: 3em 1em 2em !important; }
+  section h2 {
+    padding: 0 !important; }
 
 .overlay-wrap {
   position: absolute;
@@ -949,20 +958,31 @@ section h2 {
 
 .left-column {
   float: left;
-  padding: 0 2.5%;
-  width: 20%; }
+  width: 80%;
+  padding: 0 10%; }
+  @media screen and (min-width: 53.33333em) {
+    .left-column {
+      padding: 0 2.5%;
+      width: 20%; } }
 
 .right-column {
   float: left;
-  width: 75%; }
+  width: 100%;
+  padding: 0; }
+  @media screen and (min-width: 53.33333em) {
+    .right-column {
+      width: 75%; } }
 
 .sticky {
   position: relative;
-  padding: 1em 0; }
+  padding: 1em 0 0; }
+  .sticky ol {
+    padding: 0; }
 
-.sticky.fixed {
-  position: fixed;
-  top: 50px; }
+@media screen and (min-width: 53.33333em) {
+  .sticky.fixed {
+    position: fixed;
+    top: 50px; } }
 
 article {
   width: 100%;
@@ -975,10 +995,16 @@ article {
     width: 90%;
     padding: 2em 5%;
     text-align: center; }
+  article footer {
+    border-top: 1px solid #eeeeee;
+    position: relative; }
   article .content {
     width: 80%;
-    margin: 3em auto;
+    margin: 1em auto;
     max-width: 50em; }
+    @media screen and (min-width: 53.33333em) {
+      article .content {
+        margin: 3em auto; } }
     @media screen and (min-width: 80em) {
       article .content {
         max-width: 70em; } }
@@ -993,6 +1019,28 @@ article {
     width: 100%; }
   article ul, article ol {
     margin-bottom: 1em; }
+
+.link-prev, .link-next {
+  padding: 1em;
+  display: block;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  text-decoration: none; }
+  .link-prev span, .link-next span {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: sub; }
+  @media screen and (min-width: 53.33333em) {
+    .link-prev, .link-next {
+      font-size: 1.5em;
+      padding: .5em; } }
+
+.link-prev {
+  left: 0; }
+
+.link-next {
+  right: 0; }
 
 #footer {
   background-color: #222222;

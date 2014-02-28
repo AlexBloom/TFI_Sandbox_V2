@@ -36,22 +36,22 @@
 	</ul>
 </nav>
 
-<section id="main">
+<section class="main" id="project-management">
 	<section>
-		
 		<article class="clearfix">
 			<header>
 				<section class="content">
 				<h1>Timeline</h1>
-				<p class="intro"> A reference guide to help you effectively plan, build, and launch a successful new media projects. Each section contains a quick-read guide and includes case studies from seasoned veterans.
+				<p class="intro"> A reference guide to help you effectively plan, build, and launch a successful new media project. Each section contains a quick-read guide and includes case studies from seasoned veterans.
 				</p>
 				</section>
 			</header>	
 			
-			
-			<div class="left-column">
+			<section class="clearfix">
+			<div class="left-column clearfix">
 				
-				<nav class="sticky">	
+				<nav class="sticky">
+					<h4>Sections</h4>	
 					<ol>
 						<li><a href="#intro">Intro</a></li>
 						<li><a href="#example1">Case Study</a></li>
@@ -61,7 +61,7 @@
 				&nbsp;
 			</div>
 			
-			<section class="right-column">
+			<section class="right-column clearfix">
 				<section id="intro"class="content">
 					<h2>TIMELINES</h2>	
 							
@@ -115,7 +115,7 @@
 					<p>This timeline example is 12 weeks. We typically recommend trying to keep a project to roughly 3 months. Momentum is crucial, and longer timeframes can lead to moments of inactivity and gaining momentum again can be a challenge. It is best when every team member is intensely focused on the work at hand.</p>
 					<p>The above timeline is considered “cascading” and follows a traditional approach to software development. It includes periods of user feedback and testing to validate assumptions. However, there are some inherent challenges to a cascading development approach.</p>
 					<p>This approach builds upon the work executed in previous phases. But what happens if the work executed in initial phase is flawed? Perhaps there are incorrect assumptions about user behavior. Periods for user feedback and getting your work in front of real users is vital to avoid this.</p>
-					<p>Another approach is to focus on developing a working prototype as soon as possible, then focusing cycles on revising that prototype repeatedly via direct user feedback. This often referred to as Agile Development. As the revisions continue, refinements are made and eventually the prototype becomes the application.</p>
+					<p>Another approach is to focus on developing a working prototype as soon as possible, then focusing cycles on revising that prototype repeatedly via direct user feedback. This often referred to as <a href ="http://en.wikipedia.org/wiki/Agile_software_development"target=_blank> Agile Development</a>. As the revisions continue, refinements are made and eventually the prototype becomes the application.</p>
 					<p>This approach provides many more opportunities for user feedback and rapid iteration. One important drawback is that this non-cascading approach can take more time and will certainly be more expensive. This is due to the fact the developers are spending more programming time revising and refining the application throughout the entire project’s timeframe. For this reason it is only used by seasoned professionals for projects with significant budgets.</p>
 			
 				</section>
@@ -153,10 +153,14 @@
 				</section>
 				
 			</section>
-
+			</section>
+			
+			<footer class="clearfix">
+				<a class="link-prev" href="project-management-timeline"> <span class="icon-left"></span> 02. Scoping </a>
+				<a class="link-next" href="project-management-timeline"> 04. Budget <span class="icon-right"></span> </a>
+			</footer>
 		</article>
-	
-
+		
 	</section>
 <section>	
 <!-- End Index Page --> 

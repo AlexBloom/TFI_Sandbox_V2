@@ -4,6 +4,7 @@
 $(document).ready(function () {
 		// Fire LocalScroll
 		$('body').localScroll();
+		$('.right-column').localScroll({offset:-100});
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({height:$(window).height()});
