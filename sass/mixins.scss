@@ -74,6 +74,16 @@ border-radius:1em;
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 
+@mixin flip180{
+	/* Safari */	-webkit-transform: rotateX(180deg);
+	/* Firefox */	-moz-transform: rotateX(180deg);
+	/* IE */	-ms-transform: rotateX(180deg);
+	/* Opera */	-o-transform: rotateX(180deg);
+	/* Internet Explorer */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+
 @mixin drop-shadow{
 -webkit-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
 -moz-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;

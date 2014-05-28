@@ -54,7 +54,7 @@
 <section>		
 	<h2 class="projects-title">Funded Projects</h2>
 	<ul class="projects" id="">
-	<li class="project clearfix" id="project-1">
+	<li class="project anchor clearfix" id="project-1">
 		<article>
 
 			<header class="project-header" id="">
@@ -111,7 +111,7 @@
 		
 		</article>
 	</li>
-	<li class="project clearfix" id="project-2">
+	<li class="project anchor clearfix" id="project-2">
 		<article>
 
 			<header class="project-header" id="">
@@ -167,7 +167,7 @@
 		
 		</article>
 	</li>
-	<li class="project clearfix" id="project-3">
+	<li class="project anchor clearfix" id="project-3">
 		<article>
 
 			<header class="project-header" id="">
@@ -223,7 +223,7 @@
 		
 		</article>
 	</li>
-	<li class="project clearfix" id="project-4">
+	<li class="project anchor clearfix" id="project-4">
 		<article>
 
 			<header class="project-header" id="">
@@ -279,7 +279,7 @@
 		
 		</article>
 	</li>
-	<li class="project clearfix" id="project-5">
+	<li class="project anchor clearfix" id="project-5">
 		<article>
 
 			<header class="project-header" id="">
@@ -335,7 +335,7 @@
 		
 		</article>
 	</li>
-	<li class="project clearfix" id="project-6">
+	<li class="project anchor clearfix" id="project-6">
 		<article>
 
 			<header class="project-header" id="">

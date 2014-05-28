@@ -158,7 +158,6 @@ button{
 #header{	
 	position:fixed;
 	z-index:400;
-	//top:0;
 	width:100%;
 	background-color:$white;
 	padding:0;
@@ -212,7 +211,7 @@ button{
 }
 
 //BEGIN MENU ICON
-$button-size : 2em; 
+$button-size: 2em; 
 //common to all three-liners
 .lines-button {
   padding: .65em .25em;
@@ -439,12 +438,14 @@ $button-size : 2em;
 	float:left;
 	margin: 0;
 	padding:0;
+	cursor:pointer;
 		.icon-down{
 			display:inline-block;
 			font-size:1em;
 			line-height:0;
 			padding:0 0 0 1em;
 			vertical-align:middle;
+			@include quarter-second-transition;
 			&:before{
 				font-size:2em;
 			}
@@ -455,14 +456,15 @@ $button-size : 2em;
 			padding: 1em;
 			text-decoration:none;
 			color:rgba(0,0,0,.5);
+			
 		}
-		dd{
+		dd{			
 			margin:0;
 			padding:0;
 			a{
 				display:block;
 				margin:0;
-				padding:0;
+				padding:0 1em;
 				max-height:0;
 				overflow:hidden;
 				margin:1px 0 0 0;
@@ -474,14 +476,29 @@ $button-size : 2em;
 				}
 			}
 		}
-		.dropdownclick{
-			dd{
-				a{
-				padding:1em;
-				max-height:2em;
-				}
-			}
+}
+.dropdown-closed{
+	dd{
+		a{
+			padding:0;
+			max-height:0;
 		}
+	}
+}
+.dropdown-open{
+	dd{
+		a{
+		padding:1em!important;
+		max-height:2em!important;
+		}
+	}
+	dt{
+		.icon-down{
+			//padding:0 2em;
+			vertical-align:baseline;
+			@include flip180;
+		}
+	}
 }
 
 .subnav{
@@ -579,7 +596,7 @@ $button-size : 2em;
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 .scrollnav {
-	display:none;
+	
 	position:fixed;
 	left:0;
 	top:25%;

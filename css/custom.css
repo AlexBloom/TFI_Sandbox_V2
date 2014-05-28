@@ -101,6 +101,12 @@ body {
     body {
       font-size: 1em;
       line-height: 1.6667em; } }
+  body ::selection {
+    color: white;
+    background: #00afef; }
+  body ::-moz-selection {
+    color: white;
+    background: #00afef; }
 
 /* Modular Scale 
 ---------------------- 
@@ -593,13 +599,19 @@ button {
 .tertiary {
   float: left;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  cursor: pointer; }
   .tertiary .icon-down {
     display: inline-block;
     font-size: 1em;
     line-height: 0;
     padding: 0 0 0 1em;
-    vertical-align: middle; }
+    vertical-align: middle;
+    -webkit-transition-duration: .25s;
+    -moz-transition-duration: .25s;
+    -ms-transition-duration: .25s;
+    -o-transition-duration: .25s;
+    transition-duration: .25s; }
     .tertiary .icon-down:before {
       font-size: 2em; }
   .tertiary dt {
@@ -614,7 +626,7 @@ button {
     .tertiary dd a {
       display: block;
       margin: 0;
-      padding: 0;
+      padding: 0 1em;
       max-height: 0;
       overflow: hidden;
       margin: 1px 0 0 0;
@@ -623,9 +635,26 @@ button {
       .tertiary dd a:active {
         color: white;
         background-color: #00afef; }
-  .tertiary .dropdownclick dd a {
-    padding: 1em;
-    max-height: 2em; }
+
+.dropdown-closed dd a {
+  padding: 0;
+  max-height: 0; }
+
+.dropdown-open dd a {
+  padding: 1em !important;
+  max-height: 2em !important; }
+.dropdown-open dt .icon-down {
+  vertical-align: baseline;
+  /* Safari */
+  -webkit-transform: rotateX(180deg);
+  /* Firefox */
+  -moz-transform: rotateX(180deg);
+  /* IE */
+  -ms-transform: rotateX(180deg);
+  /* Opera */
+  -o-transform: rotateX(180deg);
+  /* Internet Explorer */
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
 
 .subnav {
   margin: 0 auto;
@@ -700,7 +729,6 @@ button {
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 .scrollnav {
-  display: none;
   position: fixed;
   left: 0;
   top: 25%;

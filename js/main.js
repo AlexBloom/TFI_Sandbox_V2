@@ -13,7 +13,7 @@ $(document).ready(function () {
 		});
 	
 	
-	//Menu Toggle
+	//Site-Nav Toggle
 	$('#primary-nav').addClass('closed'); 
 	$("#toggle").click(function(){
 		$(this).toggleClass('close');
@@ -22,9 +22,13 @@ $(document).ready(function () {
 	$('body').toggleClass('overflow-hidden');
    });
    
+   //Tertiary Dropdown Toggle
+	//$('.tertiary').addClass('dropdown-closed'); 
+	$(".tertiary").click(function(){
+		$(this).toggleClass('dropdown-open');
+	  });
    
-   
-   // Hide / Show Header on Scroll Credit Marius Craciunoiu
+   // Hide / Show Header on Scroll - Credit: Marius Craciunoiu
    $('#header').addClass('nav-show');
    // Hide Header on on scroll down
    var didScroll;
@@ -55,13 +59,13 @@ $(document).ready(function () {
        if (st > lastScrollTop && st > navbarHeight){
            // Scroll Down
            $('#header').removeClass('nav-show').addClass('nav-hide');
-		   $('.breadcrumb').removeClass('nav-show').addClass('nav-hide');
+		  // $('.breadcrumb').removeClass('nav-show').addClass('nav-hide');
 		   
        } else {
            // Scroll Up
            if(st + $(window).height() < $(document).height()) {
                $('#header').removeClass('nav-hide').addClass('nav-show');
-			   $('.breadcrumb').removeClass('nav-hide').addClass('nav-show');
+			   //$('.breadcrumb').removeClass('nav-hide').addClass('nav-show');
 			   
            }
        }
@@ -118,113 +122,34 @@ $('.local-link').each(function() {
 	
 
 	
-	
-	
-	
-	
-	   
-   // Add Current Class to ScrollNav of Currently Depressed Item
-    	$('.scrollnav-link').click(function() {
-    		$('.scrollnav-link').removeClass('current');
-    		$(this).addClass('current');
-    	});	   
-	 
-	 
-	 
-	 
-	 
-	 
-	 
-  //Side Nav The Long Hard Stupid Way  
-  
-    $('#project-1').waypoint(
-     function(direction) {   
-       // This div is level with the top  
-       if(direction == 'down'){
-  	    $('.scrollnav-link').removeClass('current');
-  	     $('#scrollnav-1').addClass('current');
-       } //find('.waypoint-inner')
-         else  $('#scrollnav-1').removeClass('current');
-     },
-     {
-		 offset: 100
-	 }
-   );
  
-   $('#project-2').waypoint(
-    function(direction) {   
-      // This div is level with the top  
-      if(direction == 'down'){
- 	    $('.scrollnav-link').removeClass('current');
- 	     $('#scrollnav-2').addClass('current');
-      } //find('.waypoint-inner')
-        else $('#scrollnav-2').removeClass('current');
-		
-    },
-    {
-		offset: 100
-	}
-  );
- 
-    $('#project-3').waypoint(
-     function(direction) {   
-       // This div is level with the top  
-       if(direction == 'down'){
-  	    $('.scrollnav-link').removeClass('current');
-  	     $('#scrollnav-3').addClass('current');
-       } //find('.waypoint-inner')
-         else $('#scrollnav-3').removeClass('current');
-		 
-     },
-     {
-		 offset: 100
-	 }
-   );
+// Active Link Highlighting
 
-   $('#project-4').waypoint(
-    function(direction) {   
-      // This div is level with the top  
-      if(direction == 'down'){
- 	    $('.scrollnav-link').removeClass('current');
- 	     $('#scrollnav-4').addClass('current');
-      } //find('.waypoint-inner')
-        else $('#scrollnav-4').removeClass('current');
-		
-    },
-    {
-		offset: 100
-	}
-  );
+ // Add Current Class to ScrollNav of Currently Depressed Item
+  	$('.scrollnav-link').click(function() {
+  		$('.scrollnav-link').removeClass('current');
+  		$(this).addClass('current');
+  	});	   
+
+//Side Nav Highlighting 
+$(function(){
+    $(document).scroll(function(){
+        $('.anchor').each(function(){
+            var $this = $(this),
+            pos   = $this.offset().top - $(window).scrollTop();
+            if(pos < 50 ){
+                $('.scrollnav-link').removeClass('current');
+                $('.scrollnav-link[href="#'+$this.attr('id')+'"]').addClass('current');
+            }
+        });
+
+    });
+});
+
+
+
   
-  $('#project-5').waypoint(
-   function(direction) {   
-     // This div is level with the top  
-     if(direction == 'down'){
-	    $('.scrollnav-link').removeClass('current');
-	     $('#scrollnav-5').addClass('current');
-     } //find('.waypoint-inner')
-       else $('#scrollnav-5').removeClass('current');
-	   
-   },
-   {
-	   offset: 100
-   }
- );
  
- $('#project-6').waypoint(
-  function(direction) {   
-    // This div is level with the top  
-    if(direction == 'down'){
-    $('.scrollnav-link').removeClass('current');
-     $('#scrollnav-6').addClass('current');
-    } //find('.waypoint-inner')
-      else $('#scrollnav-6').removeClass('current');
-	  
-  },
-  {
-	  offset: 100
-  }
-);
 
 // Show and Play Full Screen Videos
 	$(".play-video").click(function(){

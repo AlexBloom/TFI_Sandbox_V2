@@ -56,11 +56,12 @@ body{
 	font-family:"proxima-nova",helvetica,arial,sans-serif;
 	font-size:.8em;
 	color:$text-color;
-	
 	@media screen and (min-width:(em(480))){
 		font-size:1em;
 		line-height:1.6667em;
 	}	
+	::selection {color:$white; background:$action-color;}
+	::-moz-selection {color:$white; background:$action-color;}
 }
 
 
