@@ -23,7 +23,7 @@
 
 
 <section id="main">
-	<section>
+	<section class="clearfix">
 		<article>
 			<header>
 				<section class="content">
@@ -89,6 +89,26 @@
 	
 
 	</section>
+	
+	<section id="prmarketing">
+		<article>
+			<h2>PR/Marketing Through Outreach/Organizing</h2>
+			Category: PR/Marketing
+
+			In the past, we’ve referred to the tactics of the Yes Men as something along the lines of a wacky PR company for progressive movements. We use humor and hijinks to hijack media discourse on the subject of our choice.
+
+			The Action Switchboard makes those tactics available to all. But in order to reap the benefits people need to know about it first. That’s why in the lead up to the beta launch of the platform, we are reaching out to NGOs and organizations with currently active campaigns to start building participation. This outreach involves writing emails and networking and talking to folks who we think would be interested in using our platform. For example, currently, we are working with Rebuild the Dream to schedule a demonstration for their constituency. These partnerships function as a way to get people to start using the site to build their own projects. 
+
+			But there’s an even more important function these partnerships play at this early stage. The Action Switchboard relies on clearly defined goals to fuel the creation process and maintain the relevance and impact of the projects that come out of it. Partnerships like the one with Rebuild the Dream will help define these goals. We will start holding regular meetings with our partners as our network builds in order to better identify goals that serve as particularly strong leverage points for change. The Action Switchboard, as a community platform, will rely on this kind of user innovation to remain effective.
+
+			In order to engage individuals who are interested in getting involved but may not have the time or resources to start their own project, we plan on implementing an “Act” button that external news and petition sites can place on relevant articles. This button will link to the appropriate Action Switchboard goal page, providing readers with many immediate and longer-term ways to get involved in the issue at hand. This will promote visibility as well as increase participation.
+
+			By creating the “Act” button, and by involving NGOs in the actual strategic focus of the Action Switchboard, we aim to integrate our platform into systems that already exist, and bring it to groups that we know will use it. Rather than focusing on a traditional PR strategy, we are focused on building fruitful partnerships with groups who will see the Action Switchboard for what it is: a community-driven platform that will benefit everyone’s goals. 
+
+			
+		</article>
+	</section>
+	
 <section>	
 <!-- End Index Page --> 
 	 

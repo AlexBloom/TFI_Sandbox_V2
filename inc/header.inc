@@ -19,7 +19,7 @@
 	        </button>
 			
 	</header>
-	<nav id="primary-nav" class="closed">
+	<nav id="primary-nav">
 		
 				<dl class="primary clearfix" id="discover-primary">
 					<dt class="clearfix">Discover</dt>

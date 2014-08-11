@@ -685,10 +685,10 @@ $button-size: 2em;
 
 .local-link{
 	text-decoration:none;
-	color:$white;
+	//color:$white;
 	//opacity:.75;
 	&:active{
-		color:$white;
+		//color:$white;
 		opacity:1;
 		text-decoration:none;	
 		
@@ -765,17 +765,6 @@ section{
 	left:0;
 	right:0;
 	background-color:rgba(0,0,0,0.15);
-}
-.floating-text{
-	display:block;
-	margin: auto;
-	  position: absolute;
-	  top: 0; left: 0; bottom: 0; right: 0;
-	  height:10em;
-	  overflow:visible;
-	color:$white;
-	z-index:2;
-	@include quarter-second-transition;
 }
 .full-screen{
 	background-size:cover;
@@ -912,6 +901,7 @@ section{
 	@media screen and (min-width:(em(800))){
 		position:fixed;
 		top:50px;
+		width:20%;
 	}
 }
 
@@ -933,6 +923,7 @@ article{
 		padding:2em 5%;
 		text-align:center;
 	}
+	
 	footer{
 		border-top:1px solid $light-grey;
 		position:relative;

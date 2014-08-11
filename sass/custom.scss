@@ -45,29 +45,71 @@
 	margin:0;
 }
 .project-header{
-	background-color:#777;
+	width:100%;
+	padding:0;
+	background-color:$dark-grey;
+	color:$medium-grey!important;
 	position:relative;
 	overflow:hidden;
-	height:(em(300));
 	z-index:350;	
 	@media screen and (min-width:(em(800))){
 		height:(em(400));
 	}
+	.project-image-wrap{
+		z-index:2;
+		height:(em(300));
+		overflow:hidden;
+		@media screen and (min-width:(em(800))){
+			position:absolute;
+			left:0;
+			right:0;
+			top:0;
+			bottom:0;
+			width:50%;
+			height:(em(400));
+		}
+	}
 	img{
 		display:block;
-		position:absolute;
-		left:0;
-		right:0;
-		top:0;
-		bottom:0;
 		width:100%;
+	}
+	
+	.header-info{
+		position:relative;
+		width:100%;
+		@media screen and (min-width:(em(800))){
+			position:absolute;
+			right:0;
+			top:0;
+			bottom:0;
+			width:50%;
+		}
+	}
+	.floating-text{
+		display:block;
+		margin: auto;
+		position:static;
+		  height:10em;
+		  overflow:visible;
+		  width:100%;
+		color:$white;
 		z-index:2;
+		@include quarter-second-transition;
+		@media screen and (min-width:(em(800))){
+	  	  position: absolute;
+	  	  top: 0; bottom: 0;
+		}
 	}
 	.floating-text.open{
 		top:50%;
 		bottom:2em;
 		@include quarter-second-transition;
 	}
+}
+
+#floating-text-home{
+	color:$white;
+	padding-top:25%;
 }
 
 .project-url{
