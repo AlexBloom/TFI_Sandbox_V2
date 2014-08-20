@@ -101,7 +101,7 @@ button{
 	padding:0;
 	text-indent:none;
 	text-align:left;	
-	>li{
+	>li,>div{
 		float:left;
 		width:90%;
 		padding:1em 5%;
@@ -109,7 +109,7 @@ button{
 }
 .two-columns{	
 	@media screen and (min-width:(em(800))){
-		>li{
+		>li,>div{
 			width:45%;
 			padding:1em 5% 1em 0;
 		}
@@ -793,13 +793,27 @@ section{
 //Background Videos
 .background-video{
 	display:block;
-	position:absolute;
-	min-width:100%;
-	min-height:100%;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
+	//position:absolute;
+	//min-width:100%;
+	//min-height:100%;
+	//top:0;
+	//bottom:0;
+	//left:0;
+	//right:0;
+	
+	
+	position: absolute;
+	  bottom: 0px; 
+	  right: 0px; 
+	  min-width: 100%; 
+	  min-height: 100%; 
+	  width: auto; 
+	  height: auto; 
+	  z-index: -1000; 
+	  overflow: hidden;
+	  background-color:$black;
+	
+	
 }
 
 
@@ -894,13 +908,17 @@ section{
 	padding:1em 0 0;
 	ol{
 		padding:0;
-		
+		li{
+			border-top:1px solid $medium-grey;
+			padding:.5em 0;
+		}
+		a{text-decoration:none;}
 	}
 }
 .sticky.fixed{
 	@media screen and (min-width:(em(800))){
 		position:fixed;
-		top:50px;
+		top:3em;
 		width:20%;
 	}
 }
@@ -912,14 +930,13 @@ article{
 	text-align:left;
 	header{
 		border-bottom:1px solid $white;
-		background-color:$medium-grey;
+		background-color:$blue;
 		color:$white;
-		//margin-top:-2em;
-		//padding-top:4em;
-		//text-align:left!important;
-	}
-	header, footer{
 		width:90%;
+		padding:4em 5%;
+		text-align:center;
+	}
+	footer{
 		padding:2em 5%;
 		text-align:center;
 	}
@@ -943,6 +960,9 @@ article{
 		width:80%;
 		margin:3em auto;
 		max-width:50em;
+	}
+	h2{
+//		padding-top:1em!important;
 	}
 	h3{
 		border-top:1px solid $medium-grey;

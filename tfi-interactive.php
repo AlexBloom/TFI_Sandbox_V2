@@ -21,10 +21,10 @@
 		<li>
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> 2014 <span class="icon-down"> <span> </dt>
-				<dd><a href="tfi-new-media-fund-2014"> 2014 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2013"> 2013 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2012"> 2012 </a> </dd>
+				<dt> Year <span class="icon-down"> <span> </dt>
+				<dd><a href="#2014"> 2014 </a> </dd>
+				<dd><a href="#2013"> 2013 </a> </dd>
+				<dd><a href="#2012"> 2012 </a> </dd>
 			<dl>
 		</li>
 	</ul>
@@ -40,89 +40,112 @@
 </nav>
 <section id="main" class="">	
 	
-	<section class="clearfix" id="2012">
+	<section class="clearfix" id="2014">
 		
 	<article>
 		
 			<header>
 				<section class="content">
-		<h1> TFI Interactive 2012</h1>
-		<p class="intro">TFI and the Ford Foundation bring together leading thinkers and pioneers from the fields of media, entertainment, education and technology to share their insights and inspire content creators at TFI Interactive.</p>
+		<h1> TFI Interactive 2014</h1>
+		<p class="intro">TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age.</p>
 				</section>
 			</header>
 		
 		<section class="content">
 			<div class="flexvideo-16-9">	
-			<iframe src="//player.vimeo.com/video/70069134?portfolio_id=134936" width="740" height="416" style="border: 0px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+			<iframe src="//player.vimeo.com/video/93182758?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 			
 			<p>Day’s Highlight</p> 
 			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44757958?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="//www.youtube.com/embed/zob0aEXXnDI?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<p> Baratunde Thurston's Keynote Address</p>
+			<p> The Audience Has An Audience: Kenyatta Cheese at 2014 TFI Interactive</p>
 			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44755230?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="//www.youtube.com/embed/qK82rnwW-eY&list=UUJ-s31m96kk-RFqCtDUJCVA?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<p> Designing For The World We Live In</p>
+			<p> What Can Storytellers Learn from the Privacy Debate?: Ben Moskowitz at 2014 TFI Interactive</p>
 			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44755269?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="//www.youtube.com/embed/8ZoD3zm94HQ?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-			<p> Games and Storytelling</p>
+			<p> Documentary, Expanding: Wendy Levy at 2014 TFI Interactive</p>
 			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44755990?title=0&amp;byline=0&amp;portrait=0&amp;color=00afef" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+			<iframe src="//www.youtube.com/embed/bF1NJoLuJYg?rel=0" frameborder="0" allowfullscreen></iframe> 
 			</div>
-			<p> Bear 71: Interactive Storytelling</p>
+			<p> The Limits of Technology: Jonathan Harris at 2014 TFI Interactive</p>
 
-		<h3>LINEUP</h3>
-		<ul>	
-			<li>
-			<strong> KEYNOTE:BEING HUMAN IN A DIGITAL WORLD.</strong> </br>
-			<small> BARATUNDE THURSTON</small> 
-			http://vimeo.com/44757958
-			</li>
-			<li>
-			<strong> THE FUTURE OF NEWS</strong> </br>
-			<small> Calvin Sims, Andrew DeVigal, Gabriel Dance</small>
-			</li>
-			<li>
-			<strong> YOUR INFORMATION DIET</strong> </br>
-			<small> Clay Johnson</small>
-			</li>
-			<li>
-			<strong> BEAR 71: INTERACTIVE STORYTELLING</strong> </br>
-			<small> Loc Dao http://vimeo.com/44755990</small>
-			</li>
-			<li>
-			<strong> IDEO: DESIGNING THE PERFECT EXPERIENCE</strong> </br>
-			<small> Dario Buzzini</small>
-			</li>
-			<li>
-			<strong> LOCAL PROJECTS: DESIGNING FOR THE WORLD WE LIVE IN</strong> </br> 
-			<small> Jake Barton</small>
-			</li>
-			<li>
-			<strong> GAME OF THRONES: AN INTERACTIVE CASE-STUDY</strong> </br>
-			<small> Steve Coulson</small>
-			</li>
-			<li>
-			<strong> TAKE YOUR DIGITAL IDEAS TO THE BANK</strong> </br>
-			<small> Ingrid Kopp, Alyce Myatt, Karim Ahmad, Orlando Bagwell</small>
-			</li>
-			<li>
-			<strong> PROGRAM OR BE PROGRAMED: CODE AND EDUCATION</strong> </br>
-			<small> Chris Lawrence, Marc Lesser, Jess Klein</small>
-			</li>
-			<li>
-			<strong> WALKING WITH HIPSTER DINOSAURS:	DEVELOPING A TRANSMEDIA PRODUCTION</strong> </br> 
-			<small> Caitlin Burns </small>
-			</li>
-			<li>
-			<strong> PUTTING PLAY IN PLACE: GAMES AND STORYTELLING</strong> </br>
-			<small> Jamin Warren, Margaret Robertson, Nick Fortugno, Michelle Byrd</small>
-			</li>
-		</ul>
+			<h3>Speakers </h3>
+				<ul>
+				<li> <strong> OPENING KEYNOTE: THE AUDIENCE HAS AN AUDIENCE—</strong> <br> 
+					<small> Kenyatta Cheese, Professional Internet Enthusiast</small>
+				</li>
+				<li> <strong> OBJECT NARRATIVES—</strong> <br> 
+					<small> Alexis Lloyd, Creative Director, The New York Times R&amp;D Lab</small>
+				</li>
+				<li> <strong> PHYSICAL COMPUTING AND HUMAN INTERACTION—</strong> <br> 
+					<small> Tom Igoe, Associate Arts Professor, ITP/Tisch School of the Arts/NYU; Co-Founder, Arduino</small>
+				</li>
+				<li> <strong> STORYSCAPES in collaboration with BOMBAY SAPPHIRE® Gin Panel—</strong> <br> 
+					<small> Moderated by Michelle Byrd, Independent Media Consultant. Panelists: Loc Dao (Circa 1948), Nathan Penlington (Choose Your Own Documentary), Jonathan Minard, James George (Clouds), Matthew Matthew (On a Human Scale) and Nonny de la Peña (Use of Force)</small>
+				</li>
+				<li> <strong> CHIDEO (CHARITY+VIDEO=CHIDEO)</strong> <br> 
+			
+				</li>
+				<li> <strong> A SYMPLER WAY TO REMIX VIDEO—</strong> <br> 
+					<small> Ben Jenkins, Co-Founder, Sympler</small>
+				</li>
+				<li> <strong> LOOK WHO'S WATCHING: WHAT CAN STORYTELLERS LEARN FROM THE PRIVACY DEBATE?—</strong> <br> 
+					<small> Ben Moskowitz, NYU ITP/Mozilla; Co-Director Drones &amp; Aerial Robotics Conference</small>
+				</li>
+				<li> <strong> DOCUMENTARY, EXPANDING—</strong> <br> 
+					<small> Wendy Levy, Director, New Arts AXIS</small>
+				</li>
+				<li> <strong> TFI NEW MEDIA FUND 2013 GRANTEES—Session 1</strong> <br> 
+			 
+				</li>
+				<li> <strong> TFI NEW MEDIA FUND 2013 GRANTEES—Session 2</strong> <br> 
+			
+				</li>
+				<li> <strong> LYKA: THE ADVENTURE—</strong> <br> 
+					<small> Lance Weiler, Story Architect; Founding Member, Digital Storytelling Lab at Columbia University</small>
+				</li>
+				<li> <strong> BETA!: MAKING GAME DESIGN FUN AND ACCESSIBLE—</strong> <br> 
+					<small> Errol King, Founder &amp; Creative Director, Beta!</small>
+				</li>
+				<li> <strong> HOW WE PLAY STORIES—</strong> <br> 
+					<small> Nick Fortugno, Co-Founder/CCO, Playmatics</small>
+				</li>
+				<li> <strong> DON'T BUILD AUDIENCES, BUILD COMMUNITY—</strong> <br> 
+					<small> Andrew DeVigal, Digital Media Innovator &amp; Strategist</small>
+				</li>
+				<li> <strong> AVATAR SECRETS—</strong> <br> 
+					<small> Ramona Pringle, Multiplatform Producer/Professor</small>
+				</li>
+				<li> <strong> TRIBECA HACKS <MOBILE> PRESENTATION</strong> <br> 
+			
+				</li>
+				<li> <strong> REAL IS A PLATFORM TOO—</strong> <br> 
+					<small> Michel Reilhac, Story Architect, MÉLANGE</small>
+				</li>
+				<li> <strong> INTRODUCING THE DOCUBASE—</strong> <br> 
+					<small> William Uricchio, Professor of Comparative Media Studies and Principle Investigator of the MIT Open Documentary Lab and the MIT Game Lab</small>
+				</li>
+				<li> <strong> STORYTELLING AS INTERFACE—</strong> <br> 
+					<small> Jason Brush, Executive Creative Director, POSSIBLE</small>
+				</li>
+				<li> <strong> CLOSING KEYNOTE: DIGITAL DISSATISFACTION: THE LIMITS OF TECHNOLOGY—</strong> <br> 
+					<small> Jonathan Harris, Artist</small>
+				</li>
+			</ul>
+			<h3>TFI Interactive Playground</h3>
 
+			<p>TFI’s Interactive Playground gave participants the opportunity to interact directly with interactive projects including: </p>
+			<ul>
+				<li> NAME, Project </li>
+				<li> NAME, Project </li>
+				<li> NAME, Project </li>
+			</ul>	
+	
 		</section>
 	</article>
 	</section>
@@ -236,115 +259,93 @@
 		</section>
 	</article>
 	</section>
-	<section class="clearfix" id="2014">
+	<section class="clearfix" id="2012">
 		
 	<article>
 		
 			<header>
 				<section class="content">
-		<h1> TFI Interactive 2014</h1>
-		<p class="intro">TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age.</p>
+		<h1> TFI Interactive 2012</h1>
+		<p class="intro">TFI and the Ford Foundation bring together leading thinkers and pioneers from the fields of media, entertainment, education and technology to share their insights and inspire content creators at TFI Interactive.</p>
 				</section>
 			</header>
 		
 		<section class="content">
 			<div class="flexvideo-16-9">	
-			<iframe src="//player.vimeo.com/video/93182758?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			<iframe src="//player.vimeo.com/video/70069134?portfolio_id=134936" style="border: 0px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
 			</div>
 			
 			<p>Day’s Highlight</p> 
 			<div class="flexvideo-16-9">
-			<iframe src="//www.youtube.com/embed/zob0aEXXnDI?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe src="//player.vimeo.com/video/44757958?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-			<p> The Audience Has An Audience: Kenyatta Cheese at 2014 TFI Interactive</p>
+			<p> Baratunde Thurston's Keynote Address</p>
 			<div class="flexvideo-16-9">
-			<iframe src="//www.youtube.com/embed/qK82rnwW-eY&list=UUJ-s31m96kk-RFqCtDUJCVA?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe src="//player.vimeo.com/video/44755230?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-			<p> What Can Storytellers Learn from the Privacy Debate?: Ben Moskowitz at 2014 TFI Interactive</p>
+			<p> Designing For The World We Live In</p>
 			<div class="flexvideo-16-9">
-			<iframe src="//www.youtube.com/embed/8ZoD3zm94HQ?rel=0" frameborder="0" allowfullscreen></iframe>
+			<iframe src="//player.vimeo.com/video/44755269?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-			<p> Documentary, Expanding: Wendy Levy at 2014 TFI Interactive</p>
+			<p> Games and Storytelling</p>
 			<div class="flexvideo-16-9">
-			<iframe src="//www.youtube.com/embed/bF1NJoLuJYg?rel=0" frameborder="0" allowfullscreen></iframe> 
+			<iframe src="//player.vimeo.com/video/44755990?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
 			</div>
-			<p> The Limits of Technology: Jonathan Harris at 2014 TFI Interactive</p>
+			<p> Bear 71: Interactive Storytelling</p>
 
-			<h3>Speakers </h3>
-				<ul>
-				<li> <strong> OPENING KEYNOTE: THE AUDIENCE HAS AN AUDIENCE—</strong> <br> 
-					<small> Kenyatta Cheese, Professional Internet Enthusiast</small>
-				</li>
-				<li> <strong> OBJECT NARRATIVES—</strong> <br> 
-					<small> Alexis Lloyd, Creative Director, The New York Times R&amp;D Lab</small>
-				</li>
-				<li> <strong> PHYSICAL COMPUTING AND HUMAN INTERACTION—</strong> <br> 
-					<small> Tom Igoe, Associate Arts Professor, ITP/Tisch School of the Arts/NYU; Co-Founder, Arduino</small>
-				</li>
-				<li> <strong> STORYSCAPES in collaboration with BOMBAY SAPPHIRE® Gin Panel—</strong> <br> 
-					<small> Moderated by Michelle Byrd, Independent Media Consultant. Panelists: Loc Dao (Circa 1948), Nathan Penlington (Choose Your Own Documentary), Jonathan Minard, James George (Clouds), Matthew Matthew (On a Human Scale) and Nonny de la Peña (Use of Force)</small>
-				</li>
-				<li> <strong> CHIDEO (CHARITY+VIDEO=CHIDEO)</strong> <br> 
-			
-				</li>
-				<li> <strong> A SYMPLER WAY TO REMIX VIDEO—</strong> <br> 
-					<small> Ben Jenkins, Co-Founder, Sympler</small>
-				</li>
-				<li> <strong> LOOK WHO'S WATCHING: WHAT CAN STORYTELLERS LEARN FROM THE PRIVACY DEBATE?—</strong> <br> 
-					<small> Ben Moskowitz, NYU ITP/Mozilla; Co-Director Drones &amp; Aerial Robotics Conference</small>
-				</li>
-				<li> <strong> DOCUMENTARY, EXPANDING—</strong> <br> 
-					<small> Wendy Levy, Director, New Arts AXIS</small>
-				</li>
-				<li> <strong> TFI NEW MEDIA FUND 2013 GRANTEES—Session 1</strong> <br> 
-			 
-				</li>
-				<li> <strong> TFI NEW MEDIA FUND 2013 GRANTEES—Session 2</strong> <br> 
-			
-				</li>
-				<li> <strong> LYKA: THE ADVENTURE—</strong> <br> 
-					<small> Lance Weiler, Story Architect; Founding Member, Digital Storytelling Lab at Columbia University</small>
-				</li>
-				<li> <strong> BETA!: MAKING GAME DESIGN FUN AND ACCESSIBLE—</strong> <br> 
-					<small> Errol King, Founder &amp; Creative Director, Beta!</small>
-				</li>
-				<li> <strong> HOW WE PLAY STORIES—</strong> <br> 
-					<small> Nick Fortugno, Co-Founder/CCO, Playmatics</small>
-				</li>
-				<li> <strong> DON'T BUILD AUDIENCES, BUILD COMMUNITY—</strong> <br> 
-					<small> Andrew DeVigal, Digital Media Innovator &amp; Strategist</small>
-				</li>
-				<li> <strong> AVATAR SECRETS—</strong> <br> 
-					<small> Ramona Pringle, Multiplatform Producer/Professor</small>
-				</li>
-				<li> <strong> TRIBECA HACKS <MOBILE> PRESENTATION</strong> <br> 
-			
-				</li>
-				<li> <strong> REAL IS A PLATFORM TOO—</strong> <br> 
-					<small> Michel Reilhac, Story Architect, MÉLANGE</small>
-				</li>
-				<li> <strong> INTRODUCING THE DOCUBASE—</strong> <br> 
-					<small> William Uricchio, Professor of Comparative Media Studies and Principle Investigator of the MIT Open Documentary Lab and the MIT Game Lab</small>
-				</li>
-				<li> <strong> STORYTELLING AS INTERFACE—</strong> <br> 
-					<small> Jason Brush, Executive Creative Director, POSSIBLE</small>
-				</li>
-				<li> <strong> CLOSING KEYNOTE: DIGITAL DISSATISFACTION: THE LIMITS OF TECHNOLOGY—</strong> <br> 
-					<small> Jonathan Harris, Artist</small>
-				</li>
-			</ul>
-			<h3>TFI Interactive Playground</h3>
+		<h3>LINEUP</h3>
+		<ul>	
+			<li>
+			<strong> KEYNOTE:BEING HUMAN IN A DIGITAL WORLD.</strong> </br>
+			<small> BARATUNDE THURSTON</small> 
+			http://vimeo.com/44757958
+			</li>
+			<li>
+			<strong> THE FUTURE OF NEWS</strong> </br>
+			<small> Calvin Sims, Andrew DeVigal, Gabriel Dance</small>
+			</li>
+			<li>
+			<strong> YOUR INFORMATION DIET</strong> </br>
+			<small> Clay Johnson</small>
+			</li>
+			<li>
+			<strong> BEAR 71: INTERACTIVE STORYTELLING</strong> </br>
+			<small> Loc Dao http://vimeo.com/44755990</small>
+			</li>
+			<li>
+			<strong> IDEO: DESIGNING THE PERFECT EXPERIENCE</strong> </br>
+			<small> Dario Buzzini</small>
+			</li>
+			<li>
+			<strong> LOCAL PROJECTS: DESIGNING FOR THE WORLD WE LIVE IN</strong> </br> 
+			<small> Jake Barton</small>
+			</li>
+			<li>
+			<strong> GAME OF THRONES: AN INTERACTIVE CASE-STUDY</strong> </br>
+			<small> Steve Coulson</small>
+			</li>
+			<li>
+			<strong> TAKE YOUR DIGITAL IDEAS TO THE BANK</strong> </br>
+			<small> Ingrid Kopp, Alyce Myatt, Karim Ahmad, Orlando Bagwell</small>
+			</li>
+			<li>
+			<strong> PROGRAM OR BE PROGRAMED: CODE AND EDUCATION</strong> </br>
+			<small> Chris Lawrence, Marc Lesser, Jess Klein</small>
+			</li>
+			<li>
+			<strong> WALKING WITH HIPSTER DINOSAURS:	DEVELOPING A TRANSMEDIA PRODUCTION</strong> </br> 
+			<small> Caitlin Burns </small>
+			</li>
+			<li>
+			<strong> PUTTING PLAY IN PLACE: GAMES AND STORYTELLING</strong> </br>
+			<small> Jamin Warren, Margaret Robertson, Nick Fortugno, Michelle Byrd</small>
+			</li>
+		</ul>
 
-			<p>TFI’s Interactive Playground gave participants the opportunity to interact directly with interactive projects including: </p>
-			<ul>
-				<li> NAME, Project </li>
-				<li> NAME, Project </li>
-				<li> NAME, Project </li>
-			</ul>	
-	
 		</section>
 	</article>
 	</section>
+	
 	
 </section>
 

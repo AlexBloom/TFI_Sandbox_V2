@@ -33,16 +33,19 @@
 	</ul>
 </nav>
 <section class="clearfix" id="main">	
-	
+	<article>
+		<header><h1>Interactive Landscape</h1></header>
+	</article>
 	<section class="clearfix" id="apps">
 		<h2>Apps</h2>
 		<ul class="projects">
-			<li class="project anchor clearfix">
-				<article>
-					
-					<header class="project-header" id="">
-						<a class="local-link" href="#project-1">
-							<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
+			<li class="project anchor clearfix" id="Device6">
+				<article>				
+					<header class="project-header">
+						<a class="local-link" href="#Device6">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/app/device6.jpg" alt="Device6">
+							</div>
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Available Now</small>
@@ -85,18 +88,21 @@
 
 				</article>
 			</li>
-			<li class="project anchor clearfix">
+			<li class="project anchor clearfix" id="TypeRider">
 				<article>
 					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>Available Now</small>
-							<h2><a class="local-link" href="#project-1">Type Rider <span class="expand-icon"> Open </span> </a></h2>
-						
-							<a class="project-url" href="http://typerider.arte.tv"target=_blank> typerider.arte.tv &rarr;</a>			
+						<a class="local-link" href="#TypeRider">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/app/typerider.jpg" alt="Type Rider">
 							</div>
-						</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Available Now</small>
+								<h2>Type Rider </h2>			
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://typerider.arte.tv"target=_blank> typerider.arte.tv &rarr;</a>
 					</header>
 					<section class="project-content">
 						Selected by Michel Reilhac, Story Architect, MÉLANGE
@@ -115,18 +121,21 @@
 	<section class="clearfix" id="installations">
 		<h2>Installations</h2>
 		<ul class="projects">
-			<li class="project anchor clearfix">
+			<li class="project anchor clearfix" id="EmotionalArcade">
 				<article>
-					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
+					<header class="project-header">
+						<a class="local-link" href="#EmotionalArcade">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/installation/emotionalarcade.jpg"  alt="emotionalarcade"> 
+						</div>
 						<div class="header-info">
 							<div class="floating-text">
 							<small>Launching: NOVEMBER 2013</small>
-							<h2><a class="local-link" href="#project-1">EMOTIONAL ARCADE<span class="expand-icon"> Open </span> </a></h2>
-						
-							<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> EMOTIONALARCADE.COM &rarr;</a>			
+							<h2>EMOTIONAL ARCADE  </h2>										
 							</div>
 						</div>
+						</a>
+						<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> EMOTIONALARCADE.COM &rarr;</a>
 					</header>
 
 					<section class="project-content">
@@ -147,18 +156,24 @@
 
 				</article>
 			</li>
-			<li class="project anchor clearfix">
+			<li class="project anchor clearfix" id="WeRemember">
 				<article>
-					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
+					<header class="project-header">
+						<a class="local-link" href="#WeRemember">
+						
+							<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/installation/weremember.jpg"  alt="weremember">
+						</div>
 						<div class="header-info">
 							<div class="floating-text">
 							<small>Launching Date: Spring 2014</small>
-							<h2><a class="local-link" href="#project-1">9/11 Memorial Museum “We Remember” <span class="expand-icon"> Open </span> </a></h2>
+							<h2>9/11 Memorial Museum <br>“We Remember”   </h2>
 						
-							<a class="project-url" href="https://www.911memorial.org/"target=_blank> www.911memorial.org &rarr;</a>			
+									
 							</div>
 						</div>
+						</a>
+						<a class="project-url" href="https://www.911memorial.org/"target=_blank> www.911memorial.org &rarr;</a>	
 					</header>
 					<section class="project-content">
 						Selected by David Carofano, Prodcution Associate at Local Projects
@@ -176,25 +191,61 @@
 					</section>
 				</article>
 			</li>
+			<li class="project anchor clearfix" id="GalleryOne">
+				<article>
+					<header class="project-header">
+						<a class="local-link" href="#GalleryOne">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/installation/clevelandmuseum.jpg"  alt="clevelandmuseum">
+						</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>Launching Date: February 2012</small>
+							<h2>Cleveland Museum of Art:<br> Gallery One  </h2>
+						
+									
+							</div>
+						</div>
+						</a>
+						<a class="project-url" href="http://vimeo.com/album/2243637"target=_blank> vimeo.com/album/2243637 &rarr;</a>	
+					</header>
+					<section class="project-content">
+						
+						<p>Selected by David Carofano, Prodcution Associate at Local Projects</p>
+						<p>Created by Local Project and Gallagher and Associates</p>
+					
+						<strong>Description:</strong>
+						
+						<p>The Cleveland Museum of Art had been challenged to grow new audiences to engage with Art and the Museum. Local Projects was tasked with growing new audiences through technology and created “Gallery One”, a suite of new experiences that transform the Art Museum experience. Visitors can explore digital versions of the artworks, gather ideas, and see the original context of the artworks. Visitors create their own works of art, and understand creativity through the art making, intuition, and play. Visitors can put their own bodies into the experience, matching poses with figurative sculptures, or browsing the collection by making different facial gestures. </p>
+
+						<strong>Reasons behind liking it.</strong>
+						<p>This project was made possible by the enormous amount of experimentation and willingness to change the conventions of a typical art museum experience. While technology is often thought to distract, we were encouraged to use technology to enhance the works of art, to integrate is seamlessly, and provide a memorable experience. We were able to experiment with interfaces that allowed visitors of any age, with no advance knowledge, to walk up and interact with technology and the works themselves. The interactive technology that we created encouraged visitors to create and play, making the museum a universal experience for all.</p>
+						
+					</section>
+				</article>
+			</li>
 		</ul>
 	</section>
 	
 	<section class="clearfix" id="web">
 	<h2 class="projects-title">Web</h2>
 	<ul class="projects" id="">
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="GoneHome">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
+					<a class="local-link" href="#GoneHome">
+					<a class="local-link" id=""><div class="project-image-wrap">
+						<img src="img/content/discover/interactive-landscape/web/gonehome.jpg" alt="Gonehome">
+					</div>
 					<div class="header-info">
 						<div class="floating-text">
 						<small>August 2013</small>
-						<h2><a class="local-link" href="#project-1">Gone Home <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ &rarr;</a>			
+						<h2>Gone Home   </h2>					
 						</div>
 					</div>
+					</a>
+					<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ &rarr;</a>			
 				</header>
 			
 				<section class="project-content">
@@ -212,19 +263,22 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="NSAFiles">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>November 1, 2013</small>
-						<h2><a class="local-link" href="#project-1">NSA Files: Decoded, <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded &rarr;</a>	
-						</div>		
-					</div>
+					<a class="local-link" href="#NSAFiles">
+						<a class="local-link" id=""><div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/nsafiles.jpg" alt="nsafiles">
+						</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>November 1, 2013</small>
+							<h2>NSA Files: Decoded   </h2>
+							</div>		
+						</div>
+					</a>
+					<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 &rarr;</a>	
 				</header>
 			
 				<section class="project-content">
@@ -241,19 +295,24 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="GreatFalls">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>August 10, 2013</small>
-						<h2><a class="local-link" href="#project-1">The Perils at Great Falls <span class="expand-icon"> Open </span> </a></h2>
+					<a class="local-link" href="#GreatFalls">
+						<div class="project-image-wrap">
+						<img src="img/content/discover/interactive-landscape/web/greatfalls.jpg" alt="greatfalls">
+						</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>August 10, 2013</small>
+							<h2>The Perils at Great Falls   </h2>
 					
-						<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ &rarr;</a>	
-						</div>		
-					</div>
+						
+							</div>		
+						</div>
+					</a>
+					<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ &rarr;</a>	
 				</header>
 			
 				<section class="project-content">
@@ -271,19 +330,24 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="HitRecord">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>2010</small>
-						<h2><a class="local-link" href="#project-1">hitRECord: <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org &rarr;</a>			
+					<a class="local-link" href="#HitRecord">
+						<div class="project-image-wrap">
+						<img src="img/content/discover/interactive-landscape/web/hitrecord.jpg" alt="hitrecord">
 						</div>
-					</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>2010</small>
+							<h2>hitRECord:   </h2>
+					
+									
+							</div>
+						</div>
+					</a>
+					<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org &rarr;</a>
 				</header>
 			
 				<section class="project-content">
@@ -299,19 +363,24 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="ListenToWikipedia">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>July 2013</small>
-						<h2><a class="local-link" href="#project-1">LISTEN TO WIKIPEDIA <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg &rarr;</a>			
+					<a class="local-link" href="#ListenToWikipedia">
+						<div class="project-image-wrap">
+						<img src="img/content/discover/interactive-landscape/web/listentowikipedia.jpg" alt="listentowikipedia">
 						</div>
-					</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>July 2013</small>
+							<h2>LISTEN TO WIKIPEDIA   </h2>
+					
+									
+							</div>
+						</div>
+					</a>
+					<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg &rarr;</a>
 				</header>
 			
 				<section class="project-content">
@@ -332,19 +401,24 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="DragonCancer">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>TBD</small>
-						<h2><a class="local-link" href="#project-1">THAT DRAGON, CANCER <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com &rarr;</a>			
+					<a class="local-link" href="#DragonCancer">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/dragoncancer.jpg" alt="dragoncancer">
 						</div>
-					</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>TBD</small>
+							<h2>THAT DRAGON, CANCER   </h2>
+					
+									
+							</div>
+						</div>
+					</a>
+					<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com &rarr;</a>
 				</header>
 			
 				<section class="project-content">
@@ -361,19 +435,24 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="Cowbird">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>December 2011</small>
-						<h2><a class="local-link" href="#project-1">Cowbird: Online human endeavor <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com &rarr;</a>			
+					<a class="local-link" href="#Cowbird">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/cowbird.jpg" alt="cowbird">
 						</div>
-					</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>December 2011</small>
+							<h2>Cowbird: Online human endeavor   </h2>
+					
+										
+							</div>
+						</div>
+					</a>
+					<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com &rarr;</a>
 				</header>
 			
 				<section class="project-content">
@@ -393,19 +472,24 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="Highrise">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>2009</small>
-						<h2><a class="local-link" href="#project-1">Highrise: Cross media storytelling <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca &rarr;</a>			
+					<a class="local-link" href="#Highrise">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/highrise.jpg" alt="highrise">
 						</div>
-					</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>2009</small>
+							<h2>Highrise: Cross media storytelling   </h2>
+					
+										
+							</div>
+						</div>
+					</a>
+					<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca &rarr;</a>
 				</header>
 			
 				<section class="project-content">
@@ -427,19 +511,22 @@
 		
 			</article>
 		</li>
-		<li class="project anchor clearfix" id="project-1">
+		<li class="project anchor clearfix" id="PapersPlease">
 			<article>
 
 				<header class="project-header" id="">
-					<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>Available in Beta now</small>
-						<h2><a class="local-link" href="#project-1">Papers, Please <span class="expand-icon"> Open </span> </a></h2>
-					
-						<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com &rarr;</a>			
+					<a class="local-link" href="#PapersPlease">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/papersplease.jpg" alt="papersplease">
 						</div>
-					</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>Available in Beta now</small>
+							<h2>Papers, Please   </h2>				
+						</div>
+						</div>
+					</a>
+					<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com &rarr;</a>
 				</header>
 			
 				<section class="project-content">
@@ -460,28 +547,30 @@
 				</section>
 		
 			</article>
-		</li>
-		
-		
-		
+		</li>	
 	</ul>
 	</section>
 	
 	<section class="clearfix" id="other">
 		<h2>Other</h2>
 		<ul class="projects">
-			<li class="project anchor clearfix" id="project-1">
+			<li class="project anchor clearfix" id="WOWAnOpera">
 				<article>
 					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>Jan 2014 (Live)</small>
-							<h2><a class="local-link" href="#project-1">WOW, An Opera<span class="expand-icon"> Open </span> </a></h2>
-						
-							<a class="project-url" href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress &rarr;</a>			
+						<a class="local-link" href="#WOWAnOpera">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/wowanopera.jpg" alt="Wowanopera">
 							</div>
-						</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Jan 2014 (Live)</small>
+								<h2>WOW, An Opera  </h2>
+						
+										
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress &rarr;</a>
 					</header>
 
 					<section class="project-content">
@@ -497,18 +586,23 @@
 
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="project-2">
+			<li class="project anchor clearfix" id="EnjminBundle">
 				<article>
 					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>2013</small>
-							<h2><a class="local-link" href="#project-1">ENJMIN BUNDLE <span class="expand-icon"> Open </span> </a></h2>
-						
-							<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> http://enjmin-bundle.com/en/ &rarr;</a>			
+						<a class="local-link" href="#EnjminBundle">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/enjmin.jpg" alt="enjmin">
 							</div>
-						</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>2013</small>
+								<h2>ENJMIN BUNDLE   </h2>
+						
+								
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> http://enjmin-bundle.com/en/ &rarr;</a>			
 					</header>
 					<section class="project-content">
 				
@@ -528,18 +622,23 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="project-3">
+			<li class="project anchor clearfix" id="BlabDroid">
 				<article>
 					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>11/24/2012</small>
-							<h2><a class="local-link" href="#project-1">BlabDroid <span class="expand-icon"> Open </span> </a></h2>
-						
-							<a class="project-url" href="http://blabdroid.com"target=_blank> http://blabdroid.com &rarr;</a>			
+						<a class="local-link" href="#BlabDroid">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/blabdroid.jpg" alt="Blabdroid">
 							</div>
-						</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>11/24/2012</small>
+								<h2>BlabDroid   </h2>
+						
+										
+								</div>
+							</div>
+							</a>
+						<a class="project-url" href="http://blabdroid.com"target=_blank> http://blabdroid.com &rarr;</a>
 					</header>
 					<section class="project-content">
 				
@@ -551,18 +650,21 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="project-4">
+			<li class="project anchor clearfix" id="BetaTheGame">
 				<article>
 					<header class="project-header" id="">
-						<div class="project-image-wrap"><img src="img/content/prototype/il-image.jpg" alt="Project Image"></div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>January 2014</small>
-							<h2><a class="local-link" href="#project-1">Beta The Game <span class="expand-icon"> Open </span> </a></h2>
-						
-							<a class="project-url" href="http://betathegame.com"target=_blank> betathegame.com &rarr;</a>			
+						<a class="local-link" href="#BetaTheGame">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
 							</div>
-						</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>January 2014</small>
+								<h2>Beta The Game   </h2>	
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://betathegame.com"target=_blank> betathegame.com &rarr;</a>
 					</header>
 					<section class="project-content">	
 				Selected and created by Errol King, Founder &amp; Creative Director, Beta!

@@ -44,16 +44,54 @@
 	padding:0;
 	margin:0;
 }
+.project:nth-of-type(odd){
+	@media screen and (min-width:(em(800))){
+		.project-image-wrap{
+			left:0!important;
+		}
+		.header-info{
+			right:0!important;
+		}
+		.project-url{
+			right:0;
+		}	
+	}
+}
+.project:nth-of-type(even){
+	@media screen and (min-width:(em(800))){
+		.project-image-wrap{
+			right:0!important;
+		}
+		.header-info{
+			left:0!important;
+		}	
+		.project-url{
+			left:0;
+		}
+		
+	}
+}
 .project-header{
 	width:100%;
 	padding:0;
-	background-color:$dark-grey;
-	color:$medium-grey!important;
+	background-color:$light-grey;
+	&:hover{
+		background-color:$blue;
+		.floating-text{
+			color:$white;
+		}
+	}
+	@include quarter-second-transition;
+	
+	
 	position:relative;
 	overflow:hidden;
 	z-index:350;	
 	@media screen and (min-width:(em(800))){
-		height:(em(400));
+		height:(em(250));
+	}
+	@media screen and (min-width:(em(1000))){
+		height:(em(350));
 	}
 	.project-image-wrap{
 		z-index:2;
@@ -61,8 +99,8 @@
 		overflow:hidden;
 		@media screen and (min-width:(em(800))){
 			position:absolute;
-			left:0;
-			right:0;
+		
+			
 			top:0;
 			bottom:0;
 			width:50%;
@@ -79,7 +117,6 @@
 		width:100%;
 		@media screen and (min-width:(em(800))){
 			position:absolute;
-			right:0;
 			top:0;
 			bottom:0;
 			width:50%;
@@ -92,7 +129,8 @@
 		  height:10em;
 		  overflow:visible;
 		  width:100%;
-		color:$white;
+		color:$dark-grey;
+		
 		z-index:2;
 		@include quarter-second-transition;
 		@media screen and (min-width:(em(800))){
@@ -115,10 +153,12 @@
 .project-url{
 	position:absolute;
 	bottom:0;
-	right:0;
-	padding:1em;
-	color:$white;
+	padding:.5em;
+	color:$dark-grey;
 	text-decoration:none;
+	//background-color:$white;
+	width:50%;
+	text-align:center;
 	&:active{
 		text-decoration:none;
 		color:$white;
@@ -197,6 +237,15 @@
 }
 
 
+
+//Funding
+.months{
+	padding:0;
+	li{
+		padding:0;
+		list-style-type:none;
+	}
+}
 
 
 //Event Pages

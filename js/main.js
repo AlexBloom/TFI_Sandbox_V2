@@ -3,8 +3,8 @@
 
 $(document).ready(function () {
 		// Fire LocalScroll
-		$('body').localScroll({offset:-50});
-		$('.main').localScroll({offset:-75});
+		$('body').localScroll({offset:0});
+		$('.left-column').localScroll({offset:-65});
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({height:$(window).height()});
@@ -30,6 +30,7 @@ $(document).ready(function () {
    
    // Hide / Show Header on Scroll - Credit: Marius Craciunoiu
    $('#header').addClass('nav-show');
+   $('.breadcrumb').addClass('nav-show');
    // Hide Header on on scroll down
    var didScroll;
    var lastScrollTop = 0;
@@ -59,13 +60,13 @@ $(document).ready(function () {
        if (st > lastScrollTop && st > navbarHeight){
            // Scroll Down
            $('#header').removeClass('nav-show').addClass('nav-hide');
-		  // $('.breadcrumb').removeClass('nav-show').addClass('nav-hide');
+		   $('.breadcrumb').removeClass('nav-show').addClass('nav-hide');
 		   
        } else {
            // Scroll Up
            if(st + $(window).height() < $(document).height()) {
                $('#header').removeClass('nav-hide').addClass('nav-show');
-			   //$('.breadcrumb').removeClass('nav-hide').addClass('nav-show');
+			   $('.breadcrumb').removeClass('nav-hide').addClass('nav-show');
 			   
            }
        }
@@ -99,7 +100,7 @@ $('.project-content').addClass('collapsed');
     
 $('.local-link').each(function() {
 	$(this).click(function(){
-		$(this).parent().parent().parent().parent().next('.project-content').toggleClass('collapsed');
+		$(this).parent().next('.project-content').toggleClass('collapsed');
 		//$(this).parent().parent().toggleClass('open');
 		$(this).find('.icon-plus').toggleClass('open');
 	});

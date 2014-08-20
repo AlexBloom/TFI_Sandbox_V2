@@ -23,13 +23,13 @@
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
 				<dt> 03. Timeline <span class="icon-down"> <span> </dt>
-				<dd><a href="project-management-timeline"> 01. Team </a> </dd>
-				<dd><a href="project-management-timeline"> 02. Scoping </a> </dd>
+				<dd><a href="project-management-team"> 01. Team </a> </dd>
+				<dd><a href="project-management-scoping"> 02. Scoping </a> </dd>
 				<dd><a href="project-management-timeline"> 03. Timeline </a> </dd>
-				<dd><a href="project-management-timeline"> 04. Budget </a> </dd>
-				<dd><a href="project-management-timeline"> 05. Distribution </a> </dd>
-				<dd><a href="project-management-timeline"> 06. Sustainability </a> </dd>
-				<dd><a href="project-management-timeline"> 07. PR / Marketing </a> </dd>
+				<dd><a href="project-management-budget"> 04. Budget </a> </dd>
+				<dd><a href="project-management-distribution"> 05. Distribution </a> </dd>
+				<dd><a href="project-management-sustainability"> 06. Sustainability </a> </dd>
+				<dd><a href="project-management-prmarketing"> 07. PR / Marketing </a> </dd>
 			<dl>
 			
 		</li>
@@ -155,8 +155,8 @@
 			</section>
 			
 			<footer class="clearfix">
-				<a class="link-prev" href="project-management-timeline"> <span class="icon-left"></span> 02. Scoping </a>
-				<a class="link-next" href="project-management-timeline"> 04. Budget <span class="icon-right"></span> </a>
+				<a class="link-prev" href="project-management-scoping"> <span class="icon-left"></span> 02. Scoping </a>
+				<a class="link-next" href="project-management-budget"> 04. Budget <span class="icon-right"></span> </a>
 			</footer>
 		</article>
 		

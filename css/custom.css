@@ -339,13 +339,13 @@ button {
   padding: 0;
   text-indent: none;
   text-align: left; }
-  .one-column > li, .two-columns > li, .three-columns > li, .four-columns > li {
+  .one-column > li, .one-column > div, .two-columns > li, .two-columns > div, .three-columns > li, .three-columns > div, .four-columns > li, .four-columns > div {
     float: left;
     width: 90%;
     padding: 1em 5%; }
 
 @media screen and (min-width: 53.33333em) {
-  .two-columns > li {
+  .two-columns > li, .two-columns > div {
     width: 45%;
     padding: 1em 5% 1em 0; } }
 
@@ -914,12 +914,15 @@ section {
 .background-video {
   display: block;
   position: absolute;
+  bottom: 0px;
+  right: 0px;
   min-width: 100%;
   min-height: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; }
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  overflow: hidden;
+  background-color: black; }
 
 .video-overlay {
   display: none;
@@ -1002,11 +1005,16 @@ section {
   padding: 1em 0 0; }
   .sticky ol {
     padding: 0; }
+    .sticky ol li {
+      border-top: 1px solid #888888;
+      padding: .5em 0; }
+    .sticky ol a {
+      text-decoration: none; }
 
 @media screen and (min-width: 53.33333em) {
   .sticky.fixed {
     position: fixed;
-    top: 50px;
+    top: 3em;
     width: 20%; } }
 
 article {
@@ -1014,14 +1022,16 @@ article {
   text-align: left; }
   article header {
     border-bottom: 1px solid white;
-    background-color: #888888;
-    color: white; }
-  article header, article footer {
+    background-color: #00afef;
+    color: white;
     width: 90%;
+    padding: 4em 5%;
+    text-align: center; }
+  article footer {
     padding: 2em 5%;
     text-align: center; }
   article footer {
-    border-top: 1px solid #eeeeee;
+    border-top: 1px solid #dddddd;
     position: relative; }
   article .content {
     width: 80%;
@@ -1116,17 +1126,44 @@ article {
   padding: 0;
   margin: 0; }
 
+@media screen and (min-width: 53.33333em) {
+  .project:nth-of-type(odd) .project-image-wrap {
+    left: 0 !important; }
+  .project:nth-of-type(odd) .header-info {
+    right: 0 !important; }
+  .project:nth-of-type(odd) .project-url {
+    right: 0; } }
+
+@media screen and (min-width: 53.33333em) {
+  .project:nth-of-type(even) .project-image-wrap {
+    right: 0 !important; }
+  .project:nth-of-type(even) .header-info {
+    left: 0 !important; }
+  .project:nth-of-type(even) .project-url {
+    left: 0; } }
+
 .project-header {
   width: 100%;
   padding: 0;
-  background-color: #222222;
-  color: #888888 !important;
+  background-color: #dddddd;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s;
   position: relative;
   overflow: hidden;
   z-index: 350; }
+  .project-header:hover {
+    background-color: #00afef; }
+    .project-header:hover .floating-text {
+      color: white; }
   @media screen and (min-width: 53.33333em) {
     .project-header {
-      height: 26.66667em; } }
+      height: 16.66667em; } }
+  @media screen and (min-width: 66.66667em) {
+    .project-header {
+      height: 23.33333em; } }
   .project-header .project-image-wrap {
     z-index: 2;
     height: 20em;
@@ -1134,8 +1171,6 @@ article {
     @media screen and (min-width: 53.33333em) {
       .project-header .project-image-wrap {
         position: absolute;
-        left: 0;
-        right: 0;
         top: 0;
         bottom: 0;
         width: 50%;
@@ -1149,7 +1184,6 @@ article {
     @media screen and (min-width: 53.33333em) {
       .project-header .header-info {
         position: absolute;
-        right: 0;
         top: 0;
         bottom: 0;
         width: 50%; } }
@@ -1160,7 +1194,7 @@ article {
     height: 10em;
     overflow: visible;
     width: 100%;
-    color: white;
+    color: #222222;
     z-index: 2;
     -webkit-transition-duration: .25s;
     -moz-transition-duration: .25s;
@@ -1188,10 +1222,11 @@ article {
 .project-url {
   position: absolute;
   bottom: 0;
-  right: 0;
-  padding: 1em;
-  color: white;
-  text-decoration: none; }
+  padding: .5em;
+  color: #222222;
+  text-decoration: none;
+  width: 50%;
+  text-align: center; }
   .project-url:active {
     text-decoration: none;
     color: white;
@@ -1262,6 +1297,12 @@ article {
       .jury-members li {
         width: 20%;
         padding: 1em 2.5% 1em 2.5%; } }
+
+.months {
+  padding: 0; }
+  .months li {
+    padding: 0;
+    list-style-type: none; }
 
 .key-speakers {
   list-style-type: none;
