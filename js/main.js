@@ -149,7 +149,50 @@ $(function(){
 
 
 
-  
+// Filtering Projects By Type
+$('#IL-All').addClass('on');
+
+$('#IL-All').click(function() {
+	$('.filter-link').removeClass('on');
+	$('.project').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
+$('#IL-Web').click(function() {
+	$('.filter-link').removeClass('on');
+	$('.project').addClass('hidden');
+	$('.Web').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
+$('#IL-Installations').click(function() {
+	$('.filter-link').removeClass('on');
+	$('.project').addClass('hidden');
+	$('.Installations').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
+$('#IL-Apps').click(function() {
+	$('.filter-link').removeClass('on');
+	$('.project').addClass('hidden');
+	$('.Apps').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
+$('#IL-Other').click(function() {
+	$('.filter-link').removeClass('on');
+	$('.project').addClass('hidden');
+	$('.Other').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
+//SHARING
+
+$('#share-buttons').addClass('closed');
+
+$('#share-engage').click(function() {
+	$('#share-buttons').toggleClass('closed');
+});
  
 
 // Show and Play Full Screen Videos

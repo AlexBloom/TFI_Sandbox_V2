@@ -18,28 +18,32 @@
 <nav class="breadcrumb" id="">
 	<ul>
 		<li> <a href="interactive-landscape.php"> Interactive Landscape </a> </li>
-		<li>
-			<dl class="tertiary">
-				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> Filters <span class="icon icon-down"> <span> </dt>
-				<dd><a href="#"> All </a> </dd>
-				<dd><a href="#web"> Web </a> </dd>
-				<dd><a href="#apps"> Apps </a> </dd>
-				<dd><a href="#installations"> Installations </a> </dd>
-				<dd><a href="other"> Other </a> </dd>
-			<dl>
-			
-		</li>
 	</ul>
 </nav>
 <section class="clearfix" id="main">	
-	<article>
-		<header><h1>Interactive Landscape</h1></header>
+	<article class="clearfix">
+		<header>
+			<h1>Interactive Landscape</h1>
+			
+			
+			
+		</header>
+	
+		<dl class="filters clearfix">
+			<!-- Enter Current Page Name as DT Item Here -->
+			<dt> Filters: </dt>
+			<dd><a id="IL-All" class="filter-link"> All <span class="quantity"> (18) </span> </a> </dd>
+			<dd><a id="IL-Web" class="filter-link"> Web <span class="quantity"> (9)</span> </a> </dd>
+			<dd><a id="IL-Apps" class="filter-link"> Apps <span class="quantity"> (2)</span> </a> </dd>
+			<dd><a id="IL-Installations" class="filter-link"> Installations <span class="quantity"> (3)</span> </a> </dd>
+			<dd><a id="IL-Other" class="filter-link"> Other <span class="quantity"> (4)</span> </a> </dd>
+		<dl>
+	
 	</article>
-	<section class="clearfix" id="apps">
-		<h2>Apps</h2>
-		<ul class="projects">
-			<li class="project anchor clearfix" id="Device6">
+	
+		<!-- <h2>Apps</h2> -->
+		<ul class="projects clearfix">
+			<li class="project anchor clearfix Apps" id="Device6">
 				<article>				
 					<header class="project-header">
 						<a class="local-link" href="#Device6">
@@ -88,7 +92,7 @@
 
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="TypeRider">
+			<li class="project anchor clearfix Apps" id="TypeRider">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#TypeRider">
@@ -115,13 +119,7 @@
 					</section>
 				</article>
 			</li>
-		</ul>
-	</section>
-	
-	<section class="clearfix" id="installations">
-		<h2>Installations</h2>
-		<ul class="projects">
-			<li class="project anchor clearfix" id="EmotionalArcade">
+			<li class="project anchor clearfix Installations" id="EmotionalArcade">
 				<article>
 					<header class="project-header">
 						<a class="local-link" href="#EmotionalArcade">
@@ -156,7 +154,7 @@
 
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="WeRemember">
+			<li class="project anchor clearfix Installations" id="WeRemember">
 				<article>
 					<header class="project-header">
 						<a class="local-link" href="#WeRemember">
@@ -191,7 +189,7 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="GalleryOne">
+			<li class="project anchor clearfix Installations" id="GalleryOne">
 				<article>
 					<header class="project-header">
 						<a class="local-link" href="#GalleryOne">
@@ -224,337 +222,325 @@
 					</section>
 				</article>
 			</li>
-		</ul>
-	</section>
-	
-	<section class="clearfix" id="web">
-	<h2 class="projects-title">Web</h2>
-	<ul class="projects" id="">
-		<li class="project anchor clearfix" id="GoneHome">
-			<article>
+			<li class="project anchor clearfix Web" id="GoneHome">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#GoneHome">
-					<a class="local-link" id=""><div class="project-image-wrap">
-						<img src="img/content/discover/interactive-landscape/web/gonehome.jpg" alt="Gonehome">
-					</div>
-					<div class="header-info">
-						<div class="floating-text">
-						<small>August 2013</small>
-						<h2>Gone Home   </h2>					
-						</div>
-					</div>
-					</a>
-					<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ &rarr;</a>			
-				</header>
-			
-				<section class="project-content">
-
-					
-					Selected by Aina Abodiun, Storyteller, strategist and futurist
-					
-					Developed and published by The Fullbright Company
-					
-
-					<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
-					<p>Beyond the sheer delight of exploring such a well designed and rendered space, I found myself curious to discover the story through the physical objects. Like many compelling stories, the draw of this one is the familiarity and relatability of the story, and the sense of knowing yet not knowing one's family is made more visceral by the act of the player being the character rather than watching her. Gone Home gives a glimpse into the possibilities of great storytelling in gaming.</p>
-			
-				</section>
-		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="NSAFiles">
-			<article>
-
-				<header class="project-header" id="">
-					<a class="local-link" href="#NSAFiles">
+					<header class="project-header" id="">
+						<a class="local-link" href="#GoneHome">
 						<a class="local-link" id=""><div class="project-image-wrap">
-							<img src="img/content/discover/interactive-landscape/web/nsafiles.jpg" alt="nsafiles">
+							<img src="img/content/discover/interactive-landscape/web/gonehome.jpg" alt="Gonehome">
 						</div>
 						<div class="header-info">
 							<div class="floating-text">
-							<small>November 1, 2013</small>
-							<h2>NSA Files: Decoded   </h2>
-							</div>		
+							<small>August 2013</small>
+							<h2>Gone Home   </h2>					
+							</div>
 						</div>
-					</a>
-					<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 &rarr;</a>	
-				</header>
+						</a>
+						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ &rarr;</a>			
+					</header>
 			
-				<section class="project-content">
-					 
-					Selected by Gabriel Dance, an interactive editor for the Guardian in the US
-					Written by EWEN MACASKILL and GABRIEL DANCE; Produced by FEILDING CAGE and GREG CHEN
+					<section class="project-content">
+
 					
-					<p>The Guardian knew since day one that the NSA stories we've been reporting were going to need some type of treatment that explained them, as a whole, to readers. As they were reported, the stories are often necessarily technical, both legally and technologically. Because of this, and because of the way we've needed to report the story as we've gone through the documents, we wanted to create a piece that explained to readers what this meant specifically for them.  So we set out to produce an interactive story that used all of the Internet's storytelling devices (video, interactive maps, charts, text and yes GIFS!) to tell the story of the NSA files in an accessible and relatable way.</p>
+						Selected by Aina Abodiun, Storyteller, strategist and futurist
+					
+						Developed and published by The Fullbright Company
+					
 
-					<p>I think it's an important project that we approached with innovative storytelling techniques. Many of the projects we've seen on the internet that have really gotten the interactive 'treatment' are feature stories that tell a compelling story. However, Decoded attempts to explain complicated matters of national security in a relatable, creative format. For that we're proud of the project.</p>
+						<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
+						<p>Beyond the sheer delight of exploring such a well designed and rendered space, I found myself curious to discover the story through the physical objects. Like many compelling stories, the draw of this one is the familiarity and relatability of the story, and the sense of knowing yet not knowing one's family is made more visceral by the act of the player being the character rather than watching her. Gone Home gives a glimpse into the possibilities of great storytelling in gaming.</p>
+			
+					</section>
+		
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="NSAFiles">
+				<article>
+
+					<header class="project-header" id="">
+						<a class="local-link" href="#NSAFiles">
+							<a class="local-link" id=""><div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/web/nsafiles.jpg" alt="nsafiles">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>November 1, 2013</small>
+								<h2>NSA Files: Decoded   </h2>
+								</div>		
+							</div>
+						</a>
+						<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 &rarr;</a>	
+					</header>
+			
+					<section class="project-content">
+					 
+						Selected by Gabriel Dance, an interactive editor for the Guardian in the US
+						Written by EWEN MACASKILL and GABRIEL DANCE; Produced by FEILDING CAGE and GREG CHEN
+					
+						<p>The Guardian knew since day one that the NSA stories we've been reporting were going to need some type of treatment that explained them, as a whole, to readers. As they were reported, the stories are often necessarily technical, both legally and technologically. Because of this, and because of the way we've needed to report the story as we've gone through the documents, we wanted to create a piece that explained to readers what this meant specifically for them.  So we set out to produce an interactive story that used all of the Internet's storytelling devices (video, interactive maps, charts, text and yes GIFS!) to tell the story of the NSA files in an accessible and relatable way.</p>
+
+						<p>I think it's an important project that we approached with innovative storytelling techniques. Many of the projects we've seen on the internet that have really gotten the interactive 'treatment' are feature stories that tell a compelling story. However, Decoded attempts to explain complicated matters of national security in a relatable, creative format. For that we're proud of the project.</p>
 
 			
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="GreatFalls">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="GreatFalls">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#GreatFalls">
-						<div class="project-image-wrap">
-						<img src="img/content/discover/interactive-landscape/web/greatfalls.jpg" alt="greatfalls">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>August 10, 2013</small>
-							<h2>The Perils at Great Falls   </h2>
+					<header class="project-header" id="">
+						<a class="local-link" href="#GreatFalls">
+							<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/greatfalls.jpg" alt="greatfalls">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>August 10, 2013</small>
+								<h2>The Perils at Great Falls   </h2>
 					
 						
-							</div>		
-						</div>
-					</a>
-					<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ &rarr;</a>	
-				</header>
+								</div>		
+							</div>
+						</a>
+						<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ &rarr;</a>	
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 					 
-					Selected by Gabriel Dance, an interactive editor for the Guardian in the US
-					Created by: Sohail Al-Jamea, Bonnie Berkowitz, Emily Chow, Laris Karklis and Todd Lindeman
+						Selected by Gabriel Dance, an interactive editor for the Guardian in the US
+						Created by: Sohail Al-Jamea, Bonnie Berkowitz, Emily Chow, Laris Karklis and Todd Lindeman
 
 
-					<p>The Washington Post graphics desk explored the part of the Potomac River known as Great Falls, in a beautiful and creative interactive feature. This part of the Potomac is deceptively dangerous, as it's not the white water that makes it so deadly. It's the dangers that lie below the surface that have cost lives. Through creative use of video, 3D and illustrations, the Washington Post shows us why this part of the river has claimed so many lives.</p>
+						<p>The Washington Post graphics desk explored the part of the Potomac River known as Great Falls, in a beautiful and creative interactive feature. This part of the Potomac is deceptively dangerous, as it's not the white water that makes it so deadly. It's the dangers that lie below the surface that have cost lives. Through creative use of video, 3D and illustrations, the Washington Post shows us why this part of the river has claimed so many lives.</p>
 
-					<p>This graphic strikes a chord with me as a fly fisherman, and somebody who is familiar with the dangers of rivers. Through really gorgeous storytelling, the Post takes something that is difficult to 'see' – currents below the surface of water – and illustrates them in a compelling fashion. What I particularly value about this graphic is the combination of a really important story, with original and beautiful storytelling. </p>
+						<p>This graphic strikes a chord with me as a fly fisherman, and somebody who is familiar with the dangers of rivers. Through really gorgeous storytelling, the Post takes something that is difficult to 'see' – currents below the surface of water – and illustrates them in a compelling fashion. What I particularly value about this graphic is the combination of a really important story, with original and beautiful storytelling. </p>
 		
 			
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="HitRecord">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="HitRecord">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#HitRecord">
-						<div class="project-image-wrap">
-						<img src="img/content/discover/interactive-landscape/web/hitrecord.jpg" alt="hitrecord">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>2010</small>
-							<h2>hitRECord:   </h2>
+					<header class="project-header" id="">
+						<a class="local-link" href="#HitRecord">
+							<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/hitrecord.jpg" alt="hitrecord">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>2010</small>
+								<h2>hitRECord:   </h2>
 					
 									
+								</div>
 							</div>
-						</div>
-					</a>
-					<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org &rarr;</a>
-				</header>
+						</a>
+						<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org &rarr;</a>
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 					 
-					Selected by Michel Reilhac, Story Architect, MÉLANGE
-					Founded and owned by actor and director Joseph Gordon-Levitt 
+						Selected by Michel Reilhac, Story Architect, MÉLANGE
+						Founded and owned by actor and director Joseph Gordon-Levitt 
 
-					<p>A shared platform where you can upload any content you are willing to let people listen to, read or watch while at the same time letting everybody free to use it as raw material for mashing it up in any way they want.</p>
+						<p>A shared platform where you can upload any content you are willing to let people listen to, read or watch while at the same time letting everybody free to use it as raw material for mashing it up in any way they want.</p>
 
-					<p>Interesting for its shared content platform and open source but also for how the creators clearly state the terms of agreement in an effort to fully recognize the shared value of authorship. It is candid and straightforward in its way of presenting the service and the simple fun of it all.</p>
+						<p>Interesting for its shared content platform and open source but also for how the creators clearly state the terms of agreement in an effort to fully recognize the shared value of authorship. It is candid and straightforward in its way of presenting the service and the simple fun of it all.</p>
 					
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="ListenToWikipedia">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="ListenToWikipedia">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#ListenToWikipedia">
-						<div class="project-image-wrap">
-						<img src="img/content/discover/interactive-landscape/web/listentowikipedia.jpg" alt="listentowikipedia">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>July 2013</small>
-							<h2>LISTEN TO WIKIPEDIA   </h2>
+					<header class="project-header" id="">
+						<a class="local-link" href="#ListenToWikipedia">
+							<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/listentowikipedia.jpg" alt="listentowikipedia">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>July 2013</small>
+								<h2>LISTEN TO WIKIPEDIA   </h2>
 					
 									
+								</div>
 							</div>
-						</div>
-					</a>
-					<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg &rarr;</a>
-				</header>
+						</a>
+						<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg &rarr;</a>
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 					 
-					Selected by Malika Zouhali-Worrall, a British journalist and documentarian & David Osit , a commercial and documentary director, editor and composer
-					Built by Stephen LaPorte and Mahmoud Hashemi.
+						Selected by Malika Zouhali-Worrall, a British journalist and documentarian & David Osit , a commercial and documentary director, editor and composer
+						Built by Stephen LaPorte and Mahmoud Hashemi.
 					
 
-					Description of the project:
-					<p>An interactive visualization of Wikipedia edits, in real-time: each edit is mapped as a circle accompanied by a string or bell sound. The color of the circle indicates whether an edit is made by an anonymous user (green), a bot (purple) or a registered user (white); while the bell sound signifies an addition to a Wikipedia entry, and a string sound signifies a subtraction; the page's title appears briefly in the middle of each circle.</p>
+						Description of the project:
+						<p>An interactive visualization of Wikipedia edits, in real-time: each edit is mapped as a circle accompanied by a string or bell sound. The color of the circle indicates whether an edit is made by an anonymous user (green), a bot (purple) or a registered user (white); while the bell sound signifies an addition to a Wikipedia entry, and a string sound signifies a subtraction; the page's title appears briefly in the middle of each circle.</p>
 					
-					Presentation of the reasons behind liking it:
-					<p>This is quite simply one of the most beautiful things we've ever seen! But apart from that, we also love the fact that you can engage as much as you want with it: it's an intriguing visualization of worldwide knowledge and real-time activity that draws you into interacting with it. (What major addition was just made to the “highest grossing Filipino films” page? What kind of an edit war is happening right now over the “Maccabiah Sports” page?) And yet at the same time it's an absolutely mesmerizing visual and aural poem that you can just sit back, space out and enjoy. </p>
-					<p>All of which to say, we've both spent a lot of time staring into its depths...</p>
+						Presentation of the reasons behind liking it:
+						<p>This is quite simply one of the most beautiful things we've ever seen! But apart from that, we also love the fact that you can engage as much as you want with it: it's an intriguing visualization of worldwide knowledge and real-time activity that draws you into interacting with it. (What major addition was just made to the “highest grossing Filipino films” page? What kind of an edit war is happening right now over the “Maccabiah Sports” page?) And yet at the same time it's an absolutely mesmerizing visual and aural poem that you can just sit back, space out and enjoy. </p>
+						<p>All of which to say, we've both spent a lot of time staring into its depths...</p>
 					
 					
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="DragonCancer">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="DragonCancer">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#DragonCancer">
-						<div class="project-image-wrap">
-							<img src="img/content/discover/interactive-landscape/web/dragoncancer.jpg" alt="dragoncancer">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>TBD</small>
-							<h2>THAT DRAGON, CANCER   </h2>
+					<header class="project-header" id="">
+						<a class="local-link" href="#DragonCancer">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/web/dragoncancer.jpg" alt="dragoncancer">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>TBD</small>
+								<h2>THAT DRAGON, CANCER   </h2>
 					
 									
+								</div>
 							</div>
-						</div>
-					</a>
-					<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com &rarr;</a>
-				</header>
+						</a>
+						<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com &rarr;</a>
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 	
-					Selected by Malika Zouhali-Worrall, a British journalist and documentarian &amp; David Osit, a commercial and documentary director, editor and composer
-					Created by Ryan Green
+						Selected by Malika Zouhali-Worrall, a British journalist and documentarian &amp; David Osit, a commercial and documentary director, editor and composer
+						Created by Ryan Green
 
-					<p>As Ryan Green, the creator of the project describes it: That Dragon, Cancer is an adventure game that acts as a living painting; a poem; an interactive retelling of Ryan and his wife’s experience raising their son Joel, a 4-year-old currently fighting his third year of terminal cancer. Players relive memories, share heartache, and discover the hope that can be found in the face of death.</p>
-					<p>Full disclosure, we also happen to be making a short film, Thank You for Playing, about Ryan, his family and the process of creating this remarkable game.</p>
+						<p>As Ryan Green, the creator of the project describes it: That Dragon, Cancer is an adventure game that acts as a living painting; a poem; an interactive retelling of Ryan and his wife’s experience raising their son Joel, a 4-year-old currently fighting his third year of terminal cancer. Players relive memories, share heartache, and discover the hope that can be found in the face of death.</p>
+						<p>Full disclosure, we also happen to be making a short film, Thank You for Playing, about Ryan, his family and the process of creating this remarkable game.</p>
 					
-					<p>The project hasn’t been released yet, but we’ve played a demo of That Dragon, Cancer, and seen early renderings of additional scenes. It’s a stunning and heartbreaking endeavor, incredible as much for its raw, emotional honesty, as for its surreal visual expression of the psychological impact of raising a child that is terminally ill. The project also demonstrates the emotional power of interactivity – we’ve watched people play the simple ten-minute demo, and it’s been remarkable to see the depth of emotion and empathy it engenders every time. </p>
+						<p>The project hasn’t been released yet, but we’ve played a demo of That Dragon, Cancer, and seen early renderings of additional scenes. It’s a stunning and heartbreaking endeavor, incredible as much for its raw, emotional honesty, as for its surreal visual expression of the psychological impact of raising a child that is terminally ill. The project also demonstrates the emotional power of interactivity – we’ve watched people play the simple ten-minute demo, and it’s been remarkable to see the depth of emotion and empathy it engenders every time. </p>
 					
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="Cowbird">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="Cowbird">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#Cowbird">
-						<div class="project-image-wrap">
-							<img src="img/content/discover/interactive-landscape/web/cowbird.jpg" alt="cowbird">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>December 2011</small>
-							<h2>Cowbird: Online human endeavor   </h2>
+					<header class="project-header" id="">
+						<a class="local-link" href="#Cowbird">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/web/cowbird.jpg" alt="cowbird">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>December 2011</small>
+								<h2>Cowbird: Online human endeavor   </h2>
 					
 										
+								</div>
 							</div>
-						</div>
-					</a>
-					<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com &rarr;</a>
-				</header>
+						</a>
+						<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com &rarr;</a>
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 					 					
-					Selected by Mike Robbins, Creative Technologist at Helios Design Labs
-					Founded by Jonathan Harris
+						Selected by Mike Robbins, Creative Technologist at Helios Design Labs
+						Founded by Jonathan Harris
 
-					Description:
+						Description:
 
-					<p>Cowbird is a participatory media project that asks its audience to tell stories about life, to become members in what is self described as a "public library of human experience". Lofty ideals indeed, but ...</p>
+						<p>Cowbird is a participatory media project that asks its audience to tell stories about life, to become members in what is self described as a "public library of human experience". Lofty ideals indeed, but ...</p>
 
-					<p>What makes it special for me?</p>
+						<p>What makes it special for me?</p>
 
-					<p>Cowbird is a testament to simplicity on all levels, from what it asks of its creators to what it asks of its audience. From the way it looks, to the way it is built, to the stories it offers, to the connections it makes between these stories. And so often with simplicity comes truth.</p>		
+						<p>Cowbird is a testament to simplicity on all levels, from what it asks of its creators to what it asks of its audience. From the way it looks, to the way it is built, to the stories it offers, to the connections it makes between these stories. And so often with simplicity comes truth.</p>		
 					
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="Highrise">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="Highrise">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#Highrise">
-						<div class="project-image-wrap">
-							<img src="img/content/discover/interactive-landscape/web/highrise.jpg" alt="highrise">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>2009</small>
-							<h2>Highrise: Cross media storytelling   </h2>
+					<header class="project-header" id="">
+						<a class="local-link" href="#Highrise">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/web/highrise.jpg" alt="highrise">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>2009</small>
+								<h2>Highrise: Cross media storytelling   </h2>
 					
 										
+								</div>
 							</div>
-						</div>
-					</a>
-					<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca &rarr;</a>
-				</header>
+						</a>
+						<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca &rarr;</a>
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 					 
 					
-					Selected by Mike Robbins, Creative Technologist at Helios Design Labs
-					Produced by the NFB and the New York Times
+						Selected by Mike Robbins, Creative Technologist at Helios Design Labs
+						Produced by the NFB and the New York Times
 
-					<p>Description:</p>
+						<p>Description:</p>
 
-					<p>Highrise in an epic  multi-year, multi-platform documentary project about urban vertical living around the world created by Canadian filmmaker Kat Cizek and the National Film Board of Canada. It's amazing how few countries in the world don't have high-rises. It's also amazing all the different ways of perception that arise when we look at the world through the eyes of their dwellers.
-					</p>
-					<p>What makes it special to me:</p>
+						<p>Highrise in an epic  multi-year, multi-platform documentary project about urban vertical living around the world created by Canadian filmmaker Kat Cizek and the National Film Board of Canada. It's amazing how few countries in the world don't have high-rises. It's also amazing all the different ways of perception that arise when we look at the world through the eyes of their dwellers.
+						</p>
+						<p>What makes it special to me:</p>
 
-					<p>Highrise is paradox of sorts. Over the years, it has shifted gears, adapted to opportunities, changed scope, but all the time remaining completely focused. There is not one piece that doesn't belong to one another, whether it exists as a web experience, physical installation, art show in public spaces, performance art, op-ed article. I also think it’s like punk rock, in that the perfect sense it makes, and its vitality, and its inherent simplicity has inspired many others to take up camera and/or keyboard and go down their own paths of interactive storytelling.</p>
+						<p>Highrise is paradox of sorts. Over the years, it has shifted gears, adapted to opportunities, changed scope, but all the time remaining completely focused. There is not one piece that doesn't belong to one another, whether it exists as a web experience, physical installation, art show in public spaces, performance art, op-ed article. I also think it’s like punk rock, in that the perfect sense it makes, and its vitality, and its inherent simplicity has inspired many others to take up camera and/or keyboard and go down their own paths of interactive storytelling.</p>
 					
 					
-				</section>
+					</section>
 		
-			</article>
-		</li>
-		<li class="project anchor clearfix" id="PapersPlease">
-			<article>
+				</article>
+			</li>
+			<li class="project anchor clearfix Web" id="PapersPlease">
+				<article>
 
-				<header class="project-header" id="">
-					<a class="local-link" href="#PapersPlease">
-						<div class="project-image-wrap">
-							<img src="img/content/discover/interactive-landscape/web/papersplease.jpg" alt="papersplease">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>Available in Beta now</small>
-							<h2>Papers, Please   </h2>				
-						</div>
-						</div>
-					</a>
-					<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com &rarr;</a>
-				</header>
+					<header class="project-header" id="">
+						<a class="local-link" href="#PapersPlease">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/web/papersplease.jpg" alt="papersplease">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Available in Beta now</small>
+								<h2>Papers, Please   </h2>				
+							</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com &rarr;</a>
+					</header>
 			
-				<section class="project-content">
+					<section class="project-content">
 					 
 					
 					
-					Selected by Nicholas Fortugno, Game Designer and Educator, CCO of Playmatics LLC
-					Designer: Lucas Pope
+						Selected by Nicholas Fortugno, Game Designer and Educator, CCO of Playmatics LLC
+						Designer: Lucas Pope
 					
 
-					<p>Description: </p>
-					<p>A self-proclaimed dystopian document thriller, Papers, Please puts you in the role of a nameless border guard for the fictional communist country Arstotzka checking immigrants as they enter the country and deciding who to admit, reject, and arrest among the asylum seekers, smugglers, diplomats, spies, and innocents.</p>
+						<p>Description: </p>
+						<p>A self-proclaimed dystopian document thriller, Papers, Please puts you in the role of a nameless border guard for the fictional communist country Arstotzka checking immigrants as they enter the country and deciding who to admit, reject, and arrest among the asylum seekers, smugglers, diplomats, spies, and innocents.</p>
 
-					<p>Reasons for Liking It:</p> 
-					<p>Papers, Please is the most important serious game of last year, and one of the most important of all time. Its strong political message about the power dynamics of bureaucracy and security is potent, and it is elegantly tied to a challenging and aesthetically appropriate core mechanic. This makes it a good game. What makes it exceptional is that is also a profound exercise in ethical decision making, challenging the player to make tough moral choices and confront his/her own values.</p>
+						<p>Reasons for Liking It:</p> 
+						<p>Papers, Please is the most important serious game of last year, and one of the most important of all time. Its strong political message about the power dynamics of bureaucracy and security is potent, and it is elegantly tied to a challenging and aesthetically appropriate core mechanic. This makes it a good game. What makes it exceptional is that is also a profound exercise in ethical decision making, challenging the player to make tough moral choices and confront his/her own values.</p>
 					
 					
-				</section>
+					</section>
 		
-			</article>
-		</li>	
-	</ul>
-	</section>
-	
-	<section class="clearfix" id="other">
-		<h2>Other</h2>
-		<ul class="projects">
-			<li class="project anchor clearfix" id="WOWAnOpera">
+				</article>
+			</li>
+			<li class="project anchor clearfix Other" id="WOWAnOpera">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#WOWAnOpera">
@@ -565,8 +551,8 @@
 								<div class="floating-text">
 								<small>Jan 2014 (Live)</small>
 								<h2>WOW, An Opera  </h2>
-						
-										
+			
+							
 								</div>
 							</div>
 						</a>
@@ -575,10 +561,10 @@
 
 					<section class="project-content">
 
-					
+		
 					Selected by: Aina Abodiun, Storyteller, strategist and futurist Category: Other
 					Created by Joe Diebes, Christian Hawkey and David Levine
-	
+
 					<strong>Description: </strong>
 					<p>WOW an Opera is the story of Milli Vanilli, the disgraced '90s German pop music duo, told as a Faustian bargain incorporating technology and music in a live experimental and non-linear format. Staged as an immersive experience, the opera combines elements of classical opera with a contemporary story. Reasons behind liking it: Technology and physical space are leveraged seamlessly to create a truly immersive experience in this opera. The sheer ingenuity of using the raw materials of a very operatic narrative to create a brand new experience of opera is brilliant. Because the very heart of the duo's story involves the technologically-enabled ruse of lip-syncing, technology is a very natural player in the structure of the story, and the creators exploit that division between the production of music and the faux performance to great effect. </p>
 =
@@ -586,7 +572,7 @@
 
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="EnjminBundle">
+			<li class="project anchor clearfix Other" id="EnjminBundle">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#EnjminBundle">
@@ -597,15 +583,15 @@
 								<div class="floating-text">
 								<small>2013</small>
 								<h2>ENJMIN BUNDLE   </h2>
-						
-								
+			
+					
 								</div>
 							</div>
 						</a>
 						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> http://enjmin-bundle.com/en/ &rarr;</a>			
 					</header>
 					<section class="project-content">
-				
+	
 					Selected by Arnaud Colinart, AGAT Films &Cie / EX NIHILO
 
 					<p>The ENJMIN, « L’École Nationale du Jeu et des Médias Interactifs Numériques » is the only public school in Europe specialized in interactive media and video games.</p>
@@ -618,11 +604,11 @@
 					<p>The program of the school includes a six month internship. A lot of students are interns abroad, often in Canada, at Ubisoft Montreal.</p>
 					<p>The ENJMIN school and specially the game bundle is a great place to find talented art directors, game designers, sound designers or production managers.</p>	
 
-						
+			
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="BlabDroid">
+			<li class="project anchor clearfix Other" id="BlabDroid">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#BlabDroid">
@@ -633,24 +619,24 @@
 								<div class="floating-text">
 								<small>11/24/2012</small>
 								<h2>BlabDroid   </h2>
-						
-										
+			
+							
 								</div>
 							</div>
 							</a>
 						<a class="project-url" href="http://blabdroid.com"target=_blank> http://blabdroid.com &rarr;</a>
 					</header>
 					<section class="project-content">
-				
+	
 				Selected by: Brent Hoff, Director of programming at IFP's New Media Centre in New York
 				Created by Alexander Reben and Brent Hoff.
-				
+	
 				<p>BlabDroid is making the world’s first documentary shot entirely by robots: Because people will reveal themselves to robots in ways they never would to strangers!</p>
-						
+			
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="BetaTheGame">
+			<li class="project anchor clearfix Other" id="BetaTheGame">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#BetaTheGame">
@@ -673,8 +659,8 @@
 					</section>
 				</article>
 			</li>
+		
 		</ul>
-	</section>
 	
 </section>
 

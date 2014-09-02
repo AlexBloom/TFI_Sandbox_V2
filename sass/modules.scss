@@ -522,76 +522,175 @@ $button-size: 2em;
 	}
 }
 
-.share{
-	position:absolute;
-	top:6.5em;
-	//position:fixed;
-	right:0;
-	//top:40%;
-	//z-index:300;
-	@media screen and (min-width:(em(800))){
-		//right:2em;
+.filters{
+	width:100%;
+	//background-color:$medium-grey;
+	margin:0;
+	padding:0;
+	dt{
+		display:none;
+		padding:.5em 1em;
 	}
-	.icon-share{
-		display:block;
-		padding:1em;
-		color:$white;
-		background-color:$dark-grey;
-		&:active{
-			background-color:$action-color;
+	dd{
+		
+		float:left;
+		width:30%;
+		margin:0;
+		padding:0;
+	}
+	dd{
+		a{
+			background-color:$white;
+			border-right:1px solid $medium-grey;
+			color:$blue;
+			display:block;
+			text-decoration:none;
+			padding:.5em 1em;
+			margin:0;
+			//border-radius:.25em;		
 		}
 	}
-	ul{
-		display:none;
-		background:rgba(0,0,0,0.5);
+	
+	@media screen and (min-width:(em(600))){
+		dt{
+			float:left;
+		}
+		dd{
+			float:left;
+			width:auto;
+			margin:0;
+		
+		}
+	}
+}
+.filter-link.on{
+	background-color:$black;
+	.quantity{
+		color:$medium-grey;
+	}
+}
+.quantity{
+	color:$medium-grey;
+}
+
+.share{
+	width:100%;
+	margin:1em auto;
+	padding:0;
+	max-width:(em(350));
+	@media screen and (min-width:(em(800))){
+		
+	}
+	
+	// Open / Close Button
+	#share-engage{
+		background-color:$white;
+		border:1px solid $light-grey;
+		width:100%;
+		margin:0;
+		padding:.75em 0;
+		color:$dark-grey;
+		&:hover,&:active{
+			color:$blue;
+			
+		}
+		.icon-share{
+			padding: .5em;
+			background-color:none;
+			//cursor:pointer;
+		    -webkit-user-select: none!important;  /* Chrome all / Safari all */
+		    -moz-user-select: none;     /* Firefox all */
+		    -ms-user-select: none; 
+			&:before{
+			    -webkit-user-select: none!important;  /* Chrome all / Safari all */
+			    -moz-user-select: none;     /* Firefox all */
+			    -ms-user-select: none; 
+			}
+		}
+	}
+	
+	#share-buttons{
+		display:block;
+		width:100%;
 		padding:0;
 		margin:0;
+		max-height:auto;
+		@include quarter-second-transition;
 	}
+	
+	#share-buttons .closed{
+		max-height:0;
+		overflow:hidden;
+	}
+	
+	#share-buttons .open{
+		
+		
+	}
+	
+	// Share Buttons List
 	li{
 		position:relative;
-		width:3em;
-		height:3em;
-		border:1px solid white;
-		span{
-			position:absolute;
-			display:block;
-			color:$white;
-			padding:1em;
-			top:0;
-			bottom:0;
-			cursor:pointer;
-		}
-		.action{
-			z-index:1;
-			right:3em;
-			display:block;
-			width:0;
-			transition:.2s;
+		float:left;
+		text-align:center;
+		padding:0;
+		cursor:pointer;
+		background-color:$white;
+		
+		div{
+			border:1px solid $light-grey;
+			padding:.75em 0;
+			margin:0;
 			text-align:center;
-			line-height:1em;
-			box-shadow: 0 0 0 2px $white;
-			opacity:0;
-			overflow:hidden;
+			width:100%;
 		}
 		.icon{
-			z-index:2;
-			width:1em;
-			text-align:center;
+			display:inline;
+			cursor:pointer;
 		}
-		.facebook{background-color:#3b5998;color:$white;}
-		.twitter{background-color:#55acee;color:$white;}
-		.google{background-color:#dd4b39;color:$white;}
-	//		&:hover, &:active{
-	//			.action{
-	//				right:3em;
-	//				opacity:1;
-	//				width:4em;
-	//			}
-	//			.icon-facebook{background-color:#3b5998;color:$white;}
-	//			.icon-twitter{background-color:#55acee;color:$white;}
-	//			.icon-google{background-color:#dd4b39;color:$white;}	
-	//		}
+
+		
 	}
+	
+	.one-third-first{
+		width:33%;
+	}
+			.facebook{
+				
+				color:#3b5998;
+				&:hover, &:active{
+					
+					background-color:#3b5998;
+					color:$white;
+				}
+			}
+	
+	.one-third-second{
+		width:34%;
+	}	
+			.twitter{
+				
+				color:#55acee;
+				&:hover, &:active{
+					
+					background-color:#55acee;
+					color:$white;
+				}
+			}
+	.one-third-third{
+		width:33%;
+	}
+			.google{
+				
+				color:#dd4b39;
+				&:hover, &:active{
+					
+					background-color:#dd4b39;
+					color:$white;
+				}
+			}
+			
+		
 }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
@@ -792,16 +891,7 @@ section{
 
 //Background Videos
 .background-video{
-	display:block;
-	//position:absolute;
-	//min-width:100%;
-	//min-height:100%;
-	//top:0;
-	//bottom:0;
-	//left:0;
-	//right:0;
-	
-	
+	display:block;	
 	position: absolute;
 	  bottom: 0px; 
 	  right: 0px; 
@@ -812,8 +902,6 @@ section{
 	  z-index: -1000; 
 	  overflow: hidden;
 	  background-color:$black;
-	
-	
 }
 
 

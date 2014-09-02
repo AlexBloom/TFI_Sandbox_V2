@@ -24,8 +24,8 @@
 				<!-- Enter Current Page Name as DT Item Here -->
 				<dt> Intro <span class="icon icon-down">  <span> </dt>
 				<dd><a href="#"> Intro </a> </dd>
-				<dd><a href="#Upcoming"> Upcoming Hacks </a> </dd>
-				<dd><a href="#Past"> Past Hacks </a> </dd>
+				<dd><a href="tribeca-hacks-past.php"> Upcoming Hacks </a> </dd>
+				<dd><a href="tribeca-hacks-upcoming.php"> Past Hacks </a> </dd>
 			<dl>
 			
 		</li>
@@ -36,9 +36,6 @@
 	<article class="clearfix">
 		<header>
 			<h1>Tribeca Hacks</h1>
-			<p class="intro">
-				An international series of intensive workshops that brings together content creators and technology specialists to increase understanding and broaden participation in the field of interactive storytelling.
-			</p>
 		</header>
 	
 
@@ -49,9 +46,8 @@
 			<ol class="clearfix">
 				<li><a href="#HackathonMentality">The Hackathon Mentality <em>Benjamin Hoguet</em></a></li>
 				<li><a href="#InnovationCollaboration">Innovation &amp; Collaboration <em>Neal Hartman</em> </a></li>
-				<li><strong><a href="#Upcoming"> Upcoming Hacks </a></strong></li>
-				<li><strong><a href="#Past"> Past Hacks </a></strong></li>
-				<li><strong><a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"> Tribeca Hacks Homepage &rarr; </a></strong></li>
+				<li><strong><a href="tribeca-hacks-past.php"> Upcoming Hacks </a></strong></li>
+				<li><strong><a href="tribeca-hacks-upcoming.php"> Past Hacks </a></strong></li>
 			</ol>
 			
 			
@@ -191,75 +187,6 @@
 			
 				</article>
 			</section>	
-			<section class="content" id="Upcoming">
-			
-
-				<h2>UPCOMING EVENTS</h2>
-				<p>
-					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage.</a> for more info.
-				</p>
-				
-					<ul class="two-columns clearfix">
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-					</ul>
-			
-			</section>
-			<section class="content" id="Past">
-			
-
-				<h2>PAST EVENTS</h2>				
-					<ul class="two-columns clearfix">
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-					</ul>			
-			</section>
 	</div>
 	
 	</article>

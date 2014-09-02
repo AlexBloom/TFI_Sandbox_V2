@@ -21,7 +21,7 @@
 		<li>
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> Select Year <span class="icon-down"> <span> </dt>
+				<dt> 2014 <span class="icon-down"> <span> </dt>
 				<dd><a href="tfi-new-media-fund-2014"> 2014 </a> </dd>
 				<dd><a href="tfi-new-media-fund-2013"> 2013 </a> </dd>
 				<dd><a href="tfi-new-media-fund-2012"> 2012 </a> </dd>
@@ -38,18 +38,167 @@
 	<header>
 		<h1>TFI New Media Fund</h1>
 		
-		<p class="intro">Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and Web. For projects based anywhere in advanced development or beyond. Grants range from $50,000 to $100,000.</p>
-		<p><strong>Submissions open September 5</strong></p>
+		<p class="intro">2014 Grantees and Jurors</p>	
 		
 	</header>
 </article>
-	<section class="clearfix" id="TFI-New-Media-Fund">		
-	
-		<ul class="three-columns clearfix">
-			<li><a href="tfi-new-media-fund-2014"target=_blank> <h2>2014</h2> </a> </li>
-			<li><a href="tfi-new-media-fund-2013"target=_blank> <h2>2013</h2> </a> </li>
-			<li><a href="tfi-new-media-fund-2012"target=_blank> <h2>2012</h2> </a> </li>
+	<section class="clearfix" id="2014">		
+		
+		<ul class="projects">
+			<li class="project anchor clearfix" id="test-project">
+				<article>
+					<header class="project-header" id="">
+						<a class="local-link" href="#test-project">
+							<div class="project-image-wrap">
+								<img src="img/content/prototype/18days.jpg" alt="Project Image">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<h2>Title of Project</h2>
+								<p> Project logline / description of project. </p>			
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="#">Project URL &rarr;</a>				
+					</header>
+					<section class="project-content">
+
+						<p>Project Text</p>
+					
+						<strong>Questions </strong>
+
+						<p>Answers and such.</p>
+					
+						<h3>Team Leaders</h3>
+						<ul class="team-leaders clearfix">
+							<li>
+								<div class="person-portrait">
+									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+								</div>
+								<div class="person-info">
+									<h4 class="name"> 
+										 <strong>JIGAR MEHTA</strong> 
+										 <br>
+										 Director/Producer/CO-Creator
+									</h4>
+									<p> Jigar Mehta is responsible for developing and managing the project’s story content. Jigar is a documentary filmmaker and a journalist. He was a John S. Knight Fellow at Stanford University,...</p>
+								</div>
+								
+							</li>
+							<li>
+								<div class="person-portrait">
+									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+								</div>
+								<div class="person-info">
+									<h4 class="name"> 
+										 <strong>YASMIN ELAYAT </strong> 
+										 <br>
+										 TECHNOLOGIST/CO-CREATOR
+									</h4>
+									<p> Yasmin Elayat is the lead technologist for the project, primarily responsible for developing the design &amp; vision for 18DaysinEgypt.com and leading the development team. Yasmin is an interaction...</p>
+								</div>
+								
+							</li>
+						</ul>
+					
+						<h3>Additional Credits</h3>
+						<ul>
+							<li> <strong> Firstname Lastname </strong> Role and/or Responsibilities </li>
+							<li> <strong> Firstname Lastname </strong> Role and/or Responsibilities </li>
+							<li> <strong> Firstname Lastname </strong> Role and/or Responsibilities </li>
+						</ul>
+			
+					</section>
+				</article>
+			</li>
+			<li class="project anchor clearfix" id="18Days">
+				<article>
+					<header class="project-header" id="">
+						<a class="local-link" href="#18Days">
+							<div class="project-image-wrap">
+								<img src="img/content/prototype/18days.jpg" alt="Project Image">
+								<img src="img/content/prototype/18days.jpg" alt="18days">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<h2>18 Days in Egypt</h2>
+								<p> 18DaysinEgypt.com is an interactive documentary project that empowers Egyptians to preserve the incredible social media they created--their on-the-ground, eye-witness accounts--and to add their voice to an important story. </p>			
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>				
+					</header>
+					<section class="project-content">
+
+						<p>Project Text</p>
+					
+						<strong>Questions </strong>
+
+						<p>Answers and such.</p>
+					
+						<h3>Team Leaders</h3>
+						<ul class="team-leaders clearfix">
+							<li>
+								<div class="person-portrait">
+									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+								</div>
+								<div class="person-info">
+									<h4 class="name"> 
+										 <strong>JIGAR MEHTA</strong> 
+										 <br>
+										 Director/Producer/CO-Creator
+									</h4>
+									<p> Jigar Mehta is responsible for developing and managing the project’s story content. Jigar is a documentary filmmaker and a journalist. He was a John S. Knight Fellow at Stanford University,...</p>
+								</div>
+								
+							</li>
+							<li>
+								<div class="person-portrait">
+									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+								</div>
+								<div class="person-info">
+									<h4 class="name"> 
+										 <strong>YASMIN ELAYAT </strong> 
+										 <br>
+										 TECHNOLOGIST/CO-CREATOR
+									</h4>
+									<p> Yasmin Elayat is the lead technologist for the project, primarily responsible for developing the design &amp; vision for 18DaysinEgypt.com and leading the development team. Yasmin is an interaction...</p>
+								</div>
+								
+							</li>
+						</ul>		
+
+						
+					
+					
+			
+					</section>
+				</article>
+			</li>
+			
 		</ul>
+	
+		<section class="jury" id="">
+			<h2>Meet The Jury</h2>
+			<ul class="jury-members clearfix">
+				<li>
+					<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+					<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
+				</li>
+				<li>
+					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
+					<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
+				</li>
+				<li>
+					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
+					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+				</li>
+				<li>
+					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
+					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+				</li>
+			</ul>
+		</section>
 		
 		<nav class="share">
 			<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
