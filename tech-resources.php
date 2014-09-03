@@ -29,14 +29,14 @@
 			<nav class="sticky">
 				<h4>Sections</h4>	
 				<ol class="clearfix">
-					<li><a href="#TFIResources">Tools and Platforms <br> <em>Tribeca Film Institute</em></a></li>
-					<li><a href="#ABloomResources">Code Resources <br> <em>Alex Bloom</em> </a></li>
+					<li><a class="scrollnav-link" href="#TFIResources"><strong> Tools and Platforms</strong>  <br>Tribeca Film Institute</a></li>
+					<li><a class="scrollnav-link" href="#ABloomResources"><strong> Code Resources</strong>  <br>Alex Bloom </a></li>
 				</ol>
 			</nav>
 			&nbsp;
 		</div>
 		<div class="right-column clearfix">
-			<section class="content" id="TFIResources">
+			<section class="content anchor" id="TFIResources">
 				<h2>Tools and Platforms</h2>
 				<p>Recommended by <strong>Tribeca Film Institute</strong></p>
 				<ul>
@@ -67,9 +67,9 @@
 					</li>
 				</ul>
 			</section>
-			<section class="content" id="ABloomResources">
+			<section class="content anchor" id="ABloomResources">
 				<h2>Code Resources</h2>
-				<p>Recommended by <strong>Alex Bloom</strong> Interaction Designer</p>
+				<p>Recommended by <strong>Alex Bloom,</strong> Interaction Designer</p>
 
 				<h3>Design Tools / Interface Prototyping / Before Code</h3>
 				<ul>	

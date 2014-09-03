@@ -28,20 +28,34 @@
 			<nav class="sticky">
 				<h4>Sections</h4>	
 				<ol class="clearfix">
-					<li><a href="#FundingTimeline">Funding Opportunities</a></li>
-					<li><a href="#HowToRaiseFunds">How To Raise Funds <em>Laura Bandel</em> </a></li>
+					<li><a class="scrollnav-link" href="#FundingTimeline">Funding Opportunities</a>
+						<ul>
+							<li> <a class="scrollnav-link" href="#January "> January</a> </li>
+							<li> <a class="scrollnav-link" href="#February "> February</a> </li>
+							<li> <a class="scrollnav-link" href="#March "> March </a> </li>
+							<li> <a class="scrollnav-link" href="#April "> April</a> </li>
+							<li> <a class="scrollnav-link" href="#June "> June </a> </li>
+							<li> <a class="scrollnav-link" href="#July "> July </a> </li>
+							<li> <a class="scrollnav-link" href="#September "> September</a> </li>
+							<li> <a class="scrollnav-link" href="#October "> October</a> </li>
+							<li> <a class="scrollnav-link" href="#November "> November</a> </li>
+							<li> <a class="scrollnav-link" href="#December "> December</a> </li>
+						</ul>
+					
+					</li>
+					<li><a class="scrollnav-link" href="#HowToRaiseFunds">How To Raise Funds <em>Laura Bandel</em> </a></li>
 				</ol>
 			</nav>
 			&nbsp;
 		</div>
 		<div class="right-column clearfix">	
-		<section class="content" id="FundingTimeline">
+		<section class="content anchor" id="FundingTimeline">
 			
 			<h2>FUNDING OPPORTUNITIES</h2>
 			<p>Please note that we decided to organize funding opportunities by months, based on the date when these funds usually open, however it may vary from one year to the other so please double-check the funder’s website if you are interested in a particular grant.</p>
 
 			<ul class="months">
-				<li>
+				<li id="January">
 				<h3>JANUARY</h3>
 				
 				<h5>The Fledgling Fund—Grant Cycle 1</h5> 
@@ -53,7 +67,7 @@
 				<br><a href="http://arts.gov "target=_blank>arts.gov</a>
 				</li>
 				
-				<li>
+				<li id="February">
 				<h3>FEBRUARY</h3>
 				<h5>Creative Capital</h5>
 				<br> Supporting artists working across a range of media
@@ -64,14 +78,14 @@
 				<br><a href="http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf"> http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf
 				</li>
 				
-				<li>
+				<li id="March">
 				<h3>MARCH</h3>
 				<h5>TFI New Media Fund</h5>
 				<br> Funding interactive non-fiction projects around social issues
 				<br><a href="http://tribecafilminstitute.org/filmmakers/newmedia "target=_blank>tribecafilminstitute.org/filmmakers/newmedia</a>
 				</li>
 				
-				<li>
+				<li id="April">
 				<h3>APRIL </h3>
 				<h5>POV</h5>
 				<br> Funding co-production for digital documentaries from independent media creators and technologists.
@@ -82,18 +96,14 @@
 				<br><a href="http://itvs.org/funding"target=_blank>itvs.org/funding </a>
 				</li>
 				
-				<li>
-					<h3>MAY</h3>
-				</li>
-				
-				<li>
+				<li id="June">
 				<h3>JUNE </h3>
 				<h5>National Endowment for the Arts—Grant Cycle 2</h5> 
 				<br> Funding organizations working in interactive media
 				<br><a href="http://arts.gov  "target=_blank>arts.gov</a>
 				</li>
 				
-				<li>
+				<li id="July">
 				<h3>JULY</h3> 
 				<h5>The Fledgling Fund—Grant Cycle 2</h5>
 				<br> Providing grants that support outreach and audience engagement
@@ -104,31 +114,27 @@
 				<br><a href="http://www.neh.gov/grants/public/media-projects-development-grants"target=_blank>http://www.neh.gov/grants/public/media-projects-development-grants</a>
 				</li>
 				
-				<li>
-				<h3>AUGUST</h3>
-				</li>
-				
-				<li>
+				<li id="September">
 				<h3>SEPTEMBER</h3>
 				<h5>Cal Humanities</h5>
 				<br> Supporting new media productions that enhance our understanding of California and its cultures. 
 				<br><a href="http://www.calhum.org/grants/california-documentary-project-grant"target=_blank> http://www.calhum.org/grants/california-documentary-project-grant</a>
 				</li>
 				
-				<li>
+				<li id="October">
 				<h3>OCTOBER</h3>
 				<h5>Eyebeam Creative Residency (for residency in March)</h5>
 				<br> Supporting the creative research, production and presentation of initiatives querying art, technology and culture. <br><a href="http://eyebeam.org/creative-residencies-faq  "target=_blank> http://eyebeam.org/creative-residencies-faq</a>
 				</li>
 				
-				<li>
+				<li id="November">
 				<h3>NOVEMBER</h3>
 				<h5>Electronic Media + Film </h5>
 				<br> Supporting non-profit organizations located in New York State for in-person appearances by independent artists working in moving image media and sound art, including video, digital and computer-based works.
 				 <br><a href="http://www.earts.org/emf  "target=_blank>http://www.earts.org/emf</a>
  				</li>
 				
- 				<li>
+ 				<li id="December">
 				<h3>DECEMBER</h3>
 				<h5>Jerome Foundation</h5>
 				<br> Offering grants to not-for-profit arts organizations and to fiscal sponsors applying on behalf of artists for the creation, development, and production of new works by emerging artists in New York City and Minnesota.
@@ -145,7 +151,7 @@
 			</ul>
 			
 		</section>
-		<section class="content" id="HowToRaiseFunds">
+		<section class="content anchor" id="HowToRaiseFunds">
 			<h2>How To Raise Funds?</h2>
 			<p><h5>By Laura Bandel,</h5> Director of Institutional Development, at Tribeca Film Innstitute</p>
 

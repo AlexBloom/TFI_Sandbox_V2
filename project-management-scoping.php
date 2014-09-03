@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,7 +53,7 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#">Scoping <br> <em>Mike Knowlton</em> </a></li>
+							<li><a href="#"><strong>Scoping</strong> <br> Mike Knowlton </a></li>
 						</ol>
 					</nav>
 					&nbsp;

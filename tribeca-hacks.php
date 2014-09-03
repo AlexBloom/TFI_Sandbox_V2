@@ -47,11 +47,11 @@
 		<nav class="sticky">
 			<h4>Sections</h4>	
 			<ol class="clearfix">
-				<li><a href="#HackathonMentality">The Hackathon Mentality <em>Benjamin Hoguet</em></a></li>
-				<li><a href="#InnovationCollaboration">Innovation &amp; Collaboration <em>Neal Hartman</em> </a></li>
-				<li><strong><a href="#Upcoming"> Upcoming Hacks </a></strong></li>
-				<li><strong><a href="#Past"> Past Hacks </a></strong></li>
-				<li><strong><a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"> Tribeca Hacks Homepage &rarr; </a></strong></li>
+				<li><a class="scrollnav-link" href="#HackathonMentality">The Hackathon Mentality <em>Benjamin Hoguet</em></a></li>
+				<li><a class="scrollnav-link" href="#InnovationCollaboration">Innovation &amp; Collaboration <em>Neal Hartman</em> </a></li>
+				<li><strong><a class="scrollnav-link" href="#Upcoming"> Upcoming Hacks </a></strong></li>
+				<li><strong><a class="scrollnav-link" href="#Past"> Past Hacks </a></strong></li>
+				<li><strong><a class="scrollnav-link" href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"> Tribeca Hacks Homepage &rarr; </a></strong></li>
 			</ol>
 			
 			
@@ -60,7 +60,7 @@
 	</div>
 	
 	<div class="right-column clearfix">
-			<section class="content" id="HackathonMentality">
+			<section class="content anchor" id="HackathonMentality">
 				<article>
 				
 						<img src="img/content/participate/tribecahacks/Benjamin--The-Hackathon-Mentality--Image.jpg" alt="Benjamin The Hackathon Mentality Image">
@@ -176,7 +176,7 @@
 				<p>If we keep sharing resources and practical lessons as a community, we can identify more and more of this best practices and <strong>refine this collaborative production process that I feel is absolutely necessary to make our interactive storytelling experimentation field into a full-fledged industry</strong> where we can all thrive telling the stories we love.</p>
 				</article>
 			</section>
-			<section class="content" id="InnovationCollaboration">
+			<section class="content anchor" id="InnovationCollaboration">
 				<article>
 			
 				<h2>Innovation &amp; Collaboration</h2>
@@ -191,7 +191,7 @@
 			
 				</article>
 			</section>	
-			<section class="content" id="Upcoming">
+			<section class="content anchor" id="Upcoming">
 			
 
 				<h2>UPCOMING EVENTS</h2>
@@ -228,7 +228,7 @@
 					</ul>
 			
 			</section>
-			<section class="content" id="Past">
+			<section class="content anchor" id="Past">
 			
 
 				<h2>PAST EVENTS</h2>				

@@ -138,7 +138,7 @@ $(function(){
         $('.anchor').each(function(){
             var $this = $(this),
             pos   = $this.offset().top - $(window).scrollTop();
-            if(pos < 50 ){
+            if(pos < 100 ){
                 $('.scrollnav-link').removeClass('current');
                 $('.scrollnav-link[href="#'+$this.attr('id')+'"]').addClass('current');
             }
@@ -185,6 +185,26 @@ $('#IL-Other').click(function() {
 	$('.Other').removeClass('hidden');
 	$(this).addClass('on');
 });	
+
+
+// Filter Map and List
+$('#Festival-List').addClass('on');
+$('#Map').addClass('hidden');
+
+$('#Festival-List').click(function() {
+	$('.filter-link').removeClass('on');
+	$('#Map').addClass('hidden');
+	$('#List').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
+$('#Festival-Map').click(function() {
+	$('.filter-link').removeClass('on');
+	$('#List').addClass('hidden');
+	$('#Map').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
 
 //SHARING
 

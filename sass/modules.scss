@@ -578,6 +578,7 @@ $button-size: 2em;
 	margin:1em auto;
 	padding:0;
 	max-width:(em(350));
+	border:1px solid $light-grey;
 	@media screen and (min-width:(em(800))){
 		
 	}
@@ -585,14 +586,12 @@ $button-size: 2em;
 	// Open / Close Button
 	#share-engage{
 		background-color:$white;
-		border:1px solid $light-grey;
 		width:100%;
 		margin:0;
 		padding:.75em 0;
 		color:$dark-grey;
 		&:hover,&:active{
 			color:$blue;
-			
 		}
 		.icon-share{
 			padding: .5em;
@@ -617,14 +616,11 @@ $button-size: 2em;
 		max-height:auto;
 		@include quarter-second-transition;
 	}
-	
 	#share-buttons .closed{
 		max-height:0;
 		overflow:hidden;
 	}
-	
 	#share-buttons .open{
-		
 		
 	}
 	
@@ -633,16 +629,17 @@ $button-size: 2em;
 		position:relative;
 		float:left;
 		text-align:center;
-		padding:0;
+		padding: 0;
 		cursor:pointer;
 		background-color:$white;
 		
 		div{
-			border:1px solid $light-grey;
-			padding:.75em 0;
-			margin:0;
+			//border:1px solid $light-grey;
+			padding:.25em 0;
+			margin:0 0 .5em 0;
 			text-align:center;
-			width:100%;
+			color:$dark-grey;
+			//width:100%;
 		}
 		.icon{
 			display:inline;
@@ -657,11 +654,10 @@ $button-size: 2em;
 	}
 			.facebook{
 				
-				color:#3b5998;
+				//
 				&:hover, &:active{
 					
-					background-color:#3b5998;
-					color:$white;
+					color:#3b5998;
 				}
 			}
 	
@@ -669,12 +665,13 @@ $button-size: 2em;
 		width:34%;
 	}	
 			.twitter{
+				border-right:1px solid $light-grey;
+				border-left:1px solid $light-grey;
 				
-				color:#55acee;
+				//
 				&:hover, &:active{
 					
-					background-color:#55acee;
-					color:$white;
+					color:#55acee;
 				}
 			}
 	.one-third-third{
@@ -682,75 +679,118 @@ $button-size: 2em;
 	}
 			.google{
 				
-				color:#dd4b39;
+				//
 				&:hover, &:active{
 					
-					background-color:#dd4b39;
-					color:$white;
+					color:#dd4b39;
 				}
 			}
 			
 		
 }
 
-/* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
-.scrollnav {
+.buttonlist{
+	text-align:center!important;
+	margin:1em 0;
+	padding:0;
+	background-color:$white;
+	@include drop-shadow;
 	
-	position:fixed;
-	left:0;
-	top:25%;
-	z-index:398;
-
-	ul {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    cursor: default;
+	a{
+		text-align:center;
+		display:block;
+		text-decoration:none;
+		border-right:1px solid $light-grey;
+		//width:100%;
+		padding:.75em 1.5em;
+		//margin:1em;
 	}
 	
-	li {
-    position: relative;
-    display: block;
-    margin: 3em 2em 3em 1.5em;
-    width: 1.2em;
-    height: 1.2em;
-    cursor: pointer;
-	box-shadow:0 0 0 2px rgba(0,0,0,.25);
-	background-color:rgba(0,0,0,.5);
-	border-radius:50%;
-	
-	.current{
-		box-shadow: inset 0 0 0 .75em $white;	
-	} 
-		a {
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
-	    outline: none;
-	    border-radius: 50%;
-	    background-color: #fff;
-	    background-color: rgba(255,255,255,0.3);
-	    text-indent: -999em;
-	    cursor: pointer; /* make the text accessible to screen readers */
-	    position: absolute;
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px $white;
-		-webkit-transition: box-shadow 0.3s ease;
-		transition: box-shadow 0.3s ease;
-		
-			&:active{
-			box-shadow: inset 0 0 0 .75em $white;
+	li{
+		width:25%;
+		text-align:center;
+		list-style-type:none;
+		float:left;
+		padding:0;
+		margin:0;
+		&:last-child{
+			a{
+				border:none;
 			}
-		
+			
 		}
-		
 	}
-	
-	
 }
+
+.buttonlist.three{
+	li{
+		width:33%;
+	}
+}
+
+/* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
+//.scrollnav {
+//
+//	position:fixed;
+//	left:0;
+//	top:25%;
+//	z-index:398;
+//
+//	ul {
+//    position: relative;
+//    display: inline-block;
+//    margin: 0;
+//    padding: 0;
+//    list-style: none;
+//    cursor: default;
+//	}
+//
+//	li {
+//    position: relative;
+//    display: block;
+//    margin: 3em 2em 3em 1.5em;
+//    width: 1.2em;
+//    height: 1.2em;
+//    cursor: pointer;
+//	box-shadow:0 0 0 2px rgba(0,0,0,.25);
+//	background-color:rgba(0,0,0,.5);
+//	border-radius:50%;
+//
+//	.current{
+//		//box-shadow: inset 0 0 0 .75em $white;
+//	}
+//		a {
+//	    top: 0;
+//	    left: 0;
+//	    width: 100%;
+//	    height: 100%;
+//	    outline: none;
+//	    border-radius: 50%;
+//	    background-color: #fff;
+//	    background-color: rgba(255,255,255,0.3);
+//	    text-indent: -999em;
+//	    cursor: pointer; /* make the text accessible to screen readers */
+//	    position: absolute;
+//		background-color: transparent;
+//		box-shadow: inset 0 0 0 2px $white;
+//		-webkit-transition: box-shadow 0.3s ease;
+//		transition: box-shadow 0.3s ease;
+//
+//			&:active{
+//			box-shadow: inset 0 0 0 .75em $white;
+//			}
+//
+//		}
+//
+//	}
+//
+//
+//}
+
+
+// Active Scroll Link Highlighting
+
+
 
 
 /* ======================================================== OPEN / CLOSE */
@@ -1000,6 +1040,16 @@ section{
 			border-top:1px solid $medium-grey;
 			padding:.5em 0;
 		}
+		ul{
+			padding:0 0 0 .5em;
+			margin:0;
+			li{
+				border-top:none;
+				border-left:1px solid $light-grey;
+				padding:0em 0 0em 1em;
+				margin:.25em;
+			}
+		}
 		a{text-decoration:none;}
 	}
 }
@@ -1009,6 +1059,11 @@ section{
 		top:3em;
 		width:20%;
 	}
+	
+	.scrollnav-link.current{
+		color:$action-color;
+	}
+	
 }
 
 
@@ -1091,7 +1146,7 @@ article{
 
 //Primary Footer
 #footer{
-	background-color:$dark-grey;
+	background-color:$black;
 	color:$medium-grey;
 	width:80%;
 	padding:1em 10%;
@@ -1105,13 +1160,13 @@ article{
 	z-index:500;
 	display:block;
 	padding:.5em 1em;	
-	color:$white;
-	border:2px solid $white;
-	background-color:rgba(0,0,0,0.5);
+	color:$action-color;
+	border:2px solid $light-grey;
+	background-color:$white;
 	text-decoration:none;
 	@include quarter-second-transition;
 	&:hover, &:active{
-		color:$action-color;
-		background-color:$white;
+		color:$white;
+		background-color:$action-color;
 	}
 }

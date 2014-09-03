@@ -29,15 +29,21 @@
 				<nav class="sticky">
 					<h4>Sections</h4>	
 					<ol class="clearfix">
-						<li><a href="#NewMediaEducation">New Media &amp; Education <em>Caitlin Meissner</em></a></li>
-						<li><a href="#EducationalComponent">Why having an educational component for your project is a good thing? <em>Flonia Telegrafi</em> </a></li>
+						<li><a class="scrollnav-link" href="#NewMediaEducation">
+							<strong> New Media &amp; Education</strong>  <br> Caitlin Meissner 
+							</a>
+						</li>
+						<li><a class="scrollnav-link" href="#EducationalComponent">
+							<strong> Why having an educational component for your project is a good thing?</strong> <br> Flonia Telegrafi  
+							</a>
+						</li>
 					</ol>
 				</nav>
 				&nbsp;
 			</div>
 			
 			<div class="right-column clearfix">
-				<section class="content" id="NewMediaEducation">
+				<section class="content anchor" id="NewMediaEducation">
 					<article>
 						<h2>New Media &amp; Education</h2>
 
@@ -61,7 +67,7 @@
 					</article>
 				</section>
 				
-				<section class="content" id="EducationalComponent">
+				<section class="content anchor" id="EducationalComponent">
 					<hr>
 					<article>
 

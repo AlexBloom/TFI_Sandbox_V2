@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,15 +53,15 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#intro">Introduction</a></li>
-							<li><a href="#example1">Creating By Doing &ndash; <em>Local Projects</em> </a></li>
-							<li><a href="#example2">Don't Forget to Fail &ndash; <em>Jason Jaacks</em></a></li>
+							<li><a class="scrollnav-link" href="#intro"><strong> Introduction</strong> </a></li>
+							<li><a class="scrollnav-link" href="#example1"><strong> Creating By Doing</strong>  <br> Local Projects </a></li>
+							<li><a class="scrollnav-link" href="#example2"><strong> Don't Forget to Fail</strong>  <br> Jason Jaacks </a></li>
 						</ol>
 					</nav>
 					&nbsp;
 				</div>
 				<section class="right-column clearfix">
-					<section id="intro"class="content">
+					<section id="intro"class="content anchor">
 						<h2>TIMELINES</h2>	
 							
 						￼<p>Based on the work executed in the scoping phase a timeline can then be developed. Your digital partner will create an initial timeline based upon the various tasks that need to be executed. These generally will lead toward milestones.</p>
@@ -118,7 +118,7 @@
 						<p>This approach provides many more opportunities for user feedback and rapid iteration. One important drawback is that this non-cascading approach can take more time and will certainly be more expensive. This is due to the fact the developers are spending more programming time revising and refining the application throughout the entire project’s timeframe. For this reason it is only used by seasoned professionals for projects with significant budgets.</p>
 			
 					</section>
-					<section id="example1"class="content">
+					<section id="example1"class="content anchor">
 						<h2>Creating by Doing</h2>
 					
 						<div class="flexvideo-16-9">
@@ -127,7 +127,7 @@
 					
 						<p>While many of our projects vary in terms of size, scope of work, and levels of engagement, Local Projects always takes a visitor-centered approach that puts the final users at the core of our development process. In order to deliver the most satisfying end use experience, we introduce prototyping into the timeline of the project as soon as possible, allowing the client and users the opportunity to interact with actual working models. We want to see the technology work, observe how visitors are engaging with it, and get a feel for the experience overall. Introducing this into our process early on allows us to be able to make changes to software, experiment with technology and interfaces, and realize possibilities we may have yet to uncover. With early prototyping we can test results, assess usability features and allows us to think creatively while actually making. It also allows us to engage key stakeholders in the process much earlier rather than waiting for approval of final deliverables. This approach directly impacts and is crucial to our production timeline. By the time we are entering the production phase we have clear understanding of software and functionality implication, and can limit any unexpected bugs or fixes. Along side this process we are also evolving designs and getting feedback while prototyping, streamlining the process in order to be able to move smoothly into production and ultimately final product.</p>
 					</section>
-					<section id="example2"class="content">
+					<section id="example2"class="content anchor">
 						<h2>Immersive Storytelling Timelines: Don’t Forget To Fail</h2>
 						<img src="img/content/build/projectmanagement/timeline-example2.jpg" alt="Return To Elwha River"/>
 						<p>Telling immersive stories online allows documentary filmmakers to re-imagine how audiences interact with our work. It’s an equally energizing and daunting task that permeates the project timeline and workflow.  Over the course of building a prototype for Border Dispatches and the Return to Elwha interactive documentary, I’ve discovered that the linchpin in making full use of the Internet as a mechanism for immersive storytelling is allowing ample time to fail. At the beginning of a new project, I sketch a rough timeline that invariably falls into this pattern:</p>

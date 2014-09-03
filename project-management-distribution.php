@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,15 +53,15 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#GameInADay">Build a Game in a Day <br> <em>Errol King</em></a></li>
-							<li><a href="#GoingGranular">Going Granular <br> <em>Marisa Jahn and Anjum Ashara</em> </a></li>
-							<li><a href="#DistributionIterative">Distribution as an iterative process <br> <em>Theo Rigby</em></a></li>
+							<li><a class="scrollnav-link" href="#GameInADay"> <strong> Build a Game in a Day </strong> <br> Errol King </a></li>
+							<li><a class="scrollnav-link" href="#GoingGranular"> <strong> Going Granular </strong> <br> Marisa Jahn and Anjum Ashara  </a></li>
+							<li><a class="scrollnav-link" href="#DistributionIterative"><strong>Distribution as an iterative process</strong> <br> Theo Rigby </a></li>
 						</ol>
 					</nav>
 					&nbsp;
 				</div>
 				<section class="right-column clearfix">
-					<section id="GameInADay"class="content">
+					<section id="GameInADay"class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-betathegame.jpg" alt="Distribution Betathegame">
 						<h2>Build a Game in a Day </h2>
 						<p><strong>By Errol King,</strong> Founder &amp; Creative Director, Beta!</p>
@@ -78,7 +78,7 @@
 						
 			
 					</section>
-					<section id="GoingGranular"class="content">
+					<section id="GoingGranular"class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-marisa.jpg" alt="Distribution Marisa">
 						<h2>Going Granular: On Distribution &amp; Digital Inclusion</h2>
 						<p><strong>By Marisa Jahn and Anjum Ashara</strong> (REV-)</p>
@@ -142,7 +142,7 @@
 
 						
 					</section>	
-					<section id="DistributionIterative" class="content">
+					<section id="DistributionIterative" class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-theo.jpg" alt="Distribution Theo"/>
 						<h2> Distribution as an iterative process </h2>
 						<p><strong>By Theo Rigby, </strong>Director, Cinematographer, and Photographer</p>

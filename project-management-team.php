@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,21 +53,21 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#one">Teamwork Is All About Communication <br> 
-								<em>Mike Robbins</em>
+							<li><a class="scrollnav-link" href="#one"><strong>Teamwork Is All About Communication</strong> <br> 
+								Mike Robbins
 							</a></li>
-							<li><a href="#two">It Takes A Team  <br> 
-								<em>Rachel Falcone</em>
+							<li><a class="scrollnav-link" href="#two"><strong>It Takes A Team </strong> <br> 
+								Rachel Falcone
 							</a></li>
-							<li><a href="#three">Working Near and Far <br> 
-								<em>Ramona Pringle</em>
+							<li><a class="scrollnav-link" href="#three"><strong>Working Near and Far</strong> <br> 
+								Ramona Pringle
 							 </a></li>
 						</ol>
 					</nav>
 					&nbsp;
 				</div>
 				<section class="right-column clearfix">
-					<section id="one"class="content">
+					<section id="one"class="content anchor">
 
 						<h2>Teamwork is all about communication</h2>
 						<small>By Mike Robbins, Creative Technologist at Helios Design Labs</small>
@@ -87,7 +87,7 @@
 						<a href="http://worldonlineorchestra.com"target=_blank>worldonlineorchestra.com</a>
 
 					</section>
-					<section id="two" class="content">
+					<section id="two" class="content anchor">
 						<h2>It takes a Team</h2>
 						<small>By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer</small>
 
@@ -104,7 +104,7 @@
 
 						
 					</section>
-					<section id="three" class="content">
+					<section id="three" class="content anchor">
 
 						<h2>Working Near and Far</h2>
 						<small>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer</small>

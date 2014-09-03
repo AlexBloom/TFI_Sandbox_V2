@@ -713,10 +713,10 @@ button {
   width: 100%;
   margin: 1em auto;
   padding: 0;
-  max-width: 23.33333em; }
+  max-width: 23.33333em;
+  border: 1px solid #dddddd; }
   .share #share-engage {
     background-color: white;
-    border: 1px solid #dddddd;
     width: 100%;
     margin: 0;
     padding: .75em 0;
@@ -759,81 +759,59 @@ button {
     cursor: pointer;
     background-color: white; }
     .share li div {
-      border: 1px solid #dddddd;
-      padding: .75em 0;
-      margin: 0;
+      padding: .25em 0;
+      margin: 0 0 .5em 0;
       text-align: center;
-      width: 100%; }
+      color: #222222; }
     .share li .icon {
       display: inline;
       cursor: pointer; }
   .share .one-third-first {
     width: 33%; }
-  .share .facebook {
+  .share .facebook:hover, .share .facebook:active {
     color: #3b5998; }
-    .share .facebook:hover, .share .facebook:active {
-      background-color: #3b5998;
-      color: white; }
   .share .one-third-second {
     width: 34%; }
   .share .twitter {
-    color: #55acee; }
+    border-right: 1px solid #dddddd;
+    border-left: 1px solid #dddddd; }
     .share .twitter:hover, .share .twitter:active {
-      background-color: #55acee;
-      color: white; }
+      color: #55acee; }
   .share .one-third-third {
     width: 33%; }
-  .share .google {
+  .share .google:hover, .share .google:active {
     color: #dd4b39; }
-    .share .google:hover, .share .google:active {
-      background-color: #dd4b39;
-      color: white; }
+
+.buttonlist {
+  text-align: center !important;
+  margin: 1em 0;
+  padding: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5); }
+  .buttonlist a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    border-right: 1px solid #dddddd;
+    padding: .75em 1.5em; }
+  .buttonlist li {
+    width: 25%;
+    text-align: center;
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0; }
+    .buttonlist li:last-child a {
+      border: none; }
+
+.buttonlist.three li {
+  width: 33%; }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
-.scrollnav {
-  position: fixed;
-  left: 0;
-  top: 25%;
-  z-index: 398; }
-  .scrollnav ul {
-    position: relative;
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    cursor: default; }
-  .scrollnav li {
-    position: relative;
-    display: block;
-    margin: 3em 2em 3em 1.5em;
-    width: 1.2em;
-    height: 1.2em;
-    cursor: pointer;
-    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.25);
-    background-color: rgba(0, 0, 0, 0.5);
-    border-radius: 50%; }
-    .scrollnav li .current {
-      box-shadow: inset 0 0 0 0.75em white; }
-    .scrollnav li a {
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      outline: none;
-      border-radius: 50%;
-      background-color: #fff;
-      background-color: rgba(255, 255, 255, 0.3);
-      text-indent: -999em;
-      cursor: pointer;
-      /* make the text accessible to screen readers */
-      position: absolute;
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px white;
-      -webkit-transition: box-shadow 0.3s ease;
-      transition: box-shadow 0.3s ease; }
-      .scrollnav li a:active {
-        box-shadow: inset 0 0 0 0.75em white; }
-
 /* ======================================================== OPEN / CLOSE */
 .open {
   opacity: .95;
@@ -1070,6 +1048,14 @@ section {
     .sticky ol li {
       border-top: 1px solid #888888;
       padding: .5em 0; }
+    .sticky ol ul {
+      padding: 0 0 0 .5em;
+      margin: 0; }
+      .sticky ol ul li {
+        border-top: none;
+        border-left: 1px solid #dddddd;
+        padding: 0em 0 0em 1em;
+        margin: .25em; }
     .sticky ol a {
       text-decoration: none; }
 
@@ -1078,6 +1064,8 @@ section {
     position: fixed;
     top: 3em;
     width: 20%; } }
+.sticky.fixed .scrollnav-link.current {
+  color: #00afef; }
 
 article {
   width: 100%;
@@ -1140,7 +1128,7 @@ article {
   right: 0; }
 
 #footer {
-  background-color: #222222;
+  background-color: black;
   color: #888888;
   width: 80%;
   padding: 1em 10%;
@@ -1153,9 +1141,9 @@ article {
   z-index: 500;
   display: block;
   padding: .5em 1em;
-  color: white;
-  border: 2px solid white;
-  background-color: rgba(0, 0, 0, 0.5);
+  color: #00afef;
+  border: 2px solid #dddddd;
+  background-color: white;
   text-decoration: none;
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
@@ -1163,8 +1151,8 @@ article {
   -o-transition-duration: .25s;
   transition-duration: .25s; }
   #top:hover, #top:active {
-    color: #00afef;
-    background-color: white; }
+    color: white;
+    background-color: #00afef; }
 
 #home-video-container {
   background-image: url("../img/content/prototype/full-bleed-bg-image.jpg"); }

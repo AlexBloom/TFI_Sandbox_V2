@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,15 +53,15 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#GetTheWordOut">How to get the word out <br> <em>Anne Becker</em> </a></li>
-							<li><a href="#Offshore">Promoting Can Be Pretty Lonely <br> <em>Mike Robbins</em> </a></li>
+							<li><a class="scrollnav-link" href="#GetTheWordOut"><strong> How to get the word out </strong> <br> Anne Becker </a></li>
+							<li><a class="scrollnav-link" href="#Offshore"><strong> Promoting Can Be Pretty Lonely </strong> <br> Mike Robbins </a></li>
 							
 						</ol>
 					</nav>
 					&nbsp;
 				</div>
 				<section class="right-column clearfix">
-					<section id="GetTheWordOut"class="content">
+					<section id="GetTheWordOut"class="content anchor">
 						<h2>How to get the word out</h2>
 						<p><strong>By Anne Becker</strong>, Director of Marketing for Tribeca Film Institute.</p>
 						<p>Without traditional premiere events to drum up interest and attention, marketing and securing press for your new media project requires you to use some unorthodox strategies and a lot of self-starting, but can be an exciting process.</p> 
@@ -76,7 +76,7 @@
 						
 			
 					</section>
-					<section id="Offshore" class="content">
+					<section id="Offshore" class="content anchor">
 						<img src="img/content/build/projectmanagement/prmarketing-offshore.jpg" alt="Prmarketing Offshore">
 						<h2>Promoting can be pretty lonely </h2>
 						<p><strong>By Mike Robbins</strong>, Creative Technologist at Helios Design Labs</p>

@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,14 +53,14 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#TechnologyvsExperience">Technology vs. Experience <br> <em>David Carofano</em> </a></li>
-							<li><a href="#HowToApproachSustainability">How to approach sustainability <br> <em>Jigar Mehta</em> </a></li>
+							<li><a class="scrollnav-link" href="#TechnologyvsExperience"> <strong> Technology vs. Experience  </strong> <br> David Carofano </a></li>
+							<li><a class="scrollnav-link" href="#HowToApproachSustainability"> <strong> How to approach sustainability  </strong> <br> Jigar Mehta </a></li>
 						</ol>
 					</nav>
 					&nbsp;
 				</div>
 				<div class="right-column clearfix">
-					<section id="TechnologyvsExperience"class="content">
+					<section id="TechnologyvsExperience"class="content anchor">
 
 						<img src="img/content/build/projectmanagement/sustainability-carofano.jpg"  alt="Sustainability Carofano">
 						<h2>Technology vs. Experience</h2>
@@ -75,7 +75,7 @@
 						
 						
 					</section>
-					<section id="HowToApproachSustainability"class="content">
+					<section id="HowToApproachSustainability"class="content anchor">
 						<img src="img/content/build/projectmanagement/sustainability-mehta.jpg" alt="Sustainability Mehta">
 						<h2>How to approach sustainability</h2>
 						<p><strong>By Jigar Mehta</strong>, Digital Entrepreneur and Video Journalist</p>

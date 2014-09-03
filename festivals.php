@@ -20,16 +20,14 @@
 	<nav class="breadcrumb">
 	<ul>
 		<li>
-		<dl class="filters tertiary">
-			<dt>View By <span class="icon icon-down"> <span> </dt>
-			<dd><a href="#List">List</a></dd>
-			<dd><a href="#Map">Map</a></dd>
-		</dl>
+		 <a href="festivals">Festivals</a>
 		</li>	
 	</ul>
 	</nav>
 
 <section class="clearfix" id="main">
+
+		
 
 	<section class="clearfix">
 		<article>
@@ -40,6 +38,14 @@
 				</p>
 				</section>
 			</header>
+			
+			<section class="content">
+			<dl class="filters clearfix">
+				<dt>View By <span class="icon icon-down"> <span> </dt>
+				<dd><a class="filter-link" id="Festival-List">List</a> </dd>
+				<dd><a class="filter-link" id="Festival-Map">Map</a> </dd>
+			</dl>
+			</section>
 			
 			<section class="content" id="List">
 				

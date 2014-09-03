@@ -36,7 +36,7 @@
 	</ul>
 </nav>
 
-<section class="main" id="project-management">
+<section id="main" id="project-management">
 	<section>
 		<article class="clearfix">
 			<header>
@@ -53,14 +53,14 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a href="#McCarrenPark">McCarren Park, a passion fueled project <br> <em>Caitlin Burns</em> </a></li>
-							<li><a href="#ImplementationOptions">Three types of implementation options <br> <em>Mike Knowlton</em></a></li>
+							<li><a class="scrollnav-link" href="#McCarrenPark"> <strong> McCarren Park, a passion fueled project</strong> <br> Caitlin Burns  </a></li>
+							<li><a class="scrollnav-link" href="#ImplementationOptions"> <strong> Three types of implementation options</strong> <br> Mike Knowlton </a></li>
 						</ol>
 					</nav>
 					&nbsp;
 				</div>
 				<section class="right-column clearfix">
-					<section id="McCarrenPark"class="content">	
+					<section id="McCarrenPark"class="content anchor">	
 							
 							<img src="img/content/build/projectmanagement/budget-mccarrenpark.jpg" alt="Budget Mccarrenpark">
 							<h2>McCarren Park, a passion fueled project</h2> 
@@ -90,7 +90,7 @@
 
 			
 					</section>
-					<section id="ImplementationOptions"class="content">
+					<section id="ImplementationOptions"class="content anchor">
 						<h2>Three types of implementation options</h2> 
 						<p><strong>By Mike Knowlton,</strong> Partner at Murmurco</p>
 
