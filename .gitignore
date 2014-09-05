@@ -1,0 +1,5 @@
+#editor generated backup files
+*.kate-swp
+
+#sensitive info file
+inc/database.inc

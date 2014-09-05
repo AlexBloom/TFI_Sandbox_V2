@@ -1,4 +1,118 @@
 <?php include_once 'inc/head.inc' ?>
+<?php include_once 'inc/database.inc' ?>
+
+<?php
+//load channel_fields
+$res = $db->query('
+	SELECT
+		group_name,
+		field_name,
+		field_id
+	FROM exp_channel_fields
+		LEFT JOIN exp_field_groups USING (group_id)
+	WHERE
+		group_name = "Films" OR group_name = "Filmmakers"
+');
+if(!$res) printf("Errormessage: %s\n", $db->error);
+$fields = array();
+while ($row = $res->fetch_assoc()) {
+	$fields[$row['group_name']][$row['field_id']] = $row['field_name'];
+}
+$res->free();
+//print_r($fields);
+
+//load project
+$sql = '
+	SELECT
+		exp_channel_titles.entry_id,
+		exp_channel_titles.title,
+		exp_channel_titles.url_title,
+		';
+		foreach($fields['Films'] as $id => $f){
+			$sql .= 'field_id_'.$id.' AS '.$f.",\n";
+		}
+		$sql .= '
+		exp_categories.cat_name,
+		parent_cat.cat_name AS parent_name
+	FROM exp_category_posts
+		LEFT JOIN exp_categories      USING (cat_id)
+		LEFT JOIN exp_categories AS parent_cat ON (exp_categories.parent_id = parent_cat.cat_id)
+		LEFT JOIN exp_category_groups ON (exp_category_groups.group_id = exp_categories.group_id)
+		LEFT JOIN exp_channel_titles  USING (entry_id)
+		LEFT JOIN exp_channel_data    ON (exp_channel_titles.entry_id = exp_channel_data.entry_id)
+		LEFT JOIN exp_channels        ON (exp_channels.channel_id = exp_channel_titles.channel_id)
+	WHERE
+		channel_name = "films" AND 
+		group_name = "Supported" AND 
+		parent_cat.cat_name = "TFI New Media Fund" AND
+		exp_categories.cat_name = "2011"
+	ORDER BY title
+';
+//echo $sql;
+$res = $db->query($sql);
+if(!$res) printf("Errormessage: %s\n", $db->error);
+$projects = array();
+$project_ids = array();
+while ($row = $res->fetch_assoc()) {
+	$projects[] = $row;
+	$project_ids[] = $row['entry_id'];
+}
+$res->free();
+//print_r($projects);
+
+
+$sql = '
+	SELECT
+		col_id, 
+		col_name 
+	FROM exp_matrix_cols 
+	WHERE field_id = 132
+';
+//echo $sql;
+$res = $db->query($sql);
+if(!$res) printf("Errormessage: %s\n", $db->error);
+$matrix = array();
+while ($row = $res->fetch_assoc()) {
+	//print_r($row);
+	$matrix[$row['col_id']] = $row['col_name'];
+}
+$res->free();
+
+
+
+//load filmmakers
+$sql = '
+	SELECT
+		exp_matrix_data.entry_id,
+		exp_matrix_data.row_order,
+		';
+		foreach($matrix as $id => $name){
+			$sql.= 'col_id_'.$id.' AS mx_'.$name.",\n";
+		}
+		foreach($fields['Filmmakers'] as $id => $f){
+			$sql .= 'filmmaker_data.field_id_'.$id.' AS ch_'.$f.",\n";
+		}
+		$sql.= '
+		filmmaker.entry_id AS filmmaker_entry_id,
+		filmmaker.title AS filmmaker_title
+	FROM exp_matrix_data
+		LEFT JOIN exp_playa_relationships ON (exp_playa_relationships.parent_entry_id = exp_matrix_data.entry_id)
+ 		LEFT JOIN exp_channel_titles      AS filmmaker      ON (exp_playa_relationships.child_entry_id = filmmaker.entry_id)
+ 		LEFT JOIN exp_channel_data        AS filmmaker_data ON (exp_playa_relationships.child_entry_id = filmmaker_data.entry_id)
+	WHERE parent_field_id = 132 AND exp_matrix_data.entry_id IN ('.implode(', ',$project_ids).')
+	LIMIT 100
+';
+//echo $sql; exit;
+$res = $db->query($sql);
+if(!$res) printf("Errormessage: %s\n", $db->error);
+$filmmakers = array();
+while ($row = $res->fetch_assoc()) {
+	$filmmakers[$row['entry_id']][$row['filmmaker_entry_id']] = $row;
+}
+$res->free();
+//print_r($filmmakers);
+//exit;
+?>
 
 <!-- Custom Meta Info Here -->
 <link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
@@ -46,137 +160,57 @@
 	<section class="clearfix" id="2014">		
 		
 		<ul class="projects">
-			<li class="project anchor clearfix" id="test-project">
+			<?php foreach($projects as $project){?>
+			<li class="project anchor clearfix" id="<?=$project['url_title']?>-project">
 				<article>
 					<header class="project-header" id="">
-						<a class="local-link" href="#test-project">
+						<a class="local-link" href="#<?=$project['url_title']?>-project">
 							<div class="project-image-wrap">
-								<img src="img/content/prototype/18days.jpg" alt="Project Image">
+								<img src="<?=str_replace('{filedir_3}', 'https://tribecafilminstitute.org/images/uploads/film_files/', $project['film_image'])?>" alt="Project Image">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
-								<h2>Title of Project</h2>
-								<p> Project logline / description of project. </p>			
+								<h2><?=$project['title']?></h2>
+								<?=$project['film_logline']?>
 								</div>
 							</div>
 						</a>
 						<a class="project-url" href="#">Project URL &rarr;</a>				
 					</header>
 					<section class="project-content">
-
 						<p>Project Text</p>
-					
 						<strong>Questions </strong>
-
 						<p>Answers and such.</p>
-					
 						<h3>Team Leaders</h3>
 						<ul class="team-leaders clearfix">
+							<?php foreach($filmmakers[$project['entry_id']] as $filmmaker){ ?>
 							<li>
 								<div class="person-portrait">
-									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+									<img src="<?=str_replace('{filedir_4}', 'https://tribecafilminstitute.org/images/uploads/filmmaker_files/', $filmmaker['ch_filmmaker_headshot'])?>" alt="Michele Stephenson Portrait"/>
+									
 								</div>
 								<div class="person-info">
 									<h4 class="name"> 
-										 <strong>JIGAR MEHTA</strong> 
+										 <strong><?=$filmmaker['ch_filmmaker_fname'].' '.$filmmaker['ch_filmmaker_lname']?></strong> 
 										 <br>
-										 Director/Producer/CO-Creator
+										 <?=$filmmaker['mx_filmmakers_role']?>
 									</h4>
-									<p> Jigar Mehta is responsible for developing and managing the project’s story content. Jigar is a documentary filmmaker and a journalist. He was a John S. Knight Fellow at Stanford University,...</p>
+									<?=$filmmaker['ch_filmmaker_bio']?>
 								</div>
 								
 							</li>
-							<li>
-								<div class="person-portrait">
-									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-								</div>
-								<div class="person-info">
-									<h4 class="name"> 
-										 <strong>YASMIN ELAYAT </strong> 
-										 <br>
-										 TECHNOLOGIST/CO-CREATOR
-									</h4>
-									<p> Yasmin Elayat is the lead technologist for the project, primarily responsible for developing the design &amp; vision for 18DaysinEgypt.com and leading the development team. Yasmin is an interaction...</p>
-								</div>
-								
-							</li>
+							<?php } ?>
 						</ul>
-					
-						<h3>Additional Credits</h3>
-						<ul>
-							<li> <strong> Firstname Lastname </strong> Role and/or Responsibilities </li>
-							<li> <strong> Firstname Lastname </strong> Role and/or Responsibilities </li>
-							<li> <strong> Firstname Lastname </strong> Role and/or Responsibilities </li>
-						</ul>
-			
+						<?php
+						if(trim($project['film_additional_credits'])!=''){
+							echo '<h3>Additional Credits</h3>';
+							echo str_replace("\n", '<br />', $project['film_additional_credits']);
+						}
+						?>
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix" id="18Days">
-				<article>
-					<header class="project-header" id="">
-						<a class="local-link" href="#18Days">
-							<div class="project-image-wrap">
-								<img src="img/content/prototype/18days.jpg" alt="Project Image">
-								<img src="img/content/prototype/18days.jpg" alt="18days">
-							</div>
-							<div class="header-info">
-								<div class="floating-text">
-								<h2>18 Days in Egypt</h2>
-								<p> 18DaysinEgypt.com is an interactive documentary project that empowers Egyptians to preserve the incredible social media they created--their on-the-ground, eye-witness accounts--and to add their voice to an important story. </p>			
-								</div>
-							</div>
-						</a>
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>				
-					</header>
-					<section class="project-content">
-
-						<p>Project Text</p>
-					
-						<strong>Questions </strong>
-
-						<p>Answers and such.</p>
-					
-						<h3>Team Leaders</h3>
-						<ul class="team-leaders clearfix">
-							<li>
-								<div class="person-portrait">
-									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-								</div>
-								<div class="person-info">
-									<h4 class="name"> 
-										 <strong>JIGAR MEHTA</strong> 
-										 <br>
-										 Director/Producer/CO-Creator
-									</h4>
-									<p> Jigar Mehta is responsible for developing and managing the project’s story content. Jigar is a documentary filmmaker and a journalist. He was a John S. Knight Fellow at Stanford University,...</p>
-								</div>
-								
-							</li>
-							<li>
-								<div class="person-portrait">
-									<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-								</div>
-								<div class="person-info">
-									<h4 class="name"> 
-										 <strong>YASMIN ELAYAT </strong> 
-										 <br>
-										 TECHNOLOGIST/CO-CREATOR
-									</h4>
-									<p> Yasmin Elayat is the lead technologist for the project, primarily responsible for developing the design &amp; vision for 18DaysinEgypt.com and leading the development team. Yasmin is an interaction...</p>
-								</div>
-								
-							</li>
-						</ul>		
-
-						
-					
-					
-			
-					</section>
-				</article>
-			</li>
-			
+			<?php } ?>
 		</ul>
 	
 		<section class="jury" id="">
