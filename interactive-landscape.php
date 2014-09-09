@@ -169,7 +169,7 @@
 						</div>
 						<div class="header-info">
 							<div class="floating-text">
-							<small>Launching Date: Spring 2014</small>
+							<small>Launched: Spring 2014</small>
 							<h2>9/11 Memorial Museum <br>We Remember   </h2>
 						
 									
@@ -205,7 +205,7 @@
 						</div>
 						<div class="header-info">
 							<div class="floating-text">
-							<small>Launching Date: February 2012</small>
+							<small>Launched: February 2012</small>
 							<h2>Cleveland Museum of Art:<br> Gallery One  </h2>
 						
 									
@@ -241,7 +241,7 @@
 						</div>
 						<div class="header-info">
 							<div class="floating-text">
-							<small>August 2013</small>
+							<small>Launched: August 2013</small>
 							<h2>Gone Home   </h2>					
 							</div>
 						</div>
@@ -353,7 +353,7 @@
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Launched: January 2010</small>
-								<h2>hitRECord:   </h2>
+								<h2>hitRECord </h2>
 					
 									
 								</div>
@@ -390,7 +390,7 @@
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
-								<small>July 2013</small>
+								<small>Launched: July 2013</small>
 								<h2>LISTEN TO WIKIPEDIA   </h2>
 					
 									
@@ -484,7 +484,7 @@
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Launched: December 2011</small>
-								<h2>Cowbird: Online Human Endeavor </h2>
+								<h2>Cowbird</h2>
 					
 										
 								</div>
@@ -521,7 +521,7 @@
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
-								<small>2009</small>
+								<small>Launched: October 2010</small>
 								<h2>Highrise: Cross media storytelling   </h2>
 					
 										
@@ -563,7 +563,7 @@
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
-								<small>Available in Beta now</small>
+								<small>Launched: August 2013</small>
 								<h2>Papers, Please   </h2>				
 							</div>
 							</div>
@@ -600,8 +600,8 @@
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
-								<small>Launched: Jan 2014 (Live)</small>
-								<h2>WOW, An Opera  </h2>
+								<small>Launched: Jan 2014, Live</small>
+								<h2>WOW, an Opera  </h2>
 			
 							
 								</div>
@@ -637,7 +637,7 @@
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Launched: December 2013</small>
-								<h2>ENJMIN BUNDLE   </h2>
+								<h2>ENJMIN-BUNDLE   </h2>
 			
 					
 								</div>

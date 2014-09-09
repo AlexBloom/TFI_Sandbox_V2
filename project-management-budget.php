@@ -53,8 +53,8 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a class="scrollnav-link" href="#McCarrenPark"> <strong> McCarren Park, a passion fueled project</strong> <br> Caitlin Burns  </a></li>
-							<li><a class="scrollnav-link" href="#ImplementationOptions"> <strong> Three types of implementation options</strong> <br> Mike Knowlton </a></li>
+							<li><a class="scrollnav-link" href="#McCarrenPark"> <strong> McCarren Park, a Passion-Fueled Project</strong> <br> Caitlin Burns  </a></li>
+							<li><a class="scrollnav-link" href="#ImplementationOptions"> <strong> Three Types of Implementation Options</strong> <br> Mike Knowlton </a></li>
 						</ol>
 					</nav>
 					&nbsp;
@@ -63,7 +63,7 @@
 					<section id="McCarrenPark"class="content anchor">	
 							
 							<img src="img/content/build/projectmanagement/budget-mccarrenpark.jpg" alt="Budget Mccarrenpark">
-							<h2>McCarren Park, a passion fueled project</h2> 
+							<h2>McCarren Park, a Passion-Fueled Project</h2> 
 							<p><strong>By Caitlin Burns,</strong> Transmedia Producer</p>
 
 							<p>In 2008, Steele Filipek and Caitlin Burns set out to create McCarren Park, a live-action comedy distributed through a mobile application (read: bar crawl) of Williamsburg, Brooklyn. The film was built as an homage to the low-budget monster movies of Ed Wood and, of course, as a parody of 1993’s Jurassic Park, riffing on the popularity of the hipster dinosaur meme. More than that, it was built to show that a multiplatform property could be produced and made with free platforms. </p>
@@ -91,7 +91,7 @@
 			
 					</section>
 					<section id="ImplementationOptions"class="content anchor">
-						<h2>Three types of implementation options</h2> 
+						<h2>Three Types of Implementation Options</h2> 
 						<p><strong>By Mike Knowlton,</strong> Partner at Murmurco</p>
 
 						<p>Project budgets are based upon the scope of a project, the level of effort it takes to make it. Accordingly budgets for immersive media projects can span a wide range. This is largely based on the approach that is taken during implementation.</p> 

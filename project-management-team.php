@@ -53,10 +53,10 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a class="scrollnav-link" href="#one"><strong>Teamwork Is All About Communication</strong> <br> 
+							<li><a class="scrollnav-link" href="#one"><strong>Teamwork is All About Communication</strong> <br> 
 								Mike Robbins
 							</a></li>
-							<li><a class="scrollnav-link" href="#two"><strong>It Takes A Team </strong> <br> 
+							<li><a class="scrollnav-link" href="#two"><strong>It Takes a Team </strong> <br> 
 								Rachel Falcone
 							</a></li>
 							<li><a class="scrollnav-link" href="#three"><strong>Working Near and Far</strong> <br> 
@@ -69,8 +69,8 @@
 				<section class="right-column clearfix">
 					<section id="one"class="content anchor">
 
-						<h2>Teamwork is all about communication</h2>
-						<small>By Mike Robbins, Creative Technologist at Helios Design Labs</small>
+						<h2>Teamwork is All About Communication</h2>
+						<p><small>By Mike Robbins, Creative Technologist at Helios Design Labs</small></p>
 
 						<p>World Online Orchestra (WOO) is an international co-production between ourselves (Helios Design Labs in Toronto), Denmark-based Copenhagen Phil and creative studio Markropol.</p>
 
@@ -88,8 +88,8 @@
 
 					</section>
 					<section id="two" class="content anchor">
-						<h2>It takes a Team</h2>
-						<small>By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer</small>
+						<h2>It Takes a Team</h2>
+						<p><small>By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer</small></p>
 
 
 						<p>Collaboration, and ensemble practice has always been an essential part of making films and performances, and sometimes visual art, but the nature of collaboration and the roles continue to shift as technology impacts the way that we produce and tell stories. There is a growing capacity to democratize media making and media consumption, and make it more accountable and participatory. </p>
@@ -107,7 +107,7 @@
 					<section id="three" class="content anchor">
 
 						<h2>Working Near and Far</h2>
-						<small>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer</small>
+						<p><small>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer</small></p>
 
 						<p>Our core team on Avatar Secrets is writer/director, creative director, illustrator, animation director, developer, and cinematographer. There are more roles, but those are the ones that are in constant contact. Our core team is small, and we talk daily, day and night.</p>
 						<p>Team as family: I think it’s true of most productions, but especially one we’re you’re innovating and figuring things out as you go, you really become like a family; you know each other’s strengths and weaknesses, and most importantly that you can rely on each other. There’s often more work to be done than there are people to do it, so everyone on the team really needs to think of the project as more than a job, it’s a shared vision that we’re all collaborating on.</p>

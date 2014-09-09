@@ -66,55 +66,58 @@
 							
 						￼<p>Based on the work executed in the scoping phase a timeline can then be developed. Your digital partner will create an initial timeline based upon the various tasks that need to be executed. These generally will lead toward milestones.</p>
 				
-						<h3>Sample project timeline</h3>
-						Technical Requirements - finalizing what technology will be used 
+						<h3>Sample Project Timeline</h3>
+						<h4>Technical Requirements - finalizing what technology will be used</h4> 
 							<ul>
 							<li> Timeframe: 1 Week </li> 
 							<li> Milestone: Technical Requirements Document </li> 
 							</ul>
-						Information Architecture - finalizing the information structure and user flow
+						<h4>Information Architecture - finalizing the information structure and user flow</h4>
 							<ul>
 							<li> Timeframe: 1 Week </li> 
 							<li> Milestone: Wireframes </li> 
 							</ul>
-						Paper Prototyping / Testing - getting a rough paper prototype of the core aspects of
-						your project in front of users
+						<h4>Paper Prototyping / Testing - getting a rough paper prototype of the core aspects of
+						your project in front of users</h4>
 							<ul>
 							<li> Timeframe: 1 Week </li> 
 							<li> Milestone: Paper Prototype </li> 
 							</ul>
-						Design - establishing the look and feel of the project 
+						<h4>Design - establishing the look and feel of the project</h4> 
 							<ul>
 							<li> Timeframe: 2 Weeks </li> 
 							<li> Milestone: Photoshop PSD/Flat JPEG page designs </li>
 							</ul> 
-						Prototyping / Testing - creating a clickable prototype based on the finalized designs
-						and testing it with real users
+						<h4>Prototyping / Testing - creating a clickable prototype based on the finalized designs
+						and testing it with real users</h4>
 							<ul>
 							<li> Timeframe: 2 Weeks </li> 
 							<li> Milestone: Clickable prototype </li> 
 							</ul>
-						Build - programming the functionality and implementing the design 
+						<h4>Build - programming the functionality and implementing the design</h4> 
 							<ul>
 							<li> Timeframe: 2 Weeks </li> 
 							<li> Milestone: Alpha Version </li> 
 							</ul>
-						Testing / Quality Assurance - testing the project and making revisions to eliminate
-						bugs
+						<h4>Testing / Quality Assurance - testing the project and making revisions to eliminate
+						bugs</h4>
 							<ul>
 							<li> Timeframe: 1 Weeks </li> 
 							<li> Milestone: Beta Version </li> 
 							</ul>
-						Beta Testing - observing real users on the Beta application, revising accordingly 
+						<h4>Beta Testing - observing real users on the Beta application, revising accordingly </h4>
 							<ul>
 							<li> Timeframe: 2 Weeks </li> 
 							<li> Milestone: Launch </li> 
 							</ul>
 					
 						<p>This timeline example is 12 weeks. We typically recommend trying to keep a project to roughly 3 months. Momentum is crucial, and longer timeframes can lead to moments of inactivity and gaining momentum again can be a challenge. It is best when every team member is intensely focused on the work at hand.</p>
+						
 						<p>The above timeline is considered “cascading” and follows a traditional approach to software development. It includes periods of user feedback and testing to validate assumptions. However, there are some inherent challenges to a cascading development approach.</p>
-						<p>This approach builds upon the work executed in previous phases. But what happens if the work executed in initial phase is flawed? Perhaps there are incorrect assumptions about user behavior. Periods for user feedback and getting your work in front of real users is vital to avoid this.</p>
+						<p>This approach builds upon the work executed in previous phases. But what happens if the work executed in an initial phase is flawed? Perhaps there are incorrect assumptions about user behavior. Periods for user feedback and getting your work in front of real users is vital to avoid this.</p>
+						
 						<p>Another approach is to focus on developing a working prototype as soon as possible, then focusing cycles on revising that prototype repeatedly via direct user feedback. This often referred to as <a href ="http://en.wikipedia.org/wiki/Agile_software_development"target=_blank> Agile Development</a>. As the revisions continue, refinements are made and eventually the prototype becomes the application.</p>
+						
 						<p>This approach provides many more opportunities for user feedback and rapid iteration. One important drawback is that this non-cascading approach can take more time and will certainly be more expensive. This is due to the fact the developers are spending more programming time revising and refining the application throughout the entire project’s timeframe. For this reason it is only used by seasoned professionals for projects with significant budgets.</p>
 			
 					</section>
@@ -125,7 +128,7 @@
 						<iframe src="//player.vimeo.com/video/84442744?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 						</div>
 					
-						<p>While many of our projects vary in terms of size, scope of work, and levels of engagement, Local Projects always takes a visitor-centered approach that puts the final users at the core of our development process. In order to deliver the most satisfying end use experience, we introduce prototyping into the timeline of the project as soon as possible, allowing the client and users the opportunity to interact with actual working models. We want to see the technology work, observe how visitors are engaging with it, and get a feel for the experience overall. Introducing this into our process early on allows us to be able to make changes to software, experiment with technology and interfaces, and realize possibilities we may have yet to uncover. With early prototyping we can test results, assess usability features and allows us to think creatively while actually making. It also allows us to engage key stakeholders in the process much earlier rather than waiting for approval of final deliverables. This approach directly impacts and is crucial to our production timeline. By the time we are entering the production phase we have clear understanding of software and functionality implication, and can limit any unexpected bugs or fixes. Along side this process we are also evolving designs and getting feedback while prototyping, streamlining the process in order to be able to move smoothly into production and ultimately final product.</p>
+						<p>While many of our projects vary in terms of size, scope of work, and levels of engagement, Local Projects always takes a visitor-centered approach that puts the final users at the core of our development process. In order to deliver the most satisfying end use experience, we introduce prototyping into the timeline of the project as soon as possible, allowing the client and users the opportunity to interact with actual working models. We want to see the technology work, observe how visitors are engaging with it, and get a feel for the experience overall. Introducing this into our process early on allows us to be able to make changes to software, experiment with technology and interfaces, and realize possibilities we may have yet to uncover. With early prototyping we can test results, assess usability features and it allows us to think creatively while actually making. It also allows us to engage key stakeholders in the process much earlier rather than waiting for approval of final deliverables. This approach directly impacts and is crucial to our production timeline. By the time we are entering the production phase we have clear understanding of software and functionality implication, and can limit any unexpected bugs or fixes. Alongside this process we are also evolving designs and getting feedback while prototyping, streamlining the process in order to be able to move smoothly into production and ultimately final product.</p>
 					</section>
 					<section id="example2"class="content anchor">
 						<h2>Immersive Storytelling Timelines: Don’t Forget To Fail</h2>

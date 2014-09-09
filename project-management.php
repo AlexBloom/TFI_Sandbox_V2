@@ -28,7 +28,7 @@
 			<header>
 				<section class="content">
 				<h1>Project Management Guide</h1>
-				<p class="intro"> A reference guide to help you effectively plan, build, and launch a successful new media projects. Each section contains a quick-read guide and includes case studies from seasoned veterans.
+				<p class="intro"> A reference guide to help you effectively plan, build, and launch a successful new media project. Each section contains a quick-read guide and includes case studies from seasoned veterans.
 				</p>
 				</section>
 			</header>	

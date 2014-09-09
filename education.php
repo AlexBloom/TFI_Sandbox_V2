@@ -47,7 +47,7 @@
 					<article>
 						<h2>New Media &amp; Education</h2>
 
-						<small>By Caitlin Meissner, Education Programs Manager at Tribeca Film Institute</small>
+						<p><small>By Caitlin Meissner, Education Programs Manager at Tribeca Film Institute</small></p>
 
 						<h4>TYWLS Bronx</h4>
 
@@ -57,7 +57,7 @@
 				
 						<h4>TYWLS Astoria, East River Academy, Rikers Island and The Lamp</h4>
 				
-						The young women at The Leadership School of Astoria are engaged in a collaborative film exchange with young women at East River Academy on Rikers Island, where cameras are not allowed on premises. Beginning with rewriting the narrative to Nas’ classic song, “If I Ruled the World,” the women’s powerful poems of imagination and agency were voice recorded and send in to TYWLS Astoria, a high school in the same zip code as Rikers Island. TYWLS students contributed to the exchange by filming visuals to the poems, both interpreting their words and capturing images directed by the women at East River Academy. In final exchange, both classrooms will edit the footage to be screened at the Tribeca Film Festival.
+						<p>The young women at The Leadership School of Astoria are engaged in a collaborative film exchange with young women at East River Academy on Rikers Island, where cameras are not allowed on premises. Beginning with rewriting the narrative to Nas’ classic song, “If I Ruled the World,” the women’s powerful poems of imagination and agency were voice recorded and send in to TYWLS Astoria, a high school in the same zip code as Rikers Island. TYWLS students contributed to the exchange by filming visuals to the poems, both interpreting their words and capturing images directed by the women at East River Academy. In final exchange, both classrooms will edit the footage to be screened at the Tribeca Film Festival.</p>
 				
 						<p>Adding a new media component, New York based organization, The Lamp, will be entering the collaboration in a remix capacity. Bringing their web-based Lamplatoon tool into the process, TYWLS Astoria students will be tasked with remixing their own created content, adding in web-media (news clips, etc.) and voice recordings from pen pal exchanges with their collaborators at East River Academy.</p>
 				
@@ -71,9 +71,9 @@
 					<hr>
 					<article>
 
-						<h2>Why having an educational component for your project is a good thing?</h2>
+						<h2>Why having an educational component for your project is a good thing</h2>
 						
-						<small>By Flonia Telegrafi, Education Engagement Coordinator, at Tribeca Film Institute</small>
+						<p><small>By Flonia Telegrafi, Education Engagement Coordinator, at Tribeca Film Institute</small></p>
 				
 						<p>Building out an education strategy for your project, be it a linear film or a transmedia project, will ultimately help in making your work more accessible to a wider public. Educators are always looking for new and innovative tools and stories to bring into the classroom, novel ways of engaging with an issue be it the disappearance of small towns across America (Hollow), exploring our nation’s immigration and migration history (iNation), looking at the environmental impact of logging (This is My Backyard), or simply just different ways of becoming active in current social movements (The Yes Men Are Revolting). Having the tools to address important issues such as these enables educators and students alike to first learn about the project and then analyze the topic.</p>
 
