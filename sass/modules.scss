@@ -547,7 +547,12 @@ $button-size: 2em;
 			text-decoration:none;
 			padding:.5em 1em;
 			margin:0;
-			//border-radius:.25em;		
+			cursor:pointer;
+			
+			&:hover{
+				//background-color:$light-grey;
+			}
+					
 		}
 	}
 	
@@ -556,7 +561,7 @@ $button-size: 2em;
 			float:left;
 		}
 		dd{
-			float:left;
+		<span class="icon-right"></span>;
 			width:auto;
 			margin:0;
 		
@@ -725,6 +730,49 @@ $button-size: 2em;
 .buttonlist.three{
 	li{
 		width:33%;
+	}
+}
+.buttonlist.two{
+	li{
+		width:49%;
+	}
+}
+
+.buttonlist.one{
+	li{
+		width:90%;
+	}
+}
+
+.home-links{
+	margin:1em 0;
+	padding:0;
+	background-color:$white;
+	@include drop-shadow;
+	
+	a{
+		display:block;
+		text-decoration:none;
+		border-bottom:1px solid $light-grey;
+		padding:.75em 1.5em;
+		font-weight:600;
+		//&:after{
+//			content:">";
+//		}
+	}
+	
+	li{
+		list-style-type:none;
+		float:left;
+		padding:0;
+		margin:0;
+		width:100%;
+		&:last-child{
+			a{
+				border:none;
+			}
+			
+		}
 	}
 }
 
@@ -1099,6 +1147,16 @@ article{
 			max-width:70em;
 		}
 	}
+	.anchor{
+		border-top:.4em solid $text-color;
+		margin-bottom:5em;
+		&:after{
+			display:block;
+			width:100%;
+			color:$medium-grey;
+		}
+		
+	}
 	.content-text{
 		width:80%;
 		margin:3em auto;
@@ -1148,11 +1206,41 @@ article{
 #footer{
 	background-color:$black;
 	color:$medium-grey;
-	width:80%;
-	padding:1em 10%;
-	text-align:center;
+	width:100%;
+	padding:1em 0;
+	//text-align:center;
 	
 }
+
+#ford-logo{
+	float:left;
+	width:100%;
+	padding:.5em 0;
+	margin:0;
+	@media screen and (min-width:(em(800))){
+		width:12em;
+		padding:0 1.5em;
+		border-right:1px solid $dark-grey;
+	}
+	img{
+		width:12em;
+		margin:0;
+	}
+}
+
+#footer-info{
+	float:left;
+	width:80%;
+	padding:.5em 10%;
+	text-align:center;
+	
+	@media screen and (min-width:(em(800))){
+		width:(em(500));
+		padding:1.5em .5em 0 .5em;
+	}
+	
+}
+
 #top{
 	position:fixed;
 	bottom:0;

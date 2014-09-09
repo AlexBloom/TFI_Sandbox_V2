@@ -57,7 +57,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://simogo.com/games/device6/"target=_blank> Simogo.com/games/device6/ &rarr;</a>
+						<a class="project-url" href="http://simogo.com/games/device6/"target=_blank> Simogo.com/games/device6/ <span class="icon-right"></span></a>
 					</header>
 
 					<section class="project-content">
@@ -106,7 +106,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://typerider.arte.tv"target=_blank> typerider.arte.tv &rarr;</a>
+						<a class="project-url" href="http://typerider.arte.tv"target=_blank> typerider.arte.tv <span class="icon-right"></span></a>
 					</header>
 					<section class="project-content">
 						Selected by Michel Reilhac, Story Architect, MÉLANGE
@@ -133,7 +133,7 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> EMOTIONALARCADE.COM &rarr;</a>
+						<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> EMOTIONALARCADE.COM <span class="icon-right"></span></a>
 					</header>
 
 					<section class="project-content">
@@ -171,7 +171,7 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="https://www.911memorial.org/"target=_blank> www.911memorial.org &rarr;</a>	
+						<a class="project-url" href="https://www.911memorial.org/"target=_blank> www.911memorial.org <span class="icon-right"></span></a>	
 					</header>
 					<section class="project-content">
 						Selected by David Carofano, Prodcution Associate at Local Projects
@@ -205,7 +205,7 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://vimeo.com/album/2243637"target=_blank> vimeo.com/album/2243637 &rarr;</a>	
+						<a class="project-url" href="http://vimeo.com/album/2243637"target=_blank> vimeo.com/album/2243637 <span class="icon-right"></span></a>	
 					</header>
 					<section class="project-content">
 						
@@ -237,7 +237,7 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ &rarr;</a>			
+						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ <span class="icon-right"></span></a>			
 					</header>
 			
 					<section class="project-content">
@@ -270,7 +270,7 @@
 								</div>		
 							</div>
 						</a>
-						<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 &rarr;</a>	
+						<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 <span class="icon-right"></span></a>	
 					</header>
 			
 					<section class="project-content">
@@ -304,7 +304,7 @@
 								</div>		
 							</div>
 						</a>
-						<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ &rarr;</a>	
+						<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ <span class="icon-right"></span></a>	
 					</header>
 			
 					<section class="project-content">
@@ -339,7 +339,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org &rarr;</a>
+						<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org <span class="icon-right"></span></a>
 					</header>
 			
 					<section class="project-content">
@@ -372,7 +372,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg &rarr;</a>
+						<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg <span class="icon-right"></span></a>
 					</header>
 			
 					<section class="project-content">
@@ -410,7 +410,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com &rarr;</a>
+						<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com <span class="icon-right"></span></a>
 					</header>
 			
 					<section class="project-content">
@@ -444,7 +444,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com &rarr;</a>
+						<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com <span class="icon-right"></span></a>
 					</header>
 			
 					<section class="project-content">
@@ -481,7 +481,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca &rarr;</a>
+						<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca <span class="icon-right"></span></a>
 					</header>
 			
 					<section class="project-content">
@@ -518,7 +518,7 @@
 							</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com &rarr;</a>
+						<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com <span class="icon-right"></span></a>
 					</header>
 			
 					<section class="project-content">
@@ -556,7 +556,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress &rarr;</a>
+						<a class="project-url" href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress <span class="icon-right"></span></a>
 					</header>
 
 					<section class="project-content">
@@ -588,7 +588,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> http://enjmin-bundle.com/en/ &rarr;</a>			
+						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> http://enjmin-bundle.com/en/ <span class="icon-right"></span></a>			
 					</header>
 					<section class="project-content">
 	
@@ -624,7 +624,7 @@
 								</div>
 							</div>
 							</a>
-						<a class="project-url" href="http://blabdroid.com"target=_blank> http://blabdroid.com &rarr;</a>
+						<a class="project-url" href="http://blabdroid.com"target=_blank> http://blabdroid.com <span class="icon-right"></span></a>
 					</header>
 					<section class="project-content">
 	
@@ -650,7 +650,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://betathegame.com"target=_blank> betathegame.com &rarr;</a>
+						<a class="project-url" href="http://betathegame.com"target=_blank> betathegame.com <span class="icon-right"></span></a>
 					</header>
 					<section class="project-content">	
 				Selected and created by Errol King, Founder &amp; Creative Director, Beta!
@@ -661,6 +661,17 @@
 			</li>
 		
 		</ul>
+		
+		
+		<nav class="share">
+			<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
+		
+			<ul id="share-buttons" class="clearfix">
+				<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
+				<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
+				<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
+			</ul>
+		</nav>
 	
 </section>
 

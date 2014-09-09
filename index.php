@@ -48,31 +48,31 @@
 				<li>
 					<h3>Discover</h3>
 					<p>In a world of ever changing media creation, more storytellers are curious about interactive approaches.</p>
-					<ul class="basic-list">
-						<li> <a href="#">TFI New Media Fund</a> </li>
-						<li> <a href="#">Interactive Landscape</a> </li>
+					<ul class="home-links clearfix">
+						<li> <a href="#">TFI New Media Fund <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Interactive Landscape <span class="icon-right"></span> </a> </li>
 					</ul>
 				</li>
 		
 				<li>
 					<h3>Participate</h3>
 					<p>TFI has a broad slate of programming that aims to expand the knowledge around interactivity. Join us!</p>
-					<ul class="basic-list">
-						<li> <a href="#">TFI Interactive</a> </li>
-						<li> <a href="#">Tribeca Hacks</a> </li>
-						<li> <a href="#">Education</a> </li>
+					<ul class="home-links clearfix">
+						<li> <a href="#">TFI Interactive <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Tribeca Hacks <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Education <span class="icon-right"></span> </a> </li>
 					</ul>
 				</li>
 		
 				<li>
 					<h3>Build</h3>
 					<p>In a world of ever changing media creation, more storytellers are curious about creating interactive content but don’t know how to build. Here, we’ve combined information from leading new media creators on how to start, build and sustain these projects.</p>
-					<ul class="basic-list">
-						<li> <a href="#"> Project Management</a> </li>
-						<li> <a href="#">Tech Resources</a> </li>
-						<li> <a href="#">Funding</a> </li>
-						<li> <a href="#">Festivals</a> </li>
-						<li> <a href="#">Impact</a> </li>
+					<ul class="home-links clearfix">
+						<li> <a href="#"> Project Management <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Tech Resources <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Funding <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Festivals <span class="icon-right"></span> </a> </li>
+						<li> <a href="#">Impact <span class="icon-right"></span> </a> </li>
 					</ul>
 				</li>
 			</ul>
@@ -81,6 +81,17 @@
 	
 
 	</section>
+	
+	<nav class="share">
+		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
+		
+		<ul id="share-buttons" class="clearfix">
+			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
+			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
+			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
+		</ul>
+	</nav>
+	
 <section>	
 <!-- End Index Page --> 
 	 

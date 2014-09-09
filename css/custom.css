@@ -40,11 +40,15 @@
 
 .icon-right:before {
   content: "\e60d";
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding: 0 .25em; }
 
 .icon-left:before {
   content: "\e60e";
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  vertical-align: middle;
+  padding: 0 .25em; }
 
 .icon-up:before {
   content: "\e60f";
@@ -692,7 +696,8 @@ button {
     display: block;
     text-decoration: none;
     padding: .5em 1em;
-    margin: 0; }
+    margin: 0;
+    cursor: pointer; }
   @media screen and (min-width: 40em) {
     .filters dt {
       float: left; }
@@ -810,6 +815,36 @@ button {
 
 .buttonlist.three li {
   width: 33%; }
+
+.buttonlist.two li {
+  width: 49%; }
+
+.buttonlist.one li {
+  width: 90%; }
+
+.home-links {
+  margin: 1em 0;
+  padding: 0;
+  background-color: white;
+  -webkit-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -ms-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5); }
+  .home-links a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #dddddd;
+    padding: .75em 1.5em;
+    font-weight: 600; }
+  .home-links li {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    .home-links li:last-child a {
+      border: none; }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 /* ======================================================== OPEN / CLOSE */
@@ -1093,6 +1128,13 @@ article {
     @media screen and (min-width: 80em) {
       article .content {
         max-width: 70em; } }
+  article .anchor {
+    border-top: 0.4em solid #333333;
+    margin-bottom: 5em; }
+    article .anchor:after {
+      display: block;
+      width: 100%;
+      color: #888888; }
   article .content-text {
     width: 80%;
     margin: 3em auto;
@@ -1130,9 +1172,32 @@ article {
 #footer {
   background-color: black;
   color: #888888;
+  width: 100%;
+  padding: 1em 0; }
+
+#ford-logo {
+  float: left;
+  width: 100%;
+  padding: .5em 0;
+  margin: 0; }
+  @media screen and (min-width: 53.33333em) {
+    #ford-logo {
+      width: 12em;
+      padding: 0 1.5em;
+      border-right: 1px solid #222222; } }
+  #ford-logo img {
+    width: 12em;
+    margin: 0; }
+
+#footer-info {
+  float: left;
   width: 80%;
-  padding: 1em 10%;
+  padding: .5em 10%;
   text-align: center; }
+  @media screen and (min-width: 53.33333em) {
+    #footer-info {
+      width: 33.33333em;
+      padding: 1.5em .5em 0 .5em; } }
 
 #top {
   position: fixed;

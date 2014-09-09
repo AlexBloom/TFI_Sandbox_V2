@@ -15,6 +15,16 @@
 <?php include_once 'inc/header.inc' ?>
 
 <!-- Index Page -->
+
+	<nav class="breadcrumb">
+	<ul>
+		<li>
+		 <a href="impact">Impact</a>
+		</li>	
+	</ul>
+	</nav>
+
+
 <section id="main">
 	<section class="clearfix">
 		<article>
@@ -57,6 +67,17 @@
 				
 		</article>	
 	</section>
+	
+	<nav class="share">
+		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
+		
+		<ul id="share-buttons" class="clearfix">
+			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
+			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
+			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
+		</ul>
+	</nav>
+	
 <section>	
 <!-- End Index Page --> 
 	 

@@ -47,8 +47,10 @@
 		<nav class="sticky">
 			<h4>Sections</h4>	
 			<ol class="clearfix">
-				<li><a class="scrollnav-link" href="#HackathonMentality">The Hackathon Mentality <em>Benjamin Hoguet</em></a></li>
-				<li><a class="scrollnav-link" href="#InnovationCollaboration">Innovation &amp; Collaboration <em>Neal Hartman</em> </a></li>
+				<li><a class="scrollnav-link" href="#HackathonMentality"><strong>The Hackathon Mentality</strong><br>
+					 Benjamin Hoguet</a></li>
+				<li><a class="scrollnav-link" href="#InnovationCollaboration"><strong>Innovation &amp; Collaboration</strong><br>
+					 Neal Hartman </a></li>
 				<li><strong><a class="scrollnav-link" href="#Upcoming"> Upcoming Hacks </a></strong></li>
 				<li><strong><a class="scrollnav-link" href="#Past"> Past Hacks </a></strong></li>
 				<li><strong><a class="scrollnav-link" href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"> Tribeca Hacks Homepage &rarr; </a></strong></li>
@@ -263,6 +265,17 @@
 	</div>
 	
 	</article>
+	
+	<nav class="share">
+		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
+		
+		<ul id="share-buttons" class="clearfix">
+			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
+			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
+			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
+		</ul>
+	</nav>
+	
 </section>
 <!-- End Index Page -->
     

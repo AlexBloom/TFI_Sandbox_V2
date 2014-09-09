@@ -31,8 +31,8 @@
 .icon-pause:before {content: "\e608";}
 .icon-forward:before {content: "\e609";}
 .icon-backward:before {content: "\e60a";}
-.icon-right:before {content: "\e60d";font-size:1.5em;}
-.icon-left:before {content: "\e60e";font-size:1.5em;}
+.icon-right:before {content: "\e60d";font-size:1.5em; vertical-align:middle; padding:0 .25em;}
+.icon-left:before {content: "\e60e";font-size:1.5em; vertical-align:middle; padding:0 .25em;}
 .icon-up:before {content: "\e60f";font-size:1.5em;}
 .icon-down:before {content: "\e610";font-size:1.5em;}
 .icon-share:before {content: "\e614";}

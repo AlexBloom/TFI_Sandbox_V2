@@ -1,8 +1,10 @@
 
 
 	<footer class="clearfix" id="footer">
-		<small>All content &copy; Tribeca Film Institute 2012&ndash;2014</small></br>
-		<small>Site by <a href="http://digitalfrontiersman.com">The Digital Frontiersman</a></small>
+		<div id="ford-logo"> <img src="img/ui/justfilms_logo.gif" alt="Just Films Ford Foundation"> </div>
+		<div id="footer-info">
+			<p> <small>All content &copy; Tribeca Film Institute 2012&ndash;2014 | Site by <a href="http://digitalfrontiersman.com">Alex Bloom</a></small> </p>
+		</div>
 		<a class="fixed" id="top" href="#main"> <span class="icon-up"></span> </a>
 	</footer>
 

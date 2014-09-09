@@ -15,6 +15,15 @@
 <?php include_once 'inc/header.inc' ?>
 
 <!-- Index Page -->
+
+	<nav class="breadcrumb">
+	<ul>
+		<li>
+		 <a href="funding">Funding</a>
+		</li>	
+	</ul>
+	</nav>
+
 <section id="main" class="clearfix">
 	<article>
 		<header>
@@ -28,7 +37,7 @@
 			<nav class="sticky">
 				<h4>Sections</h4>	
 				<ol class="clearfix">
-					<li><a class="scrollnav-link" href="#FundingTimeline">Funding Opportunities</a>
+					<li><a class="scrollnav-link" href="#FundingTimeline"><strong>Funding Opportunities</strong></a>
 						<ul>
 							<li> <a class="scrollnav-link" href="#January "> January</a> </li>
 							<li> <a class="scrollnav-link" href="#February "> February</a> </li>
@@ -43,7 +52,8 @@
 						</ul>
 					
 					</li>
-					<li><a class="scrollnav-link" href="#HowToRaiseFunds">How To Raise Funds <em>Laura Bandel</em> </a></li>
+					<li><a class="scrollnav-link" href="#HowToRaiseFunds"><strong>How To Raise Funds</strong><br>
+						Laura Bandel </a></li>
 				</ol>
 			</nav>
 			&nbsp;
@@ -195,6 +205,15 @@
 		</div>
 	</article>		
 
+	<nav class="share">
+		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
+		
+		<ul id="share-buttons" class="clearfix">
+			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
+			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
+			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
+		</ul>
+	</nav>
 </section>	
 <!-- End Index Page --> 
 	 
