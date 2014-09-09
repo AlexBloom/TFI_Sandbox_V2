@@ -32,7 +32,7 @@
 		<dl class="filters clearfix">
 			<!-- Enter Current Page Name as DT Item Here -->
 			<dt> Filters: </dt>
-			<dd><a id="IL-All" class="filter-link"> All <span class="quantity"> (18) </span> </a> </dd>
+			<dd><a id="IL-All" class="filter-link"> All <span class="quantity"> (19) </span> </a> </dd>
 			<dd><a id="IL-Web" class="filter-link"> Web <span class="quantity"> (9)</span> </a> </dd>
 			<dd><a id="IL-Apps" class="filter-link"> Apps <span class="quantity"> (2)</span> </a> </dd>
 			<dd><a id="IL-Installations" class="filter-link"> Installations <span class="quantity"> (3)</span> </a> </dd>
@@ -723,6 +723,7 @@
 					</section>
 				</article>
 			</li>		
+			
 			<li class="project anchor clearfix Other" id="EverydayAfrica">
 				<article>
 					<header class="project-header" id="">
@@ -737,7 +738,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://betathegame.com"target=_blank> betathegame.com <span class="icon-right"></span></a>
+						<a class="project-url" href="http://everydayafrica.tumblr.com/"target=_blank> everydayafrica.tumblr.com <span class="icon-right"></span></a>
 					</header>
 					<section class="project-content">	
 						<ul>
@@ -755,7 +756,132 @@
 					</section>
 				</article>
 			</li>
-		
+			<li class="project anchor clearfix Other" id="DocubaseMIT">
+				<article>
+					<header class="project-header" id="">
+						<a class="local-link" href="#DocubaseMIT">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Launched: November 2013</small>
+								<h2> Docubase MIT  </h2>	
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://docubase.mit.edu/"target=_blank> docubase.mit.edu <span class="icon-right"></span></a>
+					</header>
+					<section class="project-content">	
+						<ul>
+							<li> <strong> Selected by:</strong> Ingrid Kopp</li>
+							<li> <strong> Created by:</strong> MIT</li>
+							<li> <strong> Launched:</strong> November 2013</li>
+						</ul>
+
+						<p>Not one project but a collection of projects reflecting the breadth of imagination and creativity in the interactive documentary form. MIT Open Documentary Lab and their partners have done a wonderful job building a home for all these projects and giving us a space to reflect on where we have come from and where we are going. </p>
+				
+				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute </p>
+							
+					</section>
+				</article>
+			</li>
+			<li class="project anchor clearfix Other" id="PinePoint">
+				<article>
+					<header class="project-header" id="">
+						<a class="local-link" href="#PinePoint">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Launched: January 2014</small>
+								<h2>PINE POINT  </h2>	
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://pinepoint.nfb.ca/"target=_blank> pinepoint.nfb.ca <span class="icon-right"></span></a>
+					</header>
+					<section class="project-content">	
+						<ul>
+							<li> <strong> Selected by:</strong> Ingrid Kopp</li>
+							<li> <strong> Created by:</strong> The Goggles – Paul Shoebridge &amp; Michael Simons </li>
+							<li> <strong> Launched:</strong> May 2011</li>
+						</ul>
+
+						<p>Still one of my favorite projects and I wanted to include something from the NFB because I think we owe them so much for investing in this work and pioneering the field. I love the beautiful graphic design, evocative soundtrack and originality of Welcome to Pine Point. It was one of the projects that got me really excited about the potential for storytelling on the web. </p>
+				
+				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute </p>
+							
+					</section>
+				</article>
+			</li>
+			<li class="project anchor clearfix Other" id="PrisonValley">
+				<article>
+					<header class="project-header" id="">
+						<a class="local-link" href="#PrisonValley">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Launched: April 2010</small>
+								<h2>Prison Valley  </h2>	
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://prisonvalley.arte.tv/"target=_blank> prisonvalley.arte.tv <span class="icon-right"></span></a>
+					</header>
+					<section class="project-content">	
+						<ul>
+							<li> <strong> Selected by:</strong> Amelie Leenhardt</li>
+							<li> <strong> Created by:</strong> David Dufresne &amp; Philippe Brault</li>
+							<li> <strong> Produced by:</strong> Arte/Upian</li>
+							<li> <strong> Launched:</strong> April 2010</li>
+						</ul>
+
+						<p>Prison Valley is an investigative web documentary about the prison industry in the US. It explores Canon City, Colorado, 36,000 residents, 13 jails, with a local economy revolving around the incarceration of 7,735 people.</p>
+						
+						<p>In this ever-changing interactive landscape, it is great to see some projects not getting older. Prison Valley, 4 years old, is definitely one of them. Yes the blog is not as active as it used to be, but the overall experience is still stunning. I would attribute this to the bold economic approach of the prison system, the code of the Road movie genre, the use of social media as a creative tool and the overall importance of story and user experience. The user actively participates in this journalistic journey, starting at the same motel where David Dufresne and Philippe Brault stayed, then deciding where to go, what to explore, and how to participate in the debate. </p>
+				
+						<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute </p>
+							
+					</section>
+				</article>
+			</li>
+			<li class="project anchor clearfix Other" id="KentuckyRouteZero">
+				<article>
+					<header class="project-header" id="">
+						<a class="local-link" href="#KentuckyRouteZero">
+							<div class="project-image-wrap">
+								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+							</div>
+							<div class="header-info">
+								<div class="floating-text">
+								<small>Launched: January 2013</small>
+								<h2> Kentucky Route Zero </h2>	
+								</div>
+							</div>
+						</a>
+						<a class="project-url" href="http://kentuckyroutezero.com/"target=_blank> kentuckyroutezero.com <span class="icon-right"></span></a>
+					</header>
+					<section class="project-content">	
+						<ul>
+							<li> <strong> Selected by:</strong> Amelie Leenhardt</li>
+							<li> <strong> Created by:</strong> Cardboard Computer – Jake, Elliott &amp; Tamaz Kemenczy</li>
+							<li> <strong> Launched:</strong> January 2013</li>
+						</ul>
+
+						<p>Kentucky Route Zero is a point and click adventure game in five acts about a secret highway. Conway, a truck driver, works as a deliveryman for an antique shop and travels the roads of Kentucky with his dog.</p>
+ 
+						<p> Described as a magical realist game, Kentucky Route Zero reminds me of a poem with its dark, evocative and mysterious atmosphere. But to me it’s first and foremost a theater play. The player acts as a stage director, controlling Conway’s character, choosing his actions and interactions with other characters, and selecting his dialogues by clicking on text boxes. Most of these dialogues have no impact on the adventure; while they are unnecessary to the action, they allow the player to develop his vision of the main character, to create the backstory and to contribute to the atmosphere of the play. The player shapes the story. In the first scene, a <em>mise en abyme</em> highlights the theatrical aspect of this five-act game. Conway witnesses people playing a “random” but “realistic” roadmap game and discussing the rule: “I don’t think you can win - it says on the box it’s a tragedy”. It's not the destination nor the action but <em>the route</em> that really matters.</p>
+				
+					<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute </p>
+							
+					</section>
+				</article>
+			</li>
+			
 		</ul>
 		
 		
