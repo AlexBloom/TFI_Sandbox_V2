@@ -719,6 +719,8 @@ button {
   padding: 0;
   max-width: 23.33333em;
   border: 1px solid #dddddd; }
+  .share a {
+    text-decoration: none; }
   .share #share-engage {
     background-color: white;
     width: 100%;

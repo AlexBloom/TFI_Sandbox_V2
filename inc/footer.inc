@@ -1,6 +1,23 @@
 
 
 	<footer class="clearfix" id="footer">
+		
+		<!--Google Asynchrous Load SDK -->
+		
+		
+				<script type="text/javascript">
+				      window.___gcfg = {
+				        lang: 'en-US'
+				      };
+
+				      (function() {
+				        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+				        po.src = 'https://apis.google.com/js/plusone.js';
+				        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+				      })();
+				</script>
+		
+		
 		<div id="ford-logo"> <img src="img/ui/justfilms_logo.gif" alt="Just Films Ford Foundation"> </div>
 		<div id="footer-info">
 			<p> <small>All content &copy; Tribeca Film Institute 2012&ndash;2014 | Site by <a href="http://digitalfrontiersman.com">Alex Bloom</a></small> </p>

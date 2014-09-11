@@ -3,14 +3,31 @@
 <!-- Custom Meta Info Here -->
 <link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
 <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
+<meta property="og:type" content="website" />
 <meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
 <meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+
+<meta name="google-site-verification" content="">
+
+<meta property="article:author" content="https://www.facebook.com/TribecaFilmInstitute"/>
+<meta name="twitter:card" value="summary">
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="TFI Sandbox" />
+<meta name="twitter:title" content="Title of Page" />
+<meta name="twitter:description" content="Description of Page" />
+<meta name="twitter:image" content="https://imagelink.jpg" />
+<meta name="twitter:url" content="page url" />
+
 <meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
 <meta property="og:site_name" content="TFI Sanxbox" />
 <meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
 <meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
 <meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+
+<meta property="fb:admins" content="8228569"/>
+<meta name="fb:app_id" content="TFI Sandbox"/>
 
 <?php include_once 'inc/header.inc' ?>
 
@@ -86,10 +103,44 @@
 		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
 		
 		<ul id="share-buttons" class="clearfix">
-			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
-			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
-			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
+			<li class="one-third-first"> 
+				<div class="facebook" id="shareBtn">			 
+					 <span class="icon icon-facebook"> </span> Facebook
+				</div>
+			</li>		
+			<li class="one-third-second"> 
+				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFISandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+				<div class="twitter"> 										
+					 
+						<span class="icon icon-twitter"> Tweet 
+					
+				</div>
+				</a>	
+			</li>
+			<li class="one-third-third"> 
+				<a href="https://plus.google.com/share?url={http://tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+				<div class="google"> 
+					
+						<span class="icon icon-google"> </span> Google
+					 
+				</div>
+				</a> 			
+			</li>
+			
 		</ul>
+		
+
+		
+		<script>
+		document.getElementById('shareBtn').onclick = function() {
+		  FB.ui({
+		    display: 'popup',
+		    method: 'share',
+		    // href: 'https://developers.facebook.com/docs/',
+		  }, function(response){});
+		}
+		</script>
+		
 	</nav>
 	
 <section>	

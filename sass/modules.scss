@@ -588,6 +588,11 @@ $button-size: 2em;
 		
 	}
 	
+	a{
+		//display:block;
+		text-decoration:none;
+	}
+	
 	// Open / Close Button
 	#share-engage{
 		background-color:$white;
