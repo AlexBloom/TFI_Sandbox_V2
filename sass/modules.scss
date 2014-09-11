@@ -561,7 +561,7 @@ $button-size: 2em;
 			float:left;
 		}
 		dd{
-		<span class="icon-right"></span>;
+		
 			width:auto;
 			margin:0;
 		
@@ -749,6 +749,11 @@ $button-size: 2em;
 	padding:0;
 	background-color:$white;
 	@include drop-shadow;
+	
+	.icon-right{
+		float:right;
+	}
+	
 	
 	a{
 		display:block;

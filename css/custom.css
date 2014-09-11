@@ -702,7 +702,6 @@ button {
     .filters dt {
       float: left; }
     .filters dd {
-      float: left;
       width: auto;
       margin: 0; } }
 
@@ -831,6 +830,8 @@ button {
   -ms-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
   -o-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
   box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5); }
+  .home-links .icon-right {
+    float: right; }
   .home-links a {
     display: block;
     text-decoration: none;
