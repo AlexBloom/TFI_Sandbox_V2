@@ -3,10 +3,9 @@ include_once 'inc/head.inc';
 require_once 'inc/tfi_ee.inc';
 
 $vars = array_keys($_GET);
-$current_year = $vars[0];
+$current_year = (int) htmlspecialchars($vars[0]); //sanitize _GET (prevent SQL injection)
 $cms = new tfi_ee();
 $projects = $cms->get_project_by_year($current_year);
-
 ?>
 
 <!-- Custom Meta Info Here -->

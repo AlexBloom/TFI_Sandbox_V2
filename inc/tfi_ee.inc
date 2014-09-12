@@ -58,10 +58,12 @@ class tfi_ee {
 			$project_ids[] = $row['entry_id'];
 		}
 		$res->free();
-		
-		$filmmakers = $this->get_filmmakers_by_project_id($project_ids);
-		foreach($projects as $k => $pro){
-			if(isset($filmmakers[$pro['entry_id']])) $projects[$k]['filmmakers'] = $filmmakers[$pro['entry_id']];
+		//print_r($project_ids);
+		if(!empty($project_ids)){
+			$filmmakers = $this->get_filmmakers_by_project_id($project_ids);
+			foreach($projects as $k => $pro){
+				if(isset($filmmakers[$pro['entry_id']])) $projects[$k]['filmmakers'] = $filmmakers[$pro['entry_id']];
+			}
 		}
 		//print_r($filmmakers);
 		
