@@ -1,4 +1,9 @@
-<?php include_once 'inc/head.inc' ?>
+<?php
+include_once 'inc/head.inc';
+require_once 'inc/tfi_ee.inc';
+
+$cms = new tfi_ee();
+?>
 
 <!-- Custom Meta Info Here -->
 <link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
@@ -192,76 +197,74 @@
 				<p>Happy collaborative hacking!</p>
 			
 				</article>
-			</section>	
-			<section class="content anchor" id="Upcoming">
+			</section>
+			<?php
+			$hacks = $cms->get_hacks();
+			foreach($hacks as $hack){
+				if($hack['entry_date'] > time()){
+					$upcoming_hacks[] = $hack;
+				} else {
+					$past_hacks[] = $hack;
+				}
+			}
+			?>
 			
-
+			<?php if(isset($upcoming_hacks)){ ?>
+			<section class="content anchor" id="Upcoming">
 				<h2>UPCOMING EVENTS</h2>
 				<p>
 					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage.</a> for more info.
 				</p>
 				
 					<ul class="two-columns clearfix">
+						<?php
+						foreach($upcoming_hacks as $hack){
+							if($hack['entry_date']<time()) continue;
+							echo '<li>'."\n";
+							echo '<div class="hack-logo"><img src="'.str_replace('{filedir_6}', 'https://tribecafilminstitute.org/images/uploads/event_files/main/', $hack['main_image']).'" alt="Logo Image PHP"/> </div>'."\n";
+							echo '<h2 class="hack-title">'.$hack['title'].'</h2>'."\n";
+							echo '<a href="https://tribecafilminstitute.org/events/detail/'.$hack['url_title'].'" target=_blank> Hack Link PHP </a>'."\n";
+							//echo $hack['entry_date'];
+							//echo $hack['url_title'];
+							echo '</li>'."\n";
+						}
+						?>
+						<!--
 						<li>
 							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
 							<h2 class="hack-title"> Hack Title PHP </h2>
 							<a href="#"target=_blank> Hack Link PHP </a>
 						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
+						-->
 					</ul>
 			
 			</section>
-			<section class="content anchor" id="Past">
+			<?php } ?>
 			
-
+			<?php if(isset($past_hacks)){ ?>
+			<section class="content anchor" id="Past">
 				<h2>PAST EVENTS</h2>				
 					<ul class="two-columns clearfix">
+						<?php
+						foreach($past_hacks as $hack){
+							if($hack['entry_date']>=time()) continue;
+							echo '<li>'."\n";
+							echo '<div class="hack-logo"><img src="'.str_replace('{filedir_6}', 'https://tribecafilminstitute.org/images/uploads/event_files/main/', $hack['main_image']).'" alt="Logo Image PHP"/> </div>'."\n";
+							echo '<h2 class="hack-title">'.$hack['title'].'</h2>'."\n";
+							echo '<a href="https://tribecafilminstitute.org/events/detail/'.$hack['url_title'].'" target=_blank> Hack Link PHP </a>'."\n";
+							echo '</li>'."\n";
+						}
+						?>
+						<!--
 						<li>
 							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
 							<h2 class="hack-title"> Hack Title PHP </h2>
 							<a href="#"target=_blank> Hack Link PHP </a>
 						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
-						<li>
-							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
-							<h2 class="hack-title"> Hack Title PHP </h2>
-							<a href="#"target=_blank> Hack Link PHP </a>
-						</li>
+						-->
 					</ul>			
 			</section>
+			<?php } ?>
 	</div>
 	
 	</article>
