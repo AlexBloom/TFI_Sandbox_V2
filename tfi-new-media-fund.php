@@ -47,18 +47,10 @@
 		<section class="content clearfix" id="TFI-New-Media-Fund">		
 			<h2> View Supported Projects  </h2>
 			<ul class="buttonlist clearfix">
-				<li> 
-					 <a href="tfi-new-media-fund-projects?2014" target=_blank> 2014 </a>
-				</li>
-				<li> 
-					 <a href="tfi-new-media-fund-projects?2013" target=_blank> 2013 </a>
-				</li>
-				<li> 
-					 <a href="tfi-new-media-fund-projects?2012" target=_blank> 2012 </a>
-				</li>
-				<li> 
-					 <a href="tfi-new-media-fund-projects?2011" target=_blank> 2011 </a>
-				</li>
+				<li><a href="tfi-new-media-fund-projects?2014" target=_blank>2014</a></li>
+				<li><a href="tfi-new-media-fund-projects?2013" target=_blank>2013</a></li>
+				<li><a href="tfi-new-media-fund-projects?2012" target=_blank>2012</a></li>
+				<li><a href="tfi-new-media-fund-projects?2011" target=_blank>2011</a></li>
 			</ul>
 		
 		</section>
