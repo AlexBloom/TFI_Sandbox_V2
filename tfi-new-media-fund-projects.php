@@ -9,16 +9,16 @@ $projects = $cms->get_project_by_year($current_year);
 ?>
 
 <!-- Custom Meta Info Here -->
-<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/tfi-new-media-fund-projects?<?=$current_year?>" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
 <meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
-<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/tfi-new-media-fund-projects?<?=$current_year?>" />
 <meta property="og:site_name" content="TFI Sanxbox" />
 <meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
 <meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
-<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+<!--<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />-->
 
 <?php include_once 'inc/header.inc' ?>
 
@@ -60,7 +60,11 @@ $projects = $cms->get_project_by_year($current_year);
 					<header class="project-header" id="">
 						<a class="local-link" href="#project_<?=$project['url_title']?>">
 							<div class="project-image-wrap">
-								<img src="<?=str_replace('{filedir_3}', 'https://tribecafilminstitute.org/images/uploads/film_files/', $project['film_image'])?>" alt="Project Image">
+								<?php if($project['film_image']!=''){ ?>
+									<img src="<?=str_replace('{filedir_3}', 'https://tribecafilminstitute.org/images/uploads/film_files/', $project['film_image'])?>" alt="Project Image">
+								<?php } else { ?>
+									some thing should go here
+								<?php } ?>
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -69,7 +73,14 @@ $projects = $cms->get_project_by_year($current_year);
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>				
+						<?php
+							if(isset($project['project_website'])){
+								$link_display = 'Project Website';
+								if(trim($project['project_website']['mx_film_link_title'])!='') $link_display = $project['project_website']['mx_film_link_title'];
+								echo '<a class="project-url" href="'.$project['project_website']['mx_film_link_url'].'" target=_blank>'.$link_display.' &rarr;</a>';
+							}
+						?>
+						
 					</header>
 					
 					<section class="project-content">
@@ -92,43 +103,9 @@ $projects = $cms->get_project_by_year($current_year);
 							</li>
 							<?php }?>
 						</ul>		
-						
-						<h3>Project Update</h3>
-						<section class="text-static">
-						
-							<p><small>Answers by Jigar Mehta (2014)</small></p>
-	
-							<p><strong>It’s been two years, where are you at?</strong> </p>
-	
-							<p>We bootstrapped, launched, iterated, failed, launched, iterated, failed, launched. Then collected, collected, collected. It was raw, it was real-time, and it was a new type of documentary storytelling. But  then the story we were covering changed, the climate changed. It felt like a natural “ending” point to our  activities. And now we’re at another pivotal point where it feels right to look back and reflect.</p>
-						</section>
-						
-						<h3>Q&amp;A</h3>
-						<section class="text-dynamic">
-
-							<p><small>Answers by Jigar Mehta (2014)</small></p>
-						
-							<p><strong>What’s one takeaway from the experience of bringing story and technology together?</strong></p>
-							<p>Technology is allowing us to shape the next generation of storytelling.</p>
-
-							<p>The objective of 18DaysInEgypt is to be the first living history documentary project created by the people who are living through it and experiencing it first-hand, using their own media. Egyptians documented a revolution in real-time using cellphones, cameras and social media such as Facebook and Twitter. There so many important stories out there about how the events played out in the streets of Egypt and how people were effected. We needed a way to collect all these stories and experiences in a crowd-sourced documentary.</p> 
-
-							<p>In a traditional documentary, we as filmmakers would choose the story to tell. But by using technology to drive the storytelling experience, we could create a new collaborative storytelling platform which would now enable an entire community to be the filmmakers. Everyone is a storyteller on <em>18DaysInEgypt</em>. </p>
-
-							<p>For the first time ever technology is now enabling an ongoing, evolving story. Egypt is still a country in transition and the site continues to build. Our community not only documented the first 18 days of the Egyptian revolution but the first presidential elections, ongoing clashes, new street art movements, rising political players and initiatives in the country. And the story still continues. That’s the power of using technology to drive storytelling - there are no boundaries, your imagination is the limit. It’s a very exciting time to be exploring in this new frontier.</p>
-
-							<p><strong>Has the experience developing your project given you new insights into ways to reach new audiences and or inspire social change?</strong></p>
-
-							<p>With a new form of crowd-sourced documentary, there are many new types of challenges to overcome that are unique to each project. Who are your audiences? How do you engage them? How do you reach them? How do you give your audience enough tools to properly experience your project? How do you teach your contributors new behaviors?</p>
-
-							<p>We learned that the most advantageous way to explore these questions was to be flexible, open to changes and pivots, and iterate quickly and often. There was no blueprint for what we were doing, and so we had to adopt some approaches from the tech-startup world in how we built out the project. We have gone through several iterations of the project, and we put everything out there to test out an idea and learn from the community about what was working and what wasn’t successful.</p>
-
-							<p>Another important lesson is to be aware of the context you are operating in. We built a project that has two main audiences: the Egyptian community and the larger global audience. In Egypt, there is a digital divide due to low-net penetration, approximately 25% of the population is online. We were very aware of this digital divide and our solution was creating an on-the-ground outreach effort which we called the 18DaysInEgypt fellows program. In the fellowship program, we hired and trained students and young citizen journalists who then went out and collected stories from the larger community. It was a very successful non-technical solution to engaging a community in Egypt that wouldn't normally have access to a web-native project.</p>
-						
-							<p>Creative solutions can lead to new paths and open doors in surprising ways leading to social change. The 18DaysInEgypt fellowship program was so successful it has now grown into a new citizen journalism incubator program called the Egypt Journalism Project which institutionalizes the education and training of young citizen journalists in Egypt. These young storytellers really are the future of Egypt and fulfill the original vision and mission of our project in a way we could never have imagined.</p>
-						
-						</section>
-					
+						<?php
+						if(trim($project['film_sandbox'])!='') echo $project['film_sandbox'];
+						?>
 			
 					</section>
 				</article>

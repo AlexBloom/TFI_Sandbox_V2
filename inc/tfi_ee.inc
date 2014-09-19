@@ -16,6 +16,48 @@ class tfi_ee {
 		}
 	}
 	
+	public function get_hacks(){
+		$this->get_channel_fields(array('Events'));
+		$sql = '
+			SELECT
+				exp_channel_titles.*,
+				exp_channel_titles.title,
+				exp_categories.cat_name,
+				';
+				foreach($this->channel_fields['Events'] as $f => $fid){
+					$sql .= 'field_id_'.$fid.' AS `'.$f."`,\n";
+				}
+				$sql .= '
+				parent_cat.cat_name AS parent_name,
+				group_name
+			FROM exp_category_posts
+				LEFT JOIN exp_categories      USING (cat_id)
+				LEFT JOIN exp_categories AS parent_cat ON (exp_categories.parent_id = parent_cat.cat_id)
+				LEFT JOIN exp_category_groups ON (exp_category_groups.group_id = exp_categories.group_id)
+				LEFT JOIN exp_channel_titles  USING (entry_id)
+				LEFT JOIN exp_channel_data    ON (exp_channel_titles.entry_id = exp_channel_data.entry_id)
+				LEFT JOIN exp_channels        ON (exp_channels.channel_id = exp_channel_titles.channel_id)
+			WHERE
+				exp_categories.cat_name = "Tribeca Hacks"
+				AND group_name = "Programs"
+				AND parent_cat.cat_name = "Artist Programs"
+				AND channel_name = "events" 
+				AND exp_channel_titles.status = "open"
+			ORDER BY entry_date DESC
+				
+		';
+		$res = $this->db->query($sql);
+		if(!$res) printf("Errormessage: %s\n", $this->db->error);
+		$events = array();
+		while ($row = $res->fetch_assoc()) {
+			$row = $this->clean_up_utf8($row);
+			$events[] = $row;
+		}
+		$res->free();		
+		//echo '<pre>'; print_r($events); echo '</pre>'; exit;
+		return $events;
+	}
+	
 	public function get_project_by_year($year){
 		$this->get_channel_fields(array('Films', 'Filmmakers'));
 		//print_r($this->channel_fields); return 1;
@@ -63,6 +105,10 @@ class tfi_ee {
 			$filmmakers = $this->get_filmmakers_by_project_id($project_ids);
 			foreach($projects as $k => $pro){
 				if(isset($filmmakers[$pro['entry_id']])) $projects[$k]['filmmakers'] = $filmmakers[$pro['entry_id']];
+			}
+			$links = $this->get_links_by_project_id($project_ids);
+			foreach($projects as $k => $pro){
+				if(isset($links[$pro['entry_id']][0])) $projects[$k]['project_website'] = $links[$pro['entry_id']][0];
 			}
 		}
 		//print_r($filmmakers);
@@ -133,6 +179,41 @@ class tfi_ee {
 		}
 		return $input;
 	
+	}
+	
+	private function get_links_by_project_id($project_ids){
+		$matrix_field_id = $this->channel_fields['Films']['film_links'];
+		//echo '<pre>'; print_r($matrix_field_id);echo '</pre>'; exit;
+		$this->get_matrix_fields($matrix_field_id);
+		//echo '<pre>'; print_r($this->matrix_fields);echo '</pre>'; exit;
+		$sql = '
+			SELECT
+				exp_matrix_data.row_order,
+				';
+				foreach($this->matrix_fields[$matrix_field_id] as $mf => $mid){
+					$sql.= 'col_id_'.$mid.' AS mx_'.$mf.",\n";
+				}
+				$sql.= '
+				exp_matrix_data.entry_id
+			FROM exp_matrix_data			
+			WHERE exp_matrix_data.field_id = '.$matrix_field_id.'
+				AND exp_matrix_data.entry_id IN ('.implode(', ',$project_ids).') 
+				AND col_id_'.$this->matrix_fields[$matrix_field_id]['film_link_type'].' = "Website"
+			ORDER BY exp_matrix_data.row_order
+			LIMIT 100
+		';
+		//echo '<pre>'; print_r($sql);echo '</pre>'; exit;
+		$res = $this->db->query($sql);
+		if(!$res) printf("Errormessage: %s\n", $this->db->error);
+		$links = array();
+		while ($row = $res->fetch_assoc()) {
+			//print_r($row);
+			$row = $this->clean_up_utf8($row);
+			$links[$row['entry_id']][] = $row;
+		}
+		$res->free();
+		//echo '<pre>'; print_r($links);echo '</pre>'; exit;
+		return $links;
 	}
 	
 	private function get_filmmakers_by_project_id($project_ids){
