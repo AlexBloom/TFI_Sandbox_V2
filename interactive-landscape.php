@@ -63,7 +63,7 @@
 					<section class="project-content">
 	
 						<ul>
-							<li> <strong>Selected by:</strong> Arnaud Colinart & Nicholas Fortugno </li>
+							<li> <strong>Selected by:</strong> Arnaud Colinart &amp; Nicholas Fortugno </li>
 							<li> <strong>Created by:</strong> SIMOGO </li>
 							<li> <strong>Launched:</strong> October 2013 </li>
 						</ul>
@@ -75,14 +75,19 @@
 						
 						<p> DEVICE 6’s ergonomics are perfect on every platform you play and the sound design enhances the immersion of the player in the story. This game really pushes further the way we think of the use of text in interactive design.</p>
 
-						<p class="author">Arnaud Colinart , AGAT Films & Cie / EX NIHILO</p>
+						<p class="author">Arnaud Colinart , AGAT Films &amp; Cie / EX NIHILO <br>  
+							<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a>
+						</p>
 						
 						<p>A fusion of graphic design, gameplay and literature, DEVICE 6 is an intriguing mystery of technology and neuroscience that tells the story of Anna’s strange awakening in a bizarre castle filled with puzzles and directions, and the secrets she discovers as she explores the island on a quest to get home.</p>
 
 						
 						<p>DEVICE 6 is a fascinating experiment in how to reimagine reading and books. By using innovative and slick visual design, animation, and sound, SIMOGO takes a well-written story and transforms it into a unique multimedia piece. The app is a wonderful example of how text, animation, gameplay, and music can be brought together to create an entirely new experience. DEVICE 6 is an ambitious stab at the frontier of what interactivity and storytelling can do together, and serves as a vivid example of what original interactive narrative is, and what happens when such experiments are executed beautifully.</p>
 						
-						<p class="author">Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC </p>
+						<p class="author">Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC
+							<br>
+							<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a>
+						 </p>
 
 					</section>
 
@@ -116,7 +121,9 @@
 						
 						<p>It is classy and elegant. The gameplay is simple and easy to grasp. The visual style of the giant letters world is compelling. It is a quiet and quirky way of discovering an otherwise abstract world, that of typography.</p>
 						
-						<p class="author">Michel Reilhac, Story Architect, MÉLANGE</p>
+						<p class="author">Michel Reilhac, Story Architect, MÉLANGE<br>
+							<a href="https://twitter.com/michelreilhac"target=_blank> @michelreilhac </a>
+						</p>
 						
 					</section>
 				</article>
@@ -152,7 +159,10 @@
 					<p>What are we if not our emotions? In a world that increasingly limits spontaneous emotional expression, the installation creates a space for personal revelation. It’s a chance to explore the patterns of feeling in a fun way. And everyone who plays gets a lollypop.
 					</p>
 					
-					<p class="author">Brent Hoff, Director of Programming at IFP's New Media Centre in New York</p>
+					<p class="author">Brent Hoff, Director of Programming at IFP's New Media Centre in New York
+					<br>
+					<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a>
+					</p>
 					
 
 					</section>
@@ -189,7 +199,10 @@
 
 						<p>This particular project presented many interesting and unique challenges, as well as incredible opportunities with technology and storytelling. Unlike most museums, this museum is meant to capture a single moment in history that was witnessed on a global scale. With the nature of the event of 9/11 not being quite yet history but also not current events, the gathering of all of these individual stories helps contribute to the understanding and meaning of 9/11 and its impact. By capturing the stories and experiences from the memories of people that day, we created a larger narrative of what actually happened that day.</p> 
 
-						<p class="author"> David Carofano, Production Associate at Local Projects </p>
+						<p class="author"> David Carofano, Production Associate at Local Projects
+						<br>
+						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a>
+						 </p>
 
 
 						
@@ -226,7 +239,10 @@
 						
 						<p>This project was made possible by the enormous amount of experimentation and willingness to change the conventions of a typical art museum experience. While technology is often thought to distract, we were encouraged to use technology to enhance the works of art, to integrate it seamlessly, and provide a memorable experience. We were able to experiment with interfaces that allowed visitors of any age, with no advance knowledge, to walk up and interact with technology and the works themselves. The interactive technology that we created encouraged visitors to create and play, making the museum a universal experience for all.</p>
 						
-						<p class="author"> David Carofano, Production Associate at Local Projects </p>
+						<p class="author"> David Carofano, Production Associate at Local Projects
+						<br>
+						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a>
+						 </p>
 						
 					</section>
 				</article>
@@ -253,7 +269,7 @@
 
 					
 						<ul>
-							<li> <strong> Selected by: </strong>Aina Abodiun </li>
+							<li> <strong> Selected by: </strong>Aina Abiodun </li>
 							<li> <strong> Developed &amp; Published by: </strong> The Fullbright Company</li>
 							<li> <strong> Launched: </strong> August 2013 </li>
 						</ul>
@@ -261,7 +277,10 @@
 						<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
 						<p>Beyond the sheer delight of exploring such a well designed and rendered space, I found myself curious to discover the story through the physical objects. Like many compelling stories, the draw of this one is the familiarity and relatability of the story, and the sense of knowing yet not knowing one's family is made more visceral by the act of the player being the character rather than watching her. Gone Home gives a glimpse into the possibilities of great storytelling in gaming.</p>
 						
-						<p class="author"> Aina Abodiun, Storyteller, Strategist and Futurist </p>
+						<p class="author">Aina Abiodun, Storyteller, Strategist &amp; Futurist
+						<br>
+						<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun</a>
+						</p>
 			
 					</section>
 		
@@ -298,7 +317,10 @@
 
 						<p>I think it's an important project that we approached with innovative storytelling techniques. Many of the projects we've seen on the internet that have really gotten the interactive 'treatment' are feature stories that tell a compelling story. However, Decoded attempts to explain complicated matters of national security in a relatable, creative format. For that we're proud of the project.</p>
 
-						<p class="author"> Gabriel Dance, Interactive Editor for The Guardian in the U.S.  </p>
+						<p class="author"> Gabriel Dance, Interactive Editor for The Guardian in the U.S.
+						<br>
+						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a>
+						</p>
 						
 					</section>
 		
@@ -336,7 +358,10 @@
 
 						<p>This graphic strikes a chord with me as a fly fisherman, and somebody who is familiar with the dangers of rivers. Through really gorgeous storytelling, the Post takes something that is difficult to 'see' – currents below the surface of water – and illustrates them in a compelling fashion. What I particularly value about this graphic is the combination of a really important story, with original and beautiful storytelling. </p>
 		
-						<p class="author"> Gabriel Dance, Interactive Editor for The Guardian in the U.S.  </p>
+						<p class="author"> Gabriel Dance, Interactive Editor for The Guardian in the U.S.
+						<br>
+						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a>
+						</p>
 						
 					</section>
 		
@@ -374,7 +399,10 @@
 
 						<p>hitRECord is interesting for its shared content platform and open source but also for how the creators clearly state the terms of agreement in an effort to fully recognize the shared value of authorship. It is candid and straightforward in its way of presenting the service and the simple fun of it all.</p>
 						
-						<p class="author"> Michel Reilhac, Story Architect, MÉLANGE </p>
+						<p class="author"> Michel Reilhac, Story Architect, MÉLANGE
+						<br>
+						<a href="https://twitter.com/michelreilhac"target=_blank>@michelreilhac</a>
+						 </p>
 					
 					</section>
 		
@@ -417,10 +445,14 @@
 						<p>All of which to say, we've both spent a lot of time staring into its depths...</p>
 						
 						<p class="author"> Malika Zouhali-Worrall, Journalist, Documentarian  
+							<br>
+							<a href="https://twitter.com/malikazw"target=_blank>@malikazw</a>
 							<br> 
 							&amp; 
 							<br>
 							David Osit , Commercial and Documentary Director, Editor, Composer 
+							<br>
+							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a>
 						</p>
 						
 					
@@ -463,10 +495,14 @@
 						<p>The project hasn’t been released yet, but we’ve played a demo of That Dragon, Cancer, and seen early renderings of additional scenes. It’s a stunning and heartbreaking endeavor, incredible as much for its raw, emotional honesty, as for its surreal visual expression of the psychological impact of raising a child that is terminally ill. The project also demonstrates the emotional power of interactivity – we’ve watched people play the simple ten-minute demo, and it’s been remarkable to see the depth of emotion and empathy it engenders every time. </p>
 						
 						<p class="author"> Malika Zouhali-Worrall, Journalist, Documentarian  
+							<br>
+							<a href="https://twitter.com/malikazw"target=_blank>@malikazw</a>
 							<br> 
 							&amp; 
 							<br>
 							David Osit , Commercial and Documentary Director, Editor, Composer 
+							<br>
+							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a>
 						</p>
 					
 					</section>
@@ -505,7 +541,10 @@
 
 						<p>Cowbird is a testament to simplicity on all levels, from what it asks of its creators to what it asks of its audience. From the way it looks, to the way it is built, to the stories it offers, to the connections it makes between these stories. And so often with simplicity comes truth.</p>	
 						
-						<p class="author"> Mike Robbins, Creative Technologist at Helios Design Labs </p>	
+						<p class="author"> Mike Robbins, Creative Technologist at Helios Design Labs
+						<br>
+						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a>
+						 </p>	
 					
 					</section>
 		
@@ -547,7 +586,10 @@
 
 						<p>Highrise is paradox of sorts. Over the years, it has shifted gears, adapted to opportunities, changed scope, but all the time remaining completely focused. There is not one piece that doesn't belong to one another, whether it exists as a web experience, physical installation, art show in public spaces, performance art, op-ed article. I also think it’s like punk rock, in that the perfect sense it makes, and its vitality, and its inherent simplicity has inspired many others to take up camera and/or keyboard and go down their own paths of interactive storytelling.</p>
 					
-						<p class="author"> Mike Robbins, Creative Technologist at Helios Design Labs </p>
+						<p class="author"> Mike Robbins, Creative Technologist at Helios Design Labs
+						<br>
+						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a>
+						 </p>
 						
 					</section>
 		
@@ -585,7 +627,10 @@
 						
 						<p>Papers, Please is the most important serious game of last year, and one of the most important of all time. Its strong political message about the power dynamics of bureaucracy and security is potent, and it is elegantly tied to a challenging and aesthetically appropriate core mechanic. This makes it a good game. What makes it exceptional is that is also a profound exercise in ethical decision making, challenging the player to make tough moral choices and confront his/her own values.</p>
 					
-					<p class="author"> Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC</p>
+					<p class="author">Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC
+						<br>
+						<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a>
+					 </p>
 					
 					</section>
 		
@@ -612,7 +657,7 @@
 
 					<section class="project-content">
 						<ul>
-							<li> <strong> Selected by:</strong> Aina Abodiun </li>
+							<li> <strong> Selected by:</strong> Aina Abiodun </li>
 							<li> <strong> Created by:</strong> Joe Diebes, Christian Hawkey &amp; David Levine</li> 
 							<li> <strong> Launched:</strong> January 2014, Live</li>
 						</ul>
@@ -622,7 +667,10 @@
 						
 					<p>Technology and physical space are leveraged seamlessly to create a truly immersive experience in this opera. The sheer ingenuity of using the raw materials of a very operatic narrative to create a brand new experience of opera is brilliant. Because the very heart of the duo's story involves the technologically-enabled ruse of lip-syncing, technology is a very natural player in the structure of the story, and the creators exploit that division between the production of music and the faux performance to great effect.</p>
 					
-					<p class="author">Aina Abodiun, Storyteller, Strategist &amp; Futurist</p>
+					<p class="author">Aina Abiodun, Storyteller, Strategist &amp; Futurist
+					<br>
+					<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun </a>
+					</p>
 					</section>
 
 				</article>
@@ -655,7 +703,10 @@
 
 					<p>The ENJMIN, « L’École Nationale du Jeu et des Médias Interactifs Numériques » is the only public school in Europe specialized in interactive media and video games. Opened in 2005 in Angoulême in France, the goal of this school is to train students to become professionals of the video game industry. In December 2013, The ENJMIN School launched the « ENJMIN BUNDLE », a bundle of the most recent games created by students. And every game created by ENJMIN students since 2005 is soon to be found on this platform. What is tomorrow’s video game going to look like ? Who are the young game creators? The ENJMIN BUNDLE  gives free and unlimited access to games created by its students. From PC games to tablet smartphones, Kinect or Sifteo Cubes, the ENJMIN BUNDLE is a good way to discover young developers trying to create new gameplays and digital experiences. The program of the school includes a six month internship. A lot of students are interns abroad, often in Canada, at Ubisoft Montreal. The ENJMIN school and specially the game bundle is a great place to find talented art directors, game designers, sound designers or production managers.</p>	
 					
-					<p class="author"> Arnaud Colinart, AGAT Films &amp; Cie / EX NIHILO </p>
+					<p class="author"> Arnaud Colinart, AGAT Films &amp; Cie / EX NIHILO 
+					<br>
+					<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a>
+					</p>
 
 			
 					</section>
@@ -689,7 +740,10 @@
 	
 						<p>BlabDroid is making the world’s first documentary shot entirely by robots: Because people will reveal themselves to robots in ways they never would to strangers!</p>
 						
-						<p class="author"> Brent Hoff, Director of Programming at IFP's New Media Centre in New York </p>
+						<p class="author"> Brent Hoff, Director of Programming at IFP's New Media Centre in New York
+							<br>
+							<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a>
+						</p>
 			
 					</section>
 				</article>
@@ -718,7 +772,10 @@
 
 				<p>Beta is an open game world that allows players to easily play, create and share games. Play as Beta to learn how to use code to manipulate the world’s objects and properties using a simple programming language called CodePOP. Beta is designed for anyone 10 and up, with or without previous programming and design expertise. It is an immersive experience that allows players to straddle the line between gamer and developer.</p>	
 				
-				<p class="author"> Errol King, Founder &amp; Creative Director of Beta </p>
+				<p class="author"> Errol King, Founder &amp; Creative Director of Beta
+				<br>
+				<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a>
+				 </p>
 							
 					</section>
 				</article>
@@ -751,7 +808,10 @@
 						
 						<p> I love the simplicity of this project, challenging the common media portrayal of the African continent as a place consumed by war, poverty, and disease. The project collects photographs taken on mobile phones across the continent using the hashtag #everydayafrica Simple, beautiful and a great example of using social media creatively. </p>
 				
-				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute </p>
+				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
+				<br>
+				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a>
+				 </p>
 							
 					</section>
 				</article>
@@ -781,7 +841,10 @@
 
 						<p>Not one project but a collection of projects reflecting the breadth of imagination and creativity in the interactive documentary form. MIT Open Documentary Lab and their partners have done a wonderful job building a home for all these projects and giving us a space to reflect on where we have come from and where we are going. </p>
 				
-				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute </p>
+				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
+				<br>
+				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a>
+				 </p>
 							
 					</section>
 				</article>
@@ -811,7 +874,10 @@
 
 						<p>Still one of my favorite projects and I wanted to include something from the NFB because I think we owe them so much for investing in this work and pioneering the field. I love the beautiful graphic design, evocative soundtrack and originality of Welcome to Pine Point. It was one of the projects that got me really excited about the potential for storytelling on the web. </p>
 				
-				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute </p>
+				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
+				<br>
+				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a>
+				 </p>
 							
 					</section>
 				</article>
@@ -844,7 +910,10 @@
 						
 						<p>In this ever-changing interactive landscape, it is great to see some projects not getting older. Prison Valley, 4 years old, is definitely one of them. Yes the blog is not as active as it used to be, but the overall experience is still stunning. I would attribute this to the bold economic approach of the prison system, the code of the Road movie genre, the use of social media as a creative tool and the overall importance of story and user experience. The user actively participates in this journalistic journey, starting at the same motel where David Dufresne and Philippe Brault stayed, then deciding where to go, what to explore, and how to participate in the debate. </p>
 				
-						<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute </p>
+						<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute
+						<br>
+						<a href=""target=_blank> </a>
+						 </p>
 							
 					</section>
 				</article>
@@ -876,7 +945,10 @@
  
 						<p> Described as a magical realist game, Kentucky Route Zero reminds me of a poem with its dark, evocative and mysterious atmosphere. But to me it’s first and foremost a theater play. The player acts as a stage director, controlling Conway’s character, choosing his actions and interactions with other characters, and selecting his dialogues by clicking on text boxes. Most of these dialogues have no impact on the adventure; while they are unnecessary to the action, they allow the player to develop his vision of the main character, to create the backstory and to contribute to the atmosphere of the play. The player shapes the story. In the first scene, a <em>mise en abyme</em> highlights the theatrical aspect of this five-act game. Conway witnesses people playing a “random” but “realistic” roadmap game and discussing the rule: “I don’t think you can win - it says on the box it’s a tragedy”. It's not the destination nor the action but <em>the route</em> that really matters.</p>
 				
-					<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute </p>
+					<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute
+					<br>
+					<a href=""target=_blank> </a>
+					 </p>
 							
 					</section>
 				</article>
