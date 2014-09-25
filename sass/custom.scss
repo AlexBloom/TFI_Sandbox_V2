@@ -177,7 +177,20 @@
 
 #floating-text-home{
 	color:$white;
-	padding-top:25%;
+	padding:20% 5em;
+	max-width:(em(950));
+	margin:0 auto;
+	h1{
+		font-size:2em;
+		@media screen and (min-width:(em(1080))){
+			font-size:3em;
+		}
+	}
+	p.intro{
+		//padding:1em 5em;
+		max-width:(em(540));
+		margin:1em auto;
+	}
 }
 
 .project-url{

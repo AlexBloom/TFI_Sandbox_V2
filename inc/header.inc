@@ -50,17 +50,15 @@
 
 	
 	<header class="clearfix" id="header">
-
-			<a class="" id="logo" href="index"><strong>TFI</strong> Sandbox</a>
 	        <button type="button" id="toggle" role="button" aria-label="Toggle Navigation" class="lines-button x2">
 	          <span class="lines"></span>
 	        </button>
-			
+			<a class="" id="logo" href="index"><strong>TFI</strong> Sandbox</a>			
 	</header>
 	<nav id="primary-nav">
 		
 				<dl class="primary clearfix" id="discover-primary">
-					<dt class="clearfix">Discover</dt>
+					<dt class="clearfix">Discover - <small>Discover inspiring interactive projects.</small></dt>
 					<dd class="primary-link" id=""> 
 						<a href="tfi-new-media-fund"> TFI New Media Fund <span class="icon-right"></span> </a>	
 						<ul class="secondary" id="">	
@@ -71,17 +69,11 @@
 					</dd>
 					<dd class="primary-link" id=""> 	
 						<a href="interactive-landscape"> Interactive Landscape <span class="icon-right"></span> </a>
-						<ul class="secondary" id="">		
-							<li class="secondary-link" id=""> <a href="#Web"> Web </a> </li>
-							<li class="secondary-link" id=""> <a href="#Apps"> Apps </a> </li>
-							<li class="secondary-link" id=""> <a href="#Installations"> Installatons </a> </li>
-							<li class="secondary-link" id=""> <a href="#Other"> Other </a> </li>
-						</ul>
 					</dd>
 				</dl>
 
 				<dl class="primary clearfix" id="participate-primary">
-					<dt class="clearfix">Participate</dt>
+					<dt class="clearfix">Participate - <small>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</small></dt>
 					<dd class="primary-link" id=""> 
 						<a href="tfi-interactive"> TFI Interactive <span class="icon-right"></span> </a>
 						<ul class="secondary" id="">
@@ -92,10 +84,6 @@
 					</dd>
 					<dd class="primary-link" id=""> 
 						<a href="tribeca-hacks"> Tribeca Hacks <span class="icon-right"></span> </a>
-						<ul class="secondary" id="">	
-							<li class="secondary-link"> <a href="#upcoming"> Upcoming </a> </li>
-							<li class="secondary-link"> <a href="#completed"> Completed </a> </li>
-						</ul>
 					</dd>
 					<dd class="primary-link"> 
 						<a href="education"> Education <span class="icon-right"></span> </a> 
@@ -103,7 +91,7 @@
 				</dl>
 
 				<dl class="primary clearfix" id="build-primary">
-					<dt class="clearfix">Build</dt>
+					<dt class="clearfix">Build - <small>Tools, resources and advice to build your own interactive project.</small></dt>
 					<dd class="primary-link" id="">
 						<a href="project-management"> Project Management Guide <span class="icon-right"></span></a> 
 						<ul class="secondary" id="">

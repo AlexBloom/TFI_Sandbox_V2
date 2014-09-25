@@ -183,23 +183,26 @@
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
+					<span class="name"> <strong> Jeremy Boxer</strong> <br> Creative Director, Vimeo </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
+					<span class="name"> <strong> Michelle Byrd</strong>  <br>  Co-President, Games for Change </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+					<span class="name"> <strong> Marisa Jahn</strong> <br>  Executive Director, REV </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+					<span class="name"> <strong> Tom Jennings</strong> <br>  Producer, 2over10 Media for PBS Frontline </span>
+				</li>
+				<li>
+					<span class="name"> <strong> Julia Kaganskiy</strong> <br>  Global Editor, Creators Project</span>
+				</li>
+				<li>
+					<span class="name"> <strong> Sarah Wolozin</strong> <br>  Director, MIT Open Documentary Lab </span>
 				</li>
 			</ul>
 		</section>
+		
 		
 		<nav class="share">
 			<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>

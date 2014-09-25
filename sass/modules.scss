@@ -166,10 +166,8 @@ button{
 	@include quarter-second-transition;
 	
 	#logo, #toggle{
+		float:left;
 		color:$dark-grey;
-		//	&:hover{
-	//			background-color:$white;
-	//		}
 	}
 	
 	#logo{
@@ -190,7 +188,6 @@ button{
 		}			
 	}
 	#toggle{
-		float:right;
 		background:none!important;
 		outline:none;
 		border:none;
@@ -214,7 +211,7 @@ button{
 $button-size: 2em; 
 //common to all three-liners
 .lines-button {
-  padding: .65em .25em;
+  padding: .65em 0em;
   transition: .1s;
   cursor: pointer;
   user-select: none;
@@ -304,7 +301,7 @@ $button-size: 2em;
 	width:80%;
 	margin:0;
 	padding:0 10%;
-	background-color:$action-color;
+	background-color:$blue;
 	z-index:399;
 	top:0;
 	bottom:0;
@@ -338,6 +335,13 @@ $button-size: 2em;
 			//background-color:$white;
 		}
 	}
+	small{
+		
+		font-weight:500;
+		letter-spacing:.02em;
+		font-size:90%;
+		text-transform:none;
+	}
 }
 
 #primary-nav.open{
@@ -347,37 +351,47 @@ $button-size: 2em;
 	padding:0 10%;
 }
 .primary /*DL*/ {
-	border-top:1px solid $white;
+	border-top:1px solid $black;
 	padding:1em 0;
 	color:$white;
 	dt{
+		color:$black;
 		text-transform:uppercase;
 		letter-spacing:.2em;
 		font-size:1em;
 		opacity:0.75;
+		font-weight:700;
 
 	}
 }
 .primary-link /*DD*/{
-	font-size:2em; 
+	font-size:1.5em; 
 	line-height:1.25em;
 	padding:0;
 	margin:0;
 			
 	@media screen and (min-width:(em(800))){
+	font-size:2em;
 	width:50%;
 	float:left;
 	}
 }
-.secondary /*UL*/{
-	text-indent:1em;
+.secondary /*UL*/{	
+	text-indent:.5em;
 	font-size:.75em;
 	padding:0;
-	margin:0;
-	display:none;
+	margin:0 0 0 .5em;
+	//display:none;
+	@media screen and (min-width:(em(800))){
+		font-size:.5em;
+	}
 }
 .secondary-link /*LI*/{
-
+//float:left;
+width:50%;
+border-top:1px dotted $white;
+padding:.25em 0;
+margin:.25em 0;
 }
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
@@ -393,27 +407,45 @@ $button-size: 2em;
 		position:fixed;
 		z-index:501;
 		top:0;
-		left:10em;
+		left:14em;
 		margin:0;
 	}
 	ul{
+		position:relative;
 		padding:0;
 		margin:0;
 		line-height:1.6em;
+		
 	}
 	li{
+		position:relative;
 		float:left;
-		border-left:1px solid rgba(0,0,0,.05);
-		margin:.5em 0;
+		//border-left:1px solid rgba(0,0,0,.05);
+		margin:.5em ;
 		max-height:2.5em;
 		overflow:visible;
+		&:before, &:after{
+			position:absolute;
+			color:$medium-grey;
+			//font-family: 'icons';
+			//content: "\e60d";
+			font-size:1em; 
+
+left:-1em;
+top: .75em;
+content:" ";
+width:1em; height:1em; transform: rotate(45deg);
+border-style:solid;
+border-color:$light-grey;
+border-width:1px 1px 0 0;
+		}
 	}
 	a{
 		display:block;
 		margin: -.5em 0;
 		padding:1em;
 		text-decoration:none;
-		color:rgba(0,0,0,.5);
+		color:$dark-grey;
 		//	&:hover{
 	//			text-decoration:none;
 	//			color:$action-color;
@@ -704,7 +736,8 @@ $button-size: 2em;
 	margin:1em 0;
 	padding:0;
 	background-color:$white;
-	@include drop-shadow;
+	border:1px solid $light-grey;
+	//@include drop-shadow;
 	
 	a{
 		text-align:center;
@@ -753,8 +786,7 @@ $button-size: 2em;
 	margin:1em 0;
 	padding:0;
 	background-color:$white;
-	@include drop-shadow;
-	
+	border:1px solid $light-grey;
 	.icon-right{
 		float:right;
 	}

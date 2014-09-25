@@ -183,23 +183,50 @@
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
+					<span class="name"> <strong> Frank Rose</strong> <br> Author, The Art of Immersion: How the Digital Generation is Remaking Hollywood, Madison Avenue and the Way We Tell Stories </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
+					<span class="name"> <strong>Marc Schiller </strong> <br> Campfire, Partner & Creative Director  </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+					<span class="name"> <strong>Andrew DeVigao </strong> <br> Co-founder, A Fourth Act, Chair of Journalism, Innovation and Civic Engagement at University of Oregon’s SOJC  </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+					<span class="name">  <strong>Steve Coulson </strong> <br> Founder, Wooster Collective, CEO, BOND Strategy and Influence  </span>
+				</li>
+				<li>
+					<span class="name">  <strong>Ian Inaba </strong> <br> Filmmaker, Executive Director, Citizen Engagement Lab  </span>
+				</li>
+				<li>
+					<span class="name"> <strong>Aina Abiodun </strong> <br>Co-Founder, StoryCode   </span>
+				</li>
+				<li>
+					<span class="name"><strong>Lina Srivastava  </strong> <br> Strategist, Activist, Transmedia Designer, Writer  </span>
 				</li>
 			</ul>
 		</section>
+		
+		
+		
+
+		
+		 
+
+		
+		
+
+		
+		
+
+		
+		
+
+		
+		
+		 
+ 
+		 
+		
 		
 		<nav class="share">
 			<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>

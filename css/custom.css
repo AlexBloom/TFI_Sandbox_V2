@@ -394,6 +394,7 @@ button {
   -o-transition-duration: .25s;
   transition-duration: .25s; }
   #header #logo, #header #toggle {
+    float: left;
     color: #222222; }
   #header #logo {
     padding: 1em;
@@ -407,7 +408,6 @@ button {
       color: white;
       background-color: #00afef; }
   #header #toggle {
-    float: right;
     background: none !important;
     outline: none;
     border: none;
@@ -424,7 +424,7 @@ button {
   top: -60px; }
 
 .lines-button {
-  padding: .65em .25em;
+  padding: .65em 0em;
   transition: .1s;
   cursor: pointer;
   user-select: none;
@@ -524,6 +524,11 @@ button {
       transition-duration: .25s; }
     #primary-nav a:active, #primary-nav a:focus {
       color: black; }
+  #primary-nav small {
+    font-weight: 500;
+    letter-spacing: .02em;
+    font-size: 90%;
+    text-transform: none; }
 
 #primary-nav.open {
   padding: 6em 10% 0; }
@@ -532,31 +537,42 @@ button {
   padding: 0 10%; }
 
 .primary {
-  border-top: 1px solid white;
+  border-top: 1px solid black;
   padding: 1em 0;
   color: white; }
   .primary dt {
+    color: black;
     text-transform: uppercase;
     letter-spacing: .2em;
     font-size: 1em;
-    opacity: 0.75; }
+    opacity: 0.75;
+    font-weight: 700; }
 
 .primary-link {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.25em;
   padding: 0;
   margin: 0; }
   @media screen and (min-width: 53.33333em) {
     .primary-link {
+      font-size: 2em;
       width: 50%;
       float: left; } }
 
 .secondary {
-  text-indent: 1em;
+  text-indent: .5em;
   font-size: .75em;
   padding: 0;
-  margin: 0;
-  display: none; }
+  margin: 0 0 0 .5em; }
+  @media screen and (min-width: 53.33333em) {
+    .secondary {
+      font-size: .5em; } }
+
+.secondary-link {
+  width: 50%;
+  border-top: 1px dotted white;
+  padding: .25em 0;
+  margin: .25em 0; }
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
 .breadcrumb {
@@ -571,24 +587,38 @@ button {
       position: fixed;
       z-index: 501;
       top: 0;
-      left: 10em;
+      left: 14em;
       margin: 0; } }
   .breadcrumb ul {
+    position: relative;
     padding: 0;
     margin: 0;
     line-height: 1.6em; }
   .breadcrumb li {
+    position: relative;
     float: left;
-    border-left: 1px solid rgba(0, 0, 0, 0.05);
-    margin: .5em 0;
+    margin: 0.5em;
     max-height: 2.5em;
     overflow: visible; }
+    .breadcrumb li:before, .breadcrumb li:after {
+      position: absolute;
+      color: #888888;
+      font-size: 1em;
+      left: -1em;
+      top: .75em;
+      content: " ";
+      width: 1em;
+      height: 1em;
+      transform: rotate(45deg);
+      border-style: solid;
+      border-color: #dddddd;
+      border-width: 1px 1px 0 0; }
   .breadcrumb a {
     display: block;
     margin: -.5em 0;
     padding: 1em;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.5); }
+    color: #222222; }
     .breadcrumb a:active {
       text-decoration: none;
       color: white;
@@ -793,11 +823,7 @@ button {
   margin: 1em 0;
   padding: 0;
   background-color: white;
-  -webkit-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  -ms-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5); }
+  border: 1px solid #dddddd; }
   .buttonlist a {
     text-align: center;
     display: block;
@@ -827,11 +853,7 @@ button {
   margin: 1em 0;
   padding: 0;
   background-color: white;
-  -webkit-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  -ms-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  -o-box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0.1em 0.4em rgba(0, 0, 0, 0.5); }
+  border: 1px solid #dddddd; }
   .home-links .icon-right {
     float: right; }
   .home-links a {
@@ -1365,7 +1387,17 @@ article {
 
 #floating-text-home {
   color: white;
-  padding-top: 25%; }
+  padding: 20% 5em;
+  max-width: 63.33333em;
+  margin: 0 auto; }
+  #floating-text-home h1 {
+    font-size: 2em; }
+    @media screen and (min-width: 72em) {
+      #floating-text-home h1 {
+        font-size: 3em; } }
+  #floating-text-home p.intro {
+    max-width: 36em;
+    margin: 1em auto; }
 
 .project-url {
   padding: .5em .75em;

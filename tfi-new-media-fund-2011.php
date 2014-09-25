@@ -146,23 +146,81 @@ $res->free();
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br> Title / Accolades </span>
+					<span class="name"> <strong> Caitlin Burns </strong> <br>
+					Transmedia Producer, Board Member of the PGA’s New Media Council
+				    </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong>  <br>  Title / Accolades </span>
+					<span class="name"> <strong> Idit Harel Caperton </strong> <br>
+					Worldwide Workshop, MaMaMedia
+				    </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+					<span class="name"> <strong> Aaron Koblin </strong> <br> 
+					Digital Media Artist
+				   </span>
 				</li>
 				<li>
-					<img src="img/content/prototype/person-image.jpg" alt="Joe Brewster Portrait"/>
-					<span class="name"> <strong> Firstname Lastname</strong> <br>  Title / Accolades </span>
+					<span class="name"> <strong> Michael Levine </strong> <br> 
+					Founding Director, Joan Ganz Cooney Center
+				   </span>
+				</li>
+				<li>
+					<span class="name"> <strong> John Johnson </strong> <br> 
+					Founder & Executive Director, Harmony Institute, Founder & Chair, EYEBEAM, Co-Founder, Buzzfeed
+				   </span>
+				</li>
+				<li>
+					<span class="name"> <strong> Jason Liebman  </strong> <br> 
+					Co-Founder, Howcast
+				   </span>
+				</li>
+				<li>
+					<span class="name"> <strong> Laura Poitras </strong> <br> 
+					Documentary Filmmaker
+				    </span>
+				</li>
+				<li>
+					<span class="name"> <strong> Sam Pollard </strong> <br> 
+					Producer, Editor, Professor, NYU
+				   </span>
+				</li>
+				<li>
+					<span class="name"> <strong> Marc Schiller </strong> <br> 
+					Founder, Wooster Collective, CEO, BOND Strategy and Influence
+				   </span>
 				</li>
 			</ul>
 		</section>
+		
+		
+		
+		
+
+		
+		
+
+		
+		
+ 
+		
+		
+
+		
+		
+
+		
+		
+
+		 
+		
+
+		
+		
+
+		 
+		
+		
 		
 		<nav class="share">
 			<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
