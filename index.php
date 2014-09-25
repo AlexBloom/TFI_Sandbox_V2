@@ -1,33 +1,26 @@
 <?php include_once 'inc/head.inc' ?>
 
-<!-- Custom Meta Info Here -->
-<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
-<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
-<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
+				<!-- Custom Meta Info for Each Page Here -->
+		<!--Web/SEO -->
+		        <title>TFI Sandbox</title>
+		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
+				<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org" />
+				
+		<!--Facebook -->
+				<meta property="og:title" content="Title of Page" />
+				<meta property="og:description" content="Description of Page." />
+				<meta property="og:image" content="https://imagelink.jpg"/>
+				<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/"/>
+		<!--Twitter -->
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:site" content="@TribecaFilmIns">
+				<meta name="twitter:title" content="Title of Page"/>
+				
+				<meta name="twitter:description" content="Description of Page"/>
+				<meta name="twitter:image" content="https://imagelink.jpg"/>
+				<meta name="twitter:url" content="http://www.sandbox.tribecafilminstitute.org/" />
+		
 
-<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-
-<meta name="google-site-verification" content="">
-
-<meta property="article:author" content="https://www.facebook.com/TribecaFilmInstitute"/>
-<meta name="twitter:card" value="summary">
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="TFI Sandbox" />
-<meta name="twitter:title" content="Title of Page" />
-<meta name="twitter:description" content="Description of Page" />
-<meta name="twitter:image" content="https://imagelink.jpg" />
-<meta name="twitter:url" content="page url" />
-
-<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:site_name" content="TFI Sanxbox" />
-<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
-<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
-<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
-
-<meta property="fb:admins" content="8228569"/>
-<meta name="fb:app_id" content="TFI Sandbox"/>
 
 <?php include_once 'inc/header.inc' ?>
 
