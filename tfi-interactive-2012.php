@@ -34,7 +34,7 @@
 <section id="main" class="">	
 	
 
-	<section class="clearfix" id="2012">
+	<section class="clearfix tfi-interactive" id="2012">
 		
 	<article>
 		

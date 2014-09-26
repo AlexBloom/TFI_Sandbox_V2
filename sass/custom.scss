@@ -260,6 +260,20 @@
 	@include half-second-transition;
 }
 
+
+//TFI Interactive
+.tfi-interactive{
+	article{
+		header{
+			background-color:$dark-grey;
+			margin:3.5em 0 0 0;
+			padding:0 0 1.5em 0;
+			width:100%;
+		}
+	}
+}
+
+
 //Jury
 .jury{
 	padding:1em 0;
