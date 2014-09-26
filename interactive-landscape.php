@@ -57,7 +57,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://simogo.com/games/device6/"target=_blank> Simogo.com/games/device6/ <span class="icon-right"></span></a>
+						<a class="project-url" href="http://simogo.com/games/device6/"target=_blank> simogo.com/games/device6 <span class="icon-right"></span></a>
 					</header>
 
 					<section class="project-content">
@@ -142,7 +142,7 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> EMOTIONALARCADE.COM <span class="icon-right"></span></a>
+						<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> emotionalarcade.com <span class="icon-right"></span></a>
 					</header>
 
 					<section class="project-content">
@@ -201,7 +201,7 @@
 
 						<p class="author"> David Carofano, Production Associate at Local Projects
 						<br>
-						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a>
+						<a href=""target=_blank> </a>
 						 </p>
 
 
@@ -262,7 +262,7 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome/ <span class="icon-right"></span></a>			
+						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome <span class="icon-right"></span></a>			
 					</header>
 			
 					<section class="project-content">
@@ -691,7 +691,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> http://enjmin-bundle.com/en/ <span class="icon-right"></span></a>			
+						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> enjmin-bundle.com<span class="icon-right"></span></a>			
 					</header>
 					<section class="project-content">
 	
@@ -728,7 +728,7 @@
 								</div>
 							</div>
 							</a>
-						<a class="project-url" href="http://blabdroid.com"target=_blank> http://blabdroid.com <span class="icon-right"></span></a>
+						<a class="project-url" href="http://blabdroid.com"target=_blank> blabdroid.com <span class="icon-right"></span></a>
 					</header>
 					<section class="project-content">
 	
