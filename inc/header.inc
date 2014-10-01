@@ -1,14 +1,12 @@
  
 
 
-<meta property="og:site_name" content="TFI Sandbox" />
+<meta property="og:site_name" content="TFI Sandbox"/>
 <meta property="fb:admins" content="8228569"/>
-<meta name="fb:app_id" content="TFI - Sandbox"/>
+<meta name="fb:app_id" content="167329723445244"/>
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
-
 <meta property="article:author" content="https://www.facebook.com/TribecaFilmInstitute"/>
-
 <meta name="google-site-verification" content="">
  
  <link rel="shortcut icon" href="favicon.ico" />
@@ -58,13 +56,14 @@
 	<nav id="primary-nav">
 		
 				<dl class="primary clearfix" id="discover-primary">
-					<dt class="clearfix">Discover - <small>Discover inspiring interactive projects.</small></dt>
+					<dt class="clearfix">Discover <br> <small>Discover inspiring interactive projects.</small></dt>
 					<dd class="primary-link" id=""> 
 						<a href="tfi-new-media-fund"> TFI New Media Fund <span class="icon-right"></span> </a>	
-						<ul class="secondary" id="">	
-							<li class="secondary-link" id=""> <a href="#2013"> 2013 </a> </li>
-							<li class="secondary-link" id=""> <a href="#2012"> 2012 </a> </li>
-							<li class="secondary-link" id=""> <a href="#2011"> 2011 </a> </li>
+						<ul class="secondary clearfix" id="">	
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2014"> 2014 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2013"> 2013 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2012"> 2012 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2011"> 2011 </a> </li>
 						</ul>
 					</dd>
 					<dd class="primary-link" id=""> 	
@@ -73,13 +72,13 @@
 				</dl>
 
 				<dl class="primary clearfix" id="participate-primary">
-					<dt class="clearfix">Participate - <small>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</small></dt>
+					<dt class="clearfix">Participate <br> <small>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</small></dt>
 					<dd class="primary-link" id=""> 
 						<a href="tfi-interactive"> TFI Interactive <span class="icon-right"></span> </a>
-						<ul class="secondary" id="">
-							<li class="secondary-link"> <a href="#2014"> 2014 </a> </li>
-							<li class="secondary-link"> <a href="#2013"> 2013 </a> </li>
-							<li class="secondary-link"> <a href="#2012"> 2012 </a> </li>
+						<ul class="secondary clearfix" id="">
+							<li class="secondary-link"> <a href="tfi-interactive-2014"> 2014 </a> </li>
+							<li class="secondary-link"> <a href="tfi-interactive-2013"> 2013 </a> </li>
+							<li class="secondary-link"> <a href="tfi-interactive-2012"> 2012 </a> </li>
 						</ul>
 					</dd>
 					<dd class="primary-link" id=""> 
@@ -91,26 +90,22 @@
 				</dl>
 
 				<dl class="primary clearfix" id="build-primary">
-					<dt class="clearfix">Build - <small>Tools, resources and advice to build your own interactive project.</small></dt>
+					<dt class="clearfix">Build <br> <small>Tools, resources and advice to build your own interactive project.</small></dt>
 					<dd class="primary-link" id="">
 						<a href="project-management"> Project Management Guide <span class="icon-right"></span></a> 
-						<ul class="secondary" id="">
+						<ul class="secondary clearfix" id="secondary-pm-nav">
 							
-							<li class="secondary-link"> <a href="#"> Building A Team </a> </li>
-							<li class="secondary-link"> <a href="#"> Timelines </a> </li>
-							<li class="secondary-link"> <a href="#"> Budgets </a> </li>
-							<li class="secondary-link"> <a href="#"> Distribution </a> </li>
-							<li class="secondary-link"> <a href="#"> Sustainability </a> </li>
-							<li class="secondary-link"> <a href="#"> PR / Marketing </a> </li>
+							<li class="secondary-link"> <a href="project-management-scoping"> 01. Scoping </a> </li>
+							<li class="secondary-link"> <a href="project-management-timeline"> 02. Timeline </a> </li>
+							<li class="secondary-link"> <a href="project-management-budget"> 03. Budget </a> </li>
+							<li class="secondary-link"> <a href="project-management-team"> 04. Team </a> </li>
+							<li class="secondary-link"> <a href="project-management-distribution"> 05. Distribution </a> </li>
+							<li class="secondary-link"> <a href="project-management-prmarketing"> 06. PR / Marketing </a> </li>
+							<li class="secondary-link"> <a href="project-management-sustainability"> 07. Sustainability </a> </li>
 						</ul>
 					</dd>
 					<dd class="primary-link" id="TechResources"> 
 						<a href="tech-resources"> Tech Resources <span class="icon-right"></span> </a>
-						<ul class="secondary" id="">
-							<li class="secondary-link"> <a href="#"> Code 101 </a> </li>
-							<li class="secondary-link"> <a href="#"> Platforms </a> </li>
-							<li class="secondary-link"> <a href="#"> Design </a> </li>
-						</ul>
 					</dd>
 					<dd class="primary-link"> 
 						<a href="funding"> Funding <span class="icon-right"></span> </a> 

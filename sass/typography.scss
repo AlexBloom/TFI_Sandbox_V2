@@ -55,9 +55,11 @@
 body{
 	font-family:"proxima-nova",helvetica,arial,sans-serif;
 	font-size:.8em;
+	font-size:.8rem;
 	color:$text-color;
 	@media screen and (min-width:(em(480))){
 		font-size:1em;
+		font-size:1rem;
 		line-height:1.6667em;
 	}	
 	::selection {color:$white; background:$action-color;}
@@ -92,9 +94,10 @@ h3 			{ 	font-size: 1.5em; /* 30px */
 			}
 h4 			{  	font-size: 1.25em; /* 25px */
   				line-height: 1.0000em; /* 25px */
-  				margin-top: 1.0000em;  
+  				margin-top: 1.500em;  
 				margin-bottom: 0.0000em;
-				font-weight:800; 
+				font-weight:700;
+				-webkit-font-smoothing: antialiased;
 			}
 h5 			{ 	font-size: 1em; /* 22.5px */
 			   	line-height: 1.6667em; /* 25px */

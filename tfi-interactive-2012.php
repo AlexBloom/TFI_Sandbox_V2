@@ -7,9 +7,7 @@
 <meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
 <meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
 <meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-interactive-2012" />
-<meta property="og:site_name" content="TFI Sanxbox" />
-<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
-<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
+<meta property="og:site_name" content="TFI Sandbox" />
 <meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-interactive-2012" />
 
 <?php include_once 'inc/header.inc' ?>
@@ -49,7 +47,7 @@
 			</header>
 		
 		<section class="content">
-			<h2> TFI Interactive 2012 Keynote: Baratunde Thurston</h2>
+			<h2> TFI Interactive 2012 Keynote:<br> Baratunde Thurston</h2>
 			<div class="flexvideo-16-9">
 			<iframe src="//player.vimeo.com/video/44757958?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>

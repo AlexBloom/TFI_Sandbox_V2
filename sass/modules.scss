@@ -9,7 +9,7 @@
 a, ul a, p a{
 	color:inherit;
 	text-decoration:underline;
-	@include quarter-second-transition;	
+	//@include quarter-second-transition;	
 	//	&:hover{
 	//	color:$action-color;
 	//	text-decoration:underline;
@@ -167,19 +167,31 @@ button{
 	overflow:hidden;
 	@include drop-shadow;
 	@include quarter-second-transition;
-	
 	#logo, #toggle{
 		float:left;
 		color:$dark-grey;
 	}
-	
 	#logo{
 		padding:1em;
 		display:inline-block;
 		text-decoration:none;
 		color:$dark-grey;
 		text-transform:uppercase;
-		letter-spacing: .15em;	
+		letter-spacing: .15em;
+		line-height:150%;
+		border-left:1px solid $light-grey;
+		//border-right:1px solid $light-grey;	
+		overflow:hidden;
+		&:after{
+			//content:" ";
+			//margin:-1.5em -5em -.25em 0;
+			//border-top:1.5em solid $white;
+			//border-left:1.5em solid transparent;
+			//border-bottom:1.5em solid $white;
+			//height:0;
+			//padding:0;
+			//display:inline-block;
+		}
 		//	&:hover{
 	//			color:$action-color;
 	//			background-color:$white;
@@ -188,6 +200,9 @@ button{
 			text-decoration:none;
 			color:$white;
 			background-color:$action-color;	
+			&:after{
+				//background-color:$action-color;
+			}
 		}			
 	}
 	#toggle{
@@ -211,6 +226,7 @@ button{
 
 //BEGIN MENU ICON
 $button-size: 2em; 
+$button-size: 2rem; 
 //common to all three-liners
 .lines-button {
   padding: .65em 0em;
@@ -300,7 +316,7 @@ $button-size: 2em;
 #primary-nav{
 	position:fixed;
 	width:80%;
-	margin:0;
+	margin:0 auto;
 	padding:0 10%;
 	background-color:$blue;
 	z-index:399;
@@ -308,90 +324,108 @@ $button-size: 2em;
 	bottom:0;
 	@include quarter-second-transition;	
 	a{
+		display:block;
 		color:$white;
 		text-decoration:none;
 		display:block;
-		border:1px solid transparent;
-		width:100%;
-		padding:.25em 0;
-		span{
-			font-size:75%;
-			opacity:0;
-			float:left;
-			padding:0;
-			margin-left:-.5em;
-			width:0;
-			@include quarter-second-transition;
+		//width:100%;
+		padding:.5em;
+		@media screen and (min-width:(em(900))){
+			&:hover{
+				background-color:$white;
+				color:$blue;
+			}
 		}
-	//		&:hover{
-	//			color:$white;
-	//			span{
-	//				opacity:1;
-	//				margin-left:0;
-	//				padding:0 1em 0 0;
-	//			}
-	//		}
 		&:active,&:focus{
-			color:$black;
+			background-color:$black;
 			//background-color:$white;
 		}
-	}
-	small{
-		
-		font-weight:500;
-		letter-spacing:.02em;
-		font-size:90%;
-		text-transform:none;
+		span{
+			float:right;
+			line-height: .75em;
+		}
 	}
 }
 #primary-nav.open{
-	padding:6em 10% 0;
+	padding:4em 10% 0;
+	@media screen and (min-width:(em(900))){
+		padding:5em 10% 0;
+	}
 }
 #primary-nav.closed{
 	padding:0 10%;
 }
 .primary /*DL*/ {
-	border-top:1px solid $black;
-	padding:1em 0;
 	color:$white;
+	margin:0 auto .5em;
+	max-width:(em(1000));
 	dt{
+		//border-top:1px dotted $black;
+		padding:.75em 0;
 		color:$black;
 		text-transform:uppercase;
-		letter-spacing:.2em;
-		font-size:1em;
+		letter-spacing:.15em;
+		font-size:1.25em;
 		opacity:0.75;
 		font-weight:700;
-
+		margin:0em 1%;
+		text-align:center;
+	}
+	small{
+		//display:inline-block;
+		font-weight:500;
+		line-height:1em;
+		letter-spacing:.01em;
+		font-size:.75em;
+		text-transform:none;
 	}
 }
 .primary-link /*DD*/{
-	font-size:1.5em; 
-	line-height:1.25em;
-	padding:0;
-	margin:0;
-			
-	@media screen and (min-width:(em(800))){
-	font-size:2em;
-	width:50%;
+	border-top:1px solid $white;	
+	margin:0 0 .5em;
+	display:block;
 	float:left;
+	font-size:1.25em;
+	font-weight:700;
+	-webkit-font-smoothing: antialiased; 
+	width:100%;
+	>a{
+		border-left:1px solid $white;
+		border-right:1px solid $white!important;
+		border-bottom:1px solid $white!important;
+	}
+	
+	@media screen and (min-width:(em(750))){
+		width:48%;
+		float:left;
+		margin:0 1% .5em;
+		>a{
+			//margin:.5em;
+		}
 	}
 }
 .secondary /*UL*/{	
-	text-indent:.5em;
-	font-size:.75em;
 	padding:0;
-	margin:0 0 0 .5em;
-	//display:none;
-	@media screen and (min-width:(em(800))){
-		font-size:.5em;
+	margin:0;
+	border-left:1px solid $white;
+}
+
+.secondary-link /*LI*/{
+width:25%;
+float:left;
+font-size:75%;
+	a{
+		display:block;
+		text-align:left;
+		padding:0 .5em!important;
+		border-bottom:1px solid $white !important;
+		border-right:1px solid $white !important;
 	}
 }
-.secondary-link /*LI*/{
-//float:left;
-width:50%;
-border-top:1px dotted $white;
-padding:.25em 0;
-margin:.25em 0;
+#secondary-pm-nav{
+	.secondary-link{
+		width:50%!important;
+	}
 }
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
@@ -1122,6 +1156,7 @@ section{
 	ol{
 		padding:0;
 		li{
+			position:relative;
 			border-top:1px solid $medium-grey;
 			padding:.5em 0;
 		}
@@ -1129,6 +1164,7 @@ section{
 			padding:0 0 0 .5em;
 			margin:0;
 			li{
+				
 				border-top:none;
 				border-left:1px solid $light-grey;
 				padding:0em 0 0em 1em;
@@ -1144,11 +1180,43 @@ section{
 		top:3em;
 		width:20%;
 	}
-	
-	.scrollnav-link.current{
-		color:$action-color;
+	.scrollnav-link{
+		display:block;
+		margin-left:0;
+		//transition-delay:.25s;	
+		@include quarter-second-transition;
+		&:before{
+			//font-family:'icons';
+			//content:"\e60d";
+			content:" ";
+			font-weight:normal;
+			font-size:1.5em;
+			position:absolute;
+			top:0;
+			bottom:0;
+			left:0;
+			opacity:0;
+			max-width:0;
+			background-color:$action-color;
+			@include quarter-second-transition;
+			transition-delay:.25s;
+		}
 	}
-	
+	.scrollnav-link.current{
+		//border-bottom:1px solid $action-color;
+		color:$action-color;
+		margin-left:1.5em;
+		transition-delay:.25s;
+		@include quarter-second-transition;
+		&:before{
+			@include quarter-second-transition;
+			transition-delay:.25s;
+			max-width:100%;
+			padding-left:.25em;
+			color:$medium-grey;
+			opacity:1;
+		}
+	}
 }
 
 //Articles / Content 
@@ -1211,20 +1279,34 @@ article{
 }
 
 .link-prev,.link-next{
-	padding:1em;
+	padding:1.25em .5em;
 	display:block;
 	position:absolute;
 	top:0;
 	margin:0;
 	text-decoration:none;
+	line-height:100%;
+	
 	span{
-		display:inline-block;
-		margin:0 1em;
-		vertical-align:sub;
+		font-size:1.25em;
+		display:inline;
+		margin:0 .5em;
+		padding:0;
+		vertical-align:top;
+		line-height:100%;
 	}
 	@media screen and (min-width:(em(800))){
-		font-size:1.5em;
-		padding:.5em;
+		font-size:1.25em;
+		padding:1em;
+		span{
+		}
+	}
+	
+	@media screen and (min-width:(em(1000))){
+		position:absolute;
+		span{
+			
+		}
 	}
 }
 .link-prev{

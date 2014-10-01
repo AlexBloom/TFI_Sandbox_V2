@@ -1,16 +1,23 @@
 <?php include_once 'inc/head.inc' ?>
 
-<!-- Custom Meta Info Here -->
-<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
-<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
-<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:site_name" content="TFI Sanxbox" />
-<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
-<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
-<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+		<!-- Custom Meta Info for Each Page Here -->
+		<!--Web/SEO -->
+		        <title>TFI Sandbox</title>
+		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
+				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org" />
+				
+		<!--Facebook -->
+				<meta property="og:title" content="Title of Page" />
+				<meta property="og:description" content="Description of Page" />
+				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/"/>
+		<!--Twitter -->
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:site" content="@TribecaFilmIns">
+				<meta name="twitter:title" content="Title of Page"/>
+				<meta name="twitter:description" content="Description of Page"/>
+				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/" />
 
 <?php include_once 'inc/header.inc' ?>
 
@@ -22,14 +29,14 @@
 		<li>
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> 02. Scoping <span class="icon-down"> <span> </dt>
-				<dd><a href="project-management-team"> 01. Team </a> </dd>
-				<dd><a href="project-management-scoping"> 02. Scoping </a> </dd>
-				<dd><a href="project-management-timeline"> 03. Timeline </a> </dd>
-				<dd><a href="project-management-budget"> 04. Budget </a> </dd>
+				<dt> 01. Scoping <span class="icon-down"> <span> </dt>
+				<dd><a href="project-management-scoping"> 01. Scoping </a> </dd>
+				<dd><a href="project-management-timeline"> 02. Timeline </a> </dd>
+				<dd><a href="project-management-budget"> 03. Budget </a> </dd>
+				<dd><a href="project-management-team"> 04. Team </a> </dd>
 				<dd><a href="project-management-distribution"> 05. Distribution </a> </dd>
-				<dd><a href="project-management-sustainability"> 06. Sustainability </a> </dd>
-				<dd><a href="project-management-prmarketing"> 07. PR / Marketing </a> </dd>
+				<dd><a href="project-management-prmarketing"> 06. PR / Marketing </a> </dd>
+				<dd><a href="project-management-sustainability"> 07. Sustainability </a> </dd>
 			<dl>
 			
 		</li>
@@ -42,7 +49,7 @@
 			<header>
 				<section class="content">
 				<h1>Scoping</h1>
-				<p class="intro"> Describe project goals and establish your level of effort.
+				<p class="intro"> Describe project goals and establish your level of effort
 				</p>
 				</section>
 			</header>	
@@ -97,12 +104,47 @@
 			</section>
 			
 			<footer class="clearfix">
-				<a class="link-prev" href="project-management-team"> <span class="icon-left"></span> 01. Team </a>
-				<a class="link-next" href="project-management-timeline"> 03. Timeline <span class="icon-right"></span> </a>
+				<!-- <a class="link-prev" href="project-management"> <span class="icon-left"></span> Home </a> -->
+				<a class="link-next" href="project-management-timeline"> 02. Timeline <span class="icon-right"></span> </a>
 			</footer>
 		</article>
 		
 	</section>
+	<nav class="share">
+		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
+		
+		<ul id="share-buttons" class="clearfix">
+			<li class="one-third-first"> 
+				<div class="facebook" id="shareBtn">			 
+					 <span class="icon icon-facebook"> </span> Facebook
+				</div>
+			</li>		
+			<li class="one-third-second"> 
+				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFISandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+				<div class="twitter"> 										
+						<span class="icon icon-twitter"> Tweet 
+				</div>
+				</a>	
+			</li>
+			<li class="one-third-third"> 
+				<a href="https://plus.google.com/share?url={http://tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+				<div class="google"> 
+						<span class="icon icon-google"> </span> Google
+				</div>
+				</a> 			
+			</li>
+			
+		</ul>
+			<script>
+			document.getElementById('shareBtn').onclick = function() {
+			  FB.ui({
+			    display: 'popup',
+			    method: 'share',
+			    // href: 'https://developers.facebook.com/docs/',
+			  }, function(response){});
+			}
+			</script>	
+	</nav>
 </section>	
 <!-- End Index Page --> 
 	 
