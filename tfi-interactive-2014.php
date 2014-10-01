@@ -30,22 +30,17 @@
 	</ul>
 </nav>
 
-
 <section id="main" class="">	
 	
 	<section class="clearfix tfi-interactive" id="2014">
 		
 	<article>
-		
-			<header>
+		<header>
 				<div class="flexvideo-16-9">	
 				<iframe src="//player.vimeo.com/video/93182758?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</div>
 				<h1>Highlights from TFI Interactive 2014</h1>
 			</header>
-
-					
-	
 		<section class="content">
 			
 			<h3> <em>The Audience Has an Audience:</em><br> Kenyatta Cheese at 2014 TFI Interactive </h3>
