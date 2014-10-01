@@ -67,6 +67,8 @@
 			</div>
 			<p> The Limits of Technology: Jonathan Harris at 2014 TFI Interactive</p>
 
+			<img src="img/content/participate/tfiinteractive/closingkeynote.jpg" alt="Closing Keynote">
+
 			<h3>Speakers </h3>
 				<ul>
 				<li> <strong> OPENING KEYNOTE: THE AUDIENCE HAS AN AUDIENCE—</strong> <br> 
@@ -130,9 +132,12 @@
 					<small> Jonathan Harris, Artist</small>
 				</li>
 			</ul>
+			
+			<img src="img/content/participate/tfiinteractive/playground_emotionalarcade.jpg" alt="Playground, Emotional Arcade">
 			<h3>TFI Interactive Playground</h3>
 
 			<p>TFI’s Interactive Playground gave participants the opportunity to interact directly with interactive projects including: </p>
+			
 			<ul>
 				<li> NAME, Project </li>
 				<li> NAME, Project </li>

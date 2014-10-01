@@ -1,4 +1,4 @@
-<?php include_once 'inc/head.inc' ?>
+ <?php include_once 'inc/head.inc' ?>
 
 <!-- Custom Meta Info Here -->
 <link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />

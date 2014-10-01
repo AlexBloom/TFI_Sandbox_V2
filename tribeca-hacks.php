@@ -79,11 +79,9 @@ $cms = new tfi_ee();
 				<strong>By Benjamin Hoguet,</strong> Co-founder of @Racontr interactive storytelling software and @StorycodeFR transmedia events
 
 
-				—
+				<img src="img/content/participate/tribecahacks/racontr.jpg" alt="Racontr">
 
 				<p class="intro">At Racontr - a code-free interactive storytelling software used by many interactive content producers and media outlets - and Storycode Paris - a series of monthly transmedia conferences and workshops - we constantly find ourselves involved with other people’s projects, helping them conceive, build and publish their interactive experiences. Project after project, we’ve been trying to refine an agile interactive production process that I wish to share with you.</p>
-
-				—
 
 				<p><strong>Interactive and transmedia storytelling is and has to remain a great experimentation field.</strong> One quote by Pierre Cattan sums up what, to me, should be the ambition of any interactive and transmedia producer: « Transmedia storytelling is the name we gave to R&D in the field of content creation ». Devices are not done evolving, media are not done colliding, authors are not done transforming the way they build stories and audience are not done embracing this « lean forward » position they are offered evermore frequently. </p>
 
@@ -185,12 +183,17 @@ $cms = new tfi_ee();
 			</section>
 			<section class="content anchor" id="InnovationCollaboration">
 				<article>
+					
+				<img src="img/content/participate/tribecahacks/globe.jpg" alt="Globe">
 			
 				<h2>Innovation &amp; Collaboration</h2>
 			
 				<p><strong>By Neal Hartman,</strong> Artistic Director of the CineGlobe Film Festival at CERN</p>
 			
 				<p>The two key elements to Hackathon success are innovation and collaboration. Projects need to be novel, but they also need to draw on the talents, experience, and unique perspectives of every member of the hackathon team. This is especially true since the teams are interdisciplinary. And while it may be tempting to have the technologist worry about implementation while the storyteller worries about narrative, it’s in fact imperative to do the opposite. Each player needs to step outside her or his comfort zone and feedback on the challenges that other teammates are facing in the other disciplines. These outside views within the hackathon group not only test the projects as they develop, but also bring fresh, unexpected, and sometimes revolutionary input to every aspect of the hackathon creation. </p>
+				
+				<img src="img/content/participate/tribecahacks/participants.jpg" alt="Participants">
+				
 				<p>Every team member should also be treated as an equal contributor. The designer doesn’t work for the storyteller, even if her or his designs need to serve the story to be successful. Every member should be thought of as“working with”every other member of the team. This makes everyone feel invested, improves the outcome, and will provide that extra bit of motivation when no one has slept for days and the deadline is looming near.</p> 
 				<p>This is the kind of collaborative approach we apply at CERN, from small computing projects to building the world’s largest particle detectors, which rival the Eiffel Tower. Most teams have just a coordinator and no “boss”. In fact, it’s often impossible to fire people or change team members, so everyone works within their ability, asks for help when they need it, and tries to offer help when it’s apparent someone else is having trouble. That’s not to say that everything is rosy all of the time.  There are plenty of conflicts in any collaboration, but at CERN they are resolved through roundtable discussion and compromise. One team member’s weakness can be seen as another team member’s opportunity to step up and fill the gap.  In this way, the teams organically, gradually, and peacefully morph until they take on their most efficient form, with team members in their most suited positions.</p> 
 				<p>This process is identical to that which creates a great hackathon team. In fact, innovation of any sort benefits from this collaborative structure. By its definition, innovation is pattern-breaking, spontaneous, and unpredictable. Only a flexible, tolerant, and multi-functional team can be truly innovative. And because innovation can come from anywhere, just like inspiration, working towards it can seem wasteful or inefficient until that breakthrough moment. But if we think of that inefficient work that comes early on as investing towards that future, eureka moment, then we see that we just have to be a little patient, believe that the hard work will pay off, and pull together. If the team believes in its goal, and is open to whatever developments may come, the end result will be better realized and more truly groundbreaking than anyone at the outset could have imagined.</p> 

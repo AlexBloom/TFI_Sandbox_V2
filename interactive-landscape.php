@@ -666,7 +666,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#BlabDroid">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/blabdroid.jpg" alt="Blabdroid">
+								<img src="img/content/discover/interactive-landscape/other/blabdroid.jpg" alt="BlabDroid">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -699,7 +699,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#BetaTheGame">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="Beta The Game">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -729,7 +729,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#EverydayAfrica">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+								<img src="img/content/discover/interactive-landscape/other/everydayafrica.jpg" alt="Everyday Africa">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -761,7 +761,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#DocubaseMIT">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+								<img src="img/content/discover/interactive-landscape/other/mitdocubase.jpg" alt="MIT Docubase">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -791,7 +791,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#PinePoint">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+								<img src="img/content/discover/interactive-landscape/other/pinepoint.jpg" alt="Pine Point">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -821,7 +821,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#PrisonValley">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+								<img src="img/content/discover/interactive-landscape/other/prisonvalley.jpg" alt="Prison Valley">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -854,7 +854,7 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#KentuckyRouteZero">
 							<div class="project-image-wrap">
-								<img src="img/content/discover/interactive-landscape/other/betathegame.jpg" alt="betathegame">
+								<img src="img/content/discover/interactive-landscape/other/kentuckyroutezero.jpg" alt="Kentucky Route Zero">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">

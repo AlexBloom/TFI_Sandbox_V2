@@ -1,4 +1,4 @@
-<?php include_once 'inc/head.inc' ?>
+ <?php include_once 'inc/head.inc' ?>
 
 				<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
