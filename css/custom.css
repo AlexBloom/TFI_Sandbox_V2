@@ -985,7 +985,7 @@ button {
   -o-transition-duration: .25s;
   transition-duration: .25s; }
 
-/* LAYOUT ====================== */
+/* ========================================================== LAYOUT */
 body {
   margin: 0;
   padding: 0; }
@@ -1164,8 +1164,7 @@ article {
     text-align: center; }
   article footer {
     padding: 2em 5%;
-    text-align: center; }
-  article footer {
+    text-align: center;
     border-top: 1px solid #dddddd;
     position: relative; }
   article .content {
@@ -1266,12 +1265,22 @@ article {
     color: white;
     background-color: #00afef; }
 
+/*
+ *
+ * //////////////////////////////////////////////////////// HOME
+ *
+ */
 #home-video-container {
   background-image: url("../img/content/prototype/full-bleed-bg-image.jpg"); }
 
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }
 
+/*
+ *
+ * //////////////////////////////////////////////////////// DISCOVER
+ *
+ */
 .projects-title {
   color: #222222;
   text-transform: uppercase;
@@ -1504,11 +1513,21 @@ article {
   -o-transition-duration: .5s;
   transition-duration: .5s; }
 
+/*
+ *
+ * //////////////////////////////////////////////////////// PARTICIPATE
+ *
+ */
+.hack-title {
+  font-size: 1em; }
+
 .tfi-interactive article header {
   background-color: #222222;
   margin: 3.5em 0 0 0;
   padding: 0 0 1.5em 0;
   width: 100%; }
+.tfi-interactive p + ul {
+  margin: -1.25em 0 1em; }
 
 .jury {
   padding: 1em 0;
@@ -1548,6 +1567,11 @@ article {
         width: 20%;
         padding: 1em 2.5% 1em 2.5%; } }
 
+/*
+ *
+ * //////////////////////////////////////////////////////// BUILD
+ *
+ */
 .months {
   padding: 0; }
   .months li {

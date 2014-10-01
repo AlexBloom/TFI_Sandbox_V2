@@ -29,7 +29,6 @@ p+ul{
 	margin-left:0;
 	padding-left:0;
 }
-
 button{
 	font-family:'proxima-nova';
 	color:rgba(255,255,255,.75);
@@ -69,7 +68,6 @@ button{
 	}
 
 }
-
 .next-section{
 	display:block;
 	position:absolute;
@@ -83,15 +81,14 @@ button{
 	letter-spacing:.1em;
 	text-transform:uppercase;
 	@include quarter-second-transition;	
-//	&:hover{
-//		text-decoration:none;
-//		color:$white;
-//		padding:2.5em 0 1.5em 0;
-//	}	
+	//	&:hover{
+	//		text-decoration:none;
+	//		color:$white;
+	//		padding:2.5em 0 1.5em 0;
+	//	}	
 }
 
 /* ======================================================== LISTS */
-
 .basic-list{
 	list-style-type:disc;
 	text-indent:none;
@@ -102,7 +99,6 @@ button{
 		text-indent:none;
 	}
 }
-
 .one-column, .two-columns, .three-columns, .four-columns{
 	list-style-type:none;
 	margin:0;
@@ -123,7 +119,6 @@ button{
 		}
 	}
 }
-
 .three-columns{
 	@media screen and (min-width:(em(800))){
 		>li{
@@ -205,7 +200,6 @@ button{
 	    }
 	}
 }
-
 .nav-show{
 	opacity:1;
 	top:0;
@@ -262,7 +256,6 @@ $button-size: 2em;
   }
 }
 //common to all three-liners
-
 .lines-button.close {
   -webkit-transform: scale3d(.8,.8,.8);
           transform: scale3d(.8,.8,.8);
@@ -351,7 +344,6 @@ $button-size: 2em;
 		text-transform:none;
 	}
 }
-
 #primary-nav.open{
 	padding:6em 10% 0;
 }
@@ -403,7 +395,6 @@ margin:.25em 0;
 }
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
-
 .breadcrumb{
 	&.nav-hide{
 		margin-top:-60px;
@@ -477,7 +468,6 @@ margin:.25em 0;
 		color:$medium-grey;
 	}
 }
-
 .tertiary{
 	float:left;
 	margin: 0;
@@ -544,7 +534,6 @@ margin:.25em 0;
 		}
 	}
 }
-
 .subnav{
 	margin: 0 auto;
 	width:80%;
@@ -565,7 +554,6 @@ margin:.25em 0;
 		border:1px solid $action-color;
 	}
 }
-
 .filters{
 	border-top:1px solid $white;
 	width:100%;
@@ -623,7 +611,6 @@ margin:.25em 0;
 .quantity{
 	color:$medium-grey;
 }
-
 .share{
 	width:100%;
 	margin:1em auto;
@@ -744,7 +731,6 @@ margin:.25em 0;
 			
 		
 }
-
 .buttonlist{
 	text-align:center!important;
 	margin:1em 0;
@@ -778,7 +764,6 @@ margin:.25em 0;
 		}
 	}
 }
-
 .buttonlist.three{
 	li{
 		width:33%;
@@ -794,7 +779,6 @@ margin:.25em 0;
 		width:90%;
 	}
 }
-
 .home-links{
 	margin:1em 0;
 	padding:0;
@@ -830,6 +814,8 @@ margin:.25em 0;
 		}
 	}
 }
+
+
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 //.scrollnav {
@@ -957,7 +943,6 @@ margin:.25em 0;
 		@include rotate45;
 	}	
 }
-
 .overflow-hidden{
 	overflow:hidden;
 }
@@ -969,7 +954,10 @@ margin:.25em 0;
 	opacity:1;
 	@include quarter-second-transition;
 }
-/* LAYOUT ====================== */
+
+
+
+/* ========================================================== LAYOUT */
 
 //Body
 body{
@@ -1178,9 +1166,6 @@ article{
 	footer{
 		padding:2em 5%;
 		text-align:center;
-	}
-	
-	footer{
 		border-top:1px solid $light-grey;
 		position:relative;
 	}

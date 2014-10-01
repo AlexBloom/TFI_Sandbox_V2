@@ -1,16 +1,16 @@
 <?php include_once 'inc/head.inc' ?>
 
 <!-- Custom Meta Info Here -->
-<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-interactive-2012" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="article" />
 <meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
 <meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
-<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
+<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-interactive-2012" />
 <meta property="og:site_name" content="TFI Sanxbox" />
 <meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
 <meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
-<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
+<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-interactive-2012" />
 
 <?php include_once 'inc/header.inc' ?>
 
@@ -39,83 +39,76 @@
 	<article>
 		
 			<header>
-				<section class="content">
-		<h1> TFI Interactive 2012</h1>
-		<p class="intro">TFI and the Ford Foundation bring together leading thinkers and pioneers from the fields of media, entertainment, education and technology to share their insights and inspire content creators at TFI Interactive.</p>
-				</section>
+				<div class="flexvideo-16-9">	
+				<iframe src="//player.vimeo.com/video/70069134?portfolio_id=134936" style="border: 0px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+				</div>
+			
+				<h1>Highlights from TFI Interactive 2012</h1>
+				
+				
 			</header>
 		
 		<section class="content">
-			<div class="flexvideo-16-9">	
-			<iframe src="//player.vimeo.com/video/70069134?portfolio_id=134936" style="border: 0px;" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-			</div>
-			
-			<p>Day’s Highlight</p> 
+			<h2> TFI Interactive 2012 Keynote: Baratunde Thurston</h2>
 			<div class="flexvideo-16-9">
 			<iframe src="//player.vimeo.com/video/44757958?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-			<p> Baratunde Thurston's Keynote Address</p>
-			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44755230?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<p> Designing For The World We Live In</p>
-			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44755269?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-			</div>
-			<p> Games and Storytelling</p>
-			<div class="flexvideo-16-9">
-			<iframe src="//player.vimeo.com/video/44755990?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
-			</div>
-			<p> Bear 71: Interactive Storytelling</p>
 
-		<h3>LINEUP</h3>
-		<ul>	
-			<li>
-			<strong> KEYNOTE:BEING HUMAN IN A DIGITAL WORLD.</strong> </br>
-			<small> BARATUNDE THURSTON</small> 
-			http://vimeo.com/44757958
-			</li>
-			<li>
-			<strong> THE FUTURE OF NEWS</strong> </br>
-			<small> Calvin Sims, Andrew DeVigal, Gabriel Dance</small>
-			</li>
-			<li>
-			<strong> YOUR INFORMATION DIET</strong> </br>
-			<small> Clay Johnson</small>
-			</li>
-			<li>
-			<strong> BEAR 71: INTERACTIVE STORYTELLING</strong> </br>
-			<small> Loc Dao http://vimeo.com/44755990</small>
-			</li>
-			<li>
-			<strong> IDEO: DESIGNING THE PERFECT EXPERIENCE</strong> </br>
-			<small> Dario Buzzini</small>
-			</li>
-			<li>
-			<strong> LOCAL PROJECTS: DESIGNING FOR THE WORLD WE LIVE IN</strong> </br> 
-			<small> Jake Barton</small>
-			</li>
-			<li>
-			<strong> GAME OF THRONES: AN INTERACTIVE CASE-STUDY</strong> </br>
-			<small> Steve Coulson</small>
-			</li>
-			<li>
-			<strong> TAKE YOUR DIGITAL IDEAS TO THE BANK</strong> </br>
-			<small> Ingrid Kopp, Alyce Myatt, Karim Ahmad, Orlando Bagwell</small>
-			</li>
-			<li>
-			<strong> PROGRAM OR BE PROGRAMED: CODE AND EDUCATION</strong> </br>
-			<small> Chris Lawrence, Marc Lesser, Jess Klein</small>
-			</li>
-			<li>
-			<strong> WALKING WITH HIPSTER DINOSAURS:	DEVELOPING A TRANSMEDIA PRODUCTION</strong> </br> 
-			<small> Caitlin Burns </small>
-			</li>
-			<li>
-			<strong> PUTTING PLAY IN PLACE: GAMES AND STORYTELLING</strong> </br>
-			<small> Jamin Warren, Margaret Robertson, Nick Fortugno, Michelle Byrd</small>
-			</li>
-		</ul>
+		<h2>LINEUP</h2>	
+			<p> <strong> <a href="http://vimeo.com/44757958"target=_blank> KEYNOTE:BEING HUMAN IN A DIGITAL WORLD.</a> </strong> </br>
+			<ul><li> Baratunde Thurston, Comedian, Director of Digital, The Onion </li></ul> 
+			
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44756422"target=_blank> THE FUTURE OF NEWS</a> </strong> </br>
+			<ul>
+				<li> Calvin Sims, Program Officer for New Media and Journalism, Ford Foundation </li>
+				<li> Andrew DeVigal, Chair, Journalism Innovation & Civic Engagement            </li>
+				<li> Gabriel Dance, Interactive Editor, The Guardian U.S                        </li>
+			
+			</ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44755164"target=_blank> YOUR INFORMATION DIET</a> </strong> </br>
+			<ul><li> Clay Johnson, Co-Founder, Blue State Digital</li></ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44755990"target=_blank> BEAR 71: INTERACTIVE STORYTELLING</a> </strong> </br>
+			<ul><li> Loc Dao, Executive Producer and Creative Technologist at the National Film Board of Canada  </li></ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44757667"target=_blank> IDEO: DESIGNING THE PERFECT EXPERIENCE</a> </strong> </br>
+			<ul><li> Dario Buzzini, Design Director, IDEO NY</li></ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44755230"target=_blank> LOCAL PROJECTS: DESIGNING FOR THE WORLD WE LIVE IN</a> </strong> </br> 
+			<ul><li> Jake Barton, Founder, Local Projects</li></ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44757095"target=_blank> GAME OF THRONES: AN INTERACTIVE CASE-STUDY</a> </strong> </br>
+			<ul><li> Steve Coulson, Creative Director, Campfire</li></ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44755390"target=_blank> TAKE YOUR DIGITAL IDEAS TO THE BANK</a> </strong> </br>
+			<ul>
+				<li> Ingrid Kopp, ‎Director of Interactive,Tribeca Film Institute            </li>
+				<li> Alyce Myatt, Media Arts Director, The National Endowment for the Arts   </li>
+				<li> Karim Ahmad, Senior Programming Manager, ITVS                           </li>
+				<li> Orlando Bagwell, Director, Ford Foundation’s JustFilms                  </li>
+				
+			</ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44755546"target=_blank> PROGRAM OR BE PROGRAMED: CODE AND EDUCATION</a> </strong> </br>
+			<ul>
+				<li>Chris Lawrence, Project Director of The Hive NYC, Mozilla Foundation </li>
+				<li>Marc Lesser, Education Director, MOUSE                               </li>
+				<li>Jess Klein, Hackasaurus Design and Learning Lead, Mozilla Foundation </li>
+			</ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/45137584"target=_blank> WALKING WITH HIPSTER DINOSAURS:	DEVELOPING A TRANSMEDIA PRODUCTION</a> </strong> </br> 
+			<ul><li> Caitlin Burns, Transmedia Producer, Starlight Runner Entertainment </li></ul>
+			</p>
+			<p> <strong> <a href="http://vimeo.com/44755269"target=_blank> PUTTING PLAY IN PLACE: GAMES AND STORYTELLING</a> </strong> </br>
+			<ul>
+				<li> Jamin Warren, Founder, Killscreen                             </li>
+				<li> Margaret Robertson, Managing Director, Hide&amp;Seek New York     </li>
+				<li> Nick Fortugno, CCO, Playmatics LLC                            </li>
+				<li> Michelle Byrd, Co-President, Games For Change                 </li>
+			</ul>
+			</p>
 
 		</section>
 	</article>

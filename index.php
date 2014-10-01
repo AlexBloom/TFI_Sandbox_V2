@@ -19,8 +19,6 @@
 				<meta name="twitter:description" content="Description of Page"/>
 				<meta name="twitter:image" content="https://imagelink.jpg"/>
 				<meta name="twitter:url" content="http://www.sandbox.tribecafilminstitute.org/" />
-		
-
 
 <?php include_once 'inc/header.inc' ?>
 
@@ -128,18 +126,14 @@
 			<li class="one-third-second"> 
 				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFISandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
 				<div class="twitter"> 										
-					 
 						<span class="icon icon-twitter"> Tweet 
-					
 				</div>
 				</a>	
 			</li>
 			<li class="one-third-third"> 
 				<a href="https://plus.google.com/share?url={http://tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
 				<div class="google"> 
-					
 						<span class="icon icon-google"> </span> Google
-					 
 				</div>
 				</a> 			
 			</li>
