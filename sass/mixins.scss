@@ -28,8 +28,8 @@ $tfi-red:rgba(239,062,066,1);
 }
 
 @mixin full-bleed-background{
-background-position:50% 0;
-background-size:cover;
+background-position:50% 50%;
+background-size:100%;
 background-repeat:no-repeat;
 }
 
@@ -90,4 +90,10 @@ border-radius:1em;
 -ms-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
 -o-box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
 box-shadow: 0 0.1em 0.4em rgba(0,0,0,0.5); //, 0 0.1em 0.4em $black;
+}
+
+@mixin inner-shadow{
+	-webkit-box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,1);
+	-moz-box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,1);
+	box-shadow: inset 0px 0px 30px 10px rgba(0,0,0,1);
 }
