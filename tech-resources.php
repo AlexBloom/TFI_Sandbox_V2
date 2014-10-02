@@ -2,22 +2,22 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox</title>
+		        <title>TFI Sandbox | Tech Resources</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
-				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org" />
+				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/tech-resources" />
 				
 		<!--Facebook -->
-				<meta property="og:title" content="Title of Page" />
-				<meta property="og:description" content="Description of Page" />
+				<meta property="og:title" content="TFI Sandbox | Tech Resources" />
+				<meta property="og:description" content="Tools and platforms to aid code and design in new media projects." />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
-				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/"/>
+				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/tech-resources"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
-				<meta name="twitter:title" content="Title of Page"/>
-				<meta name="twitter:description" content="Description of Page"/>
+				<meta name="twitter:title" content="TFI Sandbox | Tech Resources"/>
+				<meta name="twitter:description" content="Tools and platforms to aid code and design in new media projects."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
-				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/" />
+				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/tech-resources" />
 
 <?php include_once 'inc/header.inc' ?>
 

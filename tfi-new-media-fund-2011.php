@@ -43,18 +43,25 @@ $res->free();
 //exit;
 ?>
 
-<!-- Custom Meta Info Here -->
-<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
-<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
-<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:site_name" content="TFI Sanxbox" />
-<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
-<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
-<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
-
+		<!-- Custom Meta Info for Each Page Here -->
+		<!--Web/SEO -->
+		        <title>TFI Sandbox | TFI New Media Fund</title>
+		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
+				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/tfi-new-media-fund" />
+				
+		<!--Facebook -->
+				<meta property="og:title" content="TFI Sandbox | TFI New Media Fund" />
+				<meta property="og:description" content="Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and web." />
+				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/tfi-new-media-fund"/>
+		<!--Twitter -->
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:site" content="@TribecaFilmIns">
+				<meta name="twitter:title" content="TFI Sandbox | TFI New Media Fund"/>
+				<meta name="twitter:description" content="Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and web."/>
+				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/tfi-new-media-fund" />
+				
 <?php include_once 'inc/header.inc' ?>
 
 <!-- TFI New Media Fund Page Content -->

@@ -3,7 +3,7 @@
 
 <meta property="og:site_name" content="TFI Sandbox"/>
 <meta property="fb:admins" content="8228569"/>
-<meta name="fb:app_id" content="167329723445244"/>
+<!-- <meta name="fb:app_id" content="167329723445244"/> -->
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="article:author" content="https://www.facebook.com/TribecaFilmInstitute"/>
@@ -30,7 +30,7 @@
 	<script>
 	      window.fbAsyncInit = function() {
 	        FB.init({
-	          appId      : 'TFI - Sandbox',
+	          appId      : '167329723445244',
 	          xfbml      : true,
 	          version    : 'v2.0'
 	        });
@@ -43,8 +43,6 @@
 	         fjs.parentNode.insertBefore(js, fjs);
 	       }(document, 'script', 'facebook-jssdk'));		      
 	    </script>
-		
-
 
 	
 	<header class="clearfix" id="header">

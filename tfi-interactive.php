@@ -1,17 +1,24 @@
 <?php include_once 'inc/head.inc' ?>
 
-<!-- Custom Meta Info Here -->
-<link rel="canonical" href="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:type" content="article" />
-<meta property="og:title" content="TFI New Media Fund - 2014 Funded Projects - TFI Sandbox" />
-<meta property="og:description" content="The TFI New Media Fund is a grant for filmmakers pushing the boundaries of traditional filmmaking and documentary work." />
-<meta property="og:url" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014" />
-<meta property="og:site_name" content="TFI Sanxbox" />
-<meta property="article:published_time" content="2014-02-04T21:43:55+00:00" />
-<meta property="article:modified_time" content="2014-02-07T19:41:37+00:00" />
-<meta property="og:image" content="http://www.sandbox.tribecafilminstitute.org/tfi-new-media-fund/2014/" />
-
+		<!-- Custom Meta Info for Each Page Here -->
+		<!--Web/SEO -->
+		        <title>TFI Sandbox | TFI Interactive</title>
+		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
+				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/tfi-interactive" />
+				
+		<!--Facebook -->
+				<meta property="og:title" content="TFI Sandbox | TFI Interactive" />
+				<meta property="og:description" content="TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age." />
+				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/tfi-interactive"/>
+		<!--Twitter -->
+				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:site" content="@TribecaFilmIns">
+				<meta name="twitter:title" content="TFI Sandbox | TFI Interactive"/>
+				<meta name="twitter:description" content="TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age."/>
+				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/tfi-interactive" />
+				
 <?php include_once 'inc/header.inc' ?>
 
 <!-- TFI Interactive Page -->

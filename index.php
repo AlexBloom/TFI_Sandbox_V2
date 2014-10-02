@@ -7,7 +7,7 @@
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org" />
 				
 		<!--Facebook -->
-				<meta property="og:title" content="Title of Page" />
+				<meta property="og:title" content="Title of Page"/>
 				<meta property="og:description" content="Description of Page" />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/"/>
@@ -118,9 +118,15 @@
 		
 		<ul id="share-buttons" class="clearfix">
 			<li class="one-third-first"> 
-				<div class="facebook" id="shareBtn">			 
+				
+				<!-- <div id="shareBtn" class="btn btn-success clearfix">Share Dialog</div> -->
+				
+				<div class="facebook btn btn-success" id="shareBtn">
 					 <span class="icon icon-facebook"> </span> Facebook
 				</div>
+				
+				<!-- <div class="fb-share-button" data-href="http://sandbox.tribecafilminstitute.org"></div> -->
+				
 			</li>		
 			<li class="one-third-second"> 
 				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFISandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
@@ -130,7 +136,7 @@
 				</a>	
 			</li>
 			<li class="one-third-third"> 
-				<a href="https://plus.google.com/share?url={http://tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
+				<a href="https://plus.google.com/share?url={http://sandbox.tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
 				<div class="google"> 
 						<span class="icon icon-google"> </span> Google
 				</div>
@@ -138,15 +144,19 @@
 			</li>
 			
 		</ul>
-			<script>
-			document.getElementById('shareBtn').onclick = function() {
-			  FB.ui({
-			    display: 'popup',
-			    method: 'share',
-			    // href: 'https://developers.facebook.com/docs/',
-			  }, function(response){});
-			}
-			</script>	
+		
+
+		<script>
+		document.getElementById('shareBtn').onclick = function() {
+		  FB.ui({
+		    display: 'popup',
+		    method: 'share',
+		    href: 'http://sandbox.tribecafilminstitute.org/',
+		  }, function(response){});
+		}
+		</script>
+			
+			
 	</nav>
 	
 <section>	
