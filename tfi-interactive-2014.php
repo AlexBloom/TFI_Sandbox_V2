@@ -24,7 +24,8 @@
 <!-- TFI Interactive Page -->
 <nav class="breadcrumb">
 	<ul>
-		<li> <a href="tfi-interactive.php"> TFI Interactive </a> </li>
+		<li> <a href="participate"> <span class="icon-participate"></span> <span class="breadcrumb-text">Participate</span> </a> </li>
+		<li> <a href="tfi-interactive"> TFI Interactive </a> </li>
 		<li>
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
@@ -164,8 +165,9 @@
 			<p> <strong> <a href="https://www.youtube.com/watch?v=bF1NJoLuJYg"target=_blank>CLOSING KEYNOTE: DIGITAL DISSATISFACTION: THE LIMITS OF TECHNOLOGY</a></strong>  
 				<ul>
 					<li> Jonathan Harris, Artist</li>
-				</ul></p>
-			<img src="img/content/participate/tfiinteractive/closingkeynote.jpg" alt="Closing Keynote">
+				</ul>
+			</p>
+			
 				
 			
 			<img src="img/content/participate/tfiinteractive/playground_emotionalarcade.jpg" alt="Playground, Emotional Arcade">

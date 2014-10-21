@@ -8,8 +8,10 @@ $(document).ready(function () {
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({height:$(window).height()});
+		//$('#main >article >header').css({height:$(window).height()/2});
 		$(window).resize(function() {
 			$('.full-screen').css({height:$(window).height()});
+			//$('#main >article >header').css({height:$(window).height()/2});
 		});
 	
 	

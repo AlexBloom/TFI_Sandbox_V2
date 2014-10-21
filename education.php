@@ -22,10 +22,21 @@
 <?php include_once 'inc/header.inc' ?>
 
 <!-- Index Page -->
+
+
+	<nav class="breadcrumb">
+	<ul><li> <a href="participate"> <span class="icon-participate"></span> <span class="breadcrumb-text">Participate</span> </a> </li>
+		<li>
+		 <a href="education">Education</a>
+		</li>	
+	</ul>
+	</nav>
+
+
 <section id="main">
 	<section class="clearfix">
 		<article>
-			<header>
+			<header id="education_header">
 				<section class="content">
 				<h1>Education</h1>
 				</section>

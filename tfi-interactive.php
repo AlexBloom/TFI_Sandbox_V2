@@ -23,17 +23,8 @@
 
 <!-- TFI Interactive Page -->
 <nav class="breadcrumb">
-	<ul>
+	<ul><li> <a href="participate"> <span class="icon-participate"></span> <span class="breadcrumb-text">Participate</span> </a> </li>
 		<li> <a href="tfi-interactive.php"> TFI Interactive </a> </li>
-		<li>
-			<dl class="tertiary">
-				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> Select Year <span class="icon-down"> <span> </dt>
-				<dd><a href="tfi-interactive-2014"> 2014 </a> </dd>
-				<dd><a href="tfi-interactive-2013"> 2013 </a> </dd>
-				<dd><a href="tfi-interactive-2012"> 2012 </a> </dd>
-			<dl>
-		</li>
 	</ul>
 </nav>
 
@@ -41,7 +32,7 @@
 <section id="main" class="">	
 
 	<article>	
-			<header>
+			<header id="tfi-interactive_header">
 				<section class="content">
 					<h1> TFI Interactive </h1>
 					<p class="intro">TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age.</p>
@@ -52,13 +43,13 @@
 				<h2> Explore the Archives  </h2>
 				<ul class="buttonlist three clearfix">
 					<li> 
-						 <a href="tfi-interactive-2014" target=_blank> 2014 </a>
+						 <a href="tfi-interactive-2014"> 2014 </a>
 					</li>
 					<li> 
-						 <a href="tfi-interactive-2013" target=_blank> 2013 </a>
+						 <a href="tfi-interactive-2013"> 2013 </a>
 					</li>
 					<li> 
-						 <a href="tfi-interactive-2012" target=_blank> 2012 </a>
+						 <a href="tfi-interactive-2012"> 2012 </a>
 					</li>
 				</ul>
 		

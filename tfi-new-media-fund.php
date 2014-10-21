@@ -23,18 +23,8 @@
 
 <!-- TFI New Media Fund Page Content -->
 <nav class="breadcrumb">
-	<ul>
+	<ul><li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
 		<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
-		<li>
-			<dl class="tertiary">
-				<!-- Enter Current Page Name as DT Item Here -->
-				<dt> Select Year <span class="icon-down"> <span> </dt>
-				<dd><a href="tfi-new-media-fund-2014"> 2014 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2013"> 2013 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2012"> 2012 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2011"> 2011 </a> </dd>
-			<dl>
-		</li>
 	</ul>
 </nav>
 
@@ -43,7 +33,7 @@
 <section id="main" class="">
 		
 	<article>
-		<header>
+		<header id="tfi-new-media-fund_header">
 			<h1>TFI New Media Fund</h1>
 		
 			<p class="intro">Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and Web. For projects based anywhere in advanced development or beyond. Grants range from $50,000 to $100,000.</p>

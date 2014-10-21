@@ -24,7 +24,7 @@
 <!-- Index Page -->
 
 	<nav class="breadcrumb">
-	<ul>
+	<ul><li> <a href="build"> <span class="icon-build"></span> <span class="breadcrumb-text">Build</span> </a> </li> 
 		<li>
 		 <a href="funding">Funding</a>
 		</li>	
@@ -32,7 +32,7 @@
 	</nav>
 
 <section id="main" class="clearfix">
-	<article>
+	<article class="clearfix">
 		<header>
 			
 			<h1>Funding</h1>
@@ -74,96 +74,111 @@
 			<ul class="months">
 				<li id="January">
 				<h3>JANUARY</h3>
-				
-				<h5>The Fledgling Fund—Grant Cycle 1</h5> 
+				<img src="img/content/build/funding/logo_fledgling.gif"  alt="Logo Fledgling">
+				<p><strong>The Fledgling Fund—Grant Cycle 1</strong> 
 				<br>Providing grants that support outreach and audience engagement
-				<br><a href="http://thefledglingfund.org"target=_blank>thefledglingfund.org</a> <br>
-				
-				<h5>National Endowment for the Arts—Grant Cycle 1</h5> 
+				<br><a href="http://thefledglingfund.org"target=_blank>thefledglingfund.org</a> </p>
+				<img src="img/content/build/funding/logo_nea.gif" alt="Logo Nea">
+				<p><strong>National Endowment for the Arts—Grant Cycle 1</strong> 
 				<br>Funding organizations working in interactive media
-				<br><a href="http://arts.gov "target=_blank>arts.gov</a>
+				<br><a href="http://arts.gov "target=_blank>arts.gov</a></p>
 				</li>
 				
 				<li id="February">
 				<h3>FEBRUARY</h3>
-				<h5>Creative Capital</h5>
+				<img src="img/content/build/funding/logo_creativecapital.gif" alt="Logo Creativecapital">
+				<p><strong>Creative Capital</strong>
 				<br> Supporting artists working across a range of media
-				<br><a href="http://creative-capital.org"target=_blank>creative-capital.org</a>
-
-				<h5>Vision Maker Media—Public Media Content Fund </h5>
+				<br><a href="http://creative-capital.org"target=_blank>creative-capital.org</a></p>
+				
+				<img src="img/content/build/funding/logo_visionmaker.gif" alt="Logo Visionmaker">
+				<p><strong>Vision Maker Media—Public Media Content Fund </strong>
 				<br> Funding  programs that represent the cultures, experiences, and values of American Indians and Alaska Natives. 
-				<br><a href="http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf"> http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf
+				<br><a href="http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf"> http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf</a></p>
 				</li>
 				
 				<li id="March">
 				<h3>MARCH</h3>
-				<h5>TFI New Media Fund</h5>
+				<img src="img/content/build/funding/logo_nmf.gif" alt="Logo Nmf">
+				<p><strong>TFI New Media Fund</strong>
 				<br> Funding interactive non-fiction projects around social issues
-				<br><a href="http://tribecafilminstitute.org/filmmakers/newmedia "target=_blank>tribecafilminstitute.org/filmmakers/newmedia</a>
+				<br><a href="http://tribecafilminstitute.org/filmmakers/newmedia "target=_blank>tribecafilminstitute.org/filmmakers/newmedia</a></p>
 				</li>
 				
 				<li id="April">
 				<h3>APRIL </h3>
-				<h5>POV</h5>
+				<img src="img/content/build/funding/logo_pov.gif" alt="Logo Pov">
+				<p><strong>POV</strong>
 				<br> Funding co-production for digital documentaries from independent media creators and technologists.
-				<br><a href="http://www.pbs.org/pov/filmmakers/submit.php"target=_blank>http://www.pbs.org/pov/filmmakers/submit.php</a>
-
-				<h5>ITVS—Grant Cycle 2</h5> 
+				<br><a href="http://www.pbs.org/pov/filmmakers/submit.php"target=_blank>http://www.pbs.org/pov/filmmakers/submit.php</a></p>
+				
+				<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
+				<p><strong>ITVS—Grant Cycle 2</strong> 
 				<br> Supporting new media projects for multiple platforms
-				<br><a href="http://itvs.org/funding"target=_blank>itvs.org/funding </a>
+				<br><a href="http://itvs.org/funding"target=_blank>itvs.org/funding </a></p>
 				</li>
 				
 				<li id="June">
 				<h3>JUNE </h3>
-				<h5>National Endowment for the Arts—Grant Cycle 2</h5> 
+				<img src="img/content/build/funding/logo_nea.gif" alt="Logo Nea">
+				<p><strong>National Endowment for the Arts—Grant Cycle 2</strong> 
 				<br> Funding organizations working in interactive media
-				<br><a href="http://arts.gov  "target=_blank>arts.gov</a>
+				<br><a href="http://arts.gov  "target=_blank>arts.gov</a></p>
 				</li>
 				
 				<li id="July">
 				<h3>JULY</h3> 
-				<h5>The Fledgling Fund—Grant Cycle 2</h5>
+				<img src="img/content/build/funding/logo_fledgling.gif" alt="Logo Fledgling">
+				<p><strong>The Fledgling Fund—Grant Cycle 2</strong>
 				<br> Providing grants that support outreach and audience engagement
-				<br><a href="http://thefledglingfund.org "target=_blank>thefledglingfund.org</a>
-			
-				<h5>National Endowment for the Humanities</h5><br>
-				Supporting Interactive Digital media through the Media Projects Grants.
-				<br><a href="http://www.neh.gov/grants/public/media-projects-development-grants"target=_blank>http://www.neh.gov/grants/public/media-projects-development-grants</a>
+				<br><a href="http://thefledglingfund.org "target=_blank>thefledglingfund.org</a></p>
+				
+				
+				<p><strong>National Endowment for the Humanities</strong>
+				<br>Supporting Interactive Digital media through the Media Projects Grants.
+				<br><a href="http://www.neh.gov/grants/public/media-projects-development-grants"target=_blank>http://www.neh.gov/grants/public/media-projects-development-grants</a></p>
 				</li>
 				
 				<li id="September">
 				<h3>SEPTEMBER</h3>
-				<h5>Cal Humanities</h5>
+				<img src="img/content/build/funding/logo_calhumanities.gif" alt="Logo Calhumanities">
+				<p><strong>Cal Humanities</strong>
 				<br> Supporting new media productions that enhance our understanding of California and its cultures. 
-				<br><a href="http://www.calhum.org/grants/california-documentary-project-grant"target=_blank> http://www.calhum.org/grants/california-documentary-project-grant</a>
+				<br><a href="http://www.calhum.org/grants/california-documentary-project-grant"target=_blank> http://www.calhum.org/grants/california-documentary-project-grant</a></p>
 				</li>
 				
 				<li id="October">
 				<h3>OCTOBER</h3>
-				<h5>Eyebeam Creative Residency (for residency in March)</h5>
-				<br> Supporting the creative research, production and presentation of initiatives querying art, technology and culture. <br><a href="http://eyebeam.org/creative-residencies-faq  "target=_blank> http://eyebeam.org/creative-residencies-faq</a>
+				<img src="img/content/build/funding/logo_eyebeam.gif" alt="Logo Eyebeam">
+				<p><strong>Eyebeam Creative Residency (for residency in March)</strong>
+				<br> Supporting the creative research, production and presentation of initiatives querying art, technology and culture. <br><a href="http://eyebeam.org/creative-residencies-faq  "target=_blank> http://eyebeam.org/creative-residencies-faq</a></p>
 				</li>
 				
 				<li id="November">
 				<h3>NOVEMBER</h3>
-				<h5>Electronic Media + Film </h5>
+				
+				<p><strong>Electronic Media + Film </strong>
 				<br> Supporting non-profit organizations located in New York State for in-person appearances by independent artists working in moving image media and sound art, including video, digital and computer-based works.
-				 <br><a href="http://www.earts.org/emf  "target=_blank>http://www.earts.org/emf</a>
+				 <br><a href="http://www.earts.org/emf  "target=_blank>http://www.earts.org/emf</a></p>
  				</li>
 				
  				<li id="December">
 				<h3>DECEMBER</h3>
-				<h5>Jerome Foundation</h5>
+				
+				<img src="img/content/build/funding/logo_jerome.gif" alt="Logo Jerome">
+				<p><strong>Jerome Foundation</strong>
 				<br> Offering grants to not-for-profit arts organizations and to fiscal sponsors applying on behalf of artists for the creation, development, and production of new works by emerging artists in New York City and Minnesota.
-				<br><a href="http://www.jeromefdn.org/general-program/application-requirements  "target=_blank>http://www.jeromefdn.org/general-program/application-requirements</a>
+				<br><a href="http://www.jeromefdn.org/general-program/application-requirements  "target=_blank>http://www.jeromefdn.org/general-program/application-requirements</a></p>
 
-				<h5>BAVC Mediamaker Fellowship</h5> 
+				<img src="img/content/build/funding/logo_bavc.gif" alt="Logo Bavc">
+				<p><strong>BAVC Mediamaker Fellowship</strong> 
 				<br> in-kind training and production grants for independent artists at work on social-justice film and multimedia projects, with a particular focus on supporting emerging artists and underserved communities
-				<br><a href="http://bavc.org/mediamaker  "target=_blank>http://bavc.org/mediamaker</a>
-
-				<h5>ITVS—Grant Cycle 1</h5> 
+				<br><a href="http://bavc.org/mediamaker  "target=_blank>http://bavc.org/mediamaker</a></p>
+				
+				<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
+				<p><strong>ITVS—Grant Cycle 1</strong> 
 				<br> ITVS 360 supports new media projects for multiple platforms
-				<br><a href="itvs.org/funding  "target=_blank>itvs.org/funding</a>
+				<br><a href="itvs.org/funding  "target=_blank>itvs.org/funding</a></p>
 				</li>
 			</ul>
 			
@@ -212,7 +227,7 @@
 		</div>
 	</article>		
 
-	<nav class="share">
+	<nav class="share clearfix">
 		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
 		
 		<ul id="share-buttons" class="clearfix">

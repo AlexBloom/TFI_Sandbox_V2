@@ -24,6 +24,7 @@
 <!-- TFI New Media Fund Page Content -->
 <nav class="breadcrumb">
 	<ul>
+		<li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
 		<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
 		<li>
 			<dl class="tertiary">
@@ -243,21 +244,27 @@
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
+					<img src="img/content/discover/new-media-fund/2014/jury/jury_JakeBarton.jpg" alt="Jury JakeBarton">
 					<span class="name"> <strong> Jake Barton </strong> <br> Principal &amp; Founder, Local Projects </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2014/jury/jury_SheilaLeddy.jpg" alt="Jury SheilaLeddy">
 					<span class="name"> <strong> Sheila Leddy</strong>  <br> Executive Director, The Fledgling Fund </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2014/jury/jury_CharlesMelcher.jpg" alt="Jury CharlesMelcherSmall">
 					<span class="name"> <strong>Charles Melcher</strong> <br> Founder &amp; CEO, Melcher Media, Founder &amp; Director, Future of Storytelling </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2014/jury/jury_DawnPorter.jpg" alt="Jury DawnPorter">
 					<span class="name"> <strong> Dawn Porter</strong> <br> Founder, Trilogy Films </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2014/jury/jury_HankWillisThomas.jpg" alt="Jury HankWillisThomas">
 					<span class="name"> <strong> Hank Willis Thomas</strong> <br>  Photographer </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2014/jury/jury_DeannaZandt.jpg" alt="Jury DeannaZandt">
 					<span class="name"> <strong> Deanna Zandt</strong> <br>  Co-Founder/Partner, Lux Digital </span>
 				</li>
 			</ul>

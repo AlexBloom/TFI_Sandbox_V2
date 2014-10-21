@@ -30,6 +30,7 @@ $cms = new tfi_ee();
 
 <nav class="breadcrumb" id="">
 	<ul>
+		<li> <a href="participate"><span class="icon-participate"></span> <span class="breadcrumb-text">Participate</span> </a> </li>
 		<li> <a href="tribeca-hacks.php"> Tribeca Hacks </a> </li>
 		<li>
 			<dl class="tertiary">

@@ -54,7 +54,10 @@
 	<nav id="primary-nav">
 		
 				<dl class="primary clearfix" id="discover-primary">
-					<dt class="clearfix">Discover <br> <small>Discover inspiring interactive projects.</small></dt>
+					<dt class="clearfix">
+						<a href="discover">Discover</a> <br> 
+						<small>Discover inspiring interactive projects.</small>
+					</dt>
 					<dd class="primary-link" id=""> 
 						<a href="tfi-new-media-fund"> TFI New Media Fund <span class="icon-right"></span> </a>	
 						<ul class="secondary clearfix" id="">	
@@ -70,7 +73,10 @@
 				</dl>
 
 				<dl class="primary clearfix" id="participate-primary">
-					<dt class="clearfix">Participate <br> <small>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</small></dt>
+					<dt class="clearfix">
+						<a href="participate">Participate</a> <br> 
+						<small>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</small>
+					</dt>
 					<dd class="primary-link" id=""> 
 						<a href="tfi-interactive"> TFI Interactive <span class="icon-right"></span> </a>
 						<ul class="secondary clearfix" id="">
@@ -88,7 +94,10 @@
 				</dl>
 
 				<dl class="primary clearfix" id="build-primary">
-					<dt class="clearfix">Build <br> <small>Tools, resources and advice to build your own interactive project.</small></dt>
+					<dt class="clearfix">
+						<a href="build">Build</a> <br> 
+						<small>Tools, resources and advice to build your own interactive project.</small>
+					</dt>
 					<dd class="primary-link" id="">
 						<a href="project-management"> Project Management Guide <span class="icon-right"></span></a> 
 						<ul class="secondary clearfix" id="secondary-pm-nav">

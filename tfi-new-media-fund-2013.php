@@ -24,6 +24,7 @@
 <!-- TFI New Media Fund Page Content -->
 <nav class="breadcrumb">
 	<ul>
+		<li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
 		<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
 		<li>
 			<dl class="tertiary">
@@ -190,21 +191,27 @@
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
+					<img src="img/content/discover/new-media-fund/2013/jury/jury_JeremyBoxer.jpg" alt="Jury JeremyBoxer">
 					<span class="name"> <strong> Jeremy Boxer</strong> <br> Creative Director, Vimeo </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2013/jury/jury_MichelleByrd.jpg" alt="Jury MichelleByrd">
 					<span class="name"> <strong> Michelle Byrd</strong>  <br>  Co-President, Games for Change </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2013/jury/jury_MarisaJahn.jpg" alt="Jury MarisaJahn">
 					<span class="name"> <strong> Marisa Jahn</strong> <br>  Executive Director, REV </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2013/jury/jury_TomJennings.jpg" alt="Jury TomJennings">
 					<span class="name"> <strong> Tom Jennings</strong> <br>  Producer, 2over10 Media for PBS Frontline </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2013/jury/jury_JuliaKaganskiy.jpg" alt="Jury JuliaKaganskiy">
 					<span class="name"> <strong> Julia Kaganskiy</strong> <br>  Global Editor, Creators Project</span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2013/jury/jury_SarahWolozin.jpg" alt="Jury SarahWolozin">
 					<span class="name"> <strong> Sarah Wolozin</strong> <br>  Director, MIT Open Documentary Lab </span>
 				</li>
 			</ul>

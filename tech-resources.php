@@ -25,6 +25,7 @@
 
 	<nav class="breadcrumb">
 	<ul>
+		<li> <a href="build"> <span class="icon-build"></span> <span class="breadcrumb-text">Build</span> </a> </li>
 		<li>
 		 <a href="tech-resources">Tech Resources</a>
 		</li>	

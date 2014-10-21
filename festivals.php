@@ -25,7 +25,7 @@
 <!-- Index Page -->
 
 	<nav class="breadcrumb">
-	<ul>
+	<ul><li> <a href="build"> <span class="icon-build"></span> <span class="breadcrumb-text">Build</span> </a> </li>
 		<li>
 		 <a href="festivals">Festivals</a>
 		</li>	

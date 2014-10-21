@@ -67,6 +67,7 @@ $res->free();
 <!-- TFI New Media Fund Page Content -->
 <nav class="breadcrumb">
 	<ul>
+		<li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
 		<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
 		<li>
 			<dl class="tertiary">
@@ -153,46 +154,55 @@ $res->free();
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_CaitlinBurns.jpg" alt="Jury CaitlinBurns">
 					<span class="name"> <strong> Caitlin Burns </strong> <br>
 					Transmedia Producer, Board Member of the PGA’s New Media Council
 				    </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_IditHarelCaperton.jpg" alt="Jury IditHarelCaperton">
 					<span class="name"> <strong> Idit Harel Caperton </strong> <br>
 					Worldwide Workshop, MaMaMedia
 				    </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_AaronKoblin.jpg" alt="Jury AaronKoblin">
 					<span class="name"> <strong> Aaron Koblin </strong> <br> 
 					Digital Media Artist
 				   </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_MichaelLevine.jpg" alt="Jury MichaelLevine">
 					<span class="name"> <strong> Michael Levine </strong> <br> 
 					Founding Director, Joan Ganz Cooney Center
 				   </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_JohnJohnson.jpg" alt="Jury JohnJohnson">
 					<span class="name"> <strong> John Johnson </strong> <br> 
 					Founder & Executive Director, Harmony Institute, Founder & Chair, EYEBEAM, Co-Founder, Buzzfeed
 				   </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_JasonLiebman.jpg" alt="Jury JasonLiebman">
 					<span class="name"> <strong> Jason Liebman  </strong> <br> 
 					Co-Founder, Howcast
 				   </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_LauraPoitras.jpg" alt="Jury LauraPoitras">
 					<span class="name"> <strong> Laura Poitras </strong> <br> 
 					Documentary Filmmaker
 				    </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_SamPollard.jpg" alt="Jury SamPollard">
 					<span class="name"> <strong> Sam Pollard </strong> <br> 
 					Producer, Editor, Professor, NYU
 				   </span>
 				</li>
 				<li>
+					<img src="img/content/discover/new-media-fund/2011/jury/jury_MarcSchiller.jpg" alt="Jury MarcSchiller">
 					<span class="name"> <strong> Marc Schiller </strong> <br> 
 					Founder, Wooster Collective, CEO, BOND Strategy and Influence
 				   </span>

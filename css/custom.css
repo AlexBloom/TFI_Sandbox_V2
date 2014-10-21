@@ -120,7 +120,7 @@ body {
 30px @ 1:1.5	 
 ----------------------*/
 h1 {
-  font-size: 3.0000em;
+  font-size: 2.0000em;
   /* 45px */
   line-height: 1.1111em;
   /* 50px */
@@ -129,6 +129,9 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .1em; }
+  @media screen and (min-width: 53.33333em) {
+    h1 {
+      font-size: 3.0000em; } }
 
 h2 {
   font-size: 2.2500em;
@@ -293,13 +296,7 @@ button {
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
-  transition-duration: .25s;
-  /*&:hover{
-  	.icon{
-  		background-color:$white;
-  		color:$action-color;
-  	}
-  }*/ }
+  transition-duration: .25s; }
   button:hover, button:active {
     color: white; }
   button:active .icon, button:focus .icon {
@@ -329,6 +326,7 @@ button {
   color: white;
   text-decoration: none;
   font-weight: 600;
+  z-index: 3;
   letter-spacing: .1em;
   text-transform: uppercase;
   -webkit-transition-duration: .25s;
@@ -336,6 +334,10 @@ button {
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
   transition-duration: .25s; }
+  .next-section:hover {
+    text-decoration: none;
+    color: white;
+    padding: 2.5em 0 1.5em 0; }
 
 /* ======================================================== LISTS */
 .basic-list {
@@ -408,18 +410,21 @@ button {
     color: #222222; }
   #header #logo {
     padding: 1em;
-    display: inline-block;
     text-decoration: none;
     color: #222222;
     text-transform: uppercase;
     letter-spacing: .15em;
     line-height: 150%;
     border-left: 1px solid #dddddd;
-    overflow: hidden; }
+    overflow: hidden;
+    display: none; }
     #header #logo:active {
       text-decoration: none;
       color: white;
       background-color: #00afef; }
+    @media screen and (min-width: 40em) {
+      #header #logo {
+        display: inline-block; } }
   #header #toggle {
     background: none !important;
     outline: none;
@@ -551,10 +556,10 @@ button {
     text-transform: uppercase;
     letter-spacing: .15em;
     font-size: 1.25em;
-    opacity: 0.75;
     font-weight: 700;
-    margin: 0em 1%;
-    text-align: center; }
+    margin: 0em 1%; }
+    .primary dt a {
+      color: white; }
   .primary small {
     font-weight: 500;
     line-height: 1em;
@@ -602,52 +607,44 @@ button {
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
 .breadcrumb {
-  position: relative;
   display: block;
   margin: 3.5em 0;
   clear: both;
   border-top: 1px solid white;
+  z-index: 1000;
+  right: 0;
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
   -ms-transition-duration: .25s;
   -o-transition-duration: .25s;
-  transition-duration: .25s; }
+  transition-duration: .25s;
+  border-top: none;
+  position: fixed;
+  top: 0;
+  left: 4.5em;
+  margin: 0; }
   .breadcrumb.nav-hide {
     margin-top: -60px; }
   .breadcrumb.nav-show {
     margin-top: 0; }
   @media screen and (min-width: 40em) {
     .breadcrumb {
-      border-top: none;
-      position: fixed;
-      z-index: 501;
-      top: 0;
-      left: 14em;
-      margin: 0; } }
+      left: 14em; } }
   .breadcrumb ul {
     position: relative;
     padding: 0;
     margin: 0;
-    line-height: 1.6em; }
+    line-height: 1.6em;
+    width: 150%;
+    height: 0;
+    background-color: red; }
   .breadcrumb li {
     position: relative;
     float: left;
-    margin: 0.5em;
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+    margin: .5em 0;
     max-height: 2.5em;
     overflow: visible; }
-    .breadcrumb li:before, .breadcrumb li:after {
-      position: absolute;
-      color: #888888;
-      font-size: 1em;
-      left: -1em;
-      top: .75em;
-      content: " ";
-      width: 1em;
-      height: 1em;
-      transform: rotate(45deg);
-      border-style: solid;
-      border-color: #dddddd;
-      border-width: 1px 1px 0 0; }
   .breadcrumb a {
     display: block;
     margin: -.5em 0;
@@ -658,6 +655,18 @@ button {
       text-decoration: none;
       color: white;
       background-color: #00afef; }
+  .breadcrumb .icon-discover, .breadcrumb .icon-participate, .breadcrumb .icon-build {
+    display: inline; }
+    .breadcrumb .icon-discover:before, .breadcrumb .icon-participate:before, .breadcrumb .icon-build:before {
+      content: 'ICO'; }
+    @media screen and (min-width: 40em) {
+      .breadcrumb .icon-discover, .breadcrumb .icon-participate, .breadcrumb .icon-build {
+        display: none; } }
+  .breadcrumb .breadcrumb-text {
+    display: none; }
+    @media screen and (min-width: 40em) {
+      .breadcrumb .breadcrumb-text {
+        display: inline; } }
   .breadcrumb .indicator {
     display: block;
     margin: -.5em 0;
@@ -698,7 +707,7 @@ button {
       padding: 0 1em;
       max-height: 0;
       overflow: hidden;
-      margin: 1px 0 0 0;
+      margin: 0 0 0 0;
       padding: 0 1em;
       background-color: white; }
       .tertiary dd a:active {
@@ -707,11 +716,16 @@ button {
 
 .dropdown-closed dd a {
   padding: 0;
-  max-height: 0; }
+  max-height: 0;
+  opacity: 0; }
 
 .dropdown-open dd a {
   padding: 1em !important;
-  max-height: 2em !important; }
+  max-height: 2em !important;
+  opacity: 1;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd; }
 .dropdown-open dt .icon-down {
   vertical-align: baseline;
   /* Safari */
@@ -746,13 +760,14 @@ button {
   border-top: 1px solid white;
   width: 100%;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  display: flex; }
   .filters dt {
     display: none;
     padding: .5em 1em; }
   .filters dd {
+    text-align: center;
     float: left;
-    width: 30%;
     margin: 0;
     padding: 0; }
   .filters dd a {
@@ -869,7 +884,10 @@ button {
     display: block;
     text-decoration: none;
     border-right: 1px solid #dddddd;
-    padding: .75em 1.5em; }
+    padding: .75em 1.5em;
+    font-size: 1.25em;
+    font-weight: 600;
+    letter-spacing: .05em; }
   .buttonlist li {
     width: 25%;
     text-align: center;
@@ -888,28 +906,6 @@ button {
 
 .buttonlist.one li {
   width: 90%; }
-
-.home-links {
-  margin: 1em 0;
-  padding: 0;
-  background-color: white;
-  border: 1px solid #dddddd; }
-  .home-links .icon-right {
-    float: right; }
-  .home-links a {
-    display: block;
-    text-decoration: none;
-    border-bottom: 1px solid #dddddd;
-    padding: .75em 1.5em;
-    font-weight: 600; }
-  .home-links li {
-    list-style-type: none;
-    float: left;
-    padding: 0;
-    margin: 0;
-    width: 100%; }
-    .home-links li:last-child a {
-      border: none; }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 /* ======================================================== OPEN / CLOSE */
@@ -1024,6 +1020,7 @@ section {
 
 .overlay-wrap {
   position: absolute;
+  display: flex;
   z-index: 2;
   top: 0;
   bottom: 0;
@@ -1215,7 +1212,10 @@ article {
   width: 100%;
   text-align: left; }
   article header {
-    background-color: #00afef;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-blend-mode: multiply;
+    background-color: #888888;
     color: white;
     width: 90%;
     padding: 4em 5%;
@@ -1232,6 +1232,8 @@ article {
     @media screen and (min-width: 53.33333em) {
       article .content {
         margin: 3em auto; } }
+    article .content img {
+      margin: 1em 0; }
   article .anchor {
     border-top: 0.4em solid #333333;
     margin-bottom: 5em; }
@@ -1245,7 +1247,8 @@ article {
     max-width: 50em; }
   article h3 {
     border-top: 1px solid #888888;
-    padding-top: .5em; }
+    padding-top: .5em;
+    margin-bottom: .5em; }
   article img {
     width: 100%; }
   article ul, article ol {
@@ -1335,17 +1338,50 @@ article {
  * //////////////////////////////////////////////////////// HOME
  *
  */
+#home-callouts img {
+  display: block;
+  width: 50%;
+  margin: 0 auto; }
+#home-callouts .icon-right {
+  padding: 0;
+  margin: 0; }
+
 #home-video-container {
   background-image: url("../img/content/prototype/full-bleed-bg-image.jpg"); }
 
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }
 
+.home-links {
+  margin: 1em 0;
+  padding: 0;
+  background-color: white;
+  border: 1px solid #dddddd; }
+  .home-links .icon-right {
+    float: right; }
+  .home-links a {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #dddddd;
+    padding: .75em .75em;
+    font-weight: 600; }
+  .home-links li {
+    list-style-type: none;
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 100%; }
+    .home-links li:last-child a {
+      border: none; }
+
 /*
  *
  * //////////////////////////////////////////////////////// DISCOVER
  *
  */
+#tfi-new-media-fund_header {
+  background-image: url(../img/content/discover/new-media-fund/tfi-new-media-fund_header.jpg); }
+
 .projects-title {
   color: #222222;
   text-transform: uppercase;
@@ -1379,26 +1415,10 @@ article {
   -o-transition-duration: .5s;
   transition-duration: .5s; }
 
-@media screen and (min-width: 46.66667em) {
-  .project:nth-of-type(odd) .project-image-wrap {
-    left: 0 !important; }
-  .project:nth-of-type(odd) .header-info {
-    right: 0 !important; }
-  .project:nth-of-type(odd) .project-url {
-    right: 0; } }
-
-@media screen and (min-width: 46.66667em) {
-  .project:nth-of-type(even) .project-image-wrap {
-    right: 0 !important; }
-  .project:nth-of-type(even) .header-info {
-    left: 0 !important; }
-  .project:nth-of-type(even) .project-url {
-    left: 0; } }
-
 .project-header {
   width: 100%;
   padding: 0;
-  background-color: white;
+  background-color: #888888;
   border-bottom: 1px solid #dddddd;
   -webkit-transition-duration: .25s;
   -moz-transition-duration: .25s;
@@ -1407,7 +1427,8 @@ article {
   transition-duration: .25s;
   position: relative;
   overflow: hidden;
-  z-index: 350; }
+  z-index: 350;
+  min-height: 20em; }
   .project-header img {
     -webkit-transition-duration: .25s;
     -moz-transition-duration: .25s;
@@ -1416,27 +1437,9 @@ article {
     transition-duration: .25s; }
   @media screen and (min-width: 46.66667em) {
     .project-header img {
-      opacity: .75;
-      width: 120%;
-      margin-left: -10%;
-      transform: scale(1, 1); }
-    .project-header:hover .floating-text {
-      color: #00afef; }
-    .project-header:hover img {
-      transform: scale(1.2, 1.2);
-      opacity: 1; } }
-  @media screen and (min-width: 46.66667em) {
-    .project-header {
-      height: 13.33333em; } }
-  @media screen and (min-width: 66.66667em) {
-    .project-header {
-      height: 14.66667em; } }
-  @media screen and (min-width: 80em) {
-    .project-header {
-      height: 17.33333em; } }
-  @media screen and (min-width: 93.33333em) {
-    .project-header {
-      height: 21.33333em; } }
+      opacity: 1;
+      width: 100%;
+      margin-top: -20%; } }
   .project-header .project-image-wrap {
     overflow: hidden;
     max-height: 20em;
@@ -1445,65 +1448,59 @@ article {
     -ms-transition-duration: .25s;
     -o-transition-duration: .25s;
     transition-duration: .25s;
-    -webkit-box-shadow: inset 0px 0px 30px 10px black;
-    -moz-box-shadow: inset 0px 0px 30px 10px black;
-    box-shadow: inset 0px 0px 30px 10px black; }
-    @media screen and (min-width: 46.66667em) {
-      .project-header .project-image-wrap {
-        max-height: 100%;
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        bottom: 0;
-        width: 33%;
-        -webkit-box-shadow: inset 0px 0px 30px 10px black;
-        -moz-box-shadow: inset 0px 0px 30px 10px black;
-        box-shadow: inset 0px 0px 30px 10px black; } }
+    max-height: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    bottom: 0;
+    width: 100%; }
   .project-header .header-info {
     position: relative;
     width: 100%;
     z-index: 3;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.65);
     -webkit-box-sizing: border-box;
     /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;
     /* Firefox, other Gecko */
     box-sizing: border-box;
-    /* Opera/IE 8+ */ }
-    @media screen and (min-width: 46.66667em) {
-      .project-header .header-info {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        width: 66%; } }
+    /* Opera/IE 8+ */
+    position: absolute;
+    top: 0;
+    bottom: 0; }
   .project-header .floating-text {
     display: block;
     margin: auto;
     position: static;
     overflow: visible;
+    text-align: left;
     width: 90%;
     padding: .25em 5%;
-    color: #222222;
+    color: white;
     z-index: 2;
     -webkit-transition-duration: .25s;
     -moz-transition-duration: .25s;
     -ms-transition-duration: .25s;
     -o-transition-duration: .25s;
-    transition-duration: .25s; }
-    @media screen and (min-width: 53.33333em) {
-      .project-header .floating-text {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        padding-top: 1.5em; } }
+    transition-duration: .25s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 1.5em; }
     .project-header .floating-text small {
-      font-size: .9em;
+      font-size: 1em;
+      font-weight: 600;
       margin: 0;
       padding: 0;
       display: block; }
     .project-header .floating-text h2 {
+      font-size: 3em;
       margin-top: .5em;
-      line-height: 120%; }
+      line-height: 120%;
+      text-transform: uppercase; }
+    @media screen and (min-width: 46.66667em) {
+      .project-header .floating-text h2 {
+        font-size: 4em; } }
   .project-header .floating-text.open {
     top: 50%;
     bottom: 2em;
@@ -1515,9 +1512,9 @@ article {
 
 #floating-text-home {
   color: white;
-  padding: 20% 5em;
+  padding: 2em 5em;
   max-width: 63.33333em;
-  margin: 0 auto; }
+  margin: auto; }
   #floating-text-home h1 {
     font-size: 2em; }
     @media screen and (min-width: 72em) {
@@ -1533,18 +1530,18 @@ article {
   color: #888888;
   text-decoration: none;
   text-align: center;
-  z-index: 5; }
-  @media screen and (min-width: 46.66667em) {
-    .project-url {
-      position: absolute;
-      bottom: 0;
-      padding: .5em .75em;
-      border-top: 1px solid #dddddd;
-      border-left: 1px solid #dddddd;
-      border-right: 1px solid #dddddd; }
-      .project-url:hover, .project-url:active {
-        text-decoration: none;
-        color: #00afef; } }
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: .5em .75em;
+  border-top: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd; }
+  .project-url:hover, .project-url:active {
+    text-decoration: none;
+    color: #00afef; }
 
 .project-content, .project-content-expanded {
   width: 80%;
@@ -1583,21 +1580,25 @@ article {
  * //////////////////////////////////////////////////////// PARTICIPATE
  *
  */
+#tribeca-hacks_header {
+  background-image: url(../img/content/participate/tribecahacks/tribeca-hacks_header.jpg); }
+
 .hack-title {
   font-size: 1em; }
 
 .tfi-interactive article header {
-  background-color: #222222;
   margin: 3.5em 0 0 0;
   padding: 0 0 1.5em 0;
   width: 100%; }
 .tfi-interactive p + ul {
   margin: -1.25em 0 1em; }
 
+#tfi-interactive_header {
+  background-image: url(../img/content/participate/tfiinteractive/tfi-interactive_header.jpg); }
+
 .jury {
   padding: 1em 0;
-  border-top: 1em solid #222222;
-  border-bottom: 1em solid #222222; }
+  border-top: 1px solid #dddddd; }
 
 .jury-members {
   list-style-type: none;
@@ -1632,6 +1633,9 @@ article {
         width: 20%;
         padding: 1em 2.5% 1em 2.5%; } }
 
+#education_header {
+  background-image: url(../img/content/participate/education/education_header.jpg); }
+
 /*
  *
  * //////////////////////////////////////////////////////// BUILD
@@ -1642,6 +1646,12 @@ article {
   .months li {
     padding: 0;
     list-style-type: none; }
+    .months li img {
+      float: left;
+      width: 5em;
+      margin: 0 1em 1.5em 0;
+      padding: 0 1em 0 0;
+      border-right: 1px solid #dddddd; }
 
 .key-speakers {
   list-style-type: none;
@@ -1739,6 +1749,9 @@ article {
         width: 29%;
         padding: 1em 4% 1em 0; } }
 
+#project-management_header {
+  background-image: url(../img/content/build/projectmanagement/project-management_header.jpg); }
+
 #projectmanagement-callouts li {
   list-style-type: none;
   float: left; }
@@ -1747,9 +1760,6 @@ article {
   #projectmanagement-callouts li a {
     text-decoration: none; }
 @media screen and (min-width: 53.33333em) {
-  #projectmanagement-callouts > li {
-    min-height: 8em; } }
-@media screen and (min-width: 80em) {
   #projectmanagement-callouts > li {
     min-height: 12em; } }
 #projectmanagement-callouts .featured {

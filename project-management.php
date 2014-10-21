@@ -23,7 +23,7 @@
 
 <!-- Index Page -->
 <nav class="breadcrumb">
-	<ul>
+	<ul><li> <a href="build"> <span class="icon-build"></span> <span class="breadcrumb-text">Build</span> </a> </li>
 		<li> <span class="indicator"> Project Management </span> </li>
 	</ul>
 </nav>
@@ -32,7 +32,7 @@
 <section id="main">
 	<section class="clearfix">
 		<article>
-			<header>
+			<header id="project-management_header">
 				<section class="content">
 				<h1>Project Management Guide</h1>
 				<p class="intro"> A reference guide to help you effectively plan, build, and launch a successful new media project. Each section contains a quick-read guide and includes case studies from seasoned veterans.

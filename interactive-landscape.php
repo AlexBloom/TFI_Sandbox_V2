@@ -24,6 +24,7 @@
 <!-- TFI New Media Fund Page -->
 <nav class="breadcrumb" id="">
 	<ul>
+		<li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
 		<li> <a href="interactive-landscape.php"> Interactive Landscape </a> </li>
 	</ul>
 </nav>
@@ -39,11 +40,11 @@
 		<dl class="filters clearfix">
 			<!-- Enter Current Page Name as DT Item Here -->
 			<dt> Filters: </dt>
-			<dd><a id="IL-All" class="filter-link"> All <span class="quantity"> (19) </span> </a> </dd>
+			<dd><a id="IL-All" class="filter-link"> All <span class="quantity"> (23) </span> </a> </dd>
 			<dd><a id="IL-Web" class="filter-link"> Web <span class="quantity"> (9)</span> </a> </dd>
 			<dd><a id="IL-Apps" class="filter-link"> Apps <span class="quantity"> (2)</span> </a> </dd>
 			<dd><a id="IL-Installations" class="filter-link"> Installations <span class="quantity"> (3)</span> </a> </dd>
-			<dd><a id="IL-Other" class="filter-link"> Other <span class="quantity"> (5)</span> </a> </dd>
+			<dd><a id="IL-Other" class="filter-link"> Other <span class="quantity"> (9)</span> </a> </dd>
 		<dl>
 	
 	</article>
@@ -60,7 +61,8 @@
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Launched: October 2013</small>
-								<h2>DEVICE 6</h2>			
+								<h2>DEVICE 6</h2>	
+								<button class="button">View Project</button>		
 								</div>
 							</div>
 						</a>
