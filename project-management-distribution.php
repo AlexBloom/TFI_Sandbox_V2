@@ -72,9 +72,12 @@
 					<section id="GameInADay"class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-betathegame.jpg" alt="Distribution Betathegame">
 						<h2>Build a Game in a Day </h2>
-						<p><strong>By Errol King,</strong> Founder &amp; Creative Director, Beta!</p>
-
-						<a href="http://www.betathegame.com"target=_blank>www.betathegame.com</a>
+						<p>By Errol King, Founder &amp; Creative Director of Beta<br>
+						<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a><br>
+						More from Errol King: 
+						<a href="interactive-landscape#BetaTheGame">Beta</a>, 
+						<a href="http://vimeo.com/100232869"target=_blank>TFI Interactive 2014: Making Game Design Fun and Accessible</a>
+						</p>
 
 
 
@@ -83,13 +86,20 @@
 						<p>Beta takes place in a two-dimensional physics simulation sandbox where players learn how to manipulate all of the world’s objects, properties and logic using a simple programming language called CodePop. Using this platform, we guide and measure STEM-based enrichment outcomes. Beta teaches game design, computer programming, and analytical thinking in an environment dynamically attuned to the evolving capability of each player. Beta is both an online and offline experience. We place equal focus on the gaming and in-person activities. In our workshops and classes, players are encouraged to collaborate and are motivated to create increasingly complex games by learning and improving computer programming skills in a fun, enriching and interactive way. </p>
 						 <p>As the creators, the journey has been rich with lessons learned, but one takeaway that has been core to our process is to get the project in front of our audience as early and as often as possible. Our “Build a Game in a Day” workshops have provided us with a fertile space to test our assumptions and build a genuine relationship with our participants. These player-driven settings allow us to act as facilitators while participants tap into their own innate sense of curiosity and spontaneity. We leverage the same iterative cycle of discovery, design, development and testing that we encourage our participants to take. Every workshop has given us tremendous feedback to innovate ways to make our user experience better. As players explore, break, reassemble, remix and transcend the system we witness the creation of a story and a world.</p>
 
-						
+						<p><a href="http://www.betathegame.com"target=_blank>www.betathegame.com</a></p>
 			
 					</section>
 					<section id="GoingGranular"class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-marisa.jpg" alt="Distribution Marisa">
 						<h2>Going Granular: On Distribution &amp; Digital Inclusion</h2>
-						<p><strong>By Marisa Jahn and Anjum Ashara</strong> (REV-)</p>
+						<p>
+						By Marisa Jahn, Artist and Writer, Executive Director of REV- <br>
+						<a href="https://twitter.com/marisa_jahn>"target=_blank>@marisa_jahn</a><br>
+						</p>
+						<p>
+						Anjum Asharia, Program Director of REV-<br>
+						<a href="https://twitter.com/yzplz"target=_blank>@yzplz</a> 
+						</p>
 						 
 						<p><strong>Virus:</strong> Dude, this is totally gonna go viral! YouTube is gonna explode! 
 						 </p>
@@ -152,8 +162,11 @@
 					</section>	
 					<section id="DistributionIterative" class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-theo.jpg" alt="Distribution Theo"/>
-						<h2> Distribution as an iterative process </h2>
-						<p><strong>By Theo Rigby, </strong>Director, Cinematographer, and Photographer</p>
+						<h2> Distribution as an Iterative Process </h2>
+						<p>By Theo Rigby, Director, Cinematographer, and Photographer<br>
+							<a href="https://twitter.com/theofilms"target=_blank>@theofilms</a>
+						
+						</p>
 						<p>Last week, my 8-month old daughter decided to crawl. Instantaneously she discovered nooks and crannies in my house that I never paid much attention to, or thought much about.  She spends time inspecting the heater grate, enjoys pulling up edges of carpets, and loves trying to pull herself up on things that easily topple over.  She looks at our environment in a drastically different way than we see it, and in many senses, I feel like this approach is necessary in distributing an interactive project.  The traditional indie distribution pipeline of: finish your film, premiere at Sundance, do a high-profile festival run, get bought by HBO, get a theatrical distributor, and sell home video DVD’s and streams in a million places, simply doesn’t apply to most interactive projects.</p> 
 
 						<p>	With Immigrant Nation (iNation), we have a multiple pieces of content to distribute, each of which has different ways to get out into the world.  Our short films can webcast, broadcast on traditional TV, be shown in film festivals/community screenings, and used in classrooms by educators.  Plus, each film in the series can have a different life and run in different outlets.  For example, the first iNation film The Caretaker was first shown at a special screening at the Cannes Film festival, then screened in another 3 U.S. festivals before premiering online on the NYT Op-doc series, then streaming on our Vimeo channel and the iNation online platform.  This year the film will be broadcast on a PBS show, as well as webcast by other media outlets, and screened by strategic partners at live events.  The iNation immersive web platform has different modes of distribution--over time we saw that there are a lot of potential ways to get the web piece of this project out in the world.  We’ve found a lot of traction in the education world, where teachers use the platform to promote personal storytelling in their classrooms and will use our amazing educators guide, created in collaboration with the Tribeca Film Institute.  The platform also gets pushed out through our strategic organizational partners, is showcased at live iNation events, highlighted on our own social media channels, and often spreads through word of mouth.  We’re currently considering a sticker bomb campaign.  Not really, but then again, why not?</p>

@@ -77,7 +77,13 @@
 					<section id="one"class="content anchor">
 
 						<h2>Teamwork is All About Communication</h2>
-						<p><small>By Mike Robbins, Creative Technologist at Helios Design Labs</small></p>
+						<p>By Mike Robbins, Creative Technologist at Helios Design Labs<br>
+						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
+						More from Mike Robbins: 
+						<a href="project-management-prmarketing#Offshore">Promoting Can Be Lonely</a>, 
+						<a href="interactive-landscape#Cowbird">Cowbird</a>,
+						<a href="interactive-landscape#Highrise">Highrise</a>
+						</p>
 
 						<p>World Online Orchestra (WOO) is an international co-production between ourselves (Helios Design Labs in Toronto), Denmark-based Copenhagen Phil and creative studio Markropol.</p>
 
@@ -96,10 +102,13 @@
 					</section>
 					<section id="two" class="content anchor">
 						<h2>It Takes a Team</h2>
-						<p><small>By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer</small></p>
+						<p><small>By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer</small><br>
+							<a href="https://twitter.com/storiesrising"target=_blank>@storiesrising</a>
+						
+						</p>
 
 
-						<p>Collaboration, and ensemble practice has always been an essential part of making films and performances, and sometimes visual art, but the nature of collaboration and the roles continue to shift as technology impacts the way that we produce and tell stories. There is a growing capacity to democratize media making and media consumption, and make it more accountable and participatory. </p>
+						<p>Collaboration and ensemble practice has always been an essential part of making films and performances, and sometimes visual art, but the nature of collaboration and the roles continue to shift as technology impacts the way that we produce and tell stories. There is a growing capacity to democratize media making and media consumption, and make it more accountable and participatory. </p>
 						
 						<p>The creative engine behind this kind of storytelling is not often a one-person-band or solo artist. One primary reason is scale; when you want to create work that collaborates with thousands, millions, or even billions of people to tell a story–that’s not something you easily can do (or want to do) alone. Another reason is oversaturation; when you are producing work in a landscape where immersion is a tactic to reach people who are inundated with media, you need a team that can produce media on multiple platforms and reach people everywhere they are. </p>
 						
@@ -107,14 +116,18 @@
 						
 						<p>What we’ve learned is that a critical part of developing your team is recognizing what you are and what you are not. We see ourselves as multi-hyphenated artists–we are producers, directors, organizers, journalists, administrators, designers, and educators. Still, there are so many others that we want to and need to collaborate with to make our work happen, whether or not it is researchers, web developers, technologists, media and arts presenters, lawyers, teachers, community-based and social service organizations, academics, policy groups, other storytellers, and more. These other individuals and groups make our team whole and change not only the products we produce but also the entire process of creation.</p>
 
-						<a href="http://www.sandystoryline.com"target=_blank>www.sandystoryline.com</a>
+						<p><a href="http://www.sandystoryline.com"target=_blank>www.sandystoryline.com</a></p>
 
 						
 					</section>
 					<section id="three" class="content anchor">
 
 						<h2>Working Near and Far</h2>
-						<p><small>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer</small></p>
+						<p>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer<br>
+						<a href="https://twitter.com/ramonapringle"target=_blank>@ramonapringle</a><br>
+						More from Ramona Pringle: 
+						<a href="https://www.youtube.com/watch?v=2uKGujOoQOA"target=_blank>TFI Interactive 2014: Avatar Secrets</a>
+						</p>
 
 						<p>Our core team on Avatar Secrets is writer/director, creative director, illustrator, animation director, developer, and cinematographer. There are more roles, but those are the ones that are in constant contact. Our core team is small, and we talk daily, day and night.</p>
 						<p>Team as family: I think it’s true of most productions, but especially one we’re you’re innovating and figuring things out as you go, you really become like a family; you know each other’s strengths and weaknesses, and most importantly that you can rely on each other. There’s often more work to be done than there are people to do it, so everyone on the team really needs to think of the project as more than a job, it’s a shared vision that we’re all collaborating on.</p>

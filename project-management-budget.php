@@ -72,7 +72,11 @@
 							
 							<img src="img/content/build/projectmanagement/budget-mccarrenpark.jpg" alt="Budget Mccarrenpark">
 							<h2>McCarren Park, a Passion-Fueled Project</h2> 
-							<p><strong>By Caitlin Burns,</strong> Transmedia Producer</p>
+							<p>By Caitlin Burns, Transmedia Producer<br>
+							<a href="https://twitter.com/Caitlin_Burns"target=_blank>@Caitlin_Burns</a><br>
+							More from Caitlin Burns: 
+							<a href="http://vimeo.com/45137584"target=_blank>TFI Interactive 2012: Developing a Transmedia Production</a>
+							</p>
 
 							<p>In 2008, Steele Filipek and Caitlin Burns set out to create McCarren Park, a live-action comedy distributed through a mobile application (read: bar crawl) of Williamsburg, Brooklyn. The film was built as an homage to the low-budget monster movies of Ed Wood and, of course, as a parody of 1993’s Jurassic Park, riffing on the popularity of the hipster dinosaur meme. More than that, it was built to show that a multiplatform property could be produced and made with free platforms. </p>
 
@@ -100,7 +104,13 @@
 					</section>
 					<section id="ImplementationOptions"class="content anchor">
 						<h2>Three Types of Implementation Options</h2> 
-						<p><strong>By Mike Knowlton,</strong> Partner at Murmurco</p>
+						<p>By Mike Knowlton, Partner at Murmurco<br>
+							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
+							More from Mike Knowlton: 
+							<a href="project-management-scoping">Scoping</a>, 
+							<a href="project-management-budget#ImplementationOptions">Three Types of Implementation Options</a>,  
+							<a href="http://vimeo.com/66591817"target=_blank>TFI Interactive 2014: The Aatsinki Season</a>
+						</p>
 
 						<p>Project budgets are based upon the scope of a project, the level of effort it takes to make it. Accordingly budgets for immersive media projects can span a wide range. This is largely based on the approach that is taken during implementation.</p> 
 						

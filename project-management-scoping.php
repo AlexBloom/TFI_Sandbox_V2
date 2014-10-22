@@ -68,7 +68,16 @@
 				<div class="right-column clearfix">
 					<section id=""class="content">
 						<h2>Scoping</h2>
-						<p><strong>By Mike Knowlton</strong>, Partner at Murmurco</p>
+						<p>By Mike Knowlton, Partner at Murmurco<br>
+							
+							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
+
+							More from Mike Knowlton: 
+							<a href="project-management-timeline#CascadingTimeline">The Cascading Timeline, </a>
+							<a href="project-management-budget#ImplementationOptions">Three Types of Implementation Options,</a> 
+							<a href="http://vimeo.com/66591817"target=_blank>TFI Interactive 2014: The Aatsinki Season</a>
+						
+						</p>
 
 						<p>When starting to conceptualize an immersive media project, the scope is the first thing you need to establish. Subsequent tasks like creating a development timeline and budget are solely dependent upon the scope of the project.</p> 
 						 
