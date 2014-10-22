@@ -351,7 +351,7 @@
 //Jury
 .jury{
 	padding:1em 0;
-	border-top:1px solid $lightxz-grey;
+	border-top:1px solid $light-grey;
 	//border-bottom:1em solid $dark-grey;
 	//background-color:$light-grey;
 	//color:$white;
@@ -416,16 +416,20 @@
 .months{
 	padding:0;
 	li{
+		list-style-type:disc;
+	}
+	>li{
 		padding:0;
-		list-style-type:none;
+		list-style-type:none!important;
 		img{
-			float:left;
+			float:right;
 			width:5em;
-			margin:0 1em 1.5em 0;
-			padding:0 1em 0 0;
-			border-right:1px solid $light-grey;
+			margin:0 0 1.5em 1em;
+			padding:0 0 0 1em;
+			border-left:1px solid $light-grey;
 		}
 	}
+	
 }
 
 //Event Pages

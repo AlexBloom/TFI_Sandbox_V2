@@ -1644,14 +1644,16 @@ article {
 .months {
   padding: 0; }
   .months li {
+    list-style-type: disc; }
+  .months > li {
     padding: 0;
-    list-style-type: none; }
-    .months li img {
-      float: left;
+    list-style-type: none !important; }
+    .months > li img {
+      float: right;
       width: 5em;
-      margin: 0 1em 1.5em 0;
-      padding: 0 1em 0 0;
-      border-right: 1px solid #dddddd; }
+      margin: 0 0 1.5em 1em;
+      padding: 0 0 0 1em;
+      border-left: 1px solid #dddddd; }
 
 .key-speakers {
   list-style-type: none;

@@ -48,6 +48,7 @@
 				<ol class="clearfix">
 					<li><a class="scrollnav-link" href="#TFIResources"><strong> Tools and Platforms</strong>  <br>Tribeca Film Institute</a></li>
 					<li><a class="scrollnav-link" href="#ABloomResources"><strong> Code Resources</strong>  <br>Alex Bloom </a></li>
+					<li><a class="scrollnav-link" href="#DiversityInCode"><strong> TFI Embraces Diversity In Code</strong> </a></li>
 				</ol>
 			</nav>
 			&nbsp;
@@ -56,31 +57,99 @@
 			<section class="content anchor" id="TFIResources">
 				<h2>Tools and Platforms</h2>
 				<p>Recommended by <strong>Tribeca Film Institute</strong></p>
-				<ul>
-					<li>	
-						<h3>Zeega</h3>
-						Zeega is an open-source HTML5 platform for creating interactive documentaries and inventing new forms of storytelling
-						<br><a href="<br><a href="" target=_blank>http://alpha.zeega.org"target=_blank> alpha.zeega.org </a>
-					</li>
-					<li>	
-						<h3>Mozilla PopcornMaker</h3>
-						Making it easy to enhance, remix and share web video
-						<br><a href="<br><a href="" target=_blank>http://mozillapopcorn.org"target=_blank> mozillapopcorn.org </a>
-					</li>
-					<li>	
-						<h3>Storyplanet</h3>
-						Tool to create interactive projects
-						<br><a href="<br><a href="" target=_blank>http://storyplanet.com/index"target=_blank> storyplanet.com/index </a>
+				<ul>					
+					<li>
+						<p><strong>3WDOC:</strong>
+						 The first browser-based authoring and publishing application made in HTML5 for digital storytelling<br>
+							<a href="http://www.3wdoc.com/en/"target=_blank> 3wdoc.com </a> 
+						</p>
 					</li>
 					<li>
-						<h3>Racontr</h3>
+						<p><strong>ADVENTR:</strong>
+						 The simple platform for creating and sharing, web-native video experiences.<br>
+							<a href="http://www.theochre.com/ "target=_blank> theochre.com </a>
+						</p>
+					</li>
+					<li>
+						<p><strong>Blind Spot:</strong>
+						 App that lets you create and interact with your friends and people who inspire you.<br>
+							<a href="http://www.blindspotapp.com/"target=_blank> blindspotapp.com </a>
+						</p>
+					</li>
+					<li>
+						<p><strong>Conducttr:</strong>
+						 Interactive multiplatform storytelling tool<br>
+							<a href="http://www.conducttr.com/"target=_blank> conducttr.com </a>
+						</p>
+					</li>
+					<li>
+						<p><strong>Creatavist:</strong>
+						 Powerful online tool for writers, publishers, and more.<br>
+							<a href="https://creatavist.com/"target=_blank> creatavist.com </a> 
+						</p>
+					</li>
+					<li>
+						<p><strong>Explory:</strong>
+						 Makes it easy to tell rich, compelling stories. It's a studio in your pocket.<br>
+							<a href="http://www.explory.com/ "target=_blank> explory.com </a>
+						</p>
+					</li>
+					<li>
+						<p><strong>Interlude:</strong>
+						 A self-service HTML5 web app that unleashes your creativity and lets you design and publish your own interactive videos<br>
+							<a href="http://interlude.fm/"target=_blank> interlude.fm </a>
+						</p>
+					</li>
+					<li>
+						<p><strong>Klynt:</strong>
+						 An editing and publishing application dedicated to interactive storytellers.<br>
+							<a href="http://www.klynt.net"target=_blank> klynt.net </a>
+						</p>
+					</li>
+					<li>
+						<p><strong>Korsakow:</strong>
+						 An open-source application for creating web docs and other kinds of nonlinear, interactive narratives. It requires no programming expertise at all, and is available for Windows and Mac.<br>
+							<a href="http://korsakow.org/"target=_blank> korsakow.org </a>
+						</p>
+					</li>
+					<li>
+						<p>	
+						<strong>Mozilla PopcornMaker:</strong>
+						making it easy to enhance, remix and share web video
+						<br><a href="http://mozillapopcorn.org"target=_blank> mozillapopcorn.org </a>
+						</p>
+					</li>
+					
+					
+					<li>
+						<p><strong>Multipop:</strong>
+						Transforms your online video into an engaging, hands-on event by integrating e-commerce, real-time social interaction, and content extensions into the viewing experience – all without disrupting the show.<br>
+							<a href="http://www.getmultipop.com/"target=_blank> getmultipop.com </a>
+						</p>
+					</li> 
+					<li>
+						<p><strong>Odyssey.js:</strong>
+						A simple way for journalists, designers, and creators to weave interactive stories<br>
+							<a href="http://cartodb.github.io/odyssey.js"target=_blank> cartodb.github.io/odyssey.js </a>
+						</p>
+					</li> 
+					<li>
+						<p><strong>Page Flow:</strong>
+						(German) Combines videos, images, audio and text to interactive reports.<br>
+							<a href="http://pageflow.io/"target=_blank> pageflow.io </a>
+						</p>
+					</li>
+					<li>
+						<p>
+						<strong>Racontr</strong>
 						Create immersive stories without code.
-						<br><a href="<br><a href="" target=_blank>https://beta.racontr.com/"target=_blank> beta.racontr.com </a>
+						<br><a href="https://beta.racontr.com/"target=_blank> beta.racontr.com </a>
+						</p>
 					</li>
-					<li>
-						<h3>Kaltura</h3>
-						An Open Source Community providing tools such as: online video player, open source editor and open source video for websites.
-						<br><a href="<br><a href="" target=_blank>http://corp.kaltura.com/"target=_blank> corp.kaltura.com </a>
+					<li><p><strong>Theatrics:</strong>
+						A robust video platform that enables storytellers and brands to invite audiences to participate in the storyworld by posting videos and blog posts. <br>
+							<a href="http://www.theatrics.com/"target=_blank> theatrics.com </a>
+						</p>
 					</li>
 				</ul>
 			</section>
@@ -88,136 +157,173 @@
 				<h2>Code Resources</h2>
 				<p>Recommended by <strong>Alex Bloom,</strong> Interaction Designer</p>
 
-				<h3>Design Tools / Interface Prototyping / Before Code</h3>
-				<ul>	
-					<li>	Sketch - An affordable alternative to Adobe Creative Suite - <br>
-						<a href="http://bohemiancoding.com/sketch/" target=_blank>http://bohemiancoding.com/sketch/</a>
-					</li>
-					<li>	Invision - <br>
-						<a href="http://www.invisionapp.com/" target=_blank>http://www.invisionapp.com/</a>
-					</li>
-				</ul>
-				
-				<h3>Development Tools / Environments / Text Editors</h3>
-				<ul>	
-					<li>	TextMate - <br>
-						<a href="http://macromates.com/" target=_blank>http://macromates.com/</a>
-					</li>
-					<li>	Sublime Text - <br>
-						<a href="http://www.sublimetext.com/" target=_blank>http://www.sublimetext.com/</a>
-					</li>
-					<li>	Coda - <br>
-						<a href="https://panic.com/coda/" target=_blank>https://panic.com/coda/</a>
-					</li>
-					<li>	GitHub &amp; Github for Mac - <br>
-						<a href="https://github.com/" target=_blank>https://github.com/</a>
-					</li>
-					<li>	Code Kit is my compiler and error checker. It's always running whenever I'm writing code - <br>
-						<a href="https://incident57.com/codekit/" target=_blank>https://incident57.com/codekit</a>
-					</li>
-					<li>	Transmit is my file transfer and server management software - <br>
-						<a href="http://panic.com/transmit/" target=_blank>http://panic.com/transmit</a>
-					</li>
-				</ul>
-				
-				<h3>CODE 101 - Libraries, Resources, &amp; Instruction for Code</h3>
-				<ul>	
-					<li>	Initalizr - Virtually Every one of my web projects starts with this. - <br>
-						<a href="http://www.initializr.com/" target=_blank>http://www.initializr.com/</a>
-					</li>
-					<li>	Dochub - A great search and reference sheet for when you forget what something means - <br>
-						<a href="http://dochub.io/" target=_blank>http://dochub.io/</a>
-					</li>
-					<li>	Pure CSS - Grab and Go responsive code patterns - <br>
-						<a href="http://purecss.io/" target=_blank>http://purecss.io/</a>
-					</li>
-					<li>	IcoMoon Icon Font Generator - <br>
-						<a href="http://icomoon.io/" target=_blank>http://icomoon.io/</a>
-					</li>
-					<li>	Fontello - Icon Font Generator - <br>
-						<a href="http://fontello.com/" target=_blank>http://fontello.com/</a>
-					</li>
-					<li>	Google Fonts Free Webfont Resource - <br>
-						<a href="http://www.google.com/fonts/#" target=_blank>http://www.google.com/fonts/#</a>
-					</li>
-					<li>	Typekit - Affordable Webfont Library - <br>
-						<a href="http://www.typekit.com" target=_blank>http://www.typekit.com</a>
-					</li>
-					<li>	SASS and LESS - Once someone has an understanding of CSS, these are invaluable for making development easier and faster: <br>
-						<a href=http://sass-lang.com/"" target=_blank>http://sass-lang.com/</a> , and <br>
-						<a href="http://lesscss.org/" target=_blank>http://lesscss.org/</a>
-					</li>
-					<li>	Modernizr - A javascript library to help improve visual consistency across browsers - <br>
-						<a href="http://modernizr.com/" target=_blank>http://modernizr.com/</a>
-					</li>
-				</ul>
-				
-				<h3>Web -  Educational / Social Coding Sites</h3>
+				<h3>Design Tools &amp; Software</h3>
 				<ul>
-					<li>	CodePen and JS Fiddle - Quickly test things in the browser and share them for help or advice, great forums - <br>
-						<a href="http://codepen.io/" target=_blank>http://codepen.io/</a> and  <br>
-						<a href="http://jsfiddle.net/" target=_blank>http://jsfiddle.net/</a>
-					</li>
-					<li>	Code Academy - Free Online School - <br>
-						<a href="http://www.codecademy.com/" target=_blank>http://www.codecademy.com/</a>
-					</li>
-					<li>	Code School &amp; TreeHouse - Affordable Online Schools - <br>
-						<a href="https://www.codeschool.com/" target=_blank>https://www.codeschool.com/</a> and <br>
-						<a href="http://teamtreehouse.com/" target=_blank>http://teamtreehouse.com/</a>
+					<li> <p> <strong> Invision and UX Pin: </strong> Web-based prototyping, collaboration &amp; workflow platforms <br>
+						 <a href="http://www.invisionapp.com/" target=_blank>invisionapp.com</a> and <a href="http://uxpin.com"target=_blank>uxpin.com</a>
+					</li>	
+					<li> <p> <strong> Sketch: </strong> An affordable alternative to Adobe Creative Suite <br>
+						<a href="http://bohemiancoding.com/sketch/" target=_blank>bohemiancoding.com/sketch</a>
 					</li>
 				</ul>
 				
-				<h3>Web - Back End Development </h3>
-				<ul>
-					<li>	PHP - Possibly the most well established server side language - <br>
-						<a href="http://www.php.net/" target=_blank>http://www.php.net/</a>
+				<h3>Development Tools &amp; Software</h3>
+				<ul>		
+					<li> <p> <strong> Coda, Sublime Text, and TextMate </strong> Great text editors for code, markup and prose &mdash; each with unique features and advantages.<br>
+						<a href="https://panic.com/coda/" target=_blank>panic.com/coda</a>, 
+						<a href="http://www.sublimetext.com/" target=_blank>sublimetext.com</a>, and 
+						<a href="http://macromates.com/"target=_blank>macromates.com</a>
 					</li>
-					<li>	Ruby on Rails - Quick learning curve, extremely popular with web based applications - <br>
+					<li> <p> <strong> Code Kit </strong> A compiler and error checker. It’s always running whenever I’m writing code. <br>
+						<a href="https://incident57.com/codekit/" target=_blank>incident57.com/codekit</a>
+					</li>
+					<li> <p> <strong> GitHub &amp; Github for Mac:</strong> Open source community for collaboration, code review and code management for open source and private projects. <br>
+						<a href="https://github.com/" target=_blank>github.com</a>
+					</li>
+					<li> <p> <strong> Transmit </strong> My file transfer and server management software.<br>
+						<a href="http://panic.com/transmit/" target=_blank>panic.com/transmit</a>
+					</li>
+					<li> <p> <strong> SASS, LESS and Emmet: </strong> Once you have an understanding of CSS, these are invaluable for making development easier and faster. <br>
+						<a href=http://sass-lang.com/"" target=_blank>sass-lang.com/</a>, 
+						<a href="http://lesscss.org/" target=_blank>lesscss.org/</a> and 
+						<a href="http://emmet.io/" target=_blank>emmet.io</a>
+					</li>
+				</ul>
+				
+				<h3>CODE 101 &mdash; Educational / Social Coding Resources</h3>
+				<ul>
+					<li> <p> <strong> Codecademy: </strong> Free online coding school. <br>
+						<a href="http://www.codecademy.com/" target=_blank>codecademy.com</a>
+					</li>
+					<li> <p> <strong> Code School &amp; TreeHouse: </strong> Affordable, online coding schools. <br>
+						<a href="https://www.codeschool.com/" target=_blank>codeschool.com</a> and
+						<a href="http://teamtreehouse.com/" target=_blank>teamtreehouse.com</a>
+					</li>
+					<li> <p> <strong> CodePen and JS Fiddle: </strong> Quickly test things in the browser and share them for help or advice, great forums. <br>
+						<a href="http://codepen.io/" target=_blank>codepen.io</a> and 
+						<a href="http://jsfiddle.net/" target=_blank>jsfiddle.net</a>
+					</li>
+					<li> <p> <strong> Dochub: </strong> A great search and reference sheet for learning development. <br>
+						<a href="http://dochub.io/" target=_blank>dochub.io/</a>
+					</li>
+					
+				</ul>
+				
+				<h3>WEB &mdash; Front End Development</h3>
+				<ul>	
+					<li> <p> <strong> Google Fonts and Typekit: </strong> The least expensive and best supported webfont libraries.<br>
+						<a href="http://www.google.com/fonts/#" target=_blank>google.com/fonts</a> and <a href="http://www.typekit.com" target=_blank>typekit.com</a>
+					</li>
+					<li> <p> <strong> IcoMoon and Fontello: </strong> Icon font generators. <br>
+						<a href="http://icomoon.io/" target=_blank>icomoon.io</a> and
+						<a href="http://fontello.com/" target=_blank>fontello.com</a>
+					</li>
+					<li> <p> <strong> Initalizr: </strong> Nearly every one of my web projects begins with this HTML5 template generator. <br>
+						<a href="http://www.initializr.com/" target=_blank>initializr.com</a>
+					</li>
+					<li> <p> <strong> Modernizr: </strong> A javascript library to help improve visual consistency across browsers. <br>
+						<a href="http://modernizr.com/" target=_blank>modernizr.com</a>
+					</li>				
+				</ul>
+
+				<h3>Web &mdash; Back End, Content Management, &amp; Hosting </h3>
+				<ul>
+					<li> <p> <strong> PHP: </strong> Arguably the most popular server-side scripting language. <br>
+						<a href="http://www.php.net/" target=_blank>php.net</a>
+						</p>
+						<ul>
+							<li> <p> <strong> Kirby: </strong> PHP / File Based CMS that can run out of Dropbox. <br>
+								<a href="http://getkirby.com" target=_blank>http://getkirby.com/</a>
+								</p>
+							</li>
+							<li> <p> <strong> Wordpress: </strong> The old standard PHP / database CMS, with one of the largest communities of open source developers on the web. <br>
+								<a href="http://wordpress.org" target=_blank>http://wordpress.org</a>
+								</p>
+							</li>
+							<li>
+								<p> <strong> Symfony and Laravel </strong> Open source PHP frameworks for building web-based projects. <br>
+									<a href="http://symfony.com/"target=_blank>symfony.com </a> and <a href="http://laravel.com/"target=_blank>laravel.com </a>
+								</p>
+							</li>
+						</ul>
+					</li>
+					<li> <p> <strong> Ruby on Rails: </strong> Open source web framework that boasts a quick learning curve and utility for building web-based applications. <br>
 						<a href="http://rubyonrails.org/" target=_blank>http://rubyonrails.org/</a>
-					</li>
-					<li>	Jekyll - Static Site generator that runs on ruby, stable, secure, and fast - <br>
-						<a href="http://jekyllrb.com/" target=_blank>http://jekyllrb.com/</a>
-					</li>
-					<li>	Liquid - Shopify and Siteleaf use this templating language, very easy to learn the syntax - <br>
-						<a href="http://liquidmarkup.org/" target=_blank>http://liquidmarkup.org/</a>
-					</li>
+						</p>
+						<ul>
+							<li>
+								<p> <strong>Github Pages: </strong> Host your pages for free and push live directly from your code repository.
+									<a href="https://pages.github.com/"target=_blank> pages.github.com </a>
+								</p>
+							</li>
+							<li> <p> <strong> Jekyll: </strong> Static blog generator that runs on Ruby, and integrates with Github hosting. Stable, secure, and fast. <br>
+								<a href="http://jekyllrb.com/" target=_blank>http://jekyllrb.com/</a>
+								</p>
+							</li>
+							<li> <p> <strong> SiteLeaf: </strong>  Easily customizable Jekyll-based CMS with affordable plans.<br>
+								<a href=">http://www.siteleaf.com/" target=_blank>http://www.siteleaf.com/</a>
+								</p>
+							</li>
+						</ul>	
+					</li>	
 				</ul>
 				
-				<h3>Web - Content Management Systems</h3>
+				<h3>Data Viz / Multi-Component / Projection Mapping Software</h3>
 				<ul>
-					<li>	Wordpress - The Old Standard PHP / Database CMS, The largest community of open source developers on the web - <br>
-						<a href="http://wordpress.org" target=_blank>http://wordpress.org</a>
+					<li> <p> <strong> Cinder Frameworks: </strong> A community-developed, free and open source library for professional-quality creative coding in C++. <br>
+						<a href="http://libcinder.org/" target=_blank>libcinder.org</a>
+						</p>
 					</li>
-					<li>	Kirby - PHP / File Based CMS - Can run out of dropbox - <br>
-						<a href="http://getkirby.com" target=_blank>http://getkirby.com/</a>
-					</li>
-					<li>	SiteLeaf - Jekyll Based CMS - Affordable plans, easily customizable - <br>
-						<a href=">http://www.siteleaf.com/" target=_blank>http://www.siteleaf.com/</a>
+					<li> <p> <strong> Processing: </strong> A programming language, development environment and online community. <br>
+						<a href="http://www.processing.org/" target=_blank>processing.org</a>
+						</p>
 					</li>
 				</ul>
 				
-				<h3>Data Visualization / Multi-Component / Projection Mapping Software</h3>
+				<h3>DIY &amp; Multi-Component Hardware </h3>
 				<ul>
-					<li>	Processing - <br>
-						<a href="http://www.processing.org/" target=_blank>http://www.processing.org/</a>
+					<li> <p> <strong> Arduino: </strong> Awesome open source computer platform &amp; hardware.<br>
+						<a href="http://www.arduino.cc/" target=_blank>arduino.cc</a>
+						</p>
 					</li>
-					<li>	Cinder Frameworks - <br>
-						<a href="http://libcinder.org/" target=_blank>http://libcinder.org/</a>
-					</li>
-				</ul>
-				
-				<h3>DIY / Multi-Component / Projection Mapping Hardware </h3>
-				<ul>
-					</li>
-					<li>	Arduino - Awesome open source computer platform &amp; hardware - <br>
-						<a href="http://www.arduino.cc/" target=_blank>http://www.arduino.cc/</a>
-					</li>
-					<li>	Brightsign - Good, affordable media players -  <br>
-						<a href="http://www.brightsign.biz/" target=_blank>http://www.brightsign.biz/
+					<li> <p> <strong> Brightsign: </strong> Good, affordable media players.  <br>
+						<a href="http://www.brightsign.biz/" target=_blank>brightsign.biz</a>
+						</p>
 					</li>
 				</ul>
 				
 				
+			</section>		
+			<section class="content anchor" id="DiversityInCode">
+				<h2>TFI EMBRACES DIVERSITY IN CODE</h2>
+				
+				<ul>	 
+					<li> 
+						<p> <strong>Black Girls Code:</strong> A non-profit organization that focuses on providing technology education to African-American girls ages 7–17. 
+							<br><a href="http://www.blackgirlscode.com/"target=_blank> blackgirlscode.com </a>
+						</p>
+					</li>	
+					<li> 
+						<p> <strong>Code 2040:</strong> Creates access, awareness, and opportunities for top minority engineering talent to ensure their leadership in the innovation economy. 
+							<br><a href="http://code2040.org/"target=_blank> code2040.org </a>
+						</p>
+					</li>	
+					<li> 
+						<p> <strong>Girl Develop It:</strong> A nonprofit organization that exists to provide affordable and accessible programs to women who want to learn web and software development through mentorship and hands-on instruction. 
+							<br><a href="http://www.girldevelopit.com"target=_blank> girldevelopit.com </a>
+						</p>
+					</li>	
+					<li> 
+						<p> <strong>Girls Who Code:</strong> Programs work to inspire, educate, and equip girls with the computing skills to pursue 21st century opportunities. 
+							<br><a href="http://girlswhocode.com/"target=_blank> girlswhocode.com </a>
+						</p>
+					</li>	
+					<li> 
+						<p> <strong>Made With Code:</strong> Made with Code is an initiative to champion creativity, girls, and code, all at once. 
+							<br><a href="https://www.madewithcode.com/"target=_blank> madewithcode.com </a>
+						</p>
+					</li>	
+				</ul>
 			</section>
 		</div>
 		</article>
