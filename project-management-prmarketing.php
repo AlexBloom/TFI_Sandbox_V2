@@ -111,7 +111,7 @@
 
 						<p>I think that many grassroots or creator-driven projects, like OFFSHORE, don't really take into account the fact that the hardest part of the work-cycle comes after the launch. I know that we didn't, right up until the site launched. There was the dawning and almost adrenaline-producing realization that it’s not just a matter of socializing, a  Facebook post here, and tweet there, it’s also submitting it to festivals, awards, publications. These lists are long, and there are many many hours spent filling out application forms. And when it comes, rejection is hard. But when it comes, sometimes acceptance is harder. Now you have to actually go to an event, most often paying for travel and accommodation, and mostly feeling somewhat lost and alien.</p>
 
-						<p>But all existential crises apart, we've learned from OFFSHORE the value of re-defined expectations, of patience, the value of hard work, but most of all the huge need to consider when in the early stages of defining a project, is to consider what happens after it launches, what are the marketing channels, who are the media partners, and prepare yourself for the hard part of the project: its marketing and promotion.</p>
+						<p>But all existential crises apart, we've learned from OFFSHORE the value of re-defined expectations, of patience, the value of hard work, but most of all the huge need to consider “what happens after” when in the early stages of defining a project: what are the marketing channels? Wo are the media partners? Prepare yourself for the hard part of the project: its marketing and promotion.</p>
 
 						<p><a href="http://offshore-interactive.com/"target=_blank>http://offshore-interactive.com/</a></p>
 
