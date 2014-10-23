@@ -884,10 +884,13 @@ button {
     display: block;
     text-decoration: none;
     border-right: 1px solid #dddddd;
-    padding: .75em 1.5em;
-    font-size: 1.25em;
+    padding: .5em .5em;
     font-weight: 600;
-    letter-spacing: .05em; }
+    letter-spacing: .02em;
+    font-size: 1em; }
+    @media screen and (min-width: 53.33333em) {
+      .buttonlist a {
+        font-size: 1em; } }
   .buttonlist li {
     width: 25%;
     text-align: center;
@@ -897,6 +900,9 @@ button {
     margin: 0; }
     .buttonlist li:last-child a {
       border: none; }
+
+.buttonlist.five li {
+  width: 20%; }
 
 .buttonlist.three li {
   width: 33%; }

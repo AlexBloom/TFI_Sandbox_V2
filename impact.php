@@ -40,37 +40,64 @@
 				<h1>Impact</h1>
 				</section>
 			</header>
-		
-				<section class="content" id="NewMediaEducation">
-					<img src="img/content/build/impact/hi1.jpg"  alt="Hi1">
-						<h2>Harmony Institute &amp; Lyka’s Adventure</h2>
-						<p><strong>By Sarah Henry,</strong> Harmony Institute</p>
-
-						<p>The last few years have seen an explosion in interactive narratives, creating new opportunities for using data to understand how audiences connect and react to stories.</p> 
- 					   <ul>
-							<li> 
-								
-								Harmony Institute (HI) recently collaborated on Lyka’s Adventure, a cross-platform, science fiction story of an alien robot scientist who travels to Earth in search of ways to help her home planet. As a research institute dedicated to understanding how media impacts individuals and society, we were eager to explore new data sets (as well as methods for their collection and analysis) to see if we could figure out whether (and how) young readers might learn real-world systems of sustainability from this fictional narrative.
-								<img src="img/content/build/impact/hi2.jpg" alt="Hi2">
-							</li> 
-						
-							<li> 
-								
-								Much of our work is centered on collaborating with media producers to understand how data—both qualitative and quantitative—can be harnessed to make narrative entertainment more impactful. Through our partnership with Connected Sparks, the creators of Lyka’s Adventure, we are using data to shape future installments of Lyka’s fictional story. 
-								<img src="img/content/build/impact/hi6.jpg" alt="Hi6">
-							</li>
-
-							<li> 
-								
-								We do this by identifying and then collecting points of interaction data generated from the mobile application—that is, information on how readers explore the interactive aspects of the story. These data points include items like time spent with either the educational or narrative elements of the mobile application. Ideally, the data will inform a seamless integration of narrative and interactive elements in future installments of the fictional story. We’re also looking to data for answers to more specific questions about user experience and content retention. (For example, would readers rather meet characters that represent evaporation and condensation or go outside and conduct experiments on the water cycle?)
-							</li>
-						</ul>
- 					   	<img src="img/content/build/impact/Update_Userflow-Data-Collection-02.jpg" alt="Update Userflow Data Collection 02">
-						<p>Because Lyka’s Adventure unfolds across multiple platforms, including a series of books, a mobile application, and a website, there’s a lot of information to make sense of. We made our way through the process by working with interaction designers, book publishers, education experts, and mobile developers to understand each component’s role in the narrative experience. We then designed a framework for analyzing the data collected from the mobile app and website. This framework has helped to guide the project’s development and evolution.</p>
-
-						<p>Stories can have significant social impact. We’re excited to be a part of a project that not only uses story to teach sustainability, but one that weaves impact measurement into the core of the narrative itself. </p>
+				
+				<div class="left-column clearfix">
 			
-				</section>
+					<nav class="sticky">
+						<h4>Sections</h4>	
+						<ol class="clearfix">
+							<li><a class="scrollnav-link" href="#ImpactWorkingGroup">
+								<strong> Interactive Media Impact Working Group</strong>  <br> Ingrid Kopp
+								</a>
+							</li>
+							<li><a class="scrollnav-link" href="#HarmonyInstitute">
+								<strong> Harmony Institute &amp; Lyka’s Adventure </strong> <br> Sarah Henry  
+								</a>
+							</li>
+						</ol>
+					</nav>
+					&nbsp;
+				</div>
+				
+				<div class="right-column clearfix">
+					<section class="content anchor" id="ImpactWorkingGroup">
+						<h2>Interactive Media Impact Working Group</h2>
+						<p>By Ingrid Kopp, Director of Interactive at Tribeca Film Institute </p>
+						<p>TFI and the MIT Open Documentary Lab have created an interactive media impact working group with the support of Fledgling Fund and Ford Foundation. We are working with an interdisciplinary group of artists, funders, social scientists, academics, impact producers and activists to explore how interactive non-fiction projects can and should be measured in terms of impact and engagement.</p> 
+						<p>We want to give filmmakers more tools and resources so that they can establish their own goals and measurement and evaluation frameworks. We are not trying to reduce the art of interactive non-fiction to a series of data-sets or impact goals or to create a single one-size-fits-all framework. However, we are aware that there is rich work to be done in this area that can help filmmakers with their creative strategy and audience engagement. Interactive work is particularly interesting around participation and audience-generated content as well and we are excited to explore this unique aspect of this emerging field. We look forward to sharing our findings with you in early 2015.</p>
+					
+					</section>
+					<section class="content anchor" id="HarmonyInstitute">
+						<img src="img/content/build/impact/hi1.jpg"  alt="Hi1">
+							<h2>Harmony Institute &amp; Lyka’s Adventure</h2>
+							<p>By Sarah Henry, Research Analyst at Harmony Institute</p>
+
+							<p>The last few years have seen an explosion in interactive narratives, creating new opportunities for using data to understand how audiences connect and react to stories.</p> 
+	 					   <ul>
+								<li> 
+								
+									Harmony Institute (HI) recently collaborated on Lyka’s Adventure, a cross-platform, science fiction story of an alien robot scientist who travels to Earth in search of ways to help her home planet. As a research institute dedicated to understanding how media impacts individuals and society, we were eager to explore new data sets (as well as methods for their collection and analysis) to see if we could figure out whether (and how) young readers might learn real-world systems of sustainability from this fictional narrative.
+									<img src="img/content/build/impact/hi2.jpg" alt="Hi2">
+								</li> 
+						
+								<li> 
+								
+									Much of our work is centered on collaborating with media producers to understand how data—both qualitative and quantitative—can be harnessed to make narrative entertainment more impactful. Through our partnership with Connected Sparks, the creators of Lyka’s Adventure, we are using data to shape future installments of Lyka’s fictional story. 
+									<img src="img/content/build/impact/hi6.jpg" alt="Hi6">
+								</li>
+
+								<li> 
+								
+									We do this by identifying and then collecting points of interaction data generated from the mobile application—that is, information on how readers explore the interactive aspects of the story. These data points include items like time spent with either the educational or narrative elements of the mobile application. Ideally, the data will inform a seamless integration of narrative and interactive elements in future installments of the fictional story. We’re also looking to data for answers to more specific questions about user experience and content retention. (For example, would readers rather meet characters that represent evaporation and condensation or go outside and conduct experiments on the water cycle?)
+								</li>
+							</ul>
+	 					   	<img src="img/content/build/impact/Update_Userflow-Data-Collection-02.jpg" alt="Update Userflow Data Collection 02">
+							<p>Because Lyka’s Adventure unfolds across multiple platforms, including a series of books, a mobile application, and a website, there’s a lot of information to make sense of. We made our way through the process by working with interaction designers, book publishers, education experts, and mobile developers to understand each component’s role in the narrative experience. We then designed a framework for analyzing the data collected from the mobile app and website. This framework has helped to guide the project’s development and evolution.</p>
+
+							<p>Stories can have significant social impact. We’re excited to be a part of a project that not only uses story to teach sustainability, but one that weaves impact measurement into the core of the narrative itself. </p>
+							<p><a href="http://harmony-institute.org/"target=_blank>harmony-institute.org </a></p>
+					</section>
+				</div>
 				
 		</article>	
 	</section>

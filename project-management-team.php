@@ -147,7 +147,7 @@
 			</section>
 			
 			<footer class="clearfix">
-				<a class="link-prev" href="project-management-budget"> 03. Budget <span class="icon-left"></span>  </a>
+				<a class="link-prev" href="project-management-budget"> <span class="icon-left"></span> 03. Budget   </a>
 				<a class="link-next" href="project-management-distribution"> 05. Distribution <span class="icon-right"></span> </a>
 			</footer>
 		</article>

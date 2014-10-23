@@ -43,6 +43,8 @@
 			<li> 
 				 <a href="tech-resources"> Tech Resources </a>
 			</li>
+		</ul>
+		<ul class="buttonlist three clearfix">
 			<li> 
 				 <a href="funding"> Funding </a>
 			</li>
