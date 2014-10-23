@@ -25,7 +25,9 @@
 }
 
 // Icon Calls
-
+.icon-build:before {content: "\42";}
+.icon-discover:before {content: "\44";}
+.icon-participate:before {content: "\50";}
 .icon-play:before {	content: "\e606";}
 .icon-stop:before {content: "\e607";}
 .icon-pause:before {content: "\e608";}
