@@ -1101,12 +1101,10 @@ section {
   display: block;
   position: absolute;
   bottom: 0;
-  right: -5% !important;
-  min-width: 105% !important;
+  min-width: 100% !important;
   min-height: 100% !important;
   z-index: -1000;
-  overflow: hidden;
-  background-color: black; }
+  overflow: hidden; }
 
 .video-overlay {
   display: none;
@@ -1382,7 +1380,13 @@ article {
   margin: 0; }
 
 #home-video-container {
-  background-image: url("../img/content/prototype/full-bleed-bg-image.jpg"); }
+  background-color: black;
+  background-image: url("../img/ui/home_bg_1_m.jpg");
+  background-position: 50% 50%;
+  background-size: cover; }
+  @media screen and (min-width: 80em) {
+    #home-video-container {
+      background-image: url("../img/ui/home_bg_1_xlg.jpg"); } }
 
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }

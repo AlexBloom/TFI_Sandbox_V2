@@ -43,8 +43,8 @@
 			</div>
 		</div>
 		
-		<video class="background-video" autoplay loop>
-			<source src="video/TFISandboxLoopMobile.mp4" type="video/mp4">
+		<video class="background-video" id="home-bg" autoplay loop>
+			<!-- <source src="video/TFISandboxLoopMobile.mp4" type="video/mp4"> -->
 		</video>
 	
 	</section>
@@ -59,7 +59,7 @@
 				<li>
 					<a href="discover">
 						<img src="img/ui/discover_icon.gif"/>
-						<h3>Discover</h3>
+						  <h3>Discover</h3>
 					</a>
 					<p>Discover inspiring interactive projects.<br><br><br></p>
 					
