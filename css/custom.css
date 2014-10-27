@@ -419,21 +419,18 @@ button {
     color: #222222; }
   #header #logo {
     padding: 1em;
+    display: inline-block;
     text-decoration: none;
     color: #222222;
     text-transform: uppercase;
     letter-spacing: .15em;
     line-height: 150%;
     border-left: 1px solid #dddddd;
-    overflow: hidden;
-    display: none; }
+    overflow: hidden; }
     #header #logo:active {
       text-decoration: none;
       color: white;
       background-color: #00afef; }
-    @media screen and (min-width: 40em) {
-      #header #logo {
-        display: inline-block; } }
   #header #toggle {
     background: none !important;
     outline: none;
@@ -629,22 +626,26 @@ button {
   transition-duration: .25s;
   border-top: none;
   position: fixed;
-  top: 0;
-  left: 4.5em;
-  margin: 0; }
+  top: 3em;
+  padding-left: 4.5em;
+  left: 0;
+  margin: 0;
+  background-color: white; }
   .breadcrumb.nav-hide {
     margin-top: -60px; }
   .breadcrumb.nav-show {
     margin-top: 0; }
   @media screen and (min-width: 40em) {
     .breadcrumb {
-      left: 14em; } }
+      top: 0;
+      left: 14em;
+      padding-left: 0; } }
   .breadcrumb ul {
     position: relative;
     padding: 0;
     margin: 0;
     line-height: 1.6em;
-    width: 150%;
+    width: 100%;
     height: 0;
     background-color: red; }
   .breadcrumb li {
@@ -653,7 +654,11 @@ button {
     border-left: 1px solid rgba(0, 0, 0, 0.05);
     margin: .5em 0;
     max-height: 2.5em;
-    overflow: visible; }
+    overflow: visible;
+    width: 100%; }
+    @media screen and (min-width: 40em) {
+      .breadcrumb li {
+        width: auto; } }
   .breadcrumb a {
     display: block;
     margin: -.5em 0;
@@ -679,12 +684,9 @@ button {
       font-size: 2em;
       line-height: 75%; }
   .breadcrumb .breadcrumb-text {
-    display: none; }
-    @media screen and (min-width: 40em) {
-      .breadcrumb .breadcrumb-text {
-        display: inline-block;
-        float: left;
-        padding: 0 0 0 1em; } }
+    display: inline-block;
+    float: left;
+    padding: 0 0 0 1em; }
   .breadcrumb .indicator {
     display: block;
     margin: -.5em 0;
@@ -898,18 +900,20 @@ button {
   padding: 0;
   background-color: white;
   border: 1px solid #dddddd; }
+  .buttonlist :last-child {
+    border-bottom: none !important; }
   .buttonlist li {
-    width: 25%;
+    width: 100%;
     text-align: center;
     list-style-type: none;
     float: left;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    border-bottom: 1px solid #dddddd; }
     .buttonlist li a {
       text-align: center;
       display: block;
       text-decoration: none;
-      border-right: 1px solid #dddddd;
       padding: .5em .5em;
       letter-spacing: .02em;
       font-size: 1em;
@@ -927,18 +931,31 @@ button {
           font-size: 1em; } }
     .buttonlist li:last-child a {
       border-right: none; }
+  @media screen and (min-width: 53.33333em) {
+    .buttonlist li {
+      border-bottom: none; }
+    .buttonlist a {
+      border-right: 1px solid #dddddd; } }
 
-.buttonlist.five li {
-  width: 20%; }
+@media screen and (min-width: 53.33333em) {
+  .buttonlist.five li {
+    width: 20%; } }
 
-.buttonlist.three li {
-  width: 33.33%; }
+@media screen and (min-width: 53.33333em) {
+  .buttonlist.three li {
+    width: 33.33%; } }
 
-.buttonlist.two li {
-  width: 50%; }
+@media screen and (min-width: 53.33333em) {
+  .buttonlist.two li {
+    width: 50%; } }
 
-.buttonlist.one li {
-  width: 90%; }
+@media screen and (min-width: 53.33333em) {
+  .buttonlist.one li {
+    width: 90%; } }
+
+.buttonlist + .buttonlist {
+  margin-top: -1em;
+  border-top: none; }
 
 /* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 /* ======================================================== OPEN / CLOSE */
@@ -1216,13 +1233,16 @@ article {
   text-align: left; }
   article header {
     background-size: cover;
-    background-position: 50% 50%;
-    background-blend-mode: multiply;
-    background-color: #888888;
+    background-position: 50% 0;
+    background-color: #00afef;
     color: white;
     width: 90%;
-    padding: 4em 5%;
-    text-align: center; }
+    padding: 7em 5% 4em;
+    text-align: center;
+    background-image: none; }
+    @media screen and (min-width: 53.33333em) {
+      article header {
+        padding: 10em 5% 7em; } }
   article footer {
     padding: 2em 5%;
     text-align: center;
@@ -1394,6 +1414,9 @@ article {
  * //////////////////////////////////////////////////////// DISCOVER
  *
  */
+#discover_header {
+  background-image: url(../img/content/discover/discover_header.jpg); }
+
 #tfi-new-media-fund_header {
   background-image: url(../img/content/discover/new-media-fund/tfi-new-media-fund_header.jpg); }
 
@@ -1595,7 +1618,10 @@ article {
  * //////////////////////////////////////////////////////// PARTICIPATE
  *
  */
-#tribeca-hacks_header {
+#participate_header {
+  background-image: url(../img/content/participate/participate_header.jpg); }
+
+#tribecahacks_header {
   background-image: url(../img/content/participate/tribecahacks/tribeca-hacks_header.jpg); }
 
 .hack-title {
@@ -1656,6 +1682,12 @@ article {
  * //////////////////////////////////////////////////////// BUILD
  *
  */
+#build_header {
+  background-image: url(../img/content/build/build_header.jpg); }
+
+#funding_header {
+  background-image: url(../img/content/build/funding/funding_header.jpg); }
+
 .months {
   padding: 0; }
   .months li {
@@ -1669,6 +1701,15 @@ article {
       margin: 0 0 1.5em 1em;
       padding: 0 0 0 1em;
       border-left: 1px solid #dddddd; }
+
+#impact_header {
+  background-image: url(../img/content/build/impact/impact_header.jpg); }
+
+#festivals_header {
+  background-image: url(../img/content/build/festivals/festivals_header.jpg); }
+
+#techresources_header {
+  background-image: url(../img/content/build/techresources/tech-resources_header.jpg); }
 
 .key-speakers {
   list-style-type: none;

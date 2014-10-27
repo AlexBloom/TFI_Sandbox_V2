@@ -30,7 +30,7 @@
 
 <section id="main">
 <article>
-	<header>
+	<header id="participate_header">
 		<h1>Participate</h1>
 	</header>
 	<section class="content">

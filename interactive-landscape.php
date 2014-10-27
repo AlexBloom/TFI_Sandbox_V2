@@ -62,7 +62,7 @@
 								<div class="floating-text">
 								<small>Launched: October 2013</small>
 								<h2>DEVICE 6</h2>	
-								<button class="button">View Project</button>		
+										
 								</div>
 							</div>
 						</a>

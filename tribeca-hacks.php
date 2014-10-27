@@ -47,7 +47,7 @@ $cms = new tfi_ee();
 
 <section id="main" class="clearfix">
 	<article class="clearfix">
-		<header>
+		<header id="tribecahacks_header">
 			<h1>Tribeca Hacks</h1>
 			<p class="intro">
 				An international series of intensive workshops that brings together content creators and technology specialists to increase understanding and broaden participation in the field of interactive storytelling.

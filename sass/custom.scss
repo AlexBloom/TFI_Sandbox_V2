@@ -69,6 +69,9 @@
  */
 
 //TFI NMF / INTERACTIVE LANDSCAPE
+#discover_header{
+	background-image:url(../img/content/discover/discover_header.jpg);
+}
 
 #tfi-new-media-fund_header{
 	background-image:url(../img/content/discover/new-media-fund/tfi-new-media-fund_header.jpg);
@@ -322,9 +325,15 @@
  *
  */
 //Tribeca Hacks
-#tribeca-hacks_header{
+
+#participate_header{
+	background-image:url(../img/content/participate/participate_header.jpg);
+}
+
+#tribecahacks_header{
 	background-image:url(../img/content/participate/tribecahacks/tribeca-hacks_header.jpg);
 }
+
 .hack-title{
 	font-size:1em;
 }
@@ -412,7 +421,14 @@
  *
  */
 
+#build_header{
+	background-image:url(../img/content/build/build_header.jpg);
+}
+
 //Funding
+#funding_header{
+	background-image:url(../img/content/build/funding/funding_header.jpg);
+}
 .months{
 	padding:0;
 	li{
@@ -430,6 +446,19 @@
 		}
 	}
 	
+}
+
+//Impact
+#impact_header{
+	background-image:url(../img/content/build/impact/impact_header.jpg);
+}
+//Festivals
+#festivals_header{
+	background-image:url(../img/content/build/festivals/festivals_header.jpg);
+}
+//Tech Resources
+#techresources_header{
+	background-image:url(../img/content/build/techresources/tech-resources_header.jpg);
 }
 
 //Event Pages

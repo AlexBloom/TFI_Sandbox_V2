@@ -33,7 +33,7 @@
 
 <section id="main" class="clearfix">
 	<article class="clearfix">
-		<header>
+		<header id="funding_header">
 			
 			<h1>Funding</h1>
 			<p class="intro"> Funding opportunities throughout the year, and guidelines for fundraising.

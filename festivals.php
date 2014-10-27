@@ -36,7 +36,7 @@
 
 	<section class="clearfix">
 		<article>
-			<header>
+			<header id="festivals_header">
 				<section class="content">
 				<h1>Festival, Market &amp; Lab Opportunities</h1>
 				<p class="intro"> Discover new work and get exposure for your projects.

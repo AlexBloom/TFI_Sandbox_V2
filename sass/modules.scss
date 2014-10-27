@@ -168,7 +168,7 @@ button{
 	}
 	#logo{
 		padding:1em;
-		//display:inline-block;
+		display:inline-block;
 		text-decoration:none;
 		color:$dark-grey;
 		text-transform:uppercase;
@@ -181,9 +181,9 @@ button{
 			color:$white;
 			background-color:$action-color;	
 		}
-		display:none;
+		//display:none;
 		@media screen and (min-width:(em(600))){
-			display:inline-block;
+			//display:inline-block;
 		}			
 	}
 	#toggle{
@@ -413,7 +413,6 @@ font-size:75%;
 
 /* ======================================================== SECONDARY NAVIGATION MENUS  */
 .breadcrumb{
-	//border-left:1px solid $light-grey;
 	&.nav-hide{
 		margin-top:-60px;
 	}
@@ -425,19 +424,19 @@ font-size:75%;
 	clear:both;
 	border-top:1px solid $white;
 	z-index:1000;
-	//overflow-x:scroll;
-	//overflow-y:hidden;
 	right:0;
-	//height:3em;
 	@include quarter-second-transition;
 	border-top:none;
 	position:fixed;
-
-	top:0;
-	left:4.5em;
+	top:3em;
+	padding-left:4.5em;
+	left:0;
 	margin:0;
+	background-color:$white;
 		@media screen and (min-width:(em(600))){
+			top:0;
 			left:14em;
+			padding-left:0;
 		}
 		
 	ul{
@@ -445,7 +444,7 @@ font-size:75%;
 		padding:0;
 		margin:0;
 		line-height:1.6em;
-		width:150%;
+		width:100%;
 		height:0;
 		background-color:red;
 	}
@@ -456,7 +455,11 @@ font-size:75%;
 		margin:.5em 0;
 		max-height:2.5em;
 		overflow:visible;
-
+		width:100%;
+		
+		@media screen and (min-width:(em(600))){
+			width:auto;
+		}
 		&:before, &:after{
 			//position:absolute;
 			//color:$medium-grey;
@@ -512,12 +515,12 @@ font-size:75%;
 		}
 	}
 	.breadcrumb-text{
-		display:none;
-		@media screen and (min-width:(em(600))){
+		//display:none;
+		//@media screen and (min-width:(em(600))){
 			display:inline-block;
 			float:left;
 			padding:0 0 0 1em;
-		}
+			//}
 	}
 	.indicator{
 		display:block;
@@ -804,18 +807,24 @@ font-size:75%;
 	padding:0;
 	background-color:$white;
 	border:1px solid $light-grey;
+	:last-child{
+		border-bottom:none!important;
+	}
 	li{
-		width:25%;
+		
+		width:100%;
 		text-align:center;
 		list-style-type:none;
 		float:left;
 		padding:0;
 		margin:0;
+		border-bottom:1px solid $light-grey;
+		
 		a{
 			text-align:center;
 			display:block;
 			text-decoration:none;
-			border-right:1px solid $light-grey;
+			//border-bottom:1px solid $light-grey;
 			padding:.5em .5em;
 			letter-spacing:.02em;
 			font-size: 1em;
@@ -840,26 +849,46 @@ font-size:75%;
 			}	
 		}
 	}
+	@media screen and (min-width:(em(800))){
+		li{
+			border-bottom:none;
+		}
+		a{
+			border-right:1px solid $light-grey;
+		}
+	}
 }
 .buttonlist.five{
-	li{
-		width:20%;
+	@media screen and (min-width:(em(800))){
+		li{
+			width:20%;
+		}
 	}
 }
 .buttonlist.three{
-	li{
-		width:33.33%;
+	@media screen and (min-width:(em(800))){
+		li{
+			width:33.33%;
+		}
 	}
 }
 .buttonlist.two{
-	li{
-		width:50%;
+	@media screen and (min-width:(em(800))){
+		li{
+			width:50%;
+		}
 	}
 }
 .buttonlist.one{
-	li{
-		width:90%;
+	@media screen and (min-width:(em(800))){
+		li{
+			width:90%;
+		}
 	}
+}
+.buttonlist + .buttonlist{
+	margin-top: -1em;
+	border-top: none;
 }
 
 
@@ -1215,13 +1244,17 @@ article{
 	text-align:left;
 	header{
 		background-size:cover;
-		background-position:50% 50%;
-		background-blend-mode: multiply;
-		background-color:$medium-grey;
+		background-position:50% 0;
+		background-color:$blue;
 		color:$white;
 		width:90%;
-		padding:4em 5%;
+		padding:7em 5% 4em;
 		text-align:center;
+		background-image:none;
+		//margin:2em 0 0 0;
+		@media screen and (min-width:(em(800))){
+			padding:10em 5% 7em;
+		}
 	}
 	footer{
 		padding:2em 5%;

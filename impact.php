@@ -35,7 +35,7 @@
 <section id="main">
 	<section class="clearfix">
 		<article>
-			<header>
+			<header id="impact_header">
 				<section class="content">
 				<h1>Impact</h1>
 				</section>

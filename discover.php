@@ -30,7 +30,7 @@
 
 <section id="main">
 <article>
-	<header>
+	<header id="discover_header">
 		<h1>Discover</h1>
 	</header>
 	
