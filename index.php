@@ -57,8 +57,10 @@
 		
 			<ul class="three-columns clearfix" id="home-callouts">
 				<li>
-					<img src="img/ui/discover_icon.gif"/>
-					<h3>Discover</h3>
+					<a href="discover">
+						<img src="img/ui/discover_icon.gif"/>
+						<h3>Discover</h3>
+					</a>
 					<p>Discover inspiring interactive projects.<br><br><br></p>
 					
 					<ul class="home-links clearfix">
@@ -68,8 +70,10 @@
 				</li>
 		
 				<li>
-					<img src="img/ui/participate_icon.gif"/>
-					<h3>Participate</h3>
+					<a href="participate">
+						<img src="img/ui/participate_icon.gif"/>
+						<h3>Participate</h3>
+					</a>
 					<p>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</p>
 					
 					<ul class="home-links clearfix">
@@ -80,8 +84,10 @@
 				</li>
 		
 				<li>
-					<img src="img/ui/build_icon.gif"/>
-					<h3>Build</h3>
+					<a href="build">
+						<img src="img/ui/build_icon.gif"/>
+						<h3>Build</h3>
+					</a>
 					<p>Tools, resources and advice to build your own interactive project.<br<br></p>
 					
 					
