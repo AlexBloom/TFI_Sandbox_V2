@@ -819,7 +819,9 @@ font-size:75%;
 		padding:0;
 		margin:0;
 		border-bottom:1px solid $light-grey;
-		
+		@media screen and (min-width:(em(800))){
+			width:25%;
+		}
 		a{
 			text-align:center;
 			display:block;

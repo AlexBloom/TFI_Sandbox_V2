@@ -44,7 +44,7 @@
 		</div>
 		
 		<video class="background-video" id="home-bg" autoplay loop>
-			<!-- <source src="video/TFISandboxLoopMobile.mp4" type="video/mp4"> -->
+			<source src="video/TFISandboxLoopMobile.mp4" type="video/mp4">
 		</video>
 	
 	</section>
