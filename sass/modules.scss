@@ -436,13 +436,14 @@ font-size:75%;
 	z-index:398;
 	@include quarter-second-transition;
 	border-top:none;
-	position:fixed;
+	position:absolute;
 	top:4em;
 	left:2em;
 	margin:0;
 	color:$white;
 	color:rgba(255,255,255,.5);
 		@media screen and (min-width:(em(600))){
+			position:fixed;
 			z-index:401;
 			top:0;
 			left:14em;

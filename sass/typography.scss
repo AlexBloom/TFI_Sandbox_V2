@@ -76,30 +76,46 @@ body{
 ----------------------*/
 //h1,h2,h3,strong{color:$dark-grey;}
 
-h1 			{   font-size: 2.0000em; /* 45px */
+h1 			{   font-size: 1.5.0000em; /* 45px */
   				line-height: 1.1111em; /* 50px */
   			  	margin-top: 0.5556em;  
 				margin-bottom: 0.0000em;
 				font-weight:700;
 				text-transform:uppercase;
 				letter-spacing:.1em;
-				
+				@media screen and (min-width:(em(600))){
+					 font-size: 1.7500em;
+				}
 				@media screen and (min-width:(em(800))){
+					 font-size: 2.0000em;
+				}
+				@media screen and (min-width:(em(1000))){
+					 font-size: 2.5000em;
+				}
+				@media screen and (min-width:(em(1200))){
 					 font-size: 3.0000em;
-
 				}
 			}			
-h2 			{  	font-size: 2.2500em; /* 33.75px */
+h2 			{  	font-size: 1.2500em; /* 33.75px */
   				line-height: 1.4815em; /* 50px */
   			  	margin-top: 0.7407em;  
-				margin-bottom: 0.0000em; 
+				margin-bottom: 0.0000em;
+				@media screen and (min-width:(em(800))){
+					 font-size: 1.500em;
+				}
+				@media screen and (min-width:(em(1000))){
+					 font-size: 2.000em;
+				} 
 			}
-h3 			{ 	font-size: 1.5em; /* 30px */
+h3 			{ 	font-size: 1.25em; /* 30px */
   				line-height: 150%; /* 50px */
   			  	margin-top: 0.8333em;  
 				margin-bottom: 0.0000em; 
+				@media screen and (min-width:(em(1000))){
+					 font-size: 1.5000em;
+				}
 			}
-h4 			{  	font-size: 1.25em; /* 25px */
+h4 			{  	font-size: 1.15em; /* 25px */
   				line-height: 1.0000em; /* 25px */
   				margin-top: 1.500em;  
 				margin-bottom: 0.0000em;
