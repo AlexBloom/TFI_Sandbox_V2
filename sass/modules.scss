@@ -628,6 +628,7 @@ font-size:75%;
 	margin:0;
 	padding:0;
 	display:flex;
+	display:-webkit-flex;
 	dt{
 		display:none;
 		padding:.5em 1em;
@@ -1069,6 +1070,7 @@ section{
 .overlay-wrap{
 	position:absolute;
 	display:flex;
+	display:-webkit-flex;
 	z-index:2;
 	top:0;
 	bottom:0;
