@@ -25,7 +25,7 @@
 <nav class="breadcrumb">
 	<ul>
 		<li> <a href="participate"> <span class="icon-participate"></span> <span class="breadcrumb-text">Participate</span> </a> </li>
-		<li> <a href="tfi-interactive.php"> <span class="icon-participate"></span> <span class="breadcrumb-text">Participate</span> </a> </li>
+		<li> <a href="tfi-interactive.php"> TFI Interactive </a> </li>
 		<li>
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->

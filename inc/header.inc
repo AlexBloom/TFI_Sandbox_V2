@@ -55,7 +55,7 @@
 		
 				<dl class="primary clearfix" id="discover-primary">
 					<dt class="clearfix">
-						<a href="discover">Discover</a> <br> 
+						<a href="discover"> <span class="icon-discover"> </span> Discover</a>  
 						<small>Discover inspiring interactive projects.</small>
 					</dt>
 					<dd class="primary-link" id=""> 
@@ -74,7 +74,7 @@
 
 				<dl class="primary clearfix" id="participate-primary">
 					<dt class="clearfix">
-						<a href="participate">Participate</a> <br> 
+						<a href="participate"> <span class="icon-participate"> </span> Participate</a>  
 						<small>Participate in TFI’s broad slate of programming that aims to expand the knowledge around interactive storytelling.</small>
 					</dt>
 					<dd class="primary-link" id=""> 
@@ -95,7 +95,7 @@
 
 				<dl class="primary clearfix" id="build-primary">
 					<dt class="clearfix">
-						<a href="build">Build</a> <br> 
+						<a href="build"> <span class="icon-build"> </span> Build</a>  
 						<small>Tools, resources and advice to build your own interactive project.</small>
 					</dt>
 					<dd class="primary-link" id="">
