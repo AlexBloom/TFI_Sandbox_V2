@@ -63,15 +63,15 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://simogo.com/games/device6/"target=_blank> simogo.com/games/device6 <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
 
-					<section class="project-content">
-	
 						<ul>
 							<li> <strong>Selected by:</strong> Arnaud Colinart &amp; Nicholas Fortugno </li>
 							<li> <strong>Created by:</strong> SIMOGO </li>
 							<li> <strong>Launched:</strong> October 2013 </li>
+							<li><a class="project-url"
+
+			 href="http://simogo.com/games/device6/"target=_blank> simogo.com/games/device6 <span class="icon-export"></span></a></li>
 						</ul>
 						
 						<p>DEVICE 6 plays with the conventions of games and literature, entwines story with geography and blends puzzle and novella, to draw players into an intriguing mystery of technology and neuroscience. Created by the Swedish developer SIMOGO, who also created the game Year Walk, DEVICE 6 is an incredibly original experience of interactive storytelling for iOS platforms.</p>
@@ -118,14 +118,17 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://typerider.arte.tv"target=_blank> typerider.arte.tv <span class="icon-right"></span></a>
-					</header>
+						</header>
+						
 					<section class="project-content">
 						<ul>
 							<li> <strong> Selected by:</strong> Michel Reilhac </li>
 							<li> <strong> Created by:</strong> Cosmografik </li>
 							<li> <strong> Produced by:</strong> Ex Nihilo &amp; Arte </li>
 							<li> <strong> Launched:</strong> October 2013 </li>
+							<li> <a class="project-url"
+
+			 href="http://typerider.arte.tv"target=_blank> typerider.arte.tv <span class="icon-export"></span></a></li>
 						</ul>
 						
 						<p>Type:Rider A simple game that takes you through a journey of exploration in the world of fonts and typography. You learn and discover in a simple, playful way: You need to guide full stop points as if they were balls through giant letters in different fonts, as if it was a mystery world.</p>
@@ -156,14 +159,19 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://EMOTIONALARCADE.COM"target=_blank> emotionalarcade.com <span class="icon-right"></span></a>
-					</header>
+						</header>
+						<section class="project-content">
 
-					<section class="project-content">
+					
+
+					
 					<ul>
 						<li> <strong> Selected by:</strong>  Brent Hoff</li>
 						<li> <strong> Created by: </strong> Brent Hoff &amp; Alexander Reben</li>
 						<li> <strong> Launched:</strong>  November 2013</li>
+						<li> <a class="project-url"
+
+			 href="http://EMOTIONALARCADE.COM"target=_blank> emotionalarcade.com <span class="icon-export"></span></a> </li>
 					</ul>
 					
 					
@@ -203,13 +211,16 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="https://www.911memorial.org/"target=_blank> www.911memorial.org <span class="icon-right"></span></a>	
-					</header>
-					<section class="project-content">
+						</header><section class="project-content">	
+					
+					
 						<ul>
 							<li> <strong> Selected by:</strong> David Carofano</li>
 							<li> <strong> Created by:</strong> Local Projects and Thinc Design</li>
 							<li> <strong> Launched:</strong> Spring 2014</li>
+							<li><a class="project-url"
+
+			 href="https://www.911memorial.org/"target=_blank> www.911memorial.org <span class="icon-export"></span></a></li>
 						</ul>
 						
 						<p>The introductory media presentation, entitled We Remember, is a soundscape of everyone’s 9/11 story, overlapping phrases and thoughts to create an audio collage of that day. Visitors hear multiple languages, demonstrating the global diversity of witnesses who shared the common experience of 9/11. These personal remembrances are each located on a world map, synced to an audio track, revealing the geography of collective witness. The museum exhibition exhibits and collects 9/11 remembrances and first person experiences, building a permanent archive of experiences from around the world.</p>
@@ -247,13 +258,17 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://vimeo.com/album/2243637"target=_blank> vimeo.com/album/2243637 <span class="icon-right"></span></a>	
-					</header>
-					<section class="project-content">
+						</header>
+						<section class="project-content">	
+					
+					
 						<ul>
 							<li> <strong> Selected by:</strong> David Carofano</li>
 							<li> <strong> Created by:</strong> Local Projects &amp; Gallagher and Associates</li>
 							<li> <strong> Launched:</strong> February 2012</li>
+							<li><a class="project-url"
+
+			 href="http://vimeo.com/album/2243637"target=_blank> vimeo.com/album/2243637 <span class="icon-export"></span></a></li>
 						</ul>
 						
 						<p>The Cleveland Museum of Art had been challenged to grow new audiences to engage with Art and the Museum. Local Projects was tasked with growing new audiences through technology and created Gallery One, a suite of new experiences that transform the Art Museum experience. Visitors can explore digital versions of the artworks, gather ideas, and see the original context of the artworks. Visitors create their own works of art, and understand creativity through the art making, intuition, and play. Visitors can put their own bodies into the experience, matching poses with figurative sculptures, or browsing the collection by making different facial gestures. </p>
@@ -290,16 +305,19 @@
 							</div>
 						</div>
 						</a>
-						<a class="project-url" href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome <span class="icon-right"></span></a>			
-					</header>
+						</header><section class="project-content">			
+					
 			
-					<section class="project-content">
+					
 
 					
 						<ul>
 							<li> <strong> Selected by: </strong>Aina Abiodun </li>
 							<li> <strong> Developed &amp; Published by: </strong> The Fullbright Company</li>
 							<li> <strong> Launched: </strong> August 2013 </li>
+							<li><a class="project-url"
+
+			 href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
@@ -330,16 +348,19 @@
 								</div>		
 							</div>
 						</a>
-						<a class="project-url" href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 <span class="icon-right"></span></a>	
-					</header>
+						</header><section class="project-content">
 			
-					<section class="project-content">
+					
 					 
 						<ul>
 							<li> <strong> Selected by:</strong> Gabriel Dance</li> 
 							<li> <strong> Written by:</strong> Ewen MacAskill &amp; Gabriel Dance </li> 
 							<li> <strong> Produced by:</strong> Feilding Cage &amp; Greg Chen</li> 
 							<li> <strong> Launched:</strong> November 2013</li> 
+							<li><a class="project-url"
+
+			 href="http://theguardian.com/world/interactive/2013/nov/01/snowden-nsa-files-surveillance-revelations-decoded"target=_blank>theguardian.com/world/interactive/2013 <span class="icon-export"></span></a>	
+					</li>
 						</ul>
 						
 						<p>The Guardian knew since day one that the NSA stories we've been reporting were going to need some type of treatment that explained them, as a whole, to readers. As they were reported, the stories are often necessarily technical, both legally and technologically. Because of this, and because of the way we've needed to report the story as we've gone through the documents, we wanted to create a piece that explained to readers what this meant specifically for them.  So we set out to produce an interactive story that used all of the Internet's storytelling devices (video, interactive maps, charts, text and yes GIFS!) to tell the story of the NSA files in an accessible and relatable way.</p>
@@ -375,15 +396,18 @@
 								</div>		
 							</div>
 						</a>
-						<a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/"target=_blank>washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls/ <span class="icon-right"></span></a>	
-					</header>
-			
-					<section class="project-content">
+						</header><section class="project-content">
+					
 					 
 						<ul>
 							<li> <strong> Selected by:</strong> Gabriel Dance</li>
 							<li> <strong> Created by:</strong> Sohail Al-Jamea, Bonnie Berkowitz, Emily Chow, Laris Karklis &amp; Todd Lindeman</li>
 							<li> <strong> Launched:</strong> August 2013</li>
+							<li><a class="project-url"
+
+			 href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls" target=_blank> washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls <span class="icon-export"></span></a>	
+					
+			</li>
 						</ul>
 
 						<p>The Washington Post graphics desk explored the part of the Potomac River known as Great Falls, in a beautiful and creative interactive feature. This part of the Potomac is deceptively dangerous, as it's not the white water that makes it so deadly. It's the dangers that lie below the surface that have cost lives. Through creative use of video, 3D and illustrations, the Washington Post shows us why this part of the river has claimed so many lives.</p>
@@ -419,15 +443,18 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://hitrecord.org/"target=_blank>hitrecord.org <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
+					
 			
-					<section class="project-content">
+					
 					 
 						<ul>
 							<li> <strong> Selected by:</strong> Michel Reilhac</li> 
 							<li> <strong> Founded &amp; Owned by:</strong> Joseph Gordon-Levitt, Actor &amp; Director</li>
 							<li> <strong> Launched:</strong> January 2010</li> 
+							<li><a class="project-url"
+
+			 href="http://hitrecord.org/"target=_blank>hitrecord.org <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>A shared platform where you can upload your own content for people to listen to, read or watch while at the same time making it free for them to use as raw material to mash up in any way they want.</p>
@@ -463,15 +490,18 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
+					
 			
-					<section class="project-content">
+					
 					 
 						<ul>
 							<li> <strong> Selected by: </strong> Malika Zouhali-Worrall &amp; David Osit</li>
 							<li> <strong> Built by: </strong> Stephen LaPorte &amp; Mahmoud Hashemi</li>
 							<li> <strong> Launched: </strong> July 2013</li>
+							<li><a class="project-url"
+
+			 href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>An interactive visualization of Wikipedia edits, in real-time: each edit is mapped as a circle accompanied by a string or bell sound. The color of the circle indicates whether an edit is made by an anonymous user (green), a bot (purple) or a registered user (white); while the bell sound signifies an addition to a Wikipedia entry, and a string sound signifies a subtraction; the page's title appears briefly in the middle of each circle.</p>
@@ -516,15 +546,18 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
+					
 			
-					<section class="project-content">
+					
 	
 						<ul>
 							<li> <strong> Selected by:</strong> Malika Zouhali-Worrall &amp; David Osit </li>
 							<li> <strong> Created by:</strong> Ryan Green </li>
 							<li> <strong> Launched:</strong> TBD </li>
+							<li><a class="project-url"
+
+			 href="http://thatdragoncancer.com"target=_blank>thatdragoncancer.com <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>As Ryan Green, the creator of the project describes it: That Dragon, Cancer is an adventure game that acts as a living painting; a poem; an interactive retelling of Ryan and his wife’s experience raising their son Joel, a 4-year-old currently fighting his third year of terminal cancer. Players relive memories, share heartache, and discover the hope that can be found in the face of death.</p>
@@ -565,15 +598,18 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://cowbird.com/"target=_blank>cowbird.com <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
+					
 			
-					<section class="project-content">
+					
 					 					
 						<ul>
 							<li> <strong> Selected by:</strong> Mike Robbins</li>
 							<li> <strong> Founded by:</strong> Jonathan Harris </li>
 							<li> <strong> Launched:</strong> December 2011</li>
+							<li><a class="project-url"
+
+			 href="http://cowbird.com/"target=_blank>cowbird.com <span class="icon-export"></span></a></li>
 						</ul>
 						
 
@@ -609,16 +645,19 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
+					
 			
-					<section class="project-content">
+					
 					 
 					
 						<ul>
 							<li> <strong> Selected by:</strong> Mike Robbins</li> 
 							<li> <strong> Produced by:</strong> The NFB &amp; The New York Times</li>
 							<li> <strong> Launched:</strong> October 2010</li> 
+							<li><a class="project-url"
+
+			 href="http://highrise.nfb.ca"target=_blank>highrise.nfb.ca <span class="icon-export"></span></a></li>
 						</ul>
 
 
@@ -656,15 +695,18 @@
 							</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://dukope.com/"target=_blank>dukope.com <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
+					
 			
-					<section class="project-content">
+					
 
 						<ul>
 							<li> <strong> Selected by:</strong>  Nicholas Fortugno</li>
 							<li> <strong> Designer:</strong>  Lucas Pope</li>
 							<li> <strong> Launched:</strong>  August 2013</li>
+							<li><a class="project-url"
+
+			 href="http://dukope.com/"target=_blank>dukope.com <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>A self-proclaimed dystopian documentary thriller, Papers, Please puts you in the role of a nameless border guard for the fictional communist country, Arstotzka, checking immigrants as they enter the country and deciding who to admit, reject, and arrest among the asylum seekers, smugglers, diplomats, spies, and innocents.</p>
@@ -701,14 +743,17 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress <span class="icon-right"></span></a>
-					</header>
+						</header><section class="project-content">
 
-					<section class="project-content">
+					
 						<ul>
 							<li> <strong> Selected by:</strong> Aina Abiodun </li>
 							<li> <strong> Created by:</strong> Joe Diebes, Christian Hawkey &amp; David Levine</li> 
 							<li> <strong> Launched:</strong> January 2014, Live</li>
+							<li><a class="project-url"
+
+			 href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress <span class="icon-export"></span></a>
+					</li>
 						</ul>
 
 
@@ -741,14 +786,17 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://enjmin-bundle.com/en/"target=_blank> enjmin-bundle.com<span class="icon-right"></span></a>			
-					</header>
-					<section class="project-content">
+						</header><section class="project-content">			
+					
+					
 	
 					<ul>
 						<li> <strong> Selected by:</strong> Arnaud Colinart</li>
 						<li> <strong> Created by:</strong> The ENJMIN School</li>
 						<li> <strong> Launched:</strong> December 2013</li>
+						<li><a class="project-url"
+
+			 href="http://enjmin-bundle.com/en/"target=_blank> enjmin-bundle.com<span class="icon-export"></span></a></li>
 					</ul>
 					
 					<p>The ENJMIN, « L’École Nationale du Jeu et des Médias Interactifs Numériques » is the only public school in Europe specialized in interactive media and video games. Opened in 2005 in Angoulême in France, the goal of this school is to train students to become professionals of the video game industry. In December 2013, The ENJMIN School launched the « ENJMIN BUNDLE », a bundle of the most recent games created by students. And every game created by ENJMIN students since 2005 is soon to be found on this platform. What is tomorrow’s video game going to look like ? Who are the young game creators? The ENJMIN BUNDLE  gives free and unlimited access to games created by its students. From PC games to tablet smartphones, Kinect or Sifteo Cubes, the ENJMIN BUNDLE is a good way to discover young developers trying to create new gameplays and digital experiences. The program of the school includes a six month internship. A lot of students are interns abroad, often in Canada, at Ubisoft Montreal. The ENJMIN school and specially the game bundle is a great place to find talented art directors, game designers, sound designers or production managers.</p>	
@@ -779,14 +827,17 @@
 								</div>
 							</div>
 							</a>
-						<a class="project-url" href="http://blabdroid.com"target=_blank> blabdroid.com <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">
+						</header><section class="project-content">
+					
+					
 	
 						<ul>
 							<li> <strong> Selected by:</strong> Brent Hoff</li>
 							<li> <strong> Created by:</strong> Alexander Reben &amp; Brent Hoff</li>
 							<li> <strong> Launched:</strong> November 2012</li>
+							<li><a class="project-url"
+
+			 href="http://blabdroid.com"target=_blank> blabdroid.com <span class="icon-export"></span></a></li>
 						</ul>
 	
 						<p>BlabDroid is making the world’s first documentary shot entirely by robots: Because people will reveal themselves to robots in ways they never would to strangers!</p>
@@ -816,12 +867,15 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://betathegame.com"target=_blank> betathegame.com <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">	
+						</header><section class="project-content">
+					
+						
 						<ul>
 							<li> <strong> Selected by:</strong> Errol King</li>
 							<li> <strong> Launched:</strong> January 2014</li>
+							<li><a class="project-url"
+
+			 href="http://betathegame.com"target=_blank> betathegame.com <span class="icon-export"></span></a></li>
 						</ul>
 						
 
@@ -853,13 +907,16 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://everydayafrica.tumblr.com/"target=_blank> everydayafrica.tumblr.com <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">	
+						</header><section class="project-content">
+					
+						
 						<ul>
 							<li> <strong> Selected by:</strong> Ingrid Kopp</li>
 							<li> <strong> Created by:</strong> Peter DiCampo &amp; Austin Merrill </li>
 							<li> <strong> Launched:</strong> June 2014</li>
+							<li><a class="project-url"
+
+			 href="http://everydayafrica.tumblr.com/"target=_blank> everydayafrica.tumblr.com <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>Everyday Africa, a collection of images shot on mobile phones across the continent, is an attempt to re-direct focus toward a more accurate understanding of what the majority of Africans experience on a day-to-day basis: normal life. featuring numerous contributing photographers, the project is a response to the common media portrayal of the African continent as a place consumed by war, poverty, and disease. </p>	
@@ -894,13 +951,16 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://docubase.mit.edu/"target=_blank> docubase.mit.edu <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">	
+						</header><section class="project-content">
+					
+						
 						<ul>
 							<li> <strong> Selected by:</strong> Ingrid Kopp</li>
 							<li> <strong> Created by:</strong> MIT</li>
 							<li> <strong> Launched:</strong> November 2013</li>
+							<li><a class="project-url"
+
+			 href="http://docubase.mit.edu/"target=_blank> docubase.mit.edu <span class="icon-export"></span></a></li>
 						</ul>
 						
 						
@@ -936,13 +996,16 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://pinepoint.nfb.ca/"target=_blank> pinepoint.nfb.ca <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">	
+						</header><section class="project-content">
+					
+						
 						<ul>
 							<li> <strong> Selected by:</strong> Ingrid Kopp</li>
 							<li> <strong> Created by:</strong> The Goggles – Paul Shoebridge &amp; Michael Simons </li>
 							<li> <strong> Launched:</strong> May 2011</li>
+							<li><a class="project-url"
+
+			 href="http://pinepoint.nfb.ca/"target=_blank> pinepoint.nfb.ca <span class="icon-export"></span></a></li>
 						</ul>
 						
 
@@ -976,14 +1039,17 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://prisonvalley.arte.tv/"target=_blank> prisonvalley.arte.tv <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">	
+						</header><section class="project-content">
+					
+						
 						<ul>
 							<li> <strong> Selected by:</strong> Amelie Leenhardt</li>
 							<li> <strong> Created by:</strong> David Dufresne &amp; Philippe Brault</li>
 							<li> <strong> Produced by:</strong> Arte/Upian</li>
 							<li> <strong> Launched:</strong> April 2010</li>
+							<li><a class="project-url"
+
+			 href="http://prisonvalley.arte.tv/"target=_blank> prisonvalley.arte.tv <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>Prison Valley is an investigative web documentary about the prison industry in the US. It explores Canon City, Colorado, 36,000 residents, 13 jails, with a local economy revolving around the incarceration of 7,735 people.</p>
@@ -1012,13 +1078,16 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://kentuckyroutezero.com/"target=_blank> kentuckyroutezero.com <span class="icon-right"></span></a>
-					</header>
-					<section class="project-content">	
+						</header><section class="project-content">
+					
+						
 						<ul>
 							<li> <strong> Selected by:</strong> Amelie Leenhardt</li>
 							<li> <strong> Created by:</strong> Cardboard Computer – Jake, Elliott &amp; Tamaz Kemenczy</li>
 							<li> <strong> Launched:</strong> January 2013</li>
+							<li><a class="project-url"
+
+			 href="http://kentuckyroutezero.com/"target=_blank> kentuckyroutezero.com <span class="icon-export"></span></a></li>
 						</ul>
 
 						<p>Kentucky Route Zero is a point and click adventure game in five acts about a secret highway. Conway, a truck driver, works as a deliveryman for an antique shop and travels the roads of Kentucky with his dog.</p>

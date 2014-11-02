@@ -1629,23 +1629,27 @@ article {
     margin: 1em auto; }
 
 .project-url {
-  display: block;
-  padding: 1em .75em;
+  font-weight: 700;
   color: #888888;
-  text-decoration: none;
-  text-align: center;
-  z-index: 5;
-  position: absolute;
+  text-decoration: none !important;
+  color: #00afef;
   bottom: 0;
-  right: 0;
-  background-color: white;
-  padding: .5em .75em;
-  border-top: 1px solid #dddddd;
-  border-left: 1px solid #dddddd;
-  border-right: 1px solid #dddddd; }
+  right: 0; }
   .project-url:hover, .project-url:active {
     text-decoration: none;
     color: #00afef; }
+
+.project-content ul {
+  line-height: 1.75em;
+  list-style-type: disc;
+  padding: 0; }
+@media screen and (min-width: 86.66667em) {
+  .project-content > ul {
+    position: absolute;
+    padding: 0 2em;
+    top: -2em;
+    left: 100%;
+    width: 30%; } }
 
 .project-content, .project-content-expanded {
   width: 80%;
