@@ -35,7 +35,7 @@
 <section id="main" class="clearfix">
 	<section class="clearfix">
 		<article class="clearfix">
-			<header>
+			<header id="techresources_header">
 				<section class="content">
 				<h1>Tech Resources</h1>
 				<p class="intro"> Code, platforms, and design help.
