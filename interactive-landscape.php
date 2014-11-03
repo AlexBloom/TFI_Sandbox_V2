@@ -756,7 +756,7 @@
 					<p class="author"> Arnaud Colinart, AGAT Films &amp; Cie / EX NIHILO 
 					<br>
 					<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a><br>
-					More from Arnaud Colinart - <a href="Device6">Discover: Device 6</a>
+					More from Arnaud Colinart - <a href="interactive-landscape#Device6">Discover: Device 6</a>
 					</p>
 
 			

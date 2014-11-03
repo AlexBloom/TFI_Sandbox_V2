@@ -221,13 +221,36 @@ $('#share-engage').click(function() {
 	$(".play-video").click(function(){
 		$('.video-overlay').css("display","block");
 		$('#header').css("display","none");
+		$('body').addClass('overflow-hidden');
 	});
 
 	$(".close-video").click(function(){
 		$('.video-overlay').css("display","none");
 		$('#header').css("display","block");
+		$('body').removeClass('overflow-hidden');
 	});
  
+	// Load Medium Res Background Video
+	
+	if ($(window).width() > 1000 ){
+		
+		//Math.floor(Math.random() * ((3-1)+1) + 1)
+	    //$('#home-bg').replaceWith('<video class="background-video" id="home-bg" autoplay loop> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> </video>');
+		
+		
+		    var sdVideos = new Array(
+			'<video class="background-video" id="home-bg" autoplay loop> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> </video>',
+			'<video class="background-video" id="home-bg" autoplay loop> <source src="video/sd/HomepageLoop_2-SD.mp4" type="video/mp4"/> </video>',
+			'<video class="background-video" id="home-bg" autoplay loop> <source src="video/sd/HomepageLoop_3-SD.mp4" type="video/mp4"/> </video>'
+			),
+		    randomVid = sdVideos[Math.floor( Math.random() * sdVideos.length )];
+		    $('#home-bg').replaceWith( randomVid );
+		
+	}
+	//else {
+		
+	
+		//}
  
  
  //End Doc Ready Function
