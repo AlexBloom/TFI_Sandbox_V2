@@ -257,6 +257,23 @@ $('#share-engage').click(function() {
 	//|| iedetect(8) || iedetect(7) || 'ontouchstart' in window
  
  //End Doc Ready Function
+ 
+ 		
+		
+ // JSON MAP
+     // $.getJSON("js/data.txt", function(json1) {
+     //   $.each(json1, function(key, data) {
+     //     var latLng = new google.maps.LatLng(data.lat, data.lng);
+     //     // Creating a marker and putting it on the map
+     //     var marker = new google.maps.Marker({
+     //         position: latLng,
+     //         title: data.title
+     //     });
+     //     marker.setMap(map);
+     //   });
+     // });
+
+ 
 
 });
    

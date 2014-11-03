@@ -1821,6 +1821,9 @@ article {
 #festivals_header {
   background-image: url(../img/content/build/festivals/festivals_header.jpg); }
 
+#map-canvas {
+  height: 500px; }
+
 #techresources_header {
   background-image: url(../img/content/build/techresources/tech-resources_header.jpg); }
 
