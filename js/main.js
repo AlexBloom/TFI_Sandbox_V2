@@ -1,5 +1,4 @@
-
-
+$('#primary-nav').addClass('closed'); 
 
 $(document).ready(function () {
 		// Fire LocalScroll
@@ -16,7 +15,6 @@ $(document).ready(function () {
 	
 	
 	//Site-Nav Toggle
-	$('#primary-nav').addClass('closed'); 
 	$("#toggle").click(function(){
 		$(this).toggleClass('close');
 	$('#primary-nav').toggleClass('closed');
@@ -25,7 +23,6 @@ $(document).ready(function () {
    });
    
    //Tertiary Dropdown Toggle
-	//$('.tertiary').addClass('dropdown-closed'); 
 	$(".tertiary").click(function(){
 		$(this).toggleClass('dropdown-open');
 	  });
