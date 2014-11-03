@@ -113,10 +113,9 @@
 					<li> Wendy Levy, Director, New Arts AXIS</li>
 				</ul></p>
 			
-			<p> <strong> TFI NEW MEDIA FUND 2013 GRANTEES—Session 1</strong>  
 	 
+			<p><strong><a href="tfi-new-media-fund-2013"> TFI NEW MEDIA FUND PRESENTS THE 2013 GRANTEES</a></strong><br></p>
 			
-			<p> <strong> TFI NEW MEDIA FUND 2013 GRANTEES—Session 2</strong>  
 	
 			
 			<p> <strong> LYKA: THE ADVENTURE</strong>  

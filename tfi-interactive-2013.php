@@ -103,11 +103,7 @@
 					</ul>
 				</p>
 				<p> 
-					<strong> TFI NEW MEDIA FUND PRESENTS THE 2012 GRANTEES — Session 1</strong><br>
-				
-				</p>
-				<p> 
-					<strong> TFI NEW MEDIA FUND PRESENTS THE 2012 GRANTEES — Session 2</strong><br>
+					<strong><a href="tfi-new-media-fund-2012"> TFI NEW MEDIA FUND PRESENTS THE 2012 GRANTEES</a></strong><br>
 				
 				</p>
 				<p> 
