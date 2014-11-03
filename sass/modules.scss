@@ -300,6 +300,7 @@ $button-size: 2rem;
 	margin:0 auto;
 	padding:0 5%;
 	background-color:$blue;
+	background-color:rgba(000,175,239,.95);
 	z-index:399;
 	top:0;
 	bottom:0;
@@ -317,7 +318,6 @@ $button-size: 2rem;
 		}
 		&:active,&:focus{
 			background-color:$black;
-			//background-color:$white;
 		}
 		span{
 			float:right;
@@ -893,77 +893,10 @@ font-size:75%;
 }
 
 
-
-
-/* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
-//.scrollnav {
-//
-//	position:fixed;
-//	left:0;
-//	top:25%;
-//	z-index:398;
-//
-//	ul {
-//    position: relative;
-//    display: inline-block;
-//    margin: 0;
-//    padding: 0;
-//    list-style: none;
-//    cursor: default;
-//	}
-//
-//	li {
-//    position: relative;
-//    display: block;
-//    margin: 3em 2em 3em 1.5em;
-//    width: 1.2em;
-//    height: 1.2em;
-//    cursor: pointer;
-//	box-shadow:0 0 0 2px rgba(0,0,0,.25);
-//	background-color:rgba(0,0,0,.5);
-//	border-radius:50%;
-//
-//	.current{
-//		//box-shadow: inset 0 0 0 .75em $white;
-//	}
-//		a {
-//	    top: 0;
-//	    left: 0;
-//	    width: 100%;
-//	    height: 100%;
-//	    outline: none;
-//	    border-radius: 50%;
-//	    background-color: #fff;
-//	    background-color: rgba(255,255,255,0.3);
-//	    text-indent: -999em;
-//	    cursor: pointer; /* make the text accessible to screen readers */
-//	    position: absolute;
-//		background-color: transparent;
-//		box-shadow: inset 0 0 0 2px $white;
-//		-webkit-transition: box-shadow 0.3s ease;
-//		transition: box-shadow 0.3s ease;
-//
-//			&:active{
-//			box-shadow: inset 0 0 0 .75em $white;
-//			}
-//
-//		}
-//
-//	}
-//
-//
-//}
-
-
-// Active Scroll Link Highlighting
-
-
-
-
 /* ======================================================== OPEN / CLOSE */
 
 .open{
-	opacity:.95;
+	opacity:1;
 	max-height:auto;
 	overflow:scroll;
 }
@@ -1032,8 +965,6 @@ font-size:75%;
 	opacity:1;
 	@include quarter-second-transition;
 }
-
-
 
 /* ========================================================== LAYOUT */
 
@@ -1104,13 +1035,10 @@ section{
 	display:block;	
 	position: absolute;
 	bottom:0;
-	//right:-5%!important;
-	//left:-5%!important; 
 	min-width: 100%!important; 
 	min-height: 100%!important;
 	z-index: -1000; 
 	overflow: hidden;
-	//background-color:$black;
 }
 
 //Fluid Full-Screen Videos

@@ -17,7 +17,7 @@
  <script type="text/javascript" src="//use.typekit.net/kxg3xpi.js"></script>
  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-<!--<script src="js/vendor/modernizr-2.6.2.min.js"></script> -->	
+<script src="js/vendor/modernizr-2.6.2.min.js"></script>
  
  <!--[if lte IE 8]>
 	<link rel="stylesheet" href="css/ie8.css">

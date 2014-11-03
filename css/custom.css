@@ -537,6 +537,7 @@ button {
   margin: 0 auto;
   padding: 0 5%;
   background-color: #00afef;
+  background-color: rgba(0, 175, 239, 0.95);
   z-index: 399;
   top: 0;
   bottom: 0;
@@ -1019,10 +1020,9 @@ button {
   margin-top: -1em;
   border-top: none; }
 
-/* ======================================================== SCROLLING VERTICAL DOT NAVIGATION  */
 /* ======================================================== OPEN / CLOSE */
 .open {
-  opacity: .95;
+  opacity: 1;
   max-height: auto;
   overflow: scroll; }
 
