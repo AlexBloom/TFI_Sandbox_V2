@@ -845,18 +845,18 @@ button {
     float: left;
     margin: 0;
     padding: 0; }
-  .filters dd a {
-    background-color: white;
-    border-right: 1px solid #888888;
-    color: #222222;
-    display: block;
-    text-decoration: none;
-    padding: .5em 1em;
-    margin: 0;
-    cursor: pointer; }
-    .filters dd a:hover {
-      background-color: #222222;
-      color: #dddddd; }
+    .filters dd a {
+      background-color: white;
+      border-right: 1px solid #888888;
+      color: #222222;
+      display: block;
+      text-decoration: none;
+      padding: .5em;
+      margin: 0;
+      cursor: pointer; }
+      .filters dd a:hover {
+        background-color: #222222;
+        color: #dddddd; }
   @media screen and (min-width: 40em) {
     .filters dt {
       float: left; }
@@ -1643,10 +1643,25 @@ article {
   line-height: 1.75em;
   list-style-type: disc;
   padding: 0; }
+  .project-content ul .icon-export {
+    vertical-align: -.05em;
+    padding-left: .5em; }
+.project-content a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  border-bottom: 1px solid #00afef;
+  -webkit-transition-duration: .25s;
+  -moz-transition-duration: .25s;
+  -ms-transition-duration: .25s;
+  -o-transition-duration: .25s;
+  transition-duration: .25s; }
+  .project-content a:hover, .project-content a:active {
+    color: #00afef; }
 @media screen and (min-width: 86.66667em) {
-  .project-content > ul {
+  .project-content aside {
     position: absolute;
-    padding: 0 2em;
+    padding: 0 1em 0 4em;
     top: -2em;
     left: 100%;
     width: 30%; } }
@@ -1654,7 +1669,7 @@ article {
 .project-content, .project-content-expanded {
   width: 80%;
   margin: 3em auto;
-  max-width: 50em;
+  max-width: 46.66667em;
   -webkit-transition-duration: .5s;
   -moz-transition-duration: .5s;
   -ms-transition-duration: .5s;

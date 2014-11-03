@@ -640,35 +640,28 @@ font-size:75%;
 		float:left;
 		margin:0;
 		padding:0;
-	}
-	dd{
 		a{
 			background-color:$white;
 			border-right:1px solid $medium-grey;
 			color:$dark-grey;
 			display:block;
 			text-decoration:none;
-			padding:.5em 1em;
+			padding:.5em;
 			margin:0;
 			cursor:pointer;	
 			&:hover{
 				background-color:$dark-grey;
 				color:$light-grey;
-				
 			}
-					
 		}
-	}
-	
+	}	
 	@media screen and (min-width:(em(600))){
 		dt{
 			float:left;
 		}
-		dd{
-		
+		dd{	
 			width:auto;
 			margin:0;
-		
 		}
 	}
 }

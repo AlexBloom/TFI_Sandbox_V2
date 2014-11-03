@@ -309,14 +309,30 @@
 		line-height: 1.75em;
 		list-style-type: disc;
 		padding:0;
+		.icon-export{
+			vertical-align: -.05em;
+			padding-left:.5em;
+		}
+	}
+	a{
+		text-decoration:none;
+		color:$black;
+		font-weight:500;
+		border-bottom:1px solid $action-color;
+		@include quarter-second-transition;
+		&:hover, &:active{
+			color:$action-color;
+			
+		}
 	}
 	@media screen and (min-width:(em(1300))){
-		>ul{
+		aside{
 			position:absolute;
-			padding:0 2em;
+			padding:0 1em 0 4em;
 			top:-2em;
 			left:100%;
 			width:30%;
+			
 		}
 	}
 }
@@ -324,7 +340,7 @@
 .project-content, .project-content-expanded{
 	width:80%;
 	margin:3em auto;
-	max-width:50em;
+	max-width:em(700);
 	@include half-second-transition;
 	
 	img{

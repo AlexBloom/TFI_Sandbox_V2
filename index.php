@@ -43,7 +43,7 @@
 			</div>
 		</div>
 		
-		<video class="background-video" id="home-bg" autoplay loop>
+		<video class="background-video" id="home-bg" autoplay loop muted controls>
 			<source src="video/mobile/HomepageLoop_<?php $random = rand(1,3); echo $random; ?>-Mobile.mp4" type="video/mp4"/>
 		</video>
 		
