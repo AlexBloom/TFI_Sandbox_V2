@@ -20,14 +20,13 @@
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/festivals" />
 				
  			    <style type="text/css">#map-canvas {height: 500px;  margin: 0; padding: 0;}</style>			  
+
 				
 		
 <?php include_once 'inc/header.inc' ?>
 		   
 <!-- LOAD Map Scripts -->
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBB5Scju_ZbRBgb3HCpXqDpfnHuJCHVX_s&sensor=true"> </script>
-<script src="js/gmaps.js"> </script>
-<script src="js/festivalmap.js"> </script>
+
 
 <!-- Index Page -->
 	<nav class="breadcrumb">
@@ -443,9 +442,9 @@
 					</section>
 				</div>
 			</section>
-			<section class="content" id="Map">
+			<section class="content clearfix" id="Map">
 	
-					<div id="map-canvas"></div>					
+					<div id="map-canvas" class="clearfix"></div>					
 
 			</section>
 			

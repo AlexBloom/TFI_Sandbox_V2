@@ -29,10 +29,15 @@
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
 	<script src="js/plugins.js"></script>
+	<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBB5Scju_ZbRBgb3HCpXqDpfnHuJCHVX_s&sensor=true"></script>
+	<script src="js/gmaps.js"></script>
+	
 	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 	<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
 	<script src="js/main.js"></script>
+	
+	
 
 	<script>
 	    var _gaq=[['_setAccount','UA-1312040-9'],['_trackPageview']];

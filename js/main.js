@@ -202,6 +202,7 @@ $('#Festival-Map').click(function() {
 	$('#List').addClass('hidden');
 	$('#Map').removeClass('hidden');
 	$(this).addClass('on');
+	$.getScript("js/festivalmap.js");	
 });	
 
 
