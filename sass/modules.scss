@@ -299,7 +299,7 @@ $button-size: 2rem;
 	padding:0 5%;
 	background-color:$blue;
 	background-color:rgba(000,175,239,.95);
-	z-index:399;
+	z-index:0;
 	top:0;
 	bottom:0;
 	@include quarter-second-transition;	
@@ -325,12 +325,14 @@ $button-size: 2rem;
 }
 #primary-nav.open{
 	padding:4em 5% 0;
+	z-index:399;
 	@media screen and (min-width:(em(900))){
 		padding:5em 5% 0;
 	}
 }
 #primary-nav.closed{
 	padding:0 5%;
+	z-index:0;
 }
 .primary /*DL*/ {
 	color:$white;
@@ -439,7 +441,6 @@ font-size:75%;
 	color:$white;
 	color:rgba(255,255,255,.5);
 	font-size:.75em;
-	//margin:3.5em 0;
 		@media screen and (min-width:(em(600))){
 			font-size:1em;
 			position:fixed;
@@ -448,8 +449,7 @@ font-size:75%;
 			left:14em;
 			padding-left:0;
 			color:$light-grey;
-		}
-		
+		}	
 	ul{
 		position:relative;
 		padding:0;

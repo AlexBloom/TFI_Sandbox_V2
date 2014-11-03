@@ -541,7 +541,7 @@ button {
   padding: 0 5%;
   background-color: #00afef;
   background-color: rgba(0, 175, 239, 0.95);
-  z-index: 399;
+  z-index: 0;
   top: 0;
   bottom: 0;
   -webkit-transition-duration: .25s;
@@ -565,13 +565,15 @@ button {
       line-height: .75em; }
 
 #primary-nav.open {
-  padding: 4em 5% 0; }
+  padding: 4em 5% 0;
+  z-index: 399; }
   @media screen and (min-width: 60em) {
     #primary-nav.open {
       padding: 5em 5% 0; } }
 
 #primary-nav.closed {
-  padding: 0 5%; }
+  padding: 0 5%;
+  z-index: 0; }
 
 .primary {
   color: white;
@@ -1456,9 +1458,6 @@ article {
   background-image: url("../img/ui/home_bg_1.gif");
   background-position: 50% 50%;
   background-size: cover; }
-  @media screen and (min-width: 80em) {
-    #home-video-container {
-      background-image: url("../img/ui/home_bg_1_xlg.jpg"); } }
 
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }
@@ -1636,13 +1635,22 @@ article {
   max-width: 63.33333em;
   margin: auto; }
   #floating-text-home h1 {
-    font-size: 2em; }
+    font-size: 1.25em;
+    line-height: 1.25em; }
+    @media screen and (min-width: 40em) {
+      #floating-text-home h1 {
+        font-size: 2em;
+        line-height: 1em; } }
     @media screen and (min-width: 72em) {
       #floating-text-home h1 {
         font-size: 3em; } }
   #floating-text-home p.intro {
+    font-size: 1em;
     max-width: 36em;
     margin: 1em auto; }
+    @media screen and (min-width: 40em) {
+      #floating-text-home p.intro {
+        font-size: 1.25em; } }
 
 .project-url {
   font-weight: 700;
