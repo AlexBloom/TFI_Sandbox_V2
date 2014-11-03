@@ -19,15 +19,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 207.0,
+		"height": 347.0,
 		"selected_items":
 		[
 			[
-				"inst",
+				"package",
 				"Package Control: Install Package"
 			],
 			[
-				"package",
+				"inst",
 				"Package Control: Install Package"
 			],
 			[
@@ -35,13 +35,14 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
 			"Package Control: Install Package",
 			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
@@ -57,17 +58,23 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Alex/Sites/TFI_Sandbox_V2/img",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/img/content/build",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/img/content/discover",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/img/content/participate/education",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/img/content/participate/tfiinteractive",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/img/ui",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/js",
-		"/Users/Alex/Sites/TFI_Sandbox_V2/sass"
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/img",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/img/content",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/img/content/build",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/img/content/build/techresources"
 	],
 	"file_history":
 	[
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/build.php",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/sass/modules.scss",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/sass/typography.scss",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/sass/custom.scss",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/tech-resources.php",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/interactive-landscape.php",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/project-management-prmarketing.php",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/participate.php",
+		"/Users/AlexBloom/Sites/TFI_Sandbox_V2/sandbox.sublime-project",
 		"/Users/Alex/Sites/TFI_Sandbox_V2/project-management.php",
 		"/Users/Alex/Sites/TFI_Sandbox_V2/sass/custom.scss",
 		"/Users/Alex/Sites/TFI_Sandbox_V2/discover.php",
@@ -98,7 +105,7 @@
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -112,8 +119,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tech-resources",
+			"icon-right",
+			"project-content\"><ul>",
+			"project-content\"> <ul>",
+			"project-url",
+			"</header>"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": false,
@@ -136,7 +149,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 0.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -172,7 +185,7 @@
 	"project": "sandbox.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -180,6 +193,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"",
+				"build.php"
+			]
 		],
 		"width": 0.0
 	},
@@ -207,7 +224,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 217.0,
+	"side_bar_width": 371.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
