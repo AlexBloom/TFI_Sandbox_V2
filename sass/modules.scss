@@ -9,17 +9,15 @@
 a, ul a, p a{
 	color:inherit;
 	text-decoration:underline;
-	//@include quarter-second-transition;	
-	//	&:hover{
-	//	color:$action-color;
-	//	text-decoration:underline;
-	//	}
 	&:active{
 	color:$action-color;	
 	}
 	&:visited{
 	text-decoration:line-through;	
 	}
+}
+ul,ol{
+	padding:0 0 0 1em;
 }
 p+ul{
 	margin-top:0;
@@ -430,19 +428,20 @@ font-size:75%;
 		margin-top:0;
 	}
 	display:block;
-	margin:3.5em 0;
 	clear:both;
 	border-top:1px solid $white;
 	z-index:398;
 	@include quarter-second-transition;
 	border-top:none;
 	position:absolute;
-	top:4em;
+	top:5em;
 	left:2em;
-	margin:0;
 	color:$white;
 	color:rgba(255,255,255,.5);
+	font-size:.75em;
+	//margin:3.5em 0;
 		@media screen and (min-width:(em(600))){
+			font-size:1em;
 			position:fixed;
 			z-index:401;
 			top:0;
@@ -502,7 +501,6 @@ font-size:75%;
 	}
 	.breadcrumb-text{
 		display:inline!important;
-		//float:left;
 		padding:0 0 0 1em;
 	}
 	.indicator{
@@ -629,6 +627,7 @@ font-size:75%;
 	padding:0;
 	display:flex;
 	display:-webkit-flex;
+	font-size:.75em;
 	dt{
 		display:none;
 		padding:.5em 1em;
@@ -640,6 +639,7 @@ font-size:75%;
 		float:left;
 		margin:0;
 		padding:0;
+		width:100%;
 		a{
 			background-color:$white;
 			border-right:1px solid $medium-grey;
@@ -656,6 +656,7 @@ font-size:75%;
 		}
 	}	
 	@media screen and (min-width:(em(600))){
+		font-size:1em;
 		dt{
 			float:left;
 		}
@@ -956,6 +957,9 @@ font-size:75%;
 }
 .overflow-hidden{
 	overflow:hidden;
+}
+.display-none{
+	display:none!important;
 }
 .fade-out{
 	opacity:0;

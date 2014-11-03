@@ -6,10 +6,10 @@ $(document).ready(function () {
 		$('.left-column').localScroll({offset:-65});
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
-		$('.full-screen').css({height:$(window).height()});
+		$('.full-screen').css({"min-height":$(window).height()});
 		//$('#main >article >header').css({height:$(window).height()/2});
 		$(window).resize(function() {
-			$('.full-screen').css({height:$(window).height()});
+			$('.full-screen').css({"min-height":$(window).height()});
 			//$('#main >article >header').css({height:$(window).height()/2});
 		});
 	
@@ -229,11 +229,7 @@ $('#share-engage').click(function() {
  
 	// Load Medium Res Background Video
 	
-	if ($(window).width() > 1000 ){
-		
-		//Math.floor(Math.random() * ((3-1)+1) + 1)
-	    //$('#home-bg').replaceWith('<video class="background-video" id="home-bg" autoplay loop> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> </video>');
-		
+	if ($(window).width() > 1000 ){	
 		
 		    var sdVideos = new Array(
 			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> </video>',
@@ -244,11 +240,21 @@ $('#share-engage').click(function() {
 		    $('#home-bg').replaceWith( randomVid );
 		
 	}
-	//else {
+	if($(window).width() < 800 ) {
+		$('.background-video').addClass('display-none');
+	    
+		//Load Random Images, Currently Just One Animated Gif
 		
-	
-		//}
- 
+		//var bgImages = new Array(
+		//'url(img/ui/home_bg_1.gif)',
+		//'url(img/ui/home_bg_2_m.jpg)',
+		//'url(img/ui/home_bg_3_m.jpg)'
+		//),
+	    //randomImg = bgImages[Math.floor( Math.random() * bgImages.length )];
+	    //$('#home-video-container').css("background-image", randomImg );
+		// style="background-image: url(http://i54.tinypic.com/4zuxif.jpg)
+	}
+	//|| iedetect(8) || iedetect(7) || 'ontouchstart' in window
  
  //End Doc Ready Function
 
