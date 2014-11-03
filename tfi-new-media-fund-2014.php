@@ -60,7 +60,6 @@
 						<a class="local-link" href="#18Days">
 							<div class="project-image-wrap">
 								<img src="img/content/prototype/18days.jpg" alt="Project Image">
-								<img src="img/content/prototype/18days.jpg" alt="18days">
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
@@ -69,11 +68,11 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>				
+										
 					</header>
 					
 					<section class="project-content">
-					
+						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>
 						<h3>Team Leaders</h3>
 						<ul class="team-leaders clearfix">
 							<li>
@@ -151,7 +150,6 @@
 					<header class="project-header" id="">
 						<a class="local-link" href="#testproject">
 							<div class="project-image-wrap">
-								<img src="img/content/prototype/18days.jpg" alt="Project Image">
 								<img src="img/content/prototype/18days.jpg" alt="18days">
 							</div>
 							<div class="header-info">
@@ -161,11 +159,11 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>				
+										
 					</header>
 					
 					<section class="project-content">
-					
+						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>
 						<h3>Team Leaders</h3>
 						<ul class="team-leaders clearfix">
 							<li>

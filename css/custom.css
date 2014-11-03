@@ -1721,7 +1721,8 @@ article {
     float: left;
     text-align: center;
     width: 40%;
-    padding: 1em 5%; }
+    padding: 1em 5%;
+    min-height: 20em; }
     .jury-members li img {
       width: 80%;
       margin: 0 10% 1em;
