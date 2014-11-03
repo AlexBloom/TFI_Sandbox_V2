@@ -32,9 +32,6 @@
 	<article class="clearfix">
 		<header>
 			<h1>Interactive Landscape</h1>
-			
-			
-			
 		</header>
 	
 		<dl class="filters clearfix">
@@ -95,7 +92,12 @@
 						
 						<p class="author">Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC
 							<br>
-							<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a>
+							<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a><br>
+							More from Arnaud Colinart - <a href="interactive-landscape#EnjminBundle">Discover: Enjmin Bundle</a><br>
+							More from Nicholas Fortugno - 
+							<a href="interactive-landscape#PapersPlease"> Discover: Papers, Please</a>, 
+							<a href="tfi-interactive-2012"> Participate: TFI Interactive 2012</a>, 
+							<a href="tfi-interactive-2014"> Participate: TFI Interactive 2014</a>
 						 </p>
 
 					</section>
@@ -131,7 +133,10 @@
 						<p>It is classy and elegant. The gameplay is simple and easy to grasp. The visual style of the giant letters world is compelling. It is a quiet and quirky way of discovering an otherwise abstract world, that of typography.</p>
 						
 						<p class="author">Michel Reilhac, Story Architect, MÉLANGE<br>
-							<a href="https://twitter.com/michelreilhac"target=_blank> @michelreilhac </a>
+							<a href="https://twitter.com/michelreilhac"target=_blank> @michelreilhac </a><br>
+							More From Michel Reilhac - 
+							<a href="interactive-landscape#HitRecord">Discover: hitRECord</a>, 
+							<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
 						</p>
 						
 					</section>
@@ -170,7 +175,10 @@
 					
 					<p class="author">Brent Hoff, Director of Programming at IFP's New Media Centre in New York
 					<br>
-					<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a>
+					<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a><br>
+					More from Brent Hoff - 
+					<a href="interactive-landscape#Blabdroid">Discover: Blabdroid</a>, 
+					<a href="tfi-interactive-2013">Participate: TFI Interactive 2013</a>
 					</p>
 					
 
@@ -210,7 +218,12 @@
 
 						<p class="author"> David Carofano, Production Associate at Local Projects
 						<br>
-						<a href=""target=_blank> </a>
+						More from David Carofano - 
+						<a href="interactive-landscape#GalleryOne"> Discover: Cleveland Museum of Art: Gallery One</a>, 
+						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
+						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
+						More from local Projects - 
+						<a href="tfi-interactive-2012"> Participate:TFI Interactive 2012</a> 
 						 </p>
 
 
@@ -250,8 +263,14 @@
 						
 						<p class="author"> David Carofano, Production Associate at Local Projects
 						<br>
-						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a>
-						 </p>
+						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
+						More from David Carofano - 
+						<a href="interactive-landscape#WeRemember"> Discover: 9/11 Memorial Museum: We Remember</a>, 
+						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
+						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
+						More from local Projects - 
+						<a href="tfi-interactive-2012"> Participate:TFI Interactive 2012</a>
+						</p>
 						
 					</section>
 				</article>
@@ -288,7 +307,8 @@
 						
 						<p class="author">Aina Abiodun, Storyteller, Strategist &amp; Futurist
 						<br>
-						<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun</a>
+						<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun</a><br>
+						More from Aina Abiodun - <a href="interactive-landscape#WowAnOpera">Discover: Wow, An Opera</a>
 						</p>
 			
 					</section>
@@ -328,7 +348,10 @@
 
 						<p class="author"> Gabriel Dance, Interactive Editor for The Guardian in the U.S.
 						<br>
-						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a>
+						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a><br>
+						More from Gabriel Dance - 
+						<a href="interactive-landscape#GreatFalls">Discover: The Perils At Great Falls</a>,
+						<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a> 
 						</p>
 						
 					</section>
@@ -346,7 +369,7 @@
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Launched: August 2013</small>
-								<h2>The perils at Great Falls   </h2>
+								<h2>The Perils at Great Falls   </h2>
 					
 						
 								</div>		
@@ -369,7 +392,10 @@
 		
 						<p class="author"> Gabriel Dance, Interactive Editor for The Guardian in the U.S.
 						<br>
-						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a>
+						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a><br>
+						More from Gabriel Dance - 
+						<a href="interactive-landscape#NSAFiles">Discover: NSA Files: Decoded</a>,
+						<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
 						</p>
 						
 					</section>
@@ -410,8 +436,11 @@
 						
 						<p class="author"> Michel Reilhac, Story Architect, MÉLANGE
 						<br>
-						<a href="https://twitter.com/michelreilhac"target=_blank>@michelreilhac</a>
-						 </p>
+						<a href="https://twitter.com/michelreilhac"target=_blank>@michelreilhac</a><br>
+						More From Michel Reilhac - 
+						<a href="interactive-landscape#TypeRider">Discover: Type:Ryder</a>, 
+						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+						</p>
 					
 					</section>
 		
@@ -445,7 +474,6 @@
 							<li> <strong> Launched: </strong> July 2013</li>
 						</ul>
 
-						
 						<p>An interactive visualization of Wikipedia edits, in real-time: each edit is mapped as a circle accompanied by a string or bell sound. The color of the circle indicates whether an edit is made by an anonymous user (green), a bot (purple) or a registered user (white); while the bell sound signifies an addition to a Wikipedia entry, and a string sound signifies a subtraction; the page's title appears briefly in the middle of each circle.</p>
 					
 						
@@ -461,7 +489,8 @@
 							<br>
 							David Osit , Commercial and Documentary Director, Editor, Composer 
 							<br>
-							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a>
+							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a><br>
+							More from Malika Zouhali-Worrall &amp; David Osit - <a href="interactive-landscape#DragonCancer">Discover: That Dragon, Cancer</a>
 						</p>
 						
 					
@@ -511,7 +540,8 @@
 							<br>
 							David Osit , Commercial and Documentary Director, Editor, Composer 
 							<br>
-							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a>
+							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a><br>
+							More from Malika Zouhali-Worrall &amp; David Osit - <a href="interactive-landscape#ListenToWikipedia">Discover: Listen to Wikipedia</a>
 						</p>
 					
 					</section>
@@ -545,6 +575,7 @@
 							<li> <strong> Founded by:</strong> Jonathan Harris </li>
 							<li> <strong> Launched:</strong> December 2011</li>
 						</ul>
+						
 
 						<p>Cowbird is a participatory media project that asks its audience to tell stories about life, to become members in what is self described as a "public library of human experience". Lofty ideals indeed, but ...</p>
 
@@ -552,8 +583,12 @@
 						
 						<p class="author"> Mike Robbins, Creative Technologist at Helios Design Labs
 						<br>
-						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a>
-						 </p>	
+						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a><br>
+						More from Mike Robbins - 
+						<a href="interactive-landscape#HighRise">Discover: Highrise </a>, 
+						<a href="project-management-team#one">Build: Teamwork Is All About Communication </a>, 
+						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Pretty Lonely </a>
+						</p>	
 					
 					</section>
 		
@@ -570,9 +605,7 @@
 							<div class="header-info">
 								<div class="floating-text">
 								<small>Launched: October 2010</small>
-								<h2>Highrise: Cross media storytelling   </h2>
-					
-										
+								<h2>Highrise: Cross media storytelling   </h2>	
 								</div>
 							</div>
 						</a>
@@ -587,7 +620,7 @@
 							<li> <strong> Produced by:</strong> The NFB &amp; The New York Times</li>
 							<li> <strong> Launched:</strong> October 2010</li> 
 						</ul>
-						
+
 
 						<p>Highrise in an epic  multi-year, multi-platform documentary project about urban vertical living around the world created by Canadian filmmaker Kat Cizek and the National Film Board of Canada. It's amazing how few countries in the world don't have high-rises. It's also amazing all the different ways of perception that arise when we look at the world through the eyes of their dwellers.
 						</p>
@@ -597,8 +630,12 @@
 					
 						<p class="author"> Mike Robbins, Creative Technologist at Helios Design Labs
 						<br>
-						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a>
-						 </p>
+						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a><br>
+						More from Mike Robbins - 
+						<a href="interactive-landscape#Cowbird">Discover: Cowbird </a>, 
+						<a href="project-management-team#one">Build: Teamwork Is All About Communication </a>, 
+						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Pretty Lonely </a>
+						</p>
 						
 					</section>
 		
@@ -630,7 +667,6 @@
 							<li> <strong> Launched:</strong>  August 2013</li>
 						</ul>
 
-						
 						<p>A self-proclaimed dystopian documentary thriller, Papers, Please puts you in the role of a nameless border guard for the fictional communist country, Arstotzka, checking immigrants as they enter the country and deciding who to admit, reject, and arrest among the asylum seekers, smugglers, diplomats, spies, and innocents.</p>
 
 						
@@ -638,7 +674,11 @@
 					
 					<p class="author">Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC
 						<br>
-						<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a>
+						<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a><br>
+						More from Nicholas Fortugno - 
+						<a href="interactive-landscape#Device6">Discover: Device 6</a>, 
+						<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
+						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
 					 </p>
 					
 					</section>
@@ -671,14 +711,15 @@
 							<li> <strong> Launched:</strong> January 2014, Live</li>
 						</ul>
 
-					
+
 					<p>WOW an Opera is the story of Milli Vanilli, the disgraced '90s German pop music duo, told as a Faustian bargain incorporating technology and music in a live experimental and non-linear format. Staged as an immersive experience, the opera combines elements of classical opera with a contemporary story.</p>
 						
 					<p>Technology and physical space are leveraged seamlessly to create a truly immersive experience in this opera. The sheer ingenuity of using the raw materials of a very operatic narrative to create a brand new experience of opera is brilliant. Because the very heart of the duo's story involves the technologically-enabled ruse of lip-syncing, technology is a very natural player in the structure of the story, and the creators exploit that division between the production of music and the faux performance to great effect.</p>
 					
 					<p class="author">Aina Abiodun, Storyteller, Strategist &amp; Futurist
 					<br>
-					<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun </a>
+					<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun </a><br>
+					More from Aina Abiodun - <a href="interactive-landscape#GoneHome"> Discover: Gone Home</a>
 					</p>
 					</section>
 
@@ -709,12 +750,13 @@
 						<li> <strong> Created by:</strong> The ENJMIN School</li>
 						<li> <strong> Launched:</strong> December 2013</li>
 					</ul>
-
+					
 					<p>The ENJMIN, « L’École Nationale du Jeu et des Médias Interactifs Numériques » is the only public school in Europe specialized in interactive media and video games. Opened in 2005 in Angoulême in France, the goal of this school is to train students to become professionals of the video game industry. In December 2013, The ENJMIN School launched the « ENJMIN BUNDLE », a bundle of the most recent games created by students. And every game created by ENJMIN students since 2005 is soon to be found on this platform. What is tomorrow’s video game going to look like ? Who are the young game creators? The ENJMIN BUNDLE  gives free and unlimited access to games created by its students. From PC games to tablet smartphones, Kinect or Sifteo Cubes, the ENJMIN BUNDLE is a good way to discover young developers trying to create new gameplays and digital experiences. The program of the school includes a six month internship. A lot of students are interns abroad, often in Canada, at Ubisoft Montreal. The ENJMIN school and specially the game bundle is a great place to find talented art directors, game designers, sound designers or production managers.</p>	
 					
 					<p class="author"> Arnaud Colinart, AGAT Films &amp; Cie / EX NIHILO 
 					<br>
-					<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a>
+					<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a><br>
+					More from Arnaud Colinart - <a href="Device6">Discover: Device 6</a>
 					</p>
 
 			
@@ -751,7 +793,10 @@
 						
 						<p class="author"> Brent Hoff, Director of Programming at IFP's New Media Centre in New York
 							<br>
-							<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a>
+							<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a><br>
+							More from Brent Hoff - 
+							<a href="interactive-landscape#EmotionalArcade">Discover: Emotional Arcade</a>,  
+							<a href="tfi-interactive-2013">Participate: TFI Interactive 2013</a>
 						</p>
 			
 					</section>
@@ -778,13 +823,17 @@
 							<li> <strong> Selected by:</strong> Errol King</li>
 							<li> <strong> Launched:</strong> January 2014</li>
 						</ul>
+						
 
 				<p>Beta is an open game world that allows players to easily play, create and share games. Play as Beta to learn how to use code to manipulate the world’s objects and properties using a simple programming language called CodePOP. Beta is designed for anyone 10 and up, with or without previous programming and design expertise. It is an immersive experience that allows players to straddle the line between gamer and developer.</p>	
 				
 				<p class="author"> Errol King, Founder &amp; Creative Director of Beta
 				<br>
-				<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a>
-				 </p>
+				<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a><br>
+				More from Errol King - 
+				<a href="project-management-distribution#GameInADay">Build: Build A Game In A Day</a>, 
+				<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+				</p>
 							
 					</section>
 				</article>
@@ -819,8 +868,14 @@
 				
 				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
 				<br>
-				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a>
-				 </p>
+				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
+				More from Ingrid Kopp - 
+				<a href="interactive-landscape#DocubaseMIT">Discover: Docubase MIT</a>, 
+				<a href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
+				<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
+				<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
+				<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+			 	</p>
 							
 					</section>
 				</article>
@@ -847,13 +902,22 @@
 							<li> <strong> Created by:</strong> MIT</li>
 							<li> <strong> Launched:</strong> November 2013</li>
 						</ul>
+						
+						
 
 						<p>Not one project but a collection of projects reflecting the breadth of imagination and creativity in the interactive documentary form. MIT Open Documentary Lab and their partners have done a wonderful job building a home for all these projects and giving us a space to reflect on where we have come from and where we are going. </p>
 				
 				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
 				<br>
-				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a>
-				 </p>
+				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
+					More from Ingrid Kopp - 
+					<a href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
+					<a href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
+					<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
+					<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
+					<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+				</p>
+				
 							
 					</section>
 				</article>
@@ -880,13 +944,20 @@
 							<li> <strong> Created by:</strong> The Goggles – Paul Shoebridge &amp; Michael Simons </li>
 							<li> <strong> Launched:</strong> May 2011</li>
 						</ul>
+						
 
 						<p>Still one of my favorite projects and I wanted to include something from the NFB because I think we owe them so much for investing in this work and pioneering the field. I love the beautiful graphic design, evocative soundtrack and originality of Welcome to Pine Point. It was one of the projects that got me really excited about the potential for storytelling on the web. </p>
 				
 				<p class="author"> Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
 				<br>
-				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a>
-				 </p>
+				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
+				More from Ingrid Kopp - 
+				<a href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
+				<a href="interactive-landscape#DocubaseMIT">Discover: Docubase MIT</a>, 
+				<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
+				<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
+				<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+				</p>
 							
 					</section>
 				</article>
@@ -921,8 +992,8 @@
 				
 						<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute
 						<br>
-						<a href=""target=_blank> </a>
-						 </p>
+						More from Amelie Leenhardt - <a href="interactive-landscape#KentuckyRouteZero">Discover: Kentucky Route Zero</a>
+						</p>
 							
 					</section>
 				</article>
@@ -956,8 +1027,8 @@
 				
 					<p class="author"> Amelie Leenhardt, Digital Initiatives, Tribeca Film Institute
 					<br>
-					<a href=""target=_blank> </a>
-					 </p>
+					More from Amelie Leenhardt - <a href="interactive-landscape#PrisonValley">Discover: Prison Valley</a>
+					</p>
 							
 					</section>
 				</article>

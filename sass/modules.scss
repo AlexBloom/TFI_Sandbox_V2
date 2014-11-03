@@ -492,7 +492,7 @@ font-size:75%;
 		}
 	}
 	.icon-discover,.icon-participate,.icon-build{
-		display:inline-block;
+		display:inline!important;
 		float:left;		
 		&:before{
 			display:block;
@@ -501,8 +501,8 @@ font-size:75%;
 		}
 	}
 	.breadcrumb-text{
-		display:inline-block;
-		float:left;
+		display:inline!important;
+		//float:left;
 		padding:0 0 0 1em;
 	}
 	.indicator{

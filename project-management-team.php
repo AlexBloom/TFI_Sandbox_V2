@@ -79,12 +79,12 @@
 						<h2>Teamwork is All About Communication</h2>
 						<p>By Mike Robbins, Creative Technologist at Helios Design Labs<br>
 						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
-						More from Mike Robbins: 
-						<a href="project-management-prmarketing#Offshore">Promoting Can Be Lonely</a>, 
-						<a href="interactive-landscape#Cowbird">Cowbird</a>,
-						<a href="interactive-landscape#Highrise">Highrise</a>
+						More from Mike Robbins -
+						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Lonely</a>, 
+						<a href="interactive-landscape#Cowbird">Discover: Cowbird</a>,
+						<a href="interactive-landscape#Highrise">Discover: Highrise</a>
 						</p>
-
+						
 						<p>World Online Orchestra (WOO) is an international co-production between ourselves (Helios Design Labs in Toronto), Denmark-based Copenhagen Phil and creative studio Markropol.</p>
 
 						<p>In essence WOO is an interactive symphony that you can join. By joining WOO you change how it looks and how it sounds. At some point, over time, and individual contributions to pool, Beethoven's 7th Symphony becomes something new, and WOO looks and sounds very different from what it began as.</p>
@@ -125,8 +125,8 @@
 						<h2>Working Near and Far</h2>
 						<p>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer<br>
 						<a href="https://twitter.com/ramonapringle"target=_blank>@ramonapringle</a><br>
-						More from Ramona Pringle: 
-						<a href="https://www.youtube.com/watch?v=2uKGujOoQOA"target=_blank>TFI Interactive 2014: Avatar Secrets</a>
+						More from Ramona Pringle -
+						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014: Avatar Secrets</a>
 						</p>
 
 						<p>Our core team on Avatar Secrets is writer/director, creative director, illustrator, animation director, developer, and cinematographer. There are more roles, but those are the ones that are in constant contact. Our core team is small, and we talk daily, day and night.</p>

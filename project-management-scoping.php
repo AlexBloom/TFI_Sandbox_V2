@@ -72,10 +72,11 @@
 							
 							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
 
-							More from Mike Knowlton: 
+							More from Mike Knowlton -
 							<a href="project-management-timeline#CascadingTimeline">The Cascading Timeline, </a>
 							<a href="project-management-budget#ImplementationOptions">Three Types of Implementation Options,</a> 
-							<a href="http://vimeo.com/66591817"target=_blank>TFI Interactive 2014: The Aatsinki Season</a>
+							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
+							
 						
 						</p>
 

@@ -73,10 +73,10 @@
 						
 						<p>By Mike Knowlton, Partner at Murmurco<br>
 							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
-							More from Mike Knowlton: 
-							<a href="project-management-scoping">Scoping</a>, 
-							<a href="project-management-budget#ImplementationOptions">Three Types of Implementation Options</a>,  
-							<a href="http://vimeo.com/66591817"target=_blank>TFI Interactive 2014: The Aatsinki Season</a>
+							More from Mike Knowlton -
+							<a href="project-management-scoping">Build: Scoping</a>, 
+							<a href="project-management-budget#ImplementationOptions">Build: Three Types of Implementation Options</a>,  
+							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
 						</p>
 							
 						￼<p>Based on the work executed in the scoping phase a timeline can then be developed. Your digital partner will create an initial timeline based upon the various tasks that need to be executed. These generally will lead toward milestones.</p>
@@ -141,11 +141,13 @@
 						
 							<p>
 								David Carofano, Production Associate at Local Projects<br>
-								<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a>
-								More from David Carofano: 
+								<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
+								More from David Carofano -
 								<a href="project-management-sustainability#TechnologyvsExperience">Technology vs. Experience</a>, 
 								<a href="interactive-landscape#WeRemember">9/11 Memorial Museum: We Remember</a>, 
-								<a href="interactive-landscape#GalleryOne">Cleveland Museum of Art: Gallery One</a> 
+								<a href="interactive-landscape#GalleryOne">Cleveland Museum of Art: Gallery One</a> <br>
+								More from local Projects - <a href="tfi-interactive-2012">Participate:TFI Interactive 2012</a>
+								
 							</p>
 							
 						<div class="flexvideo-16-9">

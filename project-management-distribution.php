@@ -74,11 +74,10 @@
 						<h2>Build a Game in a Day </h2>
 						<p>By Errol King, Founder &amp; Creative Director of Beta<br>
 						<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a><br>
-						More from Errol King: 
-						<a href="interactive-landscape#BetaTheGame">Beta</a>, 
-						<a href="http://vimeo.com/100232869"target=_blank>TFI Interactive 2014: Making Game Design Fun and Accessible</a>
+						More from Errol King - 
+						<a href="interactive-landscape#BetaTheGame">Discover: Beta</a>, 
+						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
 						</p>
-
 
 
 						<p>Last year we set out to develop an experience that enabled creativity and empowered players to become creators. Over the last few months we have worked with communities around the world to share the project that resulted, an open game world called ‘Beta’ that allows players to easily play, code and share their own games.</p> 
@@ -95,6 +94,7 @@
 						<p>
 						By Marisa Jahn, Artist and Writer, Executive Director of REV- <br>
 						<a href="https://twitter.com/marisa_jahn>"target=_blank>@marisa_jahn</a><br>
+						More from Marisa Jahn - <a href="tfi-new-media-fund-2012">Discover: New Media Fund 2012</a>
 						</p>
 						<p>
 						Anjum Asharia, Program Director of REV-<br>
@@ -164,7 +164,8 @@
 						<img src="img/content/build/projectmanagement/distribution-theo.jpg" alt="Distribution Theo"/>
 						<h2> Distribution as an Iterative Process </h2>
 						<p>By Theo Rigby, Director, Cinematographer, and Photographer<br>
-							<a href="https://twitter.com/theofilms"target=_blank>@theofilms</a>
+							<a href="https://twitter.com/theofilms"target=_blank>@theofilms</a><br>
+							More from Theo Rigby - <a href="tfi-new-media-fund-2012">Discover: New Media Fund 2012</a>
 						
 						</p>
 						<p>Last week, my 8-month old daughter decided to crawl. Instantaneously she discovered nooks and crannies in my house that I never paid much attention to, or thought much about.  She spends time inspecting the heater grate, enjoys pulling up edges of carpets, and loves trying to pull herself up on things that easily topple over.  She looks at our environment in a drastically different way than we see it, and in many senses, I feel like this approach is necessary in distributing an interactive project.  The traditional indie distribution pipeline of: finish your film, premiere at Sundance, do a high-profile festival run, get bought by HBO, get a theatrical distributor, and sell home video DVD’s and streams in a million places, simply doesn’t apply to most interactive projects.</p> 

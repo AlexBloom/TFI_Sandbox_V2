@@ -96,10 +96,10 @@
 						
 						<p>By Mike Robbins, Creative Technologist at Helios Design Labs<br>
 						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
-						More from Mike Robbins: 
-						<a href="project-management-team#one">Teamwork is All About Communication</a>, 
-						<a href="interactive-landscape#Cowbird">Cowbird</a>,
-						<a href="interactive-landscape#Highrise">Highrise</a>
+						More from Mike Robbins - 
+						<a href="project-management-team#one">Build: Teamwork is All About Communication</a>, 
+						<a href="interactive-landscape#Cowbird">Discover: Cowbird</a>,
+						<a href="interactive-landscape#Highrise">Discover: Highrise</a>
 						</p>
 						
 

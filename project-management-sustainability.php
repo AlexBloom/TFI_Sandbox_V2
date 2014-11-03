@@ -74,10 +74,11 @@
 						<p>
 							David Carofano, Production Associate at Local Projects<br>
 							<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
-							More from David Carofano: 
-							<a href="project-management-timeline#example1">Creating By Doing</a>, 
-							<a href="interactive-landscape#WeRemember">9/11 Memorial Museum: We Remember</a>, 
-							<a href="interactive-landscape#GalleryOne">Cleveland Museum of Art: Gallery One</a> 
+							More from David Carofano - 
+							<a href="project-management-timeline#example1">Build: Creating By Doing</a>, 
+							<a href="interactive-landscape#WeRemember">Discover: 9/11 Memorial Museum: We Remember</a>, 
+							<a href="interactive-landscape#GalleryOne">Discover: Cleveland Museum of Art: Gallery One</a> 
+							More from local Projects - <a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
 						</p>
 						
 
