@@ -24,7 +24,7 @@
 <!-- Index Page -->
 <nav class="breadcrumb">
 	<ul><li> <a href="build"> <span class="icon-build"></span> <span class="breadcrumb-text">Build</span> </a> </li>
-		<li> <span class="indicator"> Project Management </span> </li>
+		<li> <a href="project-management"> Project Management </a> </li>
 	</ul>
 </nav>
 

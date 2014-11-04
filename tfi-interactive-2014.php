@@ -129,7 +129,7 @@
 					<li> Errol King, Founder &amp; Creative Director, Beta!</li>
 				</ul></p>
 			
-			<p> <strong> <a href="https://www.youtube.com/watch?v=fMGgk-bf1pY"target=_blank>HOW WE PLAY STORIES</a></strong>  
+			<p id="Fortugno"> <strong> <a href="https://www.youtube.com/watch?v=fMGgk-bf1pY"target=_blank>HOW WE PLAY STORIES</a></strong>  
 				<ul>
 					<li> Nick Fortugno, Co-Founder/CCO, Playmatics</li>
 				</ul></p>
@@ -147,7 +147,7 @@
 			<p> <strong> TRIBECA HACKS PRESENTATION</strong>  
 	
 			
-			<p> <strong> <a href="https://www.youtube.com/watch?v=tSEipjfWUM0"target=_blank>REAL IS A PLATFORM TOO</a></strong>  
+			<p id="Reilhac"> <strong> <a href="https://www.youtube.com/watch?v=tSEipjfWUM0"target=_blank>REAL IS A PLATFORM TOO</a></strong>  
 				<ul>
 					<li> Michel Reilhac, Story Architect, MÉLANGE</li>
 				</ul></p>

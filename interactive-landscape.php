@@ -25,7 +25,7 @@
 <nav class="breadcrumb" id="">
 	<ul>
 		<li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
-		<li> <a href="interactive-landscape.php"> Interactive Landscape </a> </li>
+		<li> <a href="interactive-landscape"> Interactive Landscape </a> </li>
 	</ul>
 </nav>
 <section class="clearfix" id="main">	
@@ -99,8 +99,8 @@
 							More from Arnaud Colinart - <a href="interactive-landscape#EnjminBundle">Discover: Enjmin Bundle</a><br>
 							More from Nicholas Fortugno - 
 							<a href="interactive-landscape#PapersPlease"> Discover: Papers, Please</a>, 
-							<a href="tfi-interactive-2012"> Participate: TFI Interactive 2012</a>, 
-							<a href="tfi-interactive-2014"> Participate: TFI Interactive 2014</a>
+							<a href="tfi-interactive-2012#PlayInPlace"> Participate: TFI Interactive 2012</a>, 
+							<a href="tfi-interactive-2014#Fortugno"> Participate: TFI Interactive 2014</a>
 						 </p>
 
 					</section>
@@ -144,7 +144,7 @@
 							<a href="https://twitter.com/michelreilhac"target=_blank> @michelreilhac </a><br>
 							More From Michel Reilhac - 
 							<a href="interactive-landscape#HitRecord">Discover: hitRECord</a>, 
-							<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+							<a href="tfi-interactive-2014#Reilhac">Participate: TFI Interactive 2014</a>
 						</p>
 						
 					</section>
@@ -193,7 +193,7 @@
 					<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a><br>
 					More from Brent Hoff - 
 					<a href="interactive-landscape#Blabdroid">Discover: Blabdroid</a>, 
-					<a href="tfi-interactive-2013">Participate: TFI Interactive 2013</a>
+					<a href="tfi-interactive-2013#Storyscapes">Participate: TFI Interactive 2013</a>
 					</p>
 					
 
@@ -243,7 +243,7 @@
 						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
 						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
 						More from local Projects - 
-						<a href="tfi-interactive-2012"> Participate:TFI Interactive 2012</a> 
+						<a href="tfi-interactive-2012#LocalProjects"> Participate:TFI Interactive 2012</a> 
 						 </p>
 
 
@@ -295,7 +295,7 @@
 						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
 						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
 						More from local Projects - 
-						<a href="tfi-interactive-2012"> Participate:TFI Interactive 2012</a>
+						<a href="tfi-interactive-2012#LocalProjects"> Participate:TFI Interactive 2012</a>
 						</p>
 						
 					</section>
@@ -387,7 +387,7 @@
 						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a><br>
 						More from Gabriel Dance - 
 						<a href="interactive-landscape#GreatFalls">Discover: The Perils At Great Falls</a>,
-						<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a> 
+						<a href="tfi-interactive-2012#FutureOfNews">Participate: TFI Interactive 2012</a> 
 						</p>
 						
 					</section>
@@ -436,7 +436,7 @@
 						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a><br>
 						More from Gabriel Dance - 
 						<a href="interactive-landscape#NSAFiles">Discover: NSA Files: Decoded</a>,
-						<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
+						<a href="tfi-interactive-2012#FutureOfNews">Participate: TFI Interactive 2012</a>
 						</p>
 						
 					</section>
@@ -485,7 +485,7 @@
 						<a href="https://twitter.com/michelreilhac"target=_blank>@michelreilhac</a><br>
 						More From Michel Reilhac - 
 						<a href="interactive-landscape#TypeRider">Discover: Type:Ryder</a>, 
-						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+						<a href="tfi-interactive-2014#Reilhac">Participate: TFI Interactive 2014</a>
 						</p>
 					
 					</section>
@@ -882,7 +882,7 @@
 							<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a><br>
 							More from Brent Hoff - 
 							<a href="interactive-landscape#EmotionalArcade">Discover: Emotional Arcade</a>,  
-							<a href="tfi-interactive-2013">Participate: TFI Interactive 2013</a>
+							<a href="tfi-interactive-2013#Storyscapes">Participate: TFI Interactive 2013</a>
 						</p>
 			
 					</section>

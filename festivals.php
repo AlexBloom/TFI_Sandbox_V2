@@ -17,10 +17,7 @@
 				<meta name="twitter:title" content="TFI Sandbox | Festivals"/>
 				<meta name="twitter:description" content="Festival, Market and Lab opportunities throughout the world."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
-				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/festivals" />
-				
- 			    <style type="text/css">#map-canvas {height: 500px;  margin: 0; padding: 0;}</style>			  
-
+				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/festivals" />		  
 				
 		
 <?php include_once 'inc/header.inc' ?>
@@ -443,9 +440,7 @@
 				</div>
 			</section>
 			<section class="content clearfix" id="Map">
-	
 					<div id="map-canvas" class="clearfix"></div>					
-
 			</section>
 			
 		</article>

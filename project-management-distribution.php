@@ -94,7 +94,7 @@
 						<p>
 						By Marisa Jahn, Artist and Writer, Executive Director of REV- <br>
 						<a href="https://twitter.com/marisa_jahn>"target=_blank>@marisa_jahn</a><br>
-						More from Marisa Jahn - <a href="tfi-new-media-fund-2012">Discover: New Media Fund 2012</a>
+						More from Marisa Jahn - <a href="tfi-new-media-fund-2012#new_day_new_standard">Discover: New Media Fund 2012</a>
 						</p>
 						<p>
 						Anjum Asharia, Program Director of REV-<br>
@@ -165,7 +165,7 @@
 						<h2> Distribution as an Iterative Process </h2>
 						<p>By Theo Rigby, Director, Cinematographer, and Photographer<br>
 							<a href="https://twitter.com/theofilms"target=_blank>@theofilms</a><br>
-							More from Theo Rigby - <a href="tfi-new-media-fund-2012">Discover: New Media Fund 2012</a>
+							More from Theo Rigby - <a href="tfi-new-media-fund-2012#immigrant_nation">Discover: New Media Fund 2012</a>
 						
 						</p>
 						<p>Last week, my 8-month old daughter decided to crawl. Instantaneously she discovered nooks and crannies in my house that I never paid much attention to, or thought much about.  She spends time inspecting the heater grate, enjoys pulling up edges of carpets, and loves trying to pull herself up on things that easily topple over.  She looks at our environment in a drastically different way than we see it, and in many senses, I feel like this approach is necessary in distributing an interactive project.  The traditional indie distribution pipeline of: finish your film, premiere at Sundance, do a high-profile festival run, get bought by HBO, get a theatrical distributor, and sell home video DVD’s and streams in a million places, simply doesn’t apply to most interactive projects.</p> 
