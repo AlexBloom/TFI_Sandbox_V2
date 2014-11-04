@@ -45,6 +45,7 @@
 		
 		<video class="background-video" id="home-bg" autoplay loop muted>
 			<source src="video/mobile/HomepageLoop_<?php $random = rand(1,3); echo $random; ?>-Mobile.mp4" type="video/mp4"/>
+			<source src="video/mobile/HomepageLoop_<?php $random = rand(1,3); echo $random; ?>-Mobile.ogg" type="video/mp4"/>
 		</video>
 		
 		

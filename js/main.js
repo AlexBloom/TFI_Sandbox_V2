@@ -233,9 +233,9 @@ $('#share-engage').click(function() {
 	if ($(window).width() > 1000 ){	
 		
 		    var sdVideos = new Array(
-			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> </video>',
-			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_2-SD.mp4" type="video/mp4"/> </video>',
-			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_3-SD.mp4" type="video/mp4"/> </video>'
+			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_1-SD.ogg" type="video/ogg"/> </video>',
+			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_2-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_2-SD.ogg" type="video/ogg"/> </video>',
+			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_3-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_3-SD.ogg" type="video/ogg"/> </video>'
 			),
 		    randomVid = sdVideos[Math.floor( Math.random() * sdVideos.length )];
 		    $('#home-bg').replaceWith( randomVid );
