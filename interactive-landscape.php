@@ -306,7 +306,7 @@
 
 					<header class="project-header" id="">
 						<a class="local-link" href="#GoneHome">
-						<a class="local-link" id=""><div class="project-image-wrap">
+						<div class="project-image-wrap">
 							<img src="img/content/discover/interactive-landscape/web/gonehome.jpg" alt="Gonehome">
 						</div>
 						<div class="header-info">
@@ -348,10 +348,9 @@
 			</li>
 			<li class="project anchor clearfix Web" id="NSAFiles">
 				<article>
-
 					<header class="project-header" id="">
 						<a class="local-link" href="#NSAFiles">
-							<a class="local-link" id=""><div class="project-image-wrap">
+							<div class="project-image-wrap">
 								<img src="img/content/discover/interactive-landscape/web/nsafiles.jpg" alt="nsafiles">
 							</div>
 							<div class="header-info">
@@ -1153,15 +1152,7 @@
 		</ul>
 		
 		
-		<nav class="share">
-			<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
-		
-			<ul id="share-buttons" class="clearfix">
-				<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
-				<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
-				<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
-			</ul>
-		</nav>
+		<?php include_once 'inc/sharenav.inc' ?>
 	
 </section>
 

@@ -1485,6 +1485,9 @@ article {
     .home-links li:last-child a {
       border: none !important; }
 
+#about {
+  padding-top: 2em !important; }
+
 /*
  *
  * //////////////////////////////////////////////////////// DISCOVER

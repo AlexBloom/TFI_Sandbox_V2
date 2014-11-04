@@ -44,15 +44,14 @@
 <section id="main" class="">
 		
 	<article>
-	<header>
-		<h1>TFI New Media Fund</h1>
+		<header>
+			<h1>TFI New Media Fund</h1>
 		
-		<p class="intro">2014 Grantees and Jurors</p>	
+			<p class="intro">2014 Grantees and Jurors</p>	
 		
-	</header>
-</article>
-	<section class="clearfix" id="2014">		
-		
+		</header>
+	</article>
+	<section class="clearfix" id="2014">				
 		<ul class="projects">
 			<li class="project anchor clearfix" id="18Days">
 				<article>
@@ -280,7 +279,7 @@
 		
 	</section>
 	
-
+<?php include_once 'inc/sharenav.inc' ?>
 	
 </section>
 
