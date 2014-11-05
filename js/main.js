@@ -202,6 +202,7 @@ $('#Festival-Map').click(function() {
 	$('#List').addClass('hidden');
 	$('#Map').removeClass('hidden');
 	$(this).addClass('on');
+	$.getScript("js/festivalmap.js");	
 });	
 
 
@@ -232,9 +233,9 @@ $('#share-engage').click(function() {
 	if ($(window).width() > 1000 ){	
 		
 		    var sdVideos = new Array(
-			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> </video>',
-			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_2-SD.mp4" type="video/mp4"/> </video>',
-			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_3-SD.mp4" type="video/mp4"/> </video>'
+			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_1-SD.ogg" type="video/ogg"/> </video>',
+			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_2-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_2-SD.ogg" type="video/ogg"/> </video>',
+			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_3-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_3-SD.ogg" type="video/ogg"/> </video>'
 			),
 		    randomVid = sdVideos[Math.floor( Math.random() * sdVideos.length )];
 		    $('#home-bg').replaceWith( randomVid );
@@ -257,6 +258,23 @@ $('#share-engage').click(function() {
 	//|| iedetect(8) || iedetect(7) || 'ontouchstart' in window
  
  //End Doc Ready Function
+ 
+ 		
+		
+ // JSON MAP
+     // $.getJSON("js/data.txt", function(json1) {
+     //   $.each(json1, function(key, data) {
+     //     var latLng = new google.maps.LatLng(data.lat, data.lng);
+     //     // Creating a marker and putting it on the map
+     //     var marker = new google.maps.Marker({
+     //         position: latLng,
+     //         title: data.title
+     //     });
+     //     marker.setMap(map);
+     //   });
+     // });
+
+ 
 
 });
    

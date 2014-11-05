@@ -37,11 +37,7 @@
 		</li>
 	</ul>
 </nav>
-
-
 <section id="main" class="">	
-	
-
 	<section class="clearfix tfi-interactive" id="2012">
 		
 	<article>
@@ -67,7 +63,7 @@
 			<ul><li> Baratunde Thurston, Comedian, Director of Digital, The Onion </li></ul> 
 			
 			</p>
-			<p> <strong> <a href="http://vimeo.com/44756422"target=_blank> THE FUTURE OF NEWS</a> </strong> </br>
+			<p id="FutureOfNews"> <strong> <a href="http://vimeo.com/44756422"target=_blank> THE FUTURE OF NEWS</a> </strong> </br>
 			<ul>
 				<li> Calvin Sims, Program Officer for New Media and Journalism, Ford Foundation </li>
 				<li> Andrew DeVigal, Chair, Journalism Innovation & Civic Engagement            </li>
@@ -84,7 +80,7 @@
 			<p> <strong> <a href="http://vimeo.com/44757667"target=_blank> IDEO: DESIGNING THE PERFECT EXPERIENCE</a> </strong> </br>
 			<ul><li> Dario Buzzini, Design Director, IDEO NY</li></ul>
 			</p>
-			<p> <strong> <a href="http://vimeo.com/44755230"target=_blank> LOCAL PROJECTS: DESIGNING FOR THE WORLD WE LIVE IN</a> </strong> </br> 
+			<p id="LocalProjects"> <strong> <a href="http://vimeo.com/44755230"target=_blank> LOCAL PROJECTS: DESIGNING FOR THE WORLD WE LIVE IN</a> </strong> </br> 
 			<ul><li> Jake Barton, Founder, Local Projects</li></ul>
 			</p>
 			<p> <strong> <a href="http://vimeo.com/44757095"target=_blank> GAME OF THRONES: AN INTERACTIVE CASE-STUDY</a> </strong> </br>
@@ -109,7 +105,7 @@
 			<p> <strong> <a href="http://vimeo.com/45137584"target=_blank> WALKING WITH HIPSTER DINOSAURS:	DEVELOPING A TRANSMEDIA PRODUCTION</a> </strong> </br> 
 			<ul><li> Caitlin Burns, Transmedia Producer, Starlight Runner Entertainment </li></ul>
 			</p>
-			<p> <strong> <a href="http://vimeo.com/44755269"target=_blank> PUTTING PLAY IN PLACE: GAMES AND STORYTELLING</a> </strong> </br>
+			<p id="PlayInPlace"> <strong> <a href="http://vimeo.com/44755269"target=_blank> PUTTING PLAY IN PLACE: GAMES AND STORYTELLING</a> </strong> </br>
 			<ul>
 				<li> Jamin Warren, Founder, Killscreen                             </li>
 				<li> Margaret Robertson, Managing Director, Hide&amp;Seek New York     </li>
@@ -121,20 +117,8 @@
 		</section>
 	</article>
 	</section>
-	
-	<nav class="share">
-		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
-		
-		<ul id="share-buttons" class="clearfix">
-			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
-			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
-			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
-		</ul>
-	</nav>
-	
-	
+<?php include_once 'inc/sharenav.inc' ?>	
 </section>
 
 <!-- End Project Page -->
-    
 <?php include_once 'inc/footer.inc' ?>

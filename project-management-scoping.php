@@ -120,41 +120,9 @@
 		</article>
 		
 	</section>
-	<nav class="share">
-		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
-		
-		<ul id="share-buttons" class="clearfix">
-			<li class="one-third-first"> 
-				<div class="facebook" id="shareBtn">			 
-					 <span class="icon icon-facebook"> </span> Facebook
-				</div>
-			</li>		
-			<li class="one-third-second"> 
-				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFISandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-				<div class="twitter"> 										
-						<span class="icon icon-twitter"> Tweet 
-				</div>
-				</a>	
-			</li>
-			<li class="one-third-third"> 
-				<a href="https://plus.google.com/share?url={http://tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-				<div class="google"> 
-						<span class="icon icon-google"> </span> Google
-				</div>
-				</a> 			
-			</li>
-			
-		</ul>
-			<script>
-			document.getElementById('shareBtn').onclick = function() {
-			  FB.ui({
-			    display: 'popup',
-			    method: 'share',
-			    // href: 'https://developers.facebook.com/docs/',
-			  }, function(response){});
-			}
-			</script>	
-	</nav>
+	
+<?php include_once 'inc/sharenav.inc' ?>
+
 </section>	
 <!-- End Index Page --> 
 	 

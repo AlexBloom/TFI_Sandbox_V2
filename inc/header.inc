@@ -5,7 +5,7 @@
 <meta property="fb:admins" content="8228569"/>
 <!-- <meta name="fb:app_id" content="167329723445244"/> -->
 <meta property="og:locale" content="en_US" />
-<meta property="og:type" content="website" />
+<meta property="og:type" content="article" />
 <meta property="article:author" content="https://www.facebook.com/TribecaFilmInstitute"/>
 <meta name="google-site-verification" content="">
  

@@ -58,7 +58,7 @@
 	</article>
 	
 	
-	
+	<?php include_once 'inc/sharenav.inc' ?>
 	
 </section>
 

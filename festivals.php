@@ -17,13 +17,15 @@
 				<meta name="twitter:title" content="TFI Sandbox | Festivals"/>
 				<meta name="twitter:description" content="Festival, Market and Lab opportunities throughout the world."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
-				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/festivals" />
+				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/festivals" />		  
 				
+		
 <?php include_once 'inc/header.inc' ?>
+		   
+<!-- LOAD Map Scripts -->
 
 
 <!-- Index Page -->
-
 	<nav class="breadcrumb">
 	<ul><li> <a href="build"> <span class="icon-build"></span> <span class="breadcrumb-text">Build</span> </a> </li>
 		<li>
@@ -437,22 +439,14 @@
 					</section>
 				</div>
 			</section>
-			<section class="content" id="Map">
-				<iframe width='100%' height='600px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/alexbloom.inh3hdc8/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoiYWxleGJsb29tIiwiYSI6IjRNRDNtcHMifQ.TUQXFPJLDUsIcx5x8WOCfw'></iframe>
+			<section class="content clearfix" id="Map">
+					<div id="map-canvas" class="clearfix"></div>					
 			</section>
 			
 		</article>
 	</section>
 	
-	<nav class="share">
-		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
-		
-		<ul id="share-buttons" class="clearfix">
-			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
-			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
-			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
-		</ul>
-	</nav>
+	<?php include_once 'inc/sharenav.inc' ?>
 
 </section>	
 <!-- End Index Page --> 

@@ -129,7 +129,7 @@
 					<li> Errol King, Founder &amp; Creative Director, Beta!</li>
 				</ul></p>
 			
-			<p> <strong> <a href="https://www.youtube.com/watch?v=fMGgk-bf1pY"target=_blank>HOW WE PLAY STORIES</a></strong>  
+			<p id="Fortugno"> <strong> <a href="https://www.youtube.com/watch?v=fMGgk-bf1pY"target=_blank>HOW WE PLAY STORIES</a></strong>  
 				<ul>
 					<li> Nick Fortugno, Co-Founder/CCO, Playmatics</li>
 				</ul></p>
@@ -147,7 +147,7 @@
 			<p> <strong> TRIBECA HACKS PRESENTATION</strong>  
 	
 			
-			<p> <strong> <a href="https://www.youtube.com/watch?v=tSEipjfWUM0"target=_blank>REAL IS A PLATFORM TOO</a></strong>  
+			<p id="Reilhac"> <strong> <a href="https://www.youtube.com/watch?v=tSEipjfWUM0"target=_blank>REAL IS A PLATFORM TOO</a></strong>  
 				<ul>
 					<li> Michel Reilhac, Story Architect, MÉLANGE</li>
 				</ul></p>
@@ -227,15 +227,7 @@
 	</article>
 	</section>
 	
-	<nav class="share">
-		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
-		
-		<ul id="share-buttons" class="clearfix">
-			<li class="one-third-first"> <div class="facebook"> <span class="icon icon-facebook">  </span> Share </div> </li>
-			<li class="one-third-second"> <div class="twitter"> <span class="icon icon-twitter">  </span> Tweet</div> </li>
-			<li class="one-third-third"> <div class="google"> <span class="icon icon-google"> </span> Google </div> </li>
-		</ul>
-	</nav>
+<?php include_once 'inc/sharenav.inc' ?>
 	
 </section>
 

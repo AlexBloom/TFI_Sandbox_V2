@@ -7,16 +7,16 @@
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org" />
 				
 		<!--Facebook -->
-				<meta property="og:title" content="Title of Page"/>
-				<meta property="og:description" content="Description of Page" />
-				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta property="og:title" content="TFI Sandbox"/>
+				<meta property="og:description" content="Adventures in storytelling, technology and social change." />
+				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox_<?php $random = rand(1,5); echo $random; ?>.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
-				<meta name="twitter:title" content="Title of Page"/>
-				<meta name="twitter:description" content="Description of Page"/>
-				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
+				<meta name="twitter:title" content="TFI Sandbox"/>
+				<meta name="twitter:description" content="Adventures in storytelling, technology and social change."/>
+				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox_<?php $random = rand(1,5); echo $random; ?>.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/" />
 
 <?php include_once 'inc/header.inc' ?>
@@ -45,11 +45,9 @@
 		
 		<video class="background-video" id="home-bg" autoplay loop muted>
 			<source src="video/mobile/HomepageLoop_<?php $random = rand(1,3); echo $random; ?>-Mobile.mp4" type="video/mp4"/>
+			<source src="video/mobile/HomepageLoop_<?php $random = rand(1,3); echo $random; ?>-Mobile.ogg" type="video/mp4"/>
 		</video>
-		
-		
-		
-	
+
 	</section>
 	<section id="about">
 		<article>
@@ -109,51 +107,7 @@
 
 	</section>
 	
-	<nav class="share">
-		<div id="share-engage"> <span class="icon icon-share"> </span> SHARE  </div>
-		
-		<ul id="share-buttons" class="clearfix">
-			<li class="one-third-first"> 
-				
-				<!-- <div id="shareBtn" class="btn btn-success clearfix">Share Dialog</div> -->
-				
-				<div class="facebook btn btn-success" id="shareBtn">
-					 <span class="icon icon-facebook"> </span> Facebook
-				</div>
-				
-				<!-- <div class="fb-share-button" data-href="http://sandbox.tribecafilminstitute.org"></div> -->
-				
-			</li>		
-			<li class="one-third-second"> 
-				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFISandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-				<div class="twitter"> 										
-						<span class="icon icon-twitter"> Tweet 
-				</div>
-				</a>	
-			</li>
-			<li class="one-third-third"> 
-				<a href="https://plus.google.com/share?url={http://sandbox.tribecafilminstitute.org}" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
-				<div class="google"> 
-						<span class="icon icon-google"> </span> Google
-				</div>
-				</a> 			
-			</li>
-			
-		</ul>
-		
-
-		<script>
-		document.getElementById('shareBtn').onclick = function() {
-		  FB.ui({
-		    display: 'popup',
-		    method: 'share',
-		    href: 'http://sandbox.tribecafilminstitute.org/',
-		  }, function(response){});
-		}
-		</script>
-			
-			
-	</nav>
+	<?php include_once 'inc/sharenav.inc' ?>
 	
 <section>	
 <!-- End Index Page --> 
