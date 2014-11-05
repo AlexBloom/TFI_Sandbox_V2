@@ -1,5 +1,6 @@
 #editor generated backup files
 *.kate-swp
+.htaccess
 
 #sensitive info file
 inc/database.inc
