@@ -17,6 +17,8 @@ class tfi_ee {
 	}
 	
 	public function get_hacks(){
+		if($this->db->connect_errno) return false;
+
 		$this->get_channel_fields(array('Events'));
 		$sql = '
 			SELECT
@@ -259,6 +261,8 @@ class tfi_ee {
 	}
 	
 	private function get_channel_fields($channels){
+		if($this->db->connect_errno) return false;
+		
 		foreach($channels as $k => $v){
 			$channels[$k] = 'group_name = "'.$v.'"';
 		}

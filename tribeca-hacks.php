@@ -219,11 +219,13 @@ $cms = new tfi_ee();
 			</section>
 			<?php
 			$hacks = $cms->get_hacks();
-			foreach($hacks as $hack){
-				if($hack['entry_date'] > time()){
-					$upcoming_hacks[] = $hack;
-				} else {
-					$past_hacks[] = $hack;
+			if($hacks!==false){
+				foreach($hacks as $hack){
+					if($hack['entry_date'] > time()){
+						$upcoming_hacks[] = $hack;
+					} else {
+						$past_hacks[] = $hack;
+					}
 				}
 			}
 			?>
@@ -258,6 +260,23 @@ $cms = new tfi_ee();
 					</ul>
 			
 			</section>
+			<?php } else if($hacks===false){ ?>
+			<section class="content anchor" id="Upcoming">
+				<h2>UPCOMING EVENTS</h2>
+				<p>
+					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage.</a> for more info.
+				</p>
+					<ul class="two-columns clearfix">
+						<?php for($i=0; $i<5; $i++){?>
+						<li>
+							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
+							<h2 class="hack-title"> Hack Title PHP </h2>
+							<a href="#"target=_blank> Hack Link PHP </a>
+						</li>
+						<?php } ?>
+					</ul>
+			
+			</section>
 			<?php } ?>
 			
 			<?php if(isset($past_hacks)){ ?>
@@ -281,6 +300,19 @@ $cms = new tfi_ee();
 							<a href="#"target=_blank> Hack Link PHP </a>
 						</li>
 						-->
+					</ul>			
+			</section>
+			<?php } else if($hacks===false){ ?>
+			<section class="content anchor" id="Upcoming">
+				<h2>PAST EVENTS</h2>				
+					<ul class="two-columns clearfix">
+						<?php for($i=0; $i<5; $i++){?>
+						<li>
+							<div class="hack-logo"> <img src="img/content/prototype/sample_hack_logo.jpg" alt="Logo Image PHP"/> </div>
+							<h2 class="hack-title"> Hack Title PHP </h2>
+							<a href="#"target=_blank> Hack Link PHP </a>
+						</li>
+						<?php } ?>
 					</ul>			
 			</section>
 			<?php } ?>
