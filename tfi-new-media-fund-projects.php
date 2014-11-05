@@ -38,10 +38,10 @@ $projects = $cms->get_project_by_year($current_year);
 			<dl class="tertiary">
 				<!-- Enter Current Page Name as DT Item Here -->
 				<dt> <?=$current_year?> <span class="icon-down"> <span> </dt>
-				<dd><a href="tfi-new-media-fund-2014"> 2014 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2013"> 2013 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2012"> 2012 </a> </dd>
-				<dd><a href="tfi-new-media-fund-2011"> 2011 </a> </dd>
+				<dd><a href="tfi-new-media-fund-projects?2014"> 2014 </a> </dd>
+				<dd><a href="tfi-new-media-fund-projects?2013"> 2013 </a> </dd>
+				<dd><a href="tfi-new-media-fund-projects?2012"> 2012 </a> </dd>
+				<dd><a href="tfi-new-media-fund-projects?2011"> 2011 </a> </dd>
 			<dl>
 		</li>
 	</ul>

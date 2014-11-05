@@ -61,10 +61,10 @@
 					<dd class="primary-link" id=""> 
 						<a href="tfi-new-media-fund"> TFI New Media Fund <span class="icon-right"></span> </a>	
 						<ul class="secondary clearfix" id="">	
-							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2014"> 2014 </a> </li>
-							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2013"> 2013 </a> </li>
-							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2012"> 2012 </a> </li>
-							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-2011"> 2011 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-projects?2014"> 2014 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-projects?2013"> 2013 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-projects?2012"> 2012 </a> </li>
+							<li class="secondary-link" id=""> <a href="tfi-new-media-fund-projects?2011"> 2011 </a> </li>
 						</ul>
 					</dd>
 					<dd class="primary-link" id=""> 	
