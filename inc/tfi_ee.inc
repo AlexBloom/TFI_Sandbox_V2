@@ -10,13 +10,15 @@ class tfi_ee {
 	function __construct(){
 		global $database;
 		
-		$this->db = new mysqli($database['host'], $database['user'], $database['password'], $database['database']);
+		$this->db = @new mysqli($database['host'], $database['user'], $database['password'], $database['database']);
 		if ($this->db->connect_errno) {
-			echo "Failed to connect to MySQL: (" . $this->db->connect_errno . ") " . $this->db->connect_error;
+			//echo "Failed to connect to MySQL: (" . $this->db->connect_errno . ") " . $this->db->connect_error;
 		}
 	}
 	
 	public function get_hacks(){
+		if($this->db->connect_errno) return false;
+
 		$this->get_channel_fields(array('Events'));
 		$sql = '
 			SELECT
@@ -59,6 +61,7 @@ class tfi_ee {
 	}
 	
 	public function get_project_by_year($year){
+		if($this->db->connect_errno) return false;
 		$this->get_channel_fields(array('Films', 'Filmmakers'));
 		//print_r($this->channel_fields); return 1;
 		//load project
@@ -259,6 +262,8 @@ class tfi_ee {
 	}
 	
 	private function get_channel_fields($channels){
+		if($this->db->connect_errno) return false;
+		
 		foreach($channels as $k => $v){
 			$channels[$k] = 'group_name = "'.$v.'"';
 		}
