@@ -287,9 +287,9 @@ $cms = new tfi_ee();
 						foreach($past_hacks as $hack){
 							if($hack['entry_date']>=time()) continue;
 							echo '<li>'."\n";
-							echo '<div class="hack-logo"><img src="'.str_replace('{filedir_6}', 'https://tribecafilminstitute.org/images/uploads/event_files/main/', $hack['main_image']).'" alt="Logo Image PHP"/> </div>'."\n";
-							echo '<h2 class="hack-title">'.$hack['title'].'</h2>'."\n";
-							echo '<a href="https://tribecafilminstitute.org/events/detail/'.$hack['url_title'].'" target=_blank> Hack Link PHP </a>'."\n";
+							echo '<div class="hack-logo"><a href="https://tribecafilminstitute.org/events/detail/'.$hack['url_title'].'" target=_blank><img src="'.str_replace('{filedir_6}', 'https://tribecafilminstitute.org/images/uploads/event_files/main/', $hack['main_image']).'" alt="'.$hack['title'].' Logo"/></a></div>'."\n";
+							echo '<h2 class="hack-title"><a href="https://tribecafilminstitute.org/events/detail/'.$hack['url_title'].'" target=_blank>'.$hack['title'].'</a></h2>'."\n";
+							//echo '<a href="https://tribecafilminstitute.org/events/detail/'.$hack['url_title'].'" target=_blank> Hack Link PHP </a>'."\n";
 							echo '</li>'."\n";
 						}
 						?>

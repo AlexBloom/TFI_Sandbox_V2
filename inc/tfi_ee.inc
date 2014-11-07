@@ -237,6 +237,7 @@ class tfi_ee {
 				}
 				$sql.= '
 				filmmaker.entry_id AS filmmaker_entry_id,
+				filmmaker.url_title AS filmmaker_url_title,
 				filmmaker.title AS filmmaker_title
 			FROM exp_matrix_data
 				LEFT JOIN exp_playa_relationships ON (exp_playa_relationships.parent_row_id = exp_matrix_data.row_id)
