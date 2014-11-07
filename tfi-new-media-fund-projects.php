@@ -55,11 +55,11 @@ $projects = $cms->get_project_by_year($current_year);
 	<header>
 		<h1>TFI New Media Fund</h1>
 		
-		<p class="intro">2014 Grantees and Jurors</p>	
+		<p class="intro"><?=$current_year?> Grantees and Jurors</p>	
 		
 	</header>
 </article>
-	<section class="clearfix" id="2014">		
+	<section class="clearfix" id="<?=$current_year?>">		
 		
 		<ul class="projects">
 			<?php if($projects!==false){ ?><!--DB working show some live projects-->
