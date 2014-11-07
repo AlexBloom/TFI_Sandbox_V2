@@ -97,11 +97,11 @@ $projects = $cms->get_project_by_year($current_year);
 								<?php foreach($project['filmmakers'] as $filmmaker){ ?>
 								<li>
 									<div class="person-portrait">
-										<img src="<?=str_replace('{filedir_4}', 'https://tribecafilminstitute.org/images/uploads/filmmaker_files/', $filmmaker['ch_filmmaker_headshot'])?>" alt="<?=$filmmaker['ch_filmmaker_fname'].' '.$filmmaker['ch_filmmaker_lname']?> Portrait"/>
+										<a href="https://tribecafilminstitute.org/filmmakers/detail/<?=$filmmaker['filmmaker_url_title']?>" target="_blank"><img src="<?=str_replace('{filedir_4}', 'https://tribecafilminstitute.org/images/uploads/filmmaker_files/', $filmmaker['ch_filmmaker_headshot'])?>" alt="<?=$filmmaker['ch_filmmaker_fname'].' '.$filmmaker['ch_filmmaker_lname']?> Portrait"/></a>
 									</div>
 									<div class="person-info">
 										<h4 class="name"> 
-											<strong><?=$filmmaker['ch_filmmaker_fname'].' '.$filmmaker['ch_filmmaker_lname']?></strong> 
+											<strong><a href="https://tribecafilminstitute.org/filmmakers/detail/<?=$filmmaker['filmmaker_url_title']?>" target="_blank"><?=$filmmaker['ch_filmmaker_fname'].' '.$filmmaker['ch_filmmaker_lname']?></a></strong> 
 											<br><?=$filmmaker['mx_filmmakers_role']?>
 										</h4>
 										<?=$filmmaker['ch_filmmaker_bio']?>
@@ -140,16 +140,16 @@ $projects = $cms->get_project_by_year($current_year);
 						</header>
 						
 						<section class="project-content">
-							<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>
+							<a class="project-url" href="http://18DaysinEgypt.com" target=_blank>18DaysinEgypt.com &rarr;</a>
 							<h3>Team Leaders</h3>
 							<ul class="team-leaders clearfix">
 								<li>
 									<div class="person-portrait">
-										<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+										<a href="#"><img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/></a>
 									</div>
 									<div class="person-info">
 										<h4 class="name"> 
-											<strong>JIGAR MEHTA</strong> 
+											<strong><a href="#">JIGAR MEHTA</a></strong> 
 											<br>
 											Director/Producer/CO-Creator
 										</h4>
@@ -159,11 +159,11 @@ $projects = $cms->get_project_by_year($current_year);
 								</li>
 								<li>
 									<div class="person-portrait">
-										<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+										<a href="#"><img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/></a>
 									</div>
 									<div class="person-info">
 										<h4 class="name"> 
-											<strong>YASMIN ELAYAT </strong> 
+											<strong><a href="#">YASMIN ELAYAT</a></strong> 
 											<br>
 											TECHNOLOGIST/CO-CREATOR
 										</h4>
@@ -236,11 +236,11 @@ $projects = $cms->get_project_by_year($current_year);
 							<ul class="team-leaders clearfix">
 								<li>
 									<div class="person-portrait">
-										<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+										<a href="#"><img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/></a>
 									</div>
 									<div class="person-info">
 										<h4 class="name"> 
-											<strong>JIGAR MEHTA</strong> 
+											<strong><a href="#">JIGAR MEHTA</a></strong> 
 											<br>
 											Director/Producer/CO-Creator
 										</h4>
@@ -250,11 +250,11 @@ $projects = $cms->get_project_by_year($current_year);
 								</li>
 								<li>
 									<div class="person-portrait">
-										<img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/>
+										<a href="#"><img src="img/content/prototype/person-image.jpg" alt="Michele Stephenson Portrait"/></a>
 									</div>
 									<div class="person-info">
 										<h4 class="name"> 
-											<strong>YASMIN ELAYAT </strong> 
+											<strong><a href="#">YASMIN ELAYAT</a></strong> 
 											<br>
 											TECHNOLOGIST/CO-CREATOR
 										</h4>
