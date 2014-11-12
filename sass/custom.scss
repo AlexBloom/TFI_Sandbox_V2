@@ -229,16 +229,15 @@
 			margin-top:.5em;
 			line-height:120%;
 			text-transform:uppercase;
-		}
-		@media screen and (min-width:(em(700))){
-			h2{
-				font-size:3em;
+			@media screen and (min-width:(em(700))){
+				font-size:3em;	
 			}
-		}
-		@media screen and (min-width:(em(1000))){
-			h2{
+			@media screen and (min-width:(em(1000))){
 				font-size:4em;
 			}
+		}
+		p{
+			max-width:(em(1000));
 		}
 	}
 	.floating-text.open{
@@ -358,8 +357,14 @@
 	background-image:url(../img/content/participate/tribecahacks/tribeca-hacks_header.jpg);
 }
 
+.hack-logo{
+	img{
+		margin:0;
+	}
+}
 .hack-title{
-	font-size:1em;
+	font-size:1.25em;
+	margin-top:0;
 }
 
 //TFI Interactive
@@ -404,7 +409,7 @@
 		min-height: 20em;		
 		img{
 			width:80%;
-			margin:0 10% 1em;
+			margin:0 auto 1em;
 			display:block;
 			clear:both;
 			//margin-bottom:1em;
@@ -416,10 +421,15 @@
 		@media screen and (min-width:(em(600))){
 			width:29%;
 			padding:1em 2% 1em 2%;
+			&:nth-of-type(4){clear:left;}
+			&:nth-of-type(7){clear:left;}
+			&:nth-of-type(10){clear:left;}
+			&:nth-of-type(13){clear:left;}
 		}
 		@media screen and (min-width:(em(800))){
-			width:20%;
-			padding:1em 2.5% 1em 2.5%;
+			img{
+				width:60%;
+			}
 		}
 	}
 }

@@ -1,6 +1,8 @@
-$('#primary-nav').addClass('closed'); 
+
 
 $(document).ready(function () {
+	$('#primary-nav').addClass('closed'); 
+	
 		// Fire LocalScroll
 		$('body').localScroll({offset:0});
 		$('.left-column').localScroll({offset:-65});
@@ -12,7 +14,6 @@ $(document).ready(function () {
 			$('.full-screen').css({"min-height":$(window).height()});
 			//$('#main >article >header').css({height:$(window).height()/2});
 		});
-	
 	
 	//Site-Nav Toggle
 	$("#toggle").click(function(){

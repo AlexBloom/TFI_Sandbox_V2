@@ -110,6 +110,9 @@ button{
 			width:45%;
 			padding:1em 5% 1em 0;
 		}
+		>li:nth-of-type(odd){
+			clear:left;
+		}
 	}
 }
 .three-columns{
@@ -301,7 +304,7 @@ $button-size: 2rem;
 	background-color:rgba(000,175,239,.95);
 	z-index:0;
 	top:0;
-	bottom:0;
+	opacity:0;
 	@include quarter-second-transition;	
 	dd a{
 		color:$white;
@@ -326,6 +329,8 @@ $button-size: 2rem;
 #primary-nav.open{
 	padding:4em 5% 0;
 	z-index:399;
+	bottom:0;
+	opacity:1;
 	@media screen and (min-width:(em(900))){
 		padding:5em 5% 0;
 	}
@@ -1127,6 +1132,11 @@ section{
 	padding:0;
 	@media screen and (min-width:(em(800))){
 		width:75%;
+	}
+	.content{
+		@media screen and (min-width:(em(1200))){
+			margin:3em auto 3em 2em!important;
+		}
 	}
 }
 .sticky{
