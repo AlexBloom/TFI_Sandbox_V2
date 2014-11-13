@@ -1783,7 +1783,7 @@ article {
     text-align: center;
     width: 40%;
     padding: 1em 5%;
-    min-height: 20em; }
+    line-height: 1.5em; }
     .jury-members li:nth-of-type(odd) {
       clear: left; }
     .jury-members li img {
