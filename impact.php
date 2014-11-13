@@ -61,16 +61,29 @@
 				
 				<div class="right-column clearfix">
 					<section class="content anchor" id="ImpactWorkingGroup">
-						<h2>Interactive Media Impact Working Group</h2>
-						<p>By Ingrid Kopp, Director of Interactive at Tribeca Film Institute </p>
+						<img src="img/content/build/impact/imiwg.jpg" alt="Interactive Media Impact Working Group convening">
+						<h2>Interactive Media Impact Working Group</h2>						
+						<p class="author">By Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
+						<br>
+						<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
+							More from Ingrid Kopp - 
+							<a href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
+							<a href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
+							<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
+							<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
+							<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+						</p>
+						
 						<p>TFI and the MIT Open Documentary Lab have created an interactive media impact working group with the support of Fledgling Fund and Ford Foundation. We are working with an interdisciplinary group of artists, funders, social scientists, academics, impact producers and activists to explore how interactive non-fiction projects can and should be measured in terms of impact and engagement.</p> 
 						<p>We want to give filmmakers more tools and resources so that they can establish their own goals and measurement and evaluation frameworks. We are not trying to reduce the art of interactive non-fiction to a series of data-sets or impact goals or to create a single one-size-fits-all framework. However, we are aware that there is rich work to be done in this area that can help filmmakers with their creative strategy and audience engagement. Interactive work is particularly interesting around participation and audience-generated content as well and we are excited to explore this unique aspect of this emerging field. We look forward to sharing our findings with you in early 2015.</p>
+						
+						
 					
 					</section>
 					<section class="content anchor" id="HarmonyInstitute">
 						<img src="img/content/build/impact/hi1.jpg"  alt="Hi1">
 							<h2>Harmony Institute &amp; Lyka’s Adventure</h2>
-							<p>By Sarah Henry, Research Analyst at Harmony Institute</p>
+							<p class="author">By Sarah Henry, Research Analyst at Harmony Institute</p>
 
 							<p>The last few years have seen an explosion in interactive narratives, creating new opportunities for using data to understand how audiences connect and react to stories.</p> 
 	 					   <ul>

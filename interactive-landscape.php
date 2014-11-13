@@ -338,7 +338,7 @@
 						
 						<p class="author">Aina Abiodun, Storyteller, Strategist &amp; Futurist
 						<br>
-						<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun</a><br>
+						<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun</a><br>
 						More from Aina Abiodun - <a href="interactive-landscape#WowAnOpera">Discover: Wow, An Opera</a>
 						</p>
 			
@@ -645,7 +645,7 @@
 						<br>
 						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a><br>
 						More from Mike Robbins - 
-						<a href="interactive-landscape#HighRise">Discover: Highrise </a>, 
+						<a href="interactive-landscape#Highrise">Discover: Highrise </a>, 
 						<a href="project-management-team#one">Build: Teamwork Is All About Communication </a>, 
 						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Pretty Lonely </a>
 						</p>	
@@ -793,7 +793,7 @@
 					
 					<p class="author">Aina Abiodun, Storyteller, Strategist &amp; Futurist
 					<br>
-					<a href="@ainaabiodun"target=_blank>https://twitter.com/ainaabiodun </a><br>
+					<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun </a><br>
 					More from Aina Abiodun - <a href="interactive-landscape#GoneHome"> Discover: Gone Home</a>
 					</p>
 					</section>

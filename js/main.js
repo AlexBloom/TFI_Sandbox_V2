@@ -1,5 +1,4 @@
-
-
+// Fire LocalScroll
 $(document).ready(function () {
 	$('#primary-nav').addClass('closed'); 
 	
@@ -73,10 +72,7 @@ $(document).ready(function () {
     
        lastScrollTop = st;
    }
-   
-   
-   
-   
+
    //Show Top Link After Scrolling
    $("#top").addClass('closed');
    $(window).scroll(function() {
@@ -94,8 +90,7 @@ $(document).ready(function () {
    	}
    });
    
-   //Open and Close Projects 
-
+//Open and Close Projects 
 $('.project-content').addClass('collapsed');
     
 $('.local-link').each(function() {
@@ -106,8 +101,7 @@ $('.local-link').each(function() {
 	});
 });
 	
-// Sticky Navigations	
-	
+// Sticky Navigations		
  $('.left-column').waypoint(
   function(direction) {   
     // This div is level with the top  
@@ -120,18 +114,14 @@ $('.local-link').each(function() {
 	 offset: 50
  }
 );
-	
 
-	
- 
 // Active Link Highlighting
-
  // Add Current Class to ScrollNav of Currently Depressed Item
   	$('.scrollnav-link').click(function() {
   		$('.scrollnav-link').removeClass('current');
   		$(this).addClass('current');
   	});	   
-
+	
 //Side Nav Highlighting 
 $(function(){
     $(document).scroll(function(){
@@ -146,8 +136,6 @@ $(function(){
 
     });
 });
-
-
 
 // Filtering Projects By Type
 $('#IL-All').addClass('on');
@@ -190,14 +178,12 @@ $('#IL-Other').click(function() {
 // Filter Map and List
 $('#Festival-List').addClass('on');
 $('#Map').addClass('hidden');
-
 $('#Festival-List').click(function() {
 	$('.filter-link').removeClass('on');
 	$('#Map').addClass('hidden');
 	$('#List').removeClass('hidden');
 	$(this).addClass('on');
 });	
-
 $('#Festival-Map').click(function() {
 	$('.filter-link').removeClass('on');
 	$('#List').addClass('hidden');
@@ -208,9 +194,7 @@ $('#Festival-Map').click(function() {
 
 
 //SHARING
-
 $('#share-buttons').addClass('closed');
-
 $('#share-engage').click(function() {
 	$('#share-buttons').toggleClass('closed');
 });
@@ -244,41 +228,6 @@ $('#share-engage').click(function() {
 	}
 	if($(window).width() < 800 ) {
 		$('.background-video').addClass('display-none');
-	    
-		//Load Random Images, Currently Just One Animated Gif
-		
-		//var bgImages = new Array(
-		//'url(img/ui/home_bg_1.gif)',
-		//'url(img/ui/home_bg_2_m.jpg)',
-		//'url(img/ui/home_bg_3_m.jpg)'
-		//),
-	    //randomImg = bgImages[Math.floor( Math.random() * bgImages.length )];
-	    //$('#home-video-container').css("background-image", randomImg );
-		// style="background-image: url(http://i54.tinypic.com/4zuxif.jpg)
 	}
-	//|| iedetect(8) || iedetect(7) || 'ontouchstart' in window
- 
- //End Doc Ready Function
- 
- 		
-		
- // JSON MAP
-     // $.getJSON("js/data.txt", function(json1) {
-     //   $.each(json1, function(key, data) {
-     //     var latLng = new google.maps.LatLng(data.lat, data.lng);
-     //     // Creating a marker and putting it on the map
-     //     var marker = new google.maps.Marker({
-     //         position: latLng,
-     //         title: data.title
-     //     });
-     //     marker.setMap(map);
-     //   });
-     // });
-
- 
-
 });
-   
-   
-
 

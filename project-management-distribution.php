@@ -93,8 +93,8 @@
 						<h2>Going Granular: On Distribution &amp; Digital Inclusion</h2>
 						<p>
 						By Marisa Jahn, Artist and Writer, Executive Director of REV- <br>
-						<a href="https://twitter.com/marisa_jahn>"target=_blank>@marisa_jahn</a><br>
-						More from Marisa Jahn - <a href="tfi-new-media-fund-2012#new_day_new_standard">Discover: New Media Fund 2012</a>
+						<a href="https://twitter.com/marisa_jahn"target=_blank>@marisa_jahn</a><br>
+						More from Marisa Jahn - <a href="tfi-new-media-fund-projects?2012#new_day_new_standard">Discover: New Media Fund 2012</a>
 						</p>
 						<p>
 						Anjum Asharia, Program Director of REV-<br>
@@ -119,7 +119,7 @@
 						 </p>
 						<p><strong>Virus:</strong> What about yours? I heard you saying yours is a domestic worker app for any kind of phone.
 						 </p>
-						<p><strong>Vector:</strong> Well, in 2012, REV- produced a <a href="http://www.studiorev.org/projects/newday.htm"target=_blank>“public art nanny hotline”</a> — think “Click and Clack on NPR’s Car Talk but for nannies — seeking to inform the 200,000 nannies, housekeepers, and caregivers in the State of New York about their newfound rights under the 2010 Domestic Workers Bill of Rights. See, In New York, domestic workers are 95% immigrant women with low print literacy levels — so newspapers aren’t their primary source of information — who often work long hours and in isolation. We also know that they aren’t regularly listening to the radio. But one thing that most domestic workers have is at least a basic cheapie cell phone. So our challenge was to think of the cell phone not as a receiver but also as a broadcasting device that can deliver information to workers at any hour. Workers can call in using any kind of phone at any hour to hear about topics like overtime wage, paying your taxes, trafficking, and more. 
+						<p><strong>Vector:</strong> Well, in 2012, REV- produced a <a href="http://www.studiorev.org/p_ndns.html"target=_blank>“public art nanny hotline”</a> — think “Click and Clack on NPR’s Car Talk but for nannies — seeking to inform the 200,000 nannies, housekeepers, and caregivers in the State of New York about their newfound rights under the 2010 Domestic Workers Bill of Rights. See, In New York, domestic workers are 95% immigrant women with low print literacy levels — so newspapers aren’t their primary source of information — who often work long hours and in isolation. We also know that they aren’t regularly listening to the radio. But one thing that most domestic workers have is at least a basic cheapie cell phone. So our challenge was to think of the cell phone not as a receiver but also as a broadcasting device that can deliver information to workers at any hour. Workers can call in using any kind of phone at any hour to hear about topics like overtime wage, paying your taxes, trafficking, and more. 
 						 </p>
 						<p><strong>Virus:</strong> So what’s your analytics like? 
 						 </p>

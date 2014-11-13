@@ -893,7 +893,7 @@ button {
 
 .share {
   width: 100%;
-  margin: 1em auto;
+  margin: 4em auto;
   padding: 0;
   max-width: 23.33333em;
   border: 1px solid #dddddd; }
@@ -1401,7 +1401,8 @@ article {
   background-color: black;
   color: #888888;
   width: 100%;
-  padding: 1em 0; }
+  padding: 4em 0;
+  margin-bottom: -2em; }
 
 #ford-logo {
   float: left;
@@ -1783,6 +1784,8 @@ article {
     width: 40%;
     padding: 1em 5%;
     min-height: 20em; }
+    .jury-members li:nth-of-type(odd) {
+      clear: left; }
     .jury-members li img {
       width: 80%;
       margin: 0 auto 1em;

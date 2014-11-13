@@ -687,7 +687,7 @@ font-size:75%;
 }
 .share{
 	width:100%;
-	margin:1em auto;
+	margin:4em auto;
 	padding:0;
 	max-width:(em(350));
 	border:1px solid $light-grey;
@@ -1292,10 +1292,12 @@ article{
 }
 //Primary Footer
 #footer{
+	//position:absolute;
 	background-color:$black;
 	color:$medium-grey;
 	width:100%;
-	padding:1em 0;	
+	padding:4em 0;	
+	margin-bottom:-2em;
 }
 #ford-logo{
 	float:left;

@@ -114,7 +114,7 @@
 				</ul></p>
 			
 	 
-			<p><strong><a href="tfi-new-media-fund-2013"> TFI NEW MEDIA FUND PRESENTS THE 2013 GRANTEES</a></strong><br></p>
+			<p><strong><a href="tfi-new-media-fund-projects?2013"> TFI NEW MEDIA FUND PRESENTS THE 2013 GRANTEES</a></strong><br></p>
 			
 	
 			

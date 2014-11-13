@@ -69,17 +69,16 @@
 				</div>
 				<section class="right-column clearfix">
 					<section id="CascadingTimeline" class="content anchor">
-						<h2>￼The Cascading Timeline</h2>	
+						<h2>The Cascading Timeline</h2>	
 						
-						<p>By Mike Knowlton, Partner at Murmurco<br>
+						<p class="author">By Mike Knowlton, Partner at Murmurco<br>
 							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
 							More from Mike Knowlton -
 							<a href="project-management-scoping">Build: Scoping</a>, 
 							<a href="project-management-budget#ImplementationOptions">Build: Three Types of Implementation Options</a>,  
 							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
 						</p>
-							
-						￼<p>Based on the work executed in the scoping phase a timeline can then be developed. Your digital partner will create an initial timeline based upon the various tasks that need to be executed. These generally will lead toward milestones.</p>
+						<p>Based on the work executed in the scoping phase a timeline can then be developed. Your digital partner will create an initial timeline based upon the various tasks that need to be executed. These generally will lead toward milestones.</p>
 				
 						<h3>Sample Project Timeline</h3>
 						<h4>Technical Requirements - finalizing what technology will be used</h4> 
@@ -139,13 +138,13 @@
 					<section id="example1"class="content anchor">
 						<h2>Creating by Doing</h2>
 						
-							<p>
-								David Carofano, Production Associate at Local Projects<br>
+							<p class="author">
+								By David Carofano, Production Associate at Local Projects<br>
 								<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
 								More from David Carofano -
-								<a href="project-management-sustainability#TechnologyvsExperience">Technology vs. Experience</a>, 
-								<a href="interactive-landscape#WeRemember">9/11 Memorial Museum: We Remember</a>, 
-								<a href="interactive-landscape#GalleryOne">Cleveland Museum of Art: Gallery One</a> <br>
+								<a href="project-management-sustainability#TechnologyvsExperience">Build: Technology vs. Experience</a>, 
+								<a href="interactive-landscape#WeRemember">Discover: 9/11 Memorial Museum: We Remember</a>, 
+								<a href="interactive-landscape#GalleryOne">Discover: Cleveland Museum of Art: Gallery One</a> <br>
 								More from local Projects - <a href="tfi-interactive-2012">Participate:TFI Interactive 2012</a>
 								
 							</p>

@@ -3,9 +3,16 @@
 		
 		<ul id="share-buttons" class="clearfix">
 			<li class="one-third-first"> 				
+				
+				<?
+				echo 
+				'<a href="https://www.facebook.com/dialog/share?app_id=167329723445244&display=popup&href='.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI].'&redirect_uri='.$_SERVER[HTTP_HOST].$_SERVER[REQUEST_URI].'">
 				<div class="facebook btn btn-success" id="shareBtn">
-					 <span class="icon icon-facebook"> </span> Facebook
-				</div>							
+  					 <span class="icon icon-facebook"> </span> Facebook
+  				</div>
+				';
+				?>
+									
 			</li>		
 			<li class="one-third-second"> 
 				<a href="https://twitter.com/share?&via=TribecaFilmIns&hashtags=TFISandbox&text=TFI%20Sandbox" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">
@@ -28,13 +35,13 @@
 	</nav>
 	
 	<!--Facebook Share URL -->
-	 <script>
-	 var currentLocation = window.location.href
-	 document.getElementById('shareBtn').onclick = function() {
- 	   FB.ui({
- 	     display: 'popup',
- 	     method: 'share',
- 	     href:currentLocation,
- 	   }, function(response){});
- 	 }
-	 </script>
+	  <!-- // <script> 
+	 // var currentLocation = window.location.href
+// 	 document.getElementById('shareBtn').onclick = function() {
+//  	   FB.ui({
+//  	     display: 'popup',
+//  	     method: 'share',
+//  	     href:currentLocation,
+//  	   }, function(response){});
+//  	 }
+	 <!</script> -->

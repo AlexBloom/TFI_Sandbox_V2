@@ -73,9 +73,9 @@
 					<li> Rob Dubbin, Game Designer, Writer for The Colbert Report </li>
 				</ul>
 			</p>
-			
+			 
 			<p> 
-				<strong> <a href="http://vimeo.com/6765682"target=_blank>NFB INTERACTIVE SINCE BEAR 71</a> </strong><br>
+				<strong> <a href="http://vimeo.com/67656820"target=_blank>NFB INTERACTIVE SINCE BEAR 71</a> </strong><br>
 				<ul><li>Loc Dao, Executive Producer, Creative Technologist, The National Film Board of Canada</li></ul>
 			</p>
 			<p> 
@@ -94,7 +94,7 @@
 				</ul>
 			</p>
 			<p> 
-				<strong><a href="tfi-new-media-fund-2012"> TFI NEW MEDIA FUND PRESENTS THE 2012 GRANTEES</a></strong><br>
+				<strong><a href="tfi-new-media-fund-projects?2012"> TFI NEW MEDIA FUND PRESENTS THE 2012 GRANTEES</a></strong><br>
 		
 			</p>
 			<p> 

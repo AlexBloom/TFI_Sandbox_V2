@@ -53,7 +53,7 @@
 		<article>
 			<section class="content">
 			<p class="intro">
-				We continue to be excited and inspired by the growing field of interactive storytelling. We started working with the Ford Foundation on the TFI New Media Fund in 2011. Since then we have been funding projects as well as growing the community around this work through Tribeca Hacks and TFI Interactive.  This second iteration of the Sandbox is all about sharing the projects with you as well many of the people we have met and all the things we have learned along the way. Dive in.
+				We continue to be excited and inspired by the growing field of interactive storytelling. We started working with the Ford Foundation on the TFI New Media Fund in 2011. Since then we have been funding projects as well as growing the community around this work through Tribeca Hacks and TFI Interactive Day. This second iteration of the Sandbox is all about sharing the projects, people we have met and all the things we have learned along the way. Dive in.
 			</p>
 		
 			<ul class="three-columns clearfix" id="home-callouts">
