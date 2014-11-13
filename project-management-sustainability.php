@@ -77,8 +77,8 @@
 							More from David Carofano - 
 							<a href="project-management-timeline#example1">Build: Creating By Doing</a>, 
 							<a href="interactive-landscape#WeRemember">Discover: 9/11 Memorial Museum: We Remember</a>, 
-							<a href="interactive-landscape#GalleryOne">Discover: Cleveland Museum of Art: Gallery One</a> 
-							More from local Projects - <a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
+							<a href="interactive-landscape#GalleryOne">Discover: Cleveland Museum of Art: Gallery One</a><br> 
+							More from Local Projects - <a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
 						</p>
 						
 
