@@ -247,7 +247,7 @@
 								A european crossmedia content market 
 								<br><strong>Time of year:</strong> June
 								<br><strong>Location:</strong> Paris, France
-								<br> <a href="http:// "target=_blank> crossvideodays.com </a>
+								<br> <a href="http://www.crossvideodays.com/"target=_blank> crossvideodays.com </a>
 							</li>
 			 
 							<li> <h4>DEAF: Dutch Electronic Art Festival </h4>

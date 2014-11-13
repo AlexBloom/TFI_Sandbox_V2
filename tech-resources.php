@@ -67,7 +67,7 @@
 					<li>
 						<p><strong>ADVENTR:</strong>
 						 The simple platform for creating and sharing, web-native video experiences.<br>
-							<a href="http://www.theochre.com/ "target=_blank> theochre.com </a>
+							<a href="http://www.adventr.tv/"target=_blank> adventr.tv </a>
 						</p>
 					</li>
 					<li>
@@ -184,7 +184,7 @@
 						<a href="http://panic.com/transmit/" target=_blank>panic.com/transmit</a>
 					</li>
 					<li> <p> <strong> SASS, LESS and Emmet: </strong> Once you have an understanding of CSS, these are invaluable for making development easier and faster. <br>
-						<a href=http://sass-lang.com/"" target=_blank>sass-lang.com/</a>, 
+						<a href="http://sass-lang.com/" target=_blank>sass-lang.com/</a>, 
 						<a href="http://lesscss.org/" target=_blank>lesscss.org/</a> and 
 						<a href="http://emmet.io/" target=_blank>emmet.io</a>
 					</li>
@@ -203,9 +203,7 @@
 						<a href="http://codepen.io/" target=_blank>codepen.io</a> and 
 						<a href="http://jsfiddle.net/" target=_blank>jsfiddle.net</a>
 					</li>
-					<li> <p> <strong> Dochub: </strong> A great search and reference sheet for learning development. <br>
-						<a href="http://dochub.io/" target=_blank>dochub.io/</a>
-					</li>
+				
 					
 				</ul>
 				
@@ -261,7 +259,7 @@
 								</p>
 							</li>
 							<li> <p> <strong> SiteLeaf: </strong>  Easily customizable Jekyll-based CMS with affordable plans.<br>
-								<a href=">http://www.siteleaf.com/" target=_blank>http://www.siteleaf.com/</a>
+								<a href="http://www.siteleaf.com/" target=_blank>http://www.siteleaf.com/</a>
 								</p>
 							</li>
 						</ul>	

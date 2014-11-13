@@ -103,7 +103,7 @@
 							<img src="img/content/build/funding/logo_visionmaker.gif" alt="Logo Visionmaker">
 							<p><strong>Vision Maker Media—Public Media Content Fund </strong>
 							<br> Funding  programs that represent the cultures, experiences, and values of American Indians and Alaska Natives. 
-							<br><a href="http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf"> nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf</a></p>
+							<br><a href="http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf"target=_blank> nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf</a></p>
 						</li>
 					</ul>
 				</li>
@@ -230,7 +230,7 @@
 						<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
 						<p><strong>ITVS—Grant Cycle 1</strong> 
 						<br> ITVS 360 supports new media projects for multiple platforms
-						<br><a href="itvs.org/funding  "target=_blank>itvs.org/funding</a></p>
+						<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding.open-call/how</a></p>
 					</li>
 				</ul>
 				</li>
