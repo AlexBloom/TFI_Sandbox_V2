@@ -52,6 +52,7 @@
 							<li> <a class="scrollnav-link" href="#April "> April</a> </li>
 							<li> <a class="scrollnav-link" href="#June "> June </a> </li>
 							<li> <a class="scrollnav-link" href="#July "> July </a> </li>
+							<li> <a class="scrollnav-link" href="#August "> August </a> </li>
 							<li> <a class="scrollnav-link" href="#September "> September</a> </li>
 							<li> <a class="scrollnav-link" href="#October "> October</a> </li>
 							<li> <a class="scrollnav-link" href="#November "> November</a> </li>
@@ -74,15 +75,9 @@
 			<ul class="months">
 				<li id="January">
 					<h3>JANUARY</h3> 
-					<ul> 
+					<ul> 	
 						<li>
-							<img src="img/content/build/funding/logo_fledgling.gif"  alt="Logo Fledgling">
-							<p><strong>The Fledgling Fund—Grant Cycle 1</strong> 
-							<br>Providing grants that support outreach and audience engagement
-							<br><a href="http://thefledglingfund.org"target=_blank>thefledglingfund.org</a> </p>
 							<img src="img/content/build/funding/logo_nea.gif" alt="Logo Nea">
-						</li>	
-						<li>
 							<p><strong>National Endowment for the Arts—Grant Cycle 1</strong> 
 							<br>Funding organizations working in interactive media
 							<br><a href="http://arts.gov "target=_blank>arts.gov</a></p>
@@ -100,11 +95,18 @@
 							<br><a href="http://creative-capital.org"target=_blank>creative-capital.org</a></p>
 						</li>	
 						<li>
+							<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
+							<p><strong>ITVS</strong> 
+							<br> Supporting new media projects for multiple platforms.
+							<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding/open-call/how</a></p>
+						</li>
+						<li>
 							<img src="img/content/build/funding/logo_visionmaker.gif" alt="Logo Visionmaker">
 							<p><strong>Vision Maker Media—Public Media Content Fund </strong>
 							<br> Funding  programs that represent the cultures, experiences, and values of American Indians and Alaska Natives. 
 							<br><a href="http://www.nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf"target=_blank> nativetelecom.org/sites/default/files/resources/rfp2014guidelines.pdf</a></p>
 						</li>
+						
 					</ul>
 				</li>
 				
@@ -138,29 +140,29 @@
 					</ul>
 				</li>
 				
-				<li id="May">
-					<h3>MAY</h3> 
-				</li>
-				
+
 				<li id="June">
 					<h3>JUNE </h3> 
-					<ul> 
+					<ul>
+						<li>
+							<img src="img/content/build/funding/logo_fledgling.gif" alt="Logo Fledgling">
+							<p><strong>The Fledgling Fund</strong>
+							<br> Providing grants that support outreach and audience engagement.
+							<br><a href="http://thefledglingfund.org "target=_blank>thefledglingfund.org</a></p>
+						</li> 
 						<li>
 					<img src="img/content/build/funding/logo_nea.gif" alt="Logo Nea">
 					<p><strong>National Endowment for the Arts—Grant Cycle 2</strong> 
 					<br> Funding organizations working in interactive media
 					<br><a href="http://arts.gov  "target=_blank>arts.gov</a></p>
-				</li></ul></li>
+						</li>
+						
+					</ul>
+				</li>
 				
 				<li id="July">
 					<h3>JULY</h3> 
 					<ul> 
-						<li> 
-						<img src="img/content/build/funding/logo_fledgling.gif" alt="Logo Fledgling">
-						<p><strong>The Fledgling Fund—Grant Cycle 2</strong>
-						<br> Providing grants that support outreach and audience engagement
-						<br><a href="http://thefledglingfund.org "target=_blank>thefledglingfund.org</a></p>
-						</li>
 						<li>
 						<p><strong>National Endowment for the Humanities</strong>
 						<br>Supporting Interactive Digital media through the Media Projects Grants.
@@ -169,10 +171,18 @@
 						</li>
 					</ul>
 				</li>
-				
 				<li id="August">
-					<h3>AUGUST</h3> 
+					<h3>AUGUST</h3>
+					<ul>
+						<li>
+							<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
+							<p><strong>ITVS</strong> 
+							<br> Supporting new media projects for multiple platforms.
+							<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding/open-call/how</a></p>
+						</li>
+					</ul>
 				</li>
+
 				
 				<li id="September">
 					<h3>SEPTEMBER</h3> 
@@ -230,7 +240,7 @@
 						<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
 						<p><strong>ITVS—Grant Cycle 1</strong> 
 						<br> ITVS 360 supports new media projects for multiple platforms
-						<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding.open-call/how</a></p>
+						<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding/open-call/how</a></p>
 					</li>
 				</ul>
 				</li>

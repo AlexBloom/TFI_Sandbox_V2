@@ -7,18 +7,6 @@
 		zoom:2
       });
  
-	  
-	  map.addMarker({ 
-	  	title:' BAVC Producer’s Institute for New Media Technologies', 
-	  	lat:37.7577, 
-	  	lng:-122.4376 , 
-	  	infoWindow: {
-	  		maxWidth: 500, content:'<h3> BAVC Producer’s Institute for New Media Technologies </h3>'+'<p> A social impact lab connecting filmmakers, technologists and partner nonprofit organizations to create transmedia tools.'+
-		'<br> <strong>Time of year:</strong> October'+
-		'<br> <strong>Location:</strong> San Francisco, California'+
-		'<br><a href="http://bavc.org/producersinstitute "target=_blank> bavc.org/producersinstitute </a></p>'
-	  	}
-	  });
 	 
 	  map.addMarker({
 	  		title:'Bushwick Film Festival', 
@@ -116,7 +104,8 @@
 	  	infoWindow:{
 	  		maxWidth: 500, content:'<h3> Mirage International Film Festival </h3>'+'<p> Mirage International Film Festival\u0027s New Media Marvels competitive program is designed to bring attention to the emerging world of new media.'+ 
 	  		'<br> <strong>Time of year:</strong> August '+
-	  		'<br> <strong>Location:</strong> Las Vegas, Nevada</p>'
+	  		'<br> <strong>Location:</strong> Las Vegas, Nevada'+
+			'<br> <a href="http://www.miragefilmfest.com/"target=_blank>miragefilmfest.com </a> </p>'
 	  	}
 	  	});
 	  	map.addMarker({ 
@@ -280,7 +269,7 @@
 	  	lat:48.8588589,
 	  	lng:2.3470599, 
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> Cross Video Days </h3>'+'<p> A european crossmedia content market'+
+	  		maxWidth: 500, content:'<h3> Cross Video Days </h3>'+'<p> A european crossmedia content market.'+
 	  		'<br><strong>Time of year:</strong> June'+
 	  		'<br><strong>Location:</strong> Paris, France'+
 	  		'<br><a href="http:// "target=_blank> crossvideodays.com </a></p>'
@@ -346,7 +335,7 @@
 	  	lat:51.468489,
 	  	lng:-2.5907094, 
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> i-Docs </h3>'+'<p>Symposium and website dedicated to interactive documentary'+
+	  		maxWidth: 500, content:'<h3> i-Docs </h3>'+'<p>Symposium and website dedicated to interactive documentary.'+
 	  		'<br>	<strong>Time of year:</strong> March'+
 	  		'<br>	<strong>Location:</strong> Bristol, United Kingdoms'+ 
 	  		'<br>	<a href="http://i-docs.org "target=_blank> i-docs.org </a></p>'
@@ -401,7 +390,7 @@
 	  	lat:51.5286416,
 	  	lng:-0.1015987,  
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> Power to the Pixels Cross-Media Forum </h3>'+'<p>Conference, pitching forum and market for interactive projects'+
+	  		maxWidth: 500, content:'<h3> Power to the Pixels Cross-Media Forum </h3>'+'<p>Conference, pitching forum and market for interactive projects.'+
 	  		'<br>	<strong>Time of year:</strong> October'+
 	  		'<br>	<strong>Location:</strong> London, UK'+
 	  		'<br><a href="http://powertothepixel.com "target=_blank> powertothepixel.com </a></p>'
@@ -423,7 +412,7 @@
 	  	lat:53.3957166, 
 	  	lng:-1.4994561, 
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> Sheffield Doc/Fest </h3>'+'<p>Interactive panels (including a full-day dedicated to interactive) and a Cross-media section for projects'+
+	  		maxWidth: 500, content:'<h3> Sheffield Doc/Fest </h3>'+'<p>Interactive panels (including a full-day dedicated to interactive) and a Cross-media section for projects.'+
 	  		'<br> <strong>Time of year:</strong> June'+
 	  		'<br> <strong>Location:</strong> Sheffield, UK'+
 	  		'<br> <a href="https://sheffdocfest.com/ "target=_blank> sheffdocfest.com </a></p>'
@@ -478,7 +467,7 @@
 	  	lat:53.3957166, 
 	  	lng:-1.4994561,
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> XO Lab </h3>'+'<p>Helping people understand interactive storytelling and cross-latorm development through labs'+
+	  		maxWidth: 500, content:'<h3> XO Lab </h3>'+'<p>Helping people understand interactive storytelling and cross-latorm development through labs.'+
 	  		'<br><strong>Location:</strong> Sheffield, UK'+
 	  		'<br><a href="http://xolabs.co.uk "target=_blank> xolabs.co.uk </a></p>'
 	  	}
@@ -488,7 +477,7 @@
 	  	lat:35.673343,
 	  	lng:139.710388 , 
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> Japan Media Arts Festival </h3>'+'<p>Honoring outstanding works from a diverse range of media- from animation and comics to media art and games'+
+	  		maxWidth: 500, content:'<h3> Japan Media Arts Festival </h3>'+'<p>Honoring outstanding works from a diverse range of media- from animation and comics to media art and games.'+
 	  		'<br> <strong>Time of year:</strong> February'+
 	  		'<br> <strong>Location:</strong> Tokyo, Japan'+
 	  		'<br><a href="http://j-mediaarts.jp/?locale=en "target=_blank> j-mediaarts.jp </a></p>'
@@ -499,7 +488,7 @@
 	  	lat:22.3700556,
 	  	lng:114.1535941, 
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> Microwave International New Media Arts Festival </h3>'+'<p>Festival brings cutting-edge works to provoke the thought in the technological hub that Hong Kong is'+
+	  		maxWidth: 500, content:'<h3> Microwave International New Media Arts Festival </h3>'+'<p>Festival brings cutting-edge works to provoke the thought in the technological hub that Hong Kong is.'+
 	  		'<br> <strong>Time of year:</strong> November'+
 	  		'<br> <strong>Location:</strong> Hong Kong, China'+
 	  		'<br><a href="http://www.microwavefest.net"target=_blank> microwavefest.net </a></p>'
@@ -544,7 +533,7 @@
 	  	lat:-29.8483794, 
 	  	lng:30.9924624, 
 	  	infoWindow:{
-	  		maxWidth: 500, content:'<h3> Durban Film Festival </h3>'+'<p>The festival also offers filmmaker workshops, industry seminars, discussion forums, and outreach activities'+
+	  		maxWidth: 500, content:'<h3> Durban Film Festival </h3>'+'<p>The festival also offers filmmaker workshops, industry seminars, discussion forums, and outreach activities.'+
 	  		'<br> <strong>Time of year:</strong> July'+
 	  		'<br> <strong>Location:</strong> Durban, South Africa'+
 	  		'<br> <a href="http://durbanfilmfest.co.za"target=_blank> durbanfilmfest.co.za </a></p>'

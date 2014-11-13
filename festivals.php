@@ -63,7 +63,7 @@
 							<li><a class="scrollnav-link" href="#South-America"><strong>South America </strong> </a></li>
 							<li><a class="scrollnav-link" href="#Europe"><strong>Europe </strong>   </a></li>
 							<li><a class="scrollnav-link" href="#Asia"><strong>Asia </strong>   </a></li>
-							<li><a class="scrollnav-link" href="#Australasia"><strong>Australasia </strong>   </a></li>
+							<li><a class="scrollnav-link" href="#Australia"><strong>Australia </strong>   </a></li>
 							<li><a class="scrollnav-link" href="#Africa"><strong>Africa </strong>   </a></li>
 						</ol>
 					</nav>
@@ -74,13 +74,6 @@
 						<section id="North-America" class="anchor">
 						<h2>NORTH AMERICA</h2>
 						<ul>
-							<li> <h4> BAVC Producer’s Institute for New Media Technologies</h4>
-							A social impact lab connecting filmmakers, technologists and partner nonprofit organizations to create transmedia tools.
-
-								<br>	<strong>Time of year:</strong> October
-								<br>	<strong>Location:</strong> San Francisco, California
-								<br><a href="http://bavc.org/producersinstitute "target=_blank> bavc.org/producersinstitute </a>
-							</li>
 							<li>
 								<h4> Bushwick Film Festival</h4>
 								Discovers both domestic and international indie films and new media projects and shares them with a diverse audience of film lovers and industry professionals.
@@ -139,6 +132,7 @@
 
 								<br> <strong>Time of year:</strong> August 
 								<br> <strong>Location:</strong> Las Vegas, Nevada
+								<br> <a href="http://www.miragefilmfest.com/"target=_blank>miragefilmfest.com </a>
 							</li>
 							<li> <h4> NAMAC</h4>
 								A conference that brings together creators, thinkers, policy makers, administrators and funders to learn about the field’s future opportunities, to create a national platform for the media arts and to strengthen networks. 
@@ -244,7 +238,7 @@
 							</li>
 			
 							<li> <h4> Cross Video Days</h4>
-								A european crossmedia content market 
+								A european crossmedia content market.
 								<br><strong>Time of year:</strong> June
 								<br><strong>Location:</strong> Paris, France
 								<br> <a href="http://www.crossvideodays.com/"target=_blank> crossvideodays.com </a>
@@ -286,7 +280,7 @@
 							</li>
 			
 							<li> <h4> i-Docs</h4>
-								Symposium and website dedicated to interactive documentary
+								Symposium and website dedicated to interactive documentary.
 								<br>	<strong>Time of year:</strong> March
 								<br>	<strong>Location:</strong> Bristol, United Kingdoms 
 								<br>	<a href="http://i-docs.org "target=_blank> i-docs.org </a>
@@ -321,7 +315,7 @@
 							</li>
 			
 							 <li> <h4> Power to the Pixel's Cross-Media Forum</h4>
-							Conference, pitching forum and market for interactive projects
+							Conference, pitching forum and market for interactive projects.
 								<br>	<strong>Time of year:</strong> October
 								<br>	<strong>Location:</strong> London, UK
 								<br><a href="http://powertothepixel.com "target=_blank> powertothepixel.com </a>
@@ -335,7 +329,7 @@
 							</li>
 			
 							<li> <h4> Sheffield Doc/Fest</h4>
-							Interactive panels (including a full-day dedicated to interactive) and a Cross-media section for projects
+							Interactive panels (including a full-day dedicated to interactive) and a Cross-media section for projects.
 								<br>	<strong>Time of year:</strong> June
 								<br>	<strong>Location:</strong> Sheffield, UK
 								<br> <a href="https://sheffdocfest.com/ "target=_blank> sheffdocfest.com </a>
@@ -369,7 +363,7 @@
 								<br>	<a href="http://idfa.nl/nl.aspx "target=_blank> idfa.nl/nl.aspx </a>
 							</li>
 							<li> <h4> XO Lab</h4>
-							Helping people understand interactive storytelling and cross-platform development through labs
+							Helping people understand interactive storytelling and cross-platform development through labs.
 								<br>	<strong>Location:</strong> Sheffield, UK
 				
 								<br>	<a href="http://xolabs.co.uk "target=_blank> xolabs.co.uk </a>
@@ -381,7 +375,7 @@
 						<h2>ASIA</h2>
 						<ul>
 							<li> <h4> Japan Media Arts Festival</h4>
-							Honoring outstanding works from a diverse range of media- from animation and comics to media art and games
+							Honoring outstanding works from a diverse range of media- from animation and comics to media art and games.
 								<br>	<strong>Time of year:</strong> February
 								<br>	<strong>Location:</strong> Tokyo, Japan
 								<br><a href="http://j-mediaarts.jp/?locale=en "target=_blank> j-mediaarts.jp </a>
@@ -389,7 +383,7 @@
 
 							</li>
 							<li> <h4> Microwave International New Media Arts Festival</h4>
-							Festival brings cutting-edge works to provoke the thought in the technological hub that Hong Kong is
+							Festival brings cutting-edge works to provoke the thought in the technological hub that Hong Kong is.
 								<br>	<strong>Time of year:</strong> November 
 								<br>	<strong>Location:</strong> Hong Kong, China
 								<br><a href="http://www.microwavefest.net"target=_blank> microwavefest.net </a>
@@ -405,8 +399,8 @@
 						</ul>
 						</section>
 						
-						<section id="Australasia" class="anchor">
-						<h2>AUSTRALASIA</h2>
+						<section id="Australia" class="anchor">
+						<h2>Australia</h2>
 						<ul>	
 							<li><h4> Antenna</h4>       
 								International film festival that screens feature length documentaries.
@@ -418,7 +412,7 @@
 							<li><h4> Documentary Edge Festival</h4>
 								New Zealand’s only international documentary film festival held annually. 
 								<br> <strong> Time of year:</strong> May-June 
-								<br> <strong> Location:</strong> Auckland & Wellington, New Zealand
+								<br> <strong> Location:</strong> Auckland &amp; Wellington, New Zealand
 								<a href="http://documentaryedge.org.nz/"target=_blank>documentaryedge.org.nz </a>
 							</li>
 						</ul>
@@ -428,7 +422,7 @@
 						<h2>AFRICA</h2>
 						<ul>	
 							<li> <h4> Durban Film Festival </h4>
-								The festival also offers filmmaker workshops, industry seminars, discussion forums, and outreach activities 
+								The festival also offers filmmaker workshops, industry seminars, discussion forums, and outreach activities.
 								<br> <strong>Time of year:</strong> July
 								<br> <strong>Location:</strong> Durban, South Africa
 								<br> <a href="http://durbanfilmfest.co.za"target=_blank> durbanfilmfest.co.za </a>
