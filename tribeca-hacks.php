@@ -78,13 +78,13 @@ $cms = new tfi_ee();
 			<section class="content anchor" id="HackathonMentality">
 				<article>
 				
-						<img src="img/content/participate/tribecahacks/Benjamin--The-Hackathon-Mentality--Image.jpg" alt="Benjamin The Hackathon Mentality Image">
-					
+						
+				<img src="img/content/participate/tribecahacks/racontr.jpg" alt="Racontr">	
 			
 				<h2>The Hackathon Mentality</h2>
 				<p class="intro">(or how collaboration and prototyping can improve the interactive storytelling ecosystem)</p>  
 
-				<img src="img/content/participate/tribecahacks/racontr.jpg" alt="Racontr">
+				
 
 				<p>At Racontr - a code-free interactive storytelling software used by many interactive content producers and media outlets - and Storycode Paris - a series of monthly transmedia conferences and workshops - we constantly find ourselves involved with other people’s projects, helping them conceive, build and publish their interactive experiences. Project after project, we’ve been trying to refine an agile interactive production process that I wish to share with you.</p>
 
