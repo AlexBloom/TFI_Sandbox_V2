@@ -194,9 +194,10 @@ blockquote{
 blockquote:before{
 	content:"\201c";
 	font-size:5em;
-	text-indent:-1.25em;
+	text-indent:-0.75em;
 	margin-top:.25em;
 	float:left;
+	color:$light-grey;
 }
 
 figure{

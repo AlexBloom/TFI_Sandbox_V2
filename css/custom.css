@@ -265,9 +265,10 @@ blockquote {
 blockquote:before {
   content: "\201c";
   font-size: 5em;
-  text-indent: -1.25em;
+  text-indent: -0.75em;
   margin-top: .25em;
-  float: left; }
+  float: left;
+  color: #dddddd; }
 
 figcaption {
   font-size: 0.9em;

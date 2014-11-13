@@ -88,9 +88,9 @@ $cms = new tfi_ee();
 
 				<p>At Racontr - a code-free interactive storytelling software used by many interactive content producers and media outlets - and Storycode Paris - a series of monthly transmedia conferences and workshops - we constantly find ourselves involved with other people’s projects, helping them conceive, build and publish their interactive experiences. Project after project, we’ve been trying to refine an agile interactive production process that I wish to share with you.</p>
 
-				<p><strong>Interactive and transmedia storytelling is and has to remain a great experimentation field.</strong> One quote by Pierre Cattan sums up what, to me, should be the ambition of any interactive and transmedia producer: 
-					<blockquote> Transmedia storytelling is the name we gave to R&amp;D in the field of content creation</blockquote>.
-					 Devices are not done evolving, media are not done colliding, authors are not done transforming the way they build stories and audiences are not done embracing this &ldquo;lean forward&rdquo; position they are offered evermore frequently. </p>
+				<p><strong>Interactive and transmedia storytelling is and has to remain a great experimentation field.</strong> One quote by Pierre Cattan sums up what, to me, should be the ambition of any interactive and transmedia producer: </p>
+					<blockquote> Transmedia storytelling is the name we gave to R&amp;D in the field of content creation.</blockquote>
+					 <p>Devices are not done evolving, media are not done colliding, authors are not done transforming the way they build stories and audiences are not done embracing this &ldquo;lean forward&rdquo; position they are offered evermore frequently. </p>
 
 				<p>That being said, <strong>experimentation should not be an excuse to waste resources.</strong> Experimentation does not mean that no method or rationalization processes can be devised and applied. Rationalizing resources and workflows allows for leaner, quicker and more innovative production process, while building on continuous learning to improve quality, innovation and efficiency over time.</p>
 
