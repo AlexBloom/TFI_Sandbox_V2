@@ -520,7 +520,7 @@
 							<li> <strong> Launched: </strong> July 2013</li>
 							<li><a class="project-url"
 
-			 href="http://listen.hatnote.com"target=_blank>listen.hatnote.comg <span class="icon-export"></span></a></li>
+			 href="http://listen.hatnote.com"target=_blank>listen.hatnote.com <span class="icon-export"></span></a></li>
 						</ul></aside>
 			
 

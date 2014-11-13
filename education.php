@@ -52,7 +52,7 @@
 							</a>
 						</li>
 						<li><a class="scrollnav-link" href="#EducationalComponent">
-							<strong> Why having an educational component for your project is a good thing?</strong> <br> Flonia Telegrafi  
+							<strong> Why Having an Educational Component for Your Project is a Good Thing</strong> <br> Flonia Telegrafi  
 							</a>
 						</li>
 					</ol>
@@ -91,7 +91,7 @@
 					<hr>
 					<article>
 
-						<h2>Why having an educational component for your project is a good thing</h2>
+						<h2>Why Having an Educational Component for Your Project is a Good Thing</h2>
 						
 						<p><small>By Flonia Telegrafi, Education Engagement Coordinator at Tribeca Film Institute</small>
 						</p>

@@ -72,7 +72,7 @@
 						<img src="img/content/build/projectmanagement/sustainability-carofano.jpg"  alt="Sustainability Carofano">
 						<h2>Technology vs. Experience</h2>
 						<p>
-							David Carofano, Production Associate at Local Projects<br>
+							By David Carofano, Production Associate at Local Projects<br>
 							<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
 							More from David Carofano - 
 							<a href="project-management-timeline#example1">Build: Creating By Doing</a>, 

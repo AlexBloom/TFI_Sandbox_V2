@@ -63,7 +63,7 @@
 						<ol>
 							<li><a class="scrollnav-link" href="#GameInADay"> <strong> Build a Game in a Day </strong> <br> Errol King </a></li>
 							<li><a class="scrollnav-link" href="#GoingGranular"> <strong> Going Granular </strong> <br> Marisa Jahn and Anjum Ashara  </a></li>
-							<li><a class="scrollnav-link" href="#DistributionIterative"><strong>Distribution as an iterative process</strong> <br> Theo Rigby </a></li>
+							<li><a class="scrollnav-link" href="#DistributionIterative"><strong>Distribution as an Iterative Process</strong> <br> Theo Rigby </a></li>
 						</ol>
 					</nav>
 					&nbsp;
