@@ -422,6 +422,7 @@
 		@media screen and (min-width:(em(600))){
 			width:29%;
 			padding:1em 2% 1em 2%;
+			&:nth-of-type(odd){clear:none;}	
 			&:nth-of-type(4){clear:left;}
 			&:nth-of-type(7){clear:left;}
 			&:nth-of-type(10){clear:left;}

@@ -1802,6 +1802,8 @@ article {
       .jury-members li {
         width: 29%;
         padding: 1em 2% 1em 2%; }
+        .jury-members li:nth-of-type(odd) {
+          clear: none; }
         .jury-members li:nth-of-type(4) {
           clear: left; }
         .jury-members li:nth-of-type(7) {
