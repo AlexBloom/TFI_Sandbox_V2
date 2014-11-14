@@ -67,7 +67,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="#">Project URL &rarr;</a>				
+						<a class="project-url" href="#">Project URL <span class="icon-export"></span></a>				
 					</header>
 					<section class="project-content">
 
@@ -134,7 +134,7 @@
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>				
+						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com <span class="icon-export"></span></a>				
 					</header>
 					<section class="project-content">
 

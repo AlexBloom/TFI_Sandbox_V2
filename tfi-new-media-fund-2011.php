@@ -111,7 +111,7 @@ $res->free();
 								</div>
 							</div>
 						</a>
-						<a class="project-url" href="#">Project URL &rarr;</a>				
+						<a class="project-url" href="#">Project URL <span class="icon-export"></span></a>				
 					</header>
 					<section class="project-content">
 						<p>Project Text</p>

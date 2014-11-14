@@ -88,7 +88,7 @@ $projects = $cms->get_project_by_year($current_year);
 							if(isset($project['project_website'])){
 								$link_display = 'Project Website';
 								if(trim($project['project_website']['mx_film_link_title'])!='') $link_display = $project['project_website']['mx_film_link_title'];
-								echo '<a class="project-url" href="'.$project['project_website']['mx_film_link_url'].'" target=_blank>'.$link_display.' &rarr;</a>';
+								echo '<a class="project-url" href="'.$project['project_website']['mx_film_link_url'].'" target=_blank>'.$link_display.' <span class="icon-export"></span></a>';
 							}
 							?>
 
@@ -140,7 +140,7 @@ $projects = $cms->get_project_by_year($current_year);
 						</header>
 						
 						<section class="project-content">
-							<a class="project-url" href="http://18DaysinEgypt.com" target=_blank>18DaysinEgypt.com &rarr;</a>
+							<a class="project-url" href="http://18DaysinEgypt.com" target=_blank>18DaysinEgypt.com <span class="icon-export"></span></a>
 							<h3>Team Leaders</h3>
 							<ul class="team-leaders clearfix">
 								<li>
@@ -231,7 +231,7 @@ $projects = $cms->get_project_by_year($current_year);
 						</header>
 						
 						<section class="project-content">
-							<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>
+							<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com <span class="icon-export"></span></a>
 							<h3>Team Leaders</h3>
 							<ul class="team-leaders clearfix">
 								<li>

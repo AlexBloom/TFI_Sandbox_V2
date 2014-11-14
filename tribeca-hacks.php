@@ -66,7 +66,7 @@ $cms = new tfi_ee();
 					 Neal Hartman </a></li>
 				<li><strong><a class="scrollnav-link" href="#Upcoming"> Upcoming Hacks </a></strong></li>
 				<li><strong><a class="scrollnav-link" href="#Past"> Past Hacks </a></strong></li>
-				<li><strong><a class="scrollnav-link" href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks" target=_blank> Tribeca Hacks Homepage &rarr; </a></strong></li>
+				<li><strong><a class="scrollnav-link" href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks" target=_blank> Tribeca Hacks Homepage <span class="icon-export"></span> </a></strong></li>
 			</ol>
 			
 			

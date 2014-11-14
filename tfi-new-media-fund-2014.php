@@ -71,7 +71,7 @@
 					</header>
 					
 					<section class="project-content">
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>
+						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com <span class="icon-export"></span></a>
 						<h3>Team Leaders</h3>
 						<ul class="team-leaders clearfix">
 							<li>
@@ -162,7 +162,7 @@
 					</header>
 					
 					<section class="project-content">
-						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com &rarr;</a>
+						<a class="project-url" href="http://18DaysinEgypt.com"target=_blank>18DaysinEgypt.com <span class="icon-export"></span></a>
 						<h3>Team Leaders</h3>
 						<ul class="team-leaders clearfix">
 							<li>

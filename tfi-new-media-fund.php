@@ -24,7 +24,7 @@
 <!-- TFI New Media Fund Page Content -->
 <nav class="breadcrumb">
 	<ul><li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
-		<li> <a href="tfi-new-media-fund.php"> TFI New Media Fund </a> </li>
+		<li> <a href="tfi-new-media-fund"> TFI New Media Fund </a> </li>
 	</ul>
 </nav>
 <section id="main" class="">		
@@ -33,7 +33,7 @@
 			<h1>TFI New Media Fund</h1>
 		
 			<p class="intro">Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and Web. For projects based anywhere in advanced development or beyond. Grants range from $50,000 to $100,000.</p>
-			<p><strong><a href="https://tribecafilminstitute.org/programs/detail/tfi_new_media_fund"target=_blank>Submissions open September 5 &rarr; </a></strong></p>
+			<p><strong><a href="https://tribecafilminstitute.org/programs/detail/tfi_new_media_fund"target=_blank>More info about submissions <span class="icon-export"></span> </a></strong></p>
 		
 		</header>
 
