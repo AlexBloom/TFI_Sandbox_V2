@@ -188,31 +188,31 @@
 			<h2>Meet The Jury</h2>
 			<ul class="jury-members clearfix">
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_FrankRose.jpg" alt="Jury FrankRose">
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_FrankRose.jpg" alt="Jury Frank Rose">
 					<span class="name"> <strong> Frank Rose</strong> <br> Author, The Art of Immersion: How the Digital Generation is Remaking Hollywood, Madison Avenue and the Way We Tell Stories </span>
 				</li>
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_MarcSchiller.jpg" alt="Jury MarcSchiller">
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_MarcSchiller.jpg" alt="Jury Marc Schiller">
 					<span class="name"> <strong>Marc Schiller </strong> <br> Campfire, Partner & Creative Director  </span>
 				</li>
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_AndrewDevigao.jpg" alt="Jury AndrewDevigao">
-					<span class="name"> <strong>Andrew DeVigao </strong> <br> Co-founder, A Fourth Act, Chair of Journalism, Innovation and Civic Engagement at University of Oregon’s SOJC  </span>
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_AndrewDevigal.jpg" alt="Jury Andrew Devigal">
+					<span class="name"> <strong>Andrew DeVigal </strong> <br> Co-founder, A Fourth Act, Chair of Journalism, Innovation and Civic Engagement at University of Oregon’s SOJC  </span>
 				</li>
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_SteveCoulson.jpg" alt="Jury SteveCoulson">
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_SteveCoulson.jpg" alt="Jury Steve Coulson">
 					<span class="name">  <strong>Steve Coulson </strong> <br> Founder, Wooster Collective, CEO, BOND Strategy and Influence  </span>
 				</li>
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_IanInaba.jpg" alt="Jury IanInaba">
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_IanInaba.jpg" alt="Jury Ian Inaba">
 					<span class="name">  <strong>Ian Inaba </strong> <br> Filmmaker, Executive Director, Citizen Engagement Lab  </span>
 				</li>
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_AinaAbiodun.jpg" alt="Jury AinaAbiodun">
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_AinaAbiodun.jpg" alt="Jury Aina Abiodun">
 					<span class="name"> <strong>Aina Abiodun </strong> <br>Co-Founder, StoryCode   </span>
 				</li>
 				<li>
-					<img src="img/content/discover/new-media-fund/2012/jury/jury_LinaSrivastava.jpg" alt="Jury LinaSrivastava">
+					<img src="img/content/discover/new-media-fund/2012/jury/jury_LinaSrivastava.jpg" alt="Jury Lina Srivastava">
 					<span class="name"><strong>Lina Srivastava  </strong> <br> Strategist, Activist, Transmedia Designer, Writer  </span>
 				</li>
 			</ul>
