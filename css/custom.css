@@ -1402,7 +1402,7 @@ article {
   background-color: black;
   color: #888888;
   width: 100%;
-  padding: 4em 0;
+  padding: 4em 0 0;
   margin-bottom: -2em; }
 
 #ford-logo {
@@ -1416,8 +1416,9 @@ article {
       padding: 0 1.5em;
       border-right: 1px solid #222222; } }
   #ford-logo img {
+    display: block;
     width: 12em;
-    margin: 0; }
+    margin: 0 auto; }
 
 #footer-info {
   float: left;
@@ -1428,6 +1429,15 @@ article {
     #footer-info {
       width: 33.33333em;
       padding: 1.5em .5em 0 .5em; } }
+  #footer-info a:hover {
+    color: #dddddd; }
+
+#copyright {
+  float: left;
+  width: 100%;
+  color: #333333;
+  text-align: center;
+  padding: 2em 0; }
 
 #top {
   position: fixed;

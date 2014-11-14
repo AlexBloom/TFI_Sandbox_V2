@@ -87,24 +87,18 @@
 							<p class="author">By Sarah Henry, Research Analyst at Harmony Institute</p>
 
 							<p>The last few years have seen an explosion in interactive narratives, creating new opportunities for using data to understand how audiences connect and react to stories.</p> 
-	 					   <ul>
-								<li> 
-								
-									Harmony Institute (HI) recently collaborated on Lyka’s Adventure, a cross-platform, science fiction story of an alien robot scientist who travels to Earth in search of ways to help her home planet. As a research institute dedicated to understanding how media impacts individuals and society, we were eager to explore new data sets (as well as methods for their collection and analysis) to see if we could figure out whether (and how) young readers might learn real-world systems of sustainability from this fictional narrative.
-									<img src="img/content/build/impact/hi2.jpg" alt="Hi2">
-								</li> 
-						
-								<li> 
-								
-									Much of our work is centered on collaborating with media producers to understand how data—both qualitative and quantitative—can be harnessed to make narrative entertainment more impactful. Through our partnership with Connected Sparks, the creators of Lyka’s Adventure, we are using data to shape future installments of Lyka’s fictional story. 
-									<img src="img/content/build/impact/hi6.jpg" alt="Hi6">
-								</li>
+	 					   
+							<p>Harmony Institute (HI) recently collaborated on Lyka’s Adventure, a cross-platform, science fiction story of an apen robot scientist who travels to Earth in search of ways to help her home planet. As a research institute dedicated to understanding how media impacts individuals and society, we were eager to explore new data sets (as well as methods for their collection and analysis) to see if we could figure out whether (and how) young readers might learn real-world systems of sustainabipty from this fictional narrative.
+								<img src="img/content/build/impact/hi2.jpg" alt="Hi2">
+							</p> 
+					
+							<p>Much of our work is centered on collaborating with media producers to understand how data—both quaptative and quantitative—can be harnessed to make narrative entertainment more impactful. Through our partnership with Connected Sparks, the creators of Lyka’s Adventure, we are using data to shape future installments of Lyka’s fictional story. 
+								<img src="img/content/build/impact/hi6.jpg" alt="Hi6">
+							</p>
 
-								<li> 
+							<p>We do this by identifying and then collecting points of interaction data generated from the mobile apppcation—that is, information on how readers explore the interactive aspects of the story. These data points include items pke time spent with either the educational or narrative elements of the mobile apppcation. Ideally, the data will inform a seamless integration of narrative and interactive elements in future installments of the fictional story. We’re also looking to data for answers to more specific questions about user experience and content retention. (For example, would readers rather meet characters that represent evaporation and condensation or go outside and conduct experiments on the water cycle?)
+							</p>
 								
-									We do this by identifying and then collecting points of interaction data generated from the mobile application—that is, information on how readers explore the interactive aspects of the story. These data points include items like time spent with either the educational or narrative elements of the mobile application. Ideally, the data will inform a seamless integration of narrative and interactive elements in future installments of the fictional story. We’re also looking to data for answers to more specific questions about user experience and content retention. (For example, would readers rather meet characters that represent evaporation and condensation or go outside and conduct experiments on the water cycle?)
-								</li>
-							</ul>
 	 					   	<img src="img/content/build/impact/Update_Userflow-Data-Collection-02.jpg" alt="Update Userflow Data Collection 02">
 							<p>Because Lyka’s Adventure unfolds across multiple platforms, including a series of books, a mobile application, and a website, there’s a lot of information to make sense of. We made our way through the process by working with interaction designers, book publishers, education experts, and mobile developers to understand each component’s role in the narrative experience. We then designed a framework for analyzing the data collected from the mobile app and website. This framework has helped to guide the project’s development and evolution.</p>
 

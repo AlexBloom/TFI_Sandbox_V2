@@ -88,7 +88,8 @@
 						<p> DEVICE 6’s ergonomics are perfect on every platform you play and the sound design enhances the immersion of the player in the story. This game really pushes further the way we think of the use of text in interactive design.</p>
 
 						<p class="author">Arnaud Colinart , AGAT Films &amp; Cie / EX NIHILO <br>  
-							<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a>
+							<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a><br>
+							More from Arnaud Colinart - <a href="interactive-landscape#EnjminBundle">Discover: Enjmin Bundle</a><br>
 						</p>
 						
 						<p>A fusion of graphic design, gameplay and literature, DEVICE 6 is an intriguing mystery of technology and neuroscience that tells the story of Anna’s strange awakening in a bizarre castle filled with puzzles and directions, and the secrets she discovers as she explores the island on a quest to get home.</p>
@@ -99,7 +100,7 @@
 						<p class="author">Nicholas Fortugno, Game Designer &amp; Educator, CCO of Playmatics LLC
 							<br>
 							<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a><br>
-							More from Arnaud Colinart - <a href="interactive-landscape#EnjminBundle">Discover: Enjmin Bundle</a><br>
+							
 							More from Nicholas Fortugno - 
 							<a href="interactive-landscape#PapersPlease"> Discover: Papers, Please</a>, 
 							<a href="tfi-interactive-2012#PlayInPlace"> Participate: TFI Interactive 2012</a>, 
@@ -126,8 +127,8 @@
 						</a>
 						</header>
 						
-					<section class="project-content"><aside>
-			
+					<section class="project-content">
+						<aside>
 						<ul>
 							<li> <strong> Selected by:</strong> Michel Reilhac </li>
 							<li> <strong> Created by:</strong> Cosmografik </li>
@@ -136,7 +137,8 @@
 							<li> <a class="project-url"
 
 			 href="http://typerider.arte.tv"target=_blank> typerider.arte.tv <span class="icon-export"></span></a></li>
-						</ul></aside>
+						</ul>
+					</aside>
 			
 						
 						<p>Type:Rider A simple game that takes you through a journey of exploration in the world of fonts and typography. You learn and discover in a simple, playful way: You need to guide full stop points as if they were balls through giant letters in different fonts, as if it was a mystery world.</p>
@@ -272,9 +274,7 @@
 						</a>
 						</header>
 						<section class="project-content"><aside>
-				
-					
-					
+
 						<ul>
 							<li> <strong> Selected by:</strong> David Carofano</li>
 							<li> <strong> Created by:</strong> Local Projects &amp; Gallagher and Associates</li>
@@ -319,7 +319,9 @@
 							</div>
 						</div>
 						</a>
-						</header><section class="project-content"><aside>
+						</header>
+						<section class="project-content">
+							<aside>
 						
 					
 			
@@ -330,9 +332,7 @@
 							<li> <strong> Selected by: </strong>Aina Abiodun </li>
 							<li> <strong> Developed &amp; Published by: </strong> The Fullbright Company</li>
 							<li> <strong> Launched: </strong> August 2013 </li>
-							<li><a class="project-url"
-
-			 href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
+							<li><a class="project-url"href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
 						</ul></aside>
 			
 
