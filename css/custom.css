@@ -1751,13 +1751,11 @@ article {
 .hack-logo img {
   margin: 0; }
 .hack-logo a {
-  border-bottom: none; }
+  border-bottom: none !important; }
 
 .hack-title {
   font-size: 1.25em;
   margin-top: 0; }
-  .hack-title a {
-    border-bottom: none; }
 
 .tfi-interactive article header {
   margin: 3.5em 0 0 0;
