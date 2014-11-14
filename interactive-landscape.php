@@ -322,18 +322,14 @@
 						</header>
 						<section class="project-content">
 							<aside>
-						
-					
-			
-					
-
 					
 						<ul>
 							<li> <strong> Selected by: </strong>Aina Abiodun </li>
 							<li> <strong> Developed &amp; Published by: </strong> The Fullbright Company</li>
 							<li> <strong> Launched: </strong> August 2013 </li>
-							<li><a class="project-url"href="http://thefullbrightcompany.com/gonehome/"target=_blank>thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
-						</ul></aside>
+							<li><a class="project-url" href="http://thefullbrightcompany.com/gonehome/" target=_blank> thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
+						</ul>
+					</aside>
 			
 
 						<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
@@ -364,10 +360,7 @@
 							</div>
 						</a>
 						</header><section class="project-content"><aside>
-			
-			
-					
-					 
+
 						<ul>
 							<li> <strong> Selected by:</strong> Gabriel Dance</li> 
 							<li> <strong> Written by:</strong> Ewen MacAskill &amp; Gabriel Dance </li> 
