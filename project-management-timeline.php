@@ -145,7 +145,7 @@
 								<a href="project-management-sustainability#TechnologyvsExperience">Build: Technology vs. Experience</a>, 
 								<a href="interactive-landscape#WeRemember">Discover: 9/11 Memorial Museum: We Remember</a>, 
 								<a href="interactive-landscape#GalleryOne">Discover: Cleveland Museum of Art: Gallery One</a> <br>
-								More from local Projects - <a href="tfi-interactive-2012">Participate:TFI Interactive 2012</a>
+								More from Local Projects - <a href="tfi-interactive-2012">Participate:TFI Interactive 2012</a>
 								
 							</p>
 							
