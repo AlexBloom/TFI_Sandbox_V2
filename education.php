@@ -39,6 +39,7 @@
 			<header id="education_header">
 				<section class="content">
 				<h1>Education</h1>
+				<p class="intro">Learn more about our initiatives combining education and interactive projects.</p>
 				</section>
 			</header>
 		

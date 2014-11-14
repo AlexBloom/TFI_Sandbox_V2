@@ -38,6 +38,7 @@
 			<header id="impact_header">
 				<section class="content">
 				<h1>Impact</h1>
+				<p class="intro">Exploring through collaborative efforts the emerging system of impact measurement.</p>
 				</section>
 			</header>
 				

@@ -32,7 +32,9 @@
 	<article class="clearfix">
 		<header>
 			<h1>Interactive Landscape</h1>
-			
+			<p class="intro">
+				Discover inspiring interactive projects recommended by Industry experts.
+			</p>
 		</header>
 	
 		<dl class="filters clearfix">
