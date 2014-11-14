@@ -32,6 +32,7 @@
 	<article class="clearfix">
 		<header>
 			<h1>Interactive Landscape</h1>
+			
 		</header>
 	
 		<dl class="filters clearfix">
@@ -236,13 +237,13 @@
 
 						<p>This particular project presented many interesting and unique challenges, as well as incredible opportunities with technology and storytelling. Unlike most museums, this museum is meant to capture a single moment in history that was witnessed on a global scale. With the nature of the event of 9/11 not being quite yet history but also not current events, the gathering of all of these individual stories helps contribute to the understanding and meaning of 9/11 and its impact. By capturing the stories and experiences from the memories of people that day, we created a larger narrative of what actually happened that day.</p> 
 
-						<p class="author"> David Carofano, Production Associate at Local Projects
+						<p class="author">By David Carofano, Production Associate at Local Projects
 						<br>
 						More from David Carofano - 
 						<a href="interactive-landscape#GalleryOne"> Discover: Cleveland Museum of Art: Gallery One</a>, 
 						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
 						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
-						More from local Projects - 
+						More from Local Projects - 
 						<a href="tfi-interactive-2012#LocalProjects"> Participate:TFI Interactive 2012</a> 
 						 </p>
 
@@ -287,14 +288,14 @@
 						
 						<p>This project was made possible by the enormous amount of experimentation and willingness to change the conventions of a typical art museum experience. While technology is often thought to distract, we were encouraged to use technology to enhance the works of art, to integrate it seamlessly, and provide a memorable experience. We were able to experiment with interfaces that allowed visitors of any age, with no advance knowledge, to walk up and interact with technology and the works themselves. The interactive technology that we created encouraged visitors to create and play, making the museum a universal experience for all.</p>
 						
-						<p class="author"> David Carofano, Production Associate at Local Projects
+						<p class="author">By David Carofano, Production Associate at Local Projects
 						<br>
 						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
 						More from David Carofano - 
 						<a href="interactive-landscape#WeRemember"> Discover: 9/11 Memorial Museum: We Remember</a>, 
 						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
 						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
-						More from local Projects - 
+						More from Local Projects - 
 						<a href="tfi-interactive-2012#LocalProjects"> Participate:TFI Interactive 2012</a>
 						</p>
 						
