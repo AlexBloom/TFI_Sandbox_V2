@@ -66,7 +66,7 @@
 					<article>
 						<h2>New Media &amp; Education</h2>
 
-						<p><small>By Caitlin Meissner, Education Programs Manager at Tribeca Film Institute</small><br>
+						<p><small>By Caitlin Meissner, Arts Educator</small><br>
 						<a href="https://twitter.com/caitsmeissner"target=_blank>@caitsmeissner</a>
 						</p>
 
@@ -94,7 +94,7 @@
 
 						<h2>Why Having an Educational Component for Your Project is a Good Thing</h2>
 						
-						<p><small>By Flonia Telegrafi, Education Engagement Coordinator at Tribeca Film Institute</small>
+						<p><small>By Flonia Telegrafi, Lead Teaching Artist, Rikers Island Media Lab</small>
 						</p>
 				
 						<p>Building out an education strategy for your project, be it a linear film or a transmedia project, will ultimately help in making your work more accessible to a wider public. Educators are always looking for new and innovative tools and stories to bring into the classroom, novel ways of engaging with an issue be it the disappearance of small towns across America (Hollow), exploring our nation’s immigration and migration history (iNation), looking at the environmental impact of logging (This is My Backyard), or simply just different ways of becoming active in current social movements (The Yes Men Are Revolting). Having the tools to address important issues such as these enables educators and students alike to first learn about the project and then analyze the topic.</p>
