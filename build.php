@@ -56,7 +56,7 @@
 			</li>
 		</ul>
 		
-		<p>In a highly-competitive world of ever changing media creation, more storytellers are curious about creating interactive content but don’t know how to build. Here, we’ve combined information from leading new media creators on how to start, build and sustain these projects.</p>
+		<p>In our highly competitive world of ever-changing media creation, more storytellers are curious about creating interactive content but become fluttered on finding the proper entry points. Here, we’ve combined information from leading new media creators on how to start, build and sustain meaningful interactive projects.</p>
 		<p>Opeyemi Olukemi<br>
 							Manager, Interactive<br>
 							Tribeca Film Institute</p>
