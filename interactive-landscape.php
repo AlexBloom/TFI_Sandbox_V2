@@ -962,6 +962,7 @@
 				<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
 				<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
 				<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+				<a href="impact">Interactive Media Impact Working Group</a>
 			 	</p>
 							
 					</section>
