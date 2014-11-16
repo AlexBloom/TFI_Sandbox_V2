@@ -46,7 +46,7 @@
 			<nav class="sticky">
 				<h4>Sections</h4>	
 				<ol class="clearfix">
-					<li><a class="scrollnav-link" href="#TFIResources"><strong> Tools and Platforms</strong>  <br>Tribeca Film Institute</a></li>
+					<li><a class="scrollnav-link" href="#TFIResources"><strong> Tools and Platforms</strong>  <br>Opeyemi Olukemi</a></li>
 					<li><a class="scrollnav-link" href="#ABloomResources"><strong> Code Resources</strong>  <br>Alex Bloom </a></li>
 					<li><a class="scrollnav-link" href="#DiversityInCode"><strong> TFI Embraces Diversity In Code</strong> </a></li>
 				</ol>
@@ -56,7 +56,7 @@
 		<div class="right-column clearfix">
 			<section class="content anchor" id="TFIResources">
 				<h2>Tools and Platforms</h2>
-				<p>Recommended by <strong>Tribeca Film Institute</strong></p>
+				<p>Recommended by <strong>Opeyemi Olukemi</strong></p>
 				<ul>					
 					<li>
 						<p><strong>3WDOC:</strong>
@@ -294,6 +294,7 @@
 			</section>		
 			<section class="content anchor" id="DiversityInCode">
 				<h2>TFI EMBRACES DIVERSITY IN CODE</h2>
+				<p>Recommended by <strong>Opeyemi Olukemi</strong></p>
 				
 				<ul>	 
 					<li> 
