@@ -329,7 +329,7 @@
 							</li>
 			
 							<li> <h4> Sheffield Doc/Fest</h4>
-							Interactive panels (including a full-day dedicated to interactive) and a Cross-media section for projects.
+							Festival that celebrates the art and business of documentary filmmaking. Includes Interactive panels and a Cross-media section for projects.
 								<br>	<strong>Time of year:</strong> June
 								<br>	<strong>Location:</strong> Sheffield, UK
 								<br> <a href="https://sheffdocfest.com/ "target=_blank> sheffdocfest.com </a>
