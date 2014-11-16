@@ -2,7 +2,7 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox | PR / Marketing</title>
+		        <title>PR / Marketing | TFI Sandbox</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/project-management-prmarketing"/>
 				

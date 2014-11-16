@@ -2,20 +2,20 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox | Education</title>
+		        <title>Education | TFI Sandbox</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/education" />
 				
 		<!--Facebook -->
 				<meta property="og:title" content="TFI Sandbox | Education" />
-				<meta property="og:description" content="Education and New Media." />
+				<meta property="og:description" content="Learn more about our initiatives combining education and interactive projects." />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/education"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
 				<meta name="twitter:title" content="TFI Sandbox | Education"/>
-				<meta name="twitter:description" content="Education and New Media."/>
+				<meta name="twitter:description" content="Learn more about our initiatives combining education and interactive projects."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/education" />
 				

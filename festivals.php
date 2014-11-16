@@ -2,20 +2,20 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox | Festivals</title>
+		        <title>Festivals | TFI Sandbox</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/festivals" />
 				
 		<!--Facebook -->
 				<meta property="og:title" content="TFI Sandbox | Festivals" />
-				<meta property="og:description" content="Festival, Market and Lab opportunities throughout the world." />
+				<meta property="og:description" content="Discover new work and get exposure for your projects." />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/festivals"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
 				<meta name="twitter:title" content="TFI Sandbox | Festivals"/>
-				<meta name="twitter:description" content="Festival, Market and Lab opportunities throughout the world."/>
+				<meta name="twitter:description" content="Discover new work and get exposure for your projects."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/festivals" />		  
 				

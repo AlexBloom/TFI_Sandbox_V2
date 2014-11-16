@@ -2,20 +2,20 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox | Impact</title>
+		        <title>Impact | TFI Sandbox</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/impact" />
 				
 		<!--Facebook -->
 				<meta property="og:title" content="TFI Sandbox | Impact" />
-				<meta property="og:description" content="The power of new media." />
+				<meta property="og:description" content="Exploring through collaborative efforts the emerging system of impact measurement." />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/impact"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
 				<meta name="twitter:title" content="TFI Sandbox | Impact"/>
-				<meta name="twitter:description" content="The power of new media."/>
+				<meta name="twitter:description" content="Exploring through collaborative efforts the emerging system of impact measurement."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/impact" />
 				

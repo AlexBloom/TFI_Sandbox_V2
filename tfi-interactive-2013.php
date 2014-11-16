@@ -2,19 +2,19 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox | TFI Interactive</title>
+		        <title>TFI Interactive 2013 | TFI Sandbox</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org/tfi-interactive-2013" />
 				
 		<!--Facebook -->
-				<meta property="og:title" content="TFI Sandbox | TFI Interactive" />
+				<meta property="og:title" content="TFI Sandbox | TFI Interactive 2013" />
 				<meta property="og:description" content="TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age." />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/tfi-interactive-2013"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
-				<meta name="twitter:title" content="TFI Sandbox | TFI Interactive"/>
+				<meta name="twitter:title" content="TFI Sandbox | TFI Interactive 2013"/>
 				<meta name="twitter:description" content="TFI Interactive assembles the brightest thinkers and innovators from the worlds of film, media, gaming, technology and society to explore storytelling in the digital age."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/tfi-interactive-2013" />

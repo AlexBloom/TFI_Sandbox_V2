@@ -2,20 +2,20 @@
 
 		<!-- Custom Meta Info for Each Page Here -->
 		<!--Web/SEO -->
-		        <title>TFI Sandbox</title>
+		        <title>TFI New Media Fund | TFI Sandbox</title>
 		        <meta name="description" content="TFI Sandbox is an initiative of the Tribeca Film Institute's New Media Fund. Bringing storytelling, technology and design together to innovate in the field, inspire audiences and create impact."/>
 				<link rel="canonical" href="http://sandbox.tribecafilminstitute.org" />
 				
 		<!--Facebook -->
-				<meta property="og:title" content="TFI Sandbox" />
-				<meta property="og:description" content="Description of Page" />
+				<meta property="og:title" content="TFI Sandbox | TFI New Media Fund" />
+				<meta property="og:description" content="Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and web." />
 				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/"/>
 		<!--Twitter -->
 				<meta name="twitter:card" content="summary" />
 				<meta name="twitter:site" content="@TribecaFilmIns">
-				<meta name="twitter:title" content="TFI Sandbox"/>
-				<meta name="twitter:description" content="Description of Page"/>
+				<meta name="twitter:title" content="TFI Sandbox | TFI New Media Fund"/>
+				<meta name="twitter:description" content="Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and web."/>
 				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/" />
 				
