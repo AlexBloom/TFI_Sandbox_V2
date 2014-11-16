@@ -119,7 +119,7 @@
 							</div>
 							<div class="header-info">
 								<div class="floating-text">
-								<small>Launched: October 2013</small>
+								<small>Launched: November 2013</small>
 								<h2>Type:Rider </h2>			
 								</div>
 							</div>
@@ -164,7 +164,7 @@
 						</div>
 						<div class="header-info">
 							<div class="floating-text">
-							<small>Launched: NOVEMBER 2013</small>
+							<small>Launched: November 2013</small>
 							<h2>EMOTIONAL ARCADE  </h2>										
 							</div>
 						</div>
@@ -261,7 +261,7 @@
 						</div>
 						<div class="header-info">
 							<div class="floating-text">
-							<small>Launched: February 2012</small>
+							<small>Launched: January 2013</small>
 							<h2>Cleveland Museum of Art:<br> Gallery One  </h2>
 						
 									
