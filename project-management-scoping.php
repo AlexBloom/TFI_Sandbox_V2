@@ -68,17 +68,6 @@
 				<div class="right-column clearfix">
 					<section id=""class="content">
 						<h2>Scoping</h2>
-						<p>By Mike Knowlton, Partner at Murmurco<br>
-							
-							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
-
-							More from Mike Knowlton -
-							<a href="project-management-timeline#CascadingTimeline">The Cascading Timeline, </a>
-							<a href="project-management-budget#ImplementationOptions">Three Types of Implementation Options,</a> 
-							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
-							
-						
-						</p>
 
 						<p>When starting to conceptualize an immersive media project, the scope is the first thing you need to establish. Subsequent tasks like creating a development timeline and budget are solely dependent upon the scope of the project.</p> 
 						 
@@ -107,6 +96,17 @@
 							</li>
 						</ul> 
 						<p>Creating immersive media projects is a blend of storytelling, filmmaking, user experience design, and technology development. Because of this it helps to think of your project in software development terms like prototypes, MVP, and phases of rollout.</p> 
+						
+						<p class="author">
+							By Mike Knowlton, Partner at Murmurco<br>
+							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
+							More from Mike Knowlton -
+							<a href="project-management-timeline#CascadingTimeline">The Cascading Timeline, </a>
+							<a href="project-management-budget#ImplementationOptions">Three Types of Implementation Options,</a> 
+							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
+							
+						
+						</p>
 						
 					</section>
 					

@@ -72,11 +72,6 @@
 							
 							<img src="img/content/build/projectmanagement/budget-mccarrenpark.jpg" alt="Budget Mccarrenpark">
 							<h2>McCarren Park, a Passion-Fueled Project</h2> 
-							<p>By Caitlin Burns, Transmedia Producer<br>
-							<a href="https://twitter.com/Caitlin_Burns"target=_blank>@Caitlin_Burns</a><br>
-							More from Caitlin Burns -
-							<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
-							</p>
 
 							<p>In 2008, Steele Filipek and Caitlin Burns set out to create McCarren Park, a live-action comedy distributed through a mobile application (read: bar crawl) of Williamsburg, Brooklyn. The film was built as an homage to the low-budget monster movies of Ed Wood and, of course, as a parody of 1993’s Jurassic Park, riffing on the popularity of the hipster dinosaur meme. More than that, it was built to show that a multiplatform property could be produced and made with free platforms. </p>
 
@@ -98,19 +93,17 @@
 
 							<p>Passion fueled the project rather than money, and though it took longer than a standard production, people eventually took notice. The mobile app caught the attention of the 2012 Tribeca Interactive Day and 2012 New York Film Festival: proof positive of the exercise’s hypothesis and that, regardless of budget, everyone loves watching hipsters get eaten. </p>
 
-							<a href="http://www.jurassicparkslope.com"target=_blank>www.jurassicparkslope.com</a>
-
+							<p><a href="http://www.jurassicparkslope.com"target=_blank>www.jurassicparkslope.com</a></p>
+							
+							<p class="author">By Caitlin Burns, Transmedia Producer<br>
+							<a href="https://twitter.com/Caitlin_Burns"target=_blank>@Caitlin_Burns</a><br>
+							More from Caitlin Burns -
+							<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>
+							</p>
 			
 					</section>
 					<section id="ImplementationOptions"class="content anchor">
 						<h2>Three Types of Implementation Options</h2> 
-						<p>By Mike Knowlton, Partner at Murmurco<br>
-							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
-							More from Mike Knowlton -
-							<a href="project-management-scoping">Build: Scoping</a>, 
-							<a href="project-management-budget#ImplementationOptions">Build: Three Types of Implementation Options</a>,  
-							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
-						</p>
 
 						<p>Project budgets are based upon the scope of a project, the level of effort it takes to make it. Accordingly budgets for immersive media projects can span a wide range. This is largely based on the approach that is taken during implementation.</p> 
 						
@@ -134,6 +127,14 @@
 						
 						<p>Digital applications break for a variety of reasons (for example a new OS is released or the third-party Search Engine tool goes down). They need ongoing attention from developers, whether those are in or out-of-house. You should plan and budget accordingly.</p>
 			
+						<p class="author">By Mike Knowlton, Partner at Murmurco<br>
+							<a href="https://twitter.com/murmurco"target=_blank>@murmurco</a><br>
+							More from Mike Knowlton -
+							<a href="project-management-scoping">Build: Scoping</a>, 
+							<a href="project-management-budget#ImplementationOptions">Build: Three Types of Implementation Options</a>,  
+							<a href="tfi-interactive-2014">Particpate: TFI Interactive 2014</a>
+						</p>
+						
 					</section>		
 				</section>
 			</section>

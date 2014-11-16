@@ -16,13 +16,8 @@
  <link rel="stylesheet" href="css/custom.css">
  <script type="text/javascript" src="//use.typekit.net/unb4pmi.js"></script>
  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+ <script src="js/vendor/modernizr-2.6.2.min.js"></script>
  
- <!--[if lte IE 8]>
-	<link rel="stylesheet" href="css/ie8.css">
-	<![endif]-->
-       
     </head>
 <body> 
 	
@@ -30,7 +25,7 @@
 	<script>
 	    // window.fbAsyncInit = function() {
 	    //   FB.init({
-	    //     appId      : '167329723445244',
+	    //     appId      : '167329723445244', 
 	    //     xfbml      : true,
 	    //     version    : 'v2.0'
 	    //   });

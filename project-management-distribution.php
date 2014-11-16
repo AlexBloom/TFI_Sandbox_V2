@@ -72,13 +72,6 @@
 					<section id="GameInADay"class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-betathegame.jpg" alt="Distribution Betathegame">
 						<h2>Build a Game in a Day </h2>
-						<p>By Errol King, Founder &amp; Creative Director of Beta<br>
-						<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a><br>
-						More from Errol King - 
-						<a href="interactive-landscape#BetaTheGame">Discover: Beta</a>, 
-						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
-						</p>
-
 
 						<p>Last year we set out to develop an experience that enabled creativity and empowered players to become creators. Over the last few months we have worked with communities around the world to share the project that resulted, an open game world called ‘Beta’ that allows players to easily play, code and share their own games.</p> 
 
@@ -87,19 +80,17 @@
 
 						<p><a href="http://www.betathegame.com"target=_blank>www.betathegame.com</a></p>
 			
+						<p class="author">By Errol King, Founder &amp; Creative Director of Beta<br>
+						<a href="https://twitter.com/ErrolKing"target=_blank>@ErrolKing</a><br>
+						More from Errol King - 
+						<a href="interactive-landscape#BetaTheGame">Discover: Beta</a>, 
+						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
+						</p>
+						
 					</section>
 					<section id="GoingGranular"class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-marisa.jpg" alt="Distribution Marisa">
 						<h2>Going Granular: On Distribution &amp; Digital Inclusion</h2>
-						<p>
-						By Marisa Jahn, Artist and Writer, Executive Director of REV- <br>
-						<a href="https://twitter.com/marisa_jahn"target=_blank>@marisa_jahn</a><br>
-						More from Marisa Jahn - <a href="tfi-new-media-fund-projects?2012#new_day_new_standard">Discover: New Media Fund 2012</a>
-						</p>
-						<p>
-						Anjum Asharia, Program Director of REV-<br>
-						<a href="https://twitter.com/yzplz"target=_blank>@yzplz</a> 
-						</p>
 						 
 						<p><strong>Virus:</strong> Dude, this is totally gonna go viral! YouTube is gonna explode! 
 						 </p>
@@ -157,24 +148,36 @@
 						 </p>
 						<p><strong>Vector:</strong> That’s a good way of putting it. Going granular. 
 						</p>
+						
+						<p class="author">
+						By Marisa Jahn, Artist and Writer, Executive Director of REV- <br>
+						<a href="https://twitter.com/marisa_jahn"target=_blank>@marisa_jahn</a><br>
+						More from Marisa Jahn - <a href="tfi-new-media-fund-projects?2012#new_day_new_standard">Discover: New Media Fund 2012</a>
+						</p>
+						<p class="author">
+						By Anjum Asharia, Program Director of REV-<br>
+						<a href="https://twitter.com/yzplz"target=_blank>@yzplz</a> 
+						</p>
 
 						
 					</section>	
 					<section id="DistributionIterative" class="content anchor">
 						<img src="img/content/build/projectmanagement/distribution-theo.jpg" alt="Distribution Theo"/>
 						<h2> Distribution as an Iterative Process </h2>
-						<p>By Theo Rigby, Director, Cinematographer, and Photographer<br>
-							<a href="https://twitter.com/theofilms"target=_blank>@theofilms</a><br>
-							More from Theo Rigby - <a href="tfi-new-media-fund-projects?2012#immigrant_nation">Discover: New Media Fund 2012</a>
-						
-						</p>
+
 						<p>Last week, my 8-month old daughter decided to crawl. Instantaneously she discovered nooks and crannies in my house that I never paid much attention to, or thought much about.  She spends time inspecting the heater grate, enjoys pulling up edges of carpets, and loves trying to pull herself up on things that easily topple over.  She looks at our environment in a drastically different way than we see it, and in many senses, I feel like this approach is necessary in distributing an interactive project.  The traditional indie distribution pipeline of: finish your film, premiere at Sundance, do a high-profile festival run, get bought by HBO, get a theatrical distributor, and sell home video DVD’s and streams in a million places, simply doesn’t apply to most interactive projects.</p> 
 
 						<p>	With Immigrant Nation (iNation), we have a multiple pieces of content to distribute, each of which has different ways to get out into the world.  Our short films can webcast, broadcast on traditional TV, be shown in film festivals/community screenings, and used in classrooms by educators.  Plus, each film in the series can have a different life and run in different outlets.  For example, the first iNation film The Caretaker was first shown at a special screening at the Cannes Film festival, then screened in another 3 U.S. festivals before premiering online on the NYT Op-doc series, then streaming on our Vimeo channel and the iNation online platform.  This year the film will be broadcast on a PBS show, as well as webcast by other media outlets, and screened by strategic partners at live events.  The iNation immersive web platform has different modes of distribution--over time we saw that there are a lot of potential ways to get the web piece of this project out in the world.  We’ve found a lot of traction in the education world, where teachers use the platform to promote personal storytelling in their classrooms and will use our amazing educators guide, created in collaboration with the Tribeca Film Institute.  The platform also gets pushed out through our strategic organizational partners, is showcased at live iNation events, highlighted on our own social media channels, and often spreads through word of mouth.  We’re currently considering a sticker bomb campaign.  Not really, but then again, why not?</p>
 
 						<p>It’s been profoundly satisfying to begin the ‘distribution’ part of iNation, long before it is ‘finished’.  For us, getting the project out in to the world is an iterative process that started almost when the project began, and has been followed by many small ‘launches’ and ‘premieres’ that we, in many ways, have to create ourselves.  We’ve always had specific target audiences in mind, and intentionally connect the project to those potential viewers/users.  However, as the project organically grows our audience sometimes audience grows in ways that we can’t predict, and we adapt.  As iNation expands there isn’t much I can predict with certainty, except that different modes of distribution we haven’t thought of yet will appear, and the project will grow in ways we can’t imagine. </p> 
 
-						<p><a href="http://immigrant-nation.com/"target=_blank>http://immigrant-nation.com/</a></p>
+						<p><a href="http://immigrant-nation.com/"target=_blank>immigrant-nation.com</a></p>
+						
+						<p class="author">By Theo Rigby, Director, Cinematographer, and Photographer<br>
+							<a href="https://twitter.com/theofilms"target=_blank>@theofilms</a><br>
+							More from Theo Rigby - <a href="tfi-new-media-fund-projects?2012#immigrant_nation">Discover: New Media Fund 2012</a>
+						
+						</p>
 					</section>
 						
 				</section>

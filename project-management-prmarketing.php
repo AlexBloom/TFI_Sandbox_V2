@@ -71,13 +71,6 @@
 					<section id="GetTheWordOut"class="content anchor">
 						<h2>How To Get The Word Out</h2>
 						
-						<p>
-							By Anne Becker, Director of Marketing for Tribeca Film Institute<br>
-							<a href="https://twitter.com/truebecks"target=_blank>@truebecks</a>
-						</p>						
-						
-						
-						
 						<p>Without traditional premiere events to drum up interest and attention, marketing and securing press for your new media project requires you to use some unorthodox strategies and a lot of self-starting, but can be an exciting process.</p> 
 						<p>It’s important to start early – as soon as your project gets off the ground. Build a social media presence for the project at its inception and seed Twitter, Facebook, Instagram, Tumblr, etc. with a project outline and/or shots from your production and planning to start creating a following of loyal fans who are interested in you and your work. Only, however, set up accounts that you can maintain and where you can keep an active presence.</p>
 						<p>Also, consider setting up a blog for your project where you post updates in addition to the project’s site itself. You could include any relevant video clips, a project summary, creator info, links to reviews or articles, e-mail signup, how to contact you, a journal, snippets of content you may not end up using, etc. You can also consider starting a Wikipedia entry for your project and linking to it from your site.</p>
@@ -87,21 +80,15 @@
 						<p>From a marketing standpoint, there are a lot of grassroots techniques you can take that are very effective. Collect emails at any event you go to – film festivals, conferences, workshops – and add them to a database that will constitute your “inner circle” along with your personal contacts. Send these folks emails regularly.</p> 
 						<p>If your budget allows for a cultivation event where you can invite potential funders, press and community members relevant to your subject matter, that is a great way to start the drumbeat of attention to the project. If not, even investing in promotional postcards and/or flyers and distributing them to local commercial outlets in your hometown, the town where your project takes place, etc. can go a long way.</p>
 
-						
-			
+						<p class="author">
+							By Anne Becker, Director of Marketing for Tribeca Film Institute<br>
+							<a href="https://twitter.com/truebecks"target=_blank>@truebecks</a>
+						</p>						
+
 					</section>
 					<section id="Offshore" class="content anchor">
 						<img src="img/content/build/projectmanagement/prmarketing-offshore.jpg" alt="Prmarketing Offshore">
 						<h2>Promoting Can Be Pretty Lonely</h2>
-						
-						<p>By Mike Robbins, Creative Technologist at Helios Design Labs<br>
-						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
-						More from Mike Robbins - 
-						<a href="project-management-team#one">Build: Teamwork is All About Communication</a>, 
-						<a href="interactive-landscape#Cowbird">Discover: Cowbird</a>,
-						<a href="interactive-landscape#Highrise">Discover: Highrise</a>
-						</p>
-						
 
 						<p>OFFSHORE is an interactive documentary about the truth and consequences of the offshore oil industry, and its impact on people and places that have been placed in harm's way. It's a collaboration between filmmakers Brenda Longfellow, Glen Richards, and Helios Design Labs.</p>
 
@@ -115,6 +102,14 @@
 
 						<p><a href="http://offshore-interactive.com/"target=_blank>http://offshore-interactive.com/</a></p>
 
+						<p class="author">
+						By Mike Robbins, Creative Technologist at Helios Design Labs<br>
+						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
+						More from Mike Robbins - 
+						<a href="project-management-team#one">Build: Teamwork is All About Communication</a>, 
+						<a href="interactive-landscape#Cowbird">Discover: Cowbird</a>,
+						<a href="interactive-landscape#Highrise">Discover: Highrise</a>
+						</p>
 						
 					</section>	
 						

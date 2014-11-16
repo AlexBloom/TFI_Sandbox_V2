@@ -77,13 +77,6 @@
 					<section id="one"class="content anchor">
 
 						<h2>Teamwork is All About Communication</h2>
-						<p>By Mike Robbins, Creative Technologist at Helios Design Labs<br>
-						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
-						More from Mike Robbins -
-						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Lonely</a>, 
-						<a href="interactive-landscape#Cowbird">Discover: Cowbird</a>,
-						<a href="interactive-landscape#Highrise">Discover: Highrise</a>
-						</p>
 						
 						<p>World Online Orchestra (WOO) is an international co-production between ourselves (Helios Design Labs in Toronto), Denmark-based Copenhagen Phil and creative studio Markropol.</p>
 
@@ -97,16 +90,20 @@
 
 						<p>So, teamwork is all about communication. If a picture is worth a thousand word, we've learned that a thousand words of code are worth an infinite amount of words. Especially if you're talking to Danish people.</p>
 
-						<a href="http://worldonlineorchestra.com"target=_blank>worldonlineorchestra.com</a>
-
+						<p><a href="http://worldonlineorchestra.com"target=_blank>worldonlineorchestra.com</a></p>
+						
+						<p class="author">
+						By Mike Robbins, Creative Technologist at Helios Design Labs<br>
+						<a href="https://twitter.com/mike_j_robbins" target=_blank>@mike_j_robbins</a><br>                             
+						More from Mike Robbins -
+						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Lonely</a>, 
+						<a href="interactive-landscape#Cowbird">Discover: Cowbird</a>,
+						<a href="interactive-landscape#Highrise">Discover: Highrise</a>
+						</p>
+						
 					</section>
 					<section id="two" class="content anchor">
 						<h2>It Takes a Team</h2>
-						<p><small>By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer</small><br>
-							<a href="https://twitter.com/storiesrising"target=_blank>@storiesrising</a>
-						
-						</p>
-
 
 						<p>Collaboration and ensemble practice has always been an essential part of making films and performances, and sometimes visual art, but the nature of collaboration and the roles continue to shift as technology impacts the way that we produce and tell stories. There is a growing capacity to democratize media making and media consumption, and make it more accountable and participatory. </p>
 						
@@ -117,17 +114,17 @@
 						<p>What we’ve learned is that a critical part of developing your team is recognizing what you are and what you are not. We see ourselves as multi-hyphenated artists–we are producers, directors, organizers, journalists, administrators, designers, and educators. Still, there are so many others that we want to and need to collaborate with to make our work happen, whether or not it is researchers, web developers, technologists, media and arts presenters, lawyers, teachers, community-based and social service organizations, academics, policy groups, other storytellers, and more. These other individuals and groups make our team whole and change not only the products we produce but also the entire process of creation.</p>
 
 						<p><a href="http://www.sandystoryline.com"target=_blank>www.sandystoryline.com</a></p>
-
+						
+						<p class="authro">
+							By Rachel Falcone, Multimedia Producer, Educator and Cultural Organizer<br>
+							<a href="https://twitter.com/storiesrising"target=_blank>@storiesrising</a>
+						</p>
+						
 						
 					</section>
 					<section id="three" class="content anchor">
 
 						<h2>Working Near and Far</h2>
-						<p>By Ramona Pringle, Digital Journalist and Multiplatform Media Producer<br>
-						<a href="https://twitter.com/ramonapringle"target=_blank>@ramonapringle</a><br>
-						More from Ramona Pringle -
-						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014: Avatar Secrets</a>
-						</p>
 
 						<p>Our core team on Avatar Secrets is writer/director, creative director, illustrator, animation director, developer, and cinematographer. There are more roles, but those are the ones that are in constant contact. Our core team is small, and we talk daily, day and night.</p>
 						<p>Team as family: I think it’s true of most productions, but especially one we’re you’re innovating and figuring things out as you go, you really become like a family; you know each other’s strengths and weaknesses, and most importantly that you can rely on each other. There’s often more work to be done than there are people to do it, so everyone on the team really needs to think of the project as more than a job, it’s a shared vision that we’re all collaborating on.</p>
@@ -140,7 +137,14 @@
 						
 						<p>Working near and far: This production has really taught me what can be done long distance versus what can be done face to face; What can be done over email, versus what requires a conversation… for efficiency, creativity, and problem solving. Early on in development, we were trying to nail down the beats in the main narrative, and we just needed to be together in the same room; we rolled paper over the ground and plotted everything out by hand, and I don’t think we could have done that digitally. Sometimes it’s easier to talk than type, and more efficient too, as emails can lead you in circles around a topic, but the converse is true, where the time shifts with a-temporal communication like email actually gives you time to think about a problem, and reflect on it.</p>
 						
-						<a href="http://www.avatarsecrets.com"target=_blank>www.avatarsecrets.com</a>
+						<p><a href="http://www.avatarsecrets.com"target=_blank>www.avatarsecrets.com</a></p>
+						
+						<p class="author">
+						By Ramona Pringle, Digital Journalist and Multiplatform Media Producer<br>
+						<a href="https://twitter.com/ramonapringle"target=_blank>@ramonapringle</a><br>
+						More from Ramona Pringle -
+						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014: Avatar Secrets</a>
+						</p>
 						
 					</section>
 				</section>
