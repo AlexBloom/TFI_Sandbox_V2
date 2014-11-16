@@ -30,6 +30,7 @@
 <section id="main" class="">		
 	<article>
 		<header id="tfi-new-media-fund_header">
+			
 			<h1>TFI New Media Fund</h1>
 		
 			<p class="intro">Funding and support to non-fiction, social issue media projects which go beyond traditional screens—integrating film with content across media platforms, from video games, apps, social networks and Web. For projects based anywhere in advanced development or beyond. Grants range from $50,000 to $100,000.</p>
@@ -37,7 +38,12 @@
 		
 		</header>
 
-		<section class="content clearfix" id="TFI-New-Media-Fund">		
+		<section class="content clearfix" id="TFI-New-Media-Fund">
+			<h2> A conversation with TFI New Media Fund grantees </h2>
+			<div class="flexvideo-16-9">	
+			<iframe src="//player.vimeo.com/video/110823714?title=0&amp;byline=0&amp;portrait=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			</div>
+					
 			<h2> View Supported Projects  </h2>
 			<ul class="buttonlist clearfix">
 				<li><a href="tfi-new-media-fund-projects?2014" target=_blank>2014</a></li>
