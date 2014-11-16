@@ -234,7 +234,7 @@ $cms = new tfi_ee();
 			<section class="content anchor" id="Upcoming">
 				<h2>UPCOMING EVENTS</h2>
 				<p>
-					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage.</a> for more info.
+					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage</a> for more info.
 				</p>
 				
 					<ul class="two-columns clearfix">
@@ -264,7 +264,7 @@ $cms = new tfi_ee();
 			<section class="content anchor" id="Upcoming">
 				<h2>UPCOMING EVENTS</h2>
 				<p>
-					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage.</a> for more info.
+					Visit the <a href="https://tribecafilminstitute.org/programs/detail/tribeca_hacks"target=_blank> Tribeca Hacks Homepage </a> for more information.
 				</p>
 					<ul class="two-columns clearfix">
 						<?php for($i=0; $i<5; $i++){?>
