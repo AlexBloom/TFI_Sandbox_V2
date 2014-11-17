@@ -140,6 +140,12 @@ $(function(){
 // Filtering Projects By Type
 $('#IL-All').addClass('on');
 
+$('.openAll').click(function() {
+	$('.filter-link').removeClass('on');
+	$('.project').removeClass('hidden');
+	$(this).addClass('on');
+});	
+
 $('#IL-All').click(function() {
 	$('.filter-link').removeClass('on');
 	$('.project').removeClass('hidden');

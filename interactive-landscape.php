@@ -25,7 +25,7 @@
 <nav class="breadcrumb" id="">
 	<ul>
 		<li> <a href="discover"> <span class="icon-discover"></span> <span class="breadcrumb-text">Discover</span> </a> </li>
-		<li> <a href="interactive-landscape"> Interactive Landscape </a> </li>
+		<li> <a class="openAll" href="interactive-landscape"> Interactive Landscape </a> </li>
 	</ul>
 </nav>
 <section class="clearfix" id="main">	
@@ -89,7 +89,7 @@
 
 						<p class="author"> By <strong>Arnaud Colinart</strong>, AGAT Films &amp; Cie / EX NIHILO <br>  
 							<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a><br>
-							More from Arnaud Colinart - <a href="interactive-landscape#EnjminBundle">Discover: Enjmin Bundle</a><br>
+							More from Arnaud Colinart - <a class="openAll" href="interactive-landscape#EnjminBundle">Discover: Enjmin Bundle</a><br>
 						</p>
 						
 						<p>A fusion of graphic design, gameplay and literature, DEVICE 6 is an intriguing mystery of technology and neuroscience that tells the story of Anna’s strange awakening in a bizarre castle filled with puzzles and directions, and the secrets she discovers as she explores the island on a quest to get home.</p>
@@ -101,7 +101,7 @@
 							<br>
 							<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a><br>
 							More from Nicholas Fortugno - 
-							<a href="interactive-landscape#PapersPlease"> Discover: Papers, Please</a>, 
+							<a class="openAll" href="interactive-landscape#PapersPlease"> Discover: Papers, Please</a>, 
 							<a href="tfi-interactive-2012#PlayInPlace"> Participate: TFI Interactive 2012</a>, 
 							<a href="tfi-interactive-2014#Fortugno"> Participate: TFI Interactive 2014</a>
 						 </p>
@@ -148,7 +148,7 @@
 							By <strong>Michel Reilhac</strong>, Story Architect, MÉLANGE<br>
 							<a href="https://twitter.com/michelreilhac"target=_blank> @michelreilhac </a><br>
 							More From Michel Reilhac - 
-							<a href="interactive-landscape#HitRecord">Discover: hitRECord</a>, 
+							<a class="openAll" href="interactive-landscape#HitRecord">Discover: hitRECord</a>, 
 							<a href="tfi-interactive-2014#Reilhac">Participate: TFI Interactive 2014</a>
 						</p>
 						
@@ -193,7 +193,7 @@
 					<br>
 					<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a><br>
 					More from Brent Hoff - 
-					<a href="interactive-landscape#Blabdroid">Discover: Blabdroid</a>, 
+					<a class="openAll" href="interactive-landscape#Blabdroid">Discover: Blabdroid</a>, 
 					<a href="tfi-interactive-2013#Storyscapes">Participate: TFI Interactive 2013</a>
 					</p>
 					
@@ -240,7 +240,7 @@
 						<p class="author"> By <strong>David Carofano</strong>, Production Associate at Local Projects
 						<br>
 						More from David Carofano - 
-						<a href="interactive-landscape#GalleryOne"> Discover: Cleveland Museum of Art: Gallery One</a>, 
+						<a class="openAll" href="interactive-landscape#GalleryOne"> Discover: Cleveland Museum of Art: Gallery One</a>, 
 						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
 						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
 						More from Local Projects - 
@@ -290,7 +290,7 @@
 						<br>
 						<a href="https://twitter.com/localprojects"target=_blank>@localprojects</a><br>
 						More from David Carofano - 
-						<a href="interactive-landscape#WeRemember"> Discover: 9/11 Memorial Museum: We Remember</a>, 
+						<a class="openAll" href="interactive-landscape#WeRemember"> Discover: 9/11 Memorial Museum: We Remember</a>, 
 						<a href="project-management-sustainability#TechnologyvsExperience"> Build:Technology vs. Experience</a>, 
 						<a href="project-management-timeline#example1"> Build: Creating By Doing</a> <br>
 						More from Local Projects - 
@@ -300,47 +300,7 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix Web" id="GoneHome">
-				<article>
-
-					<header class="project-header" id="">
-						<a class="local-link" href="#GoneHome">
-						<div class="project-image-wrap">
-							<img src="img/content/discover/interactive-landscape/web/gonehome.jpg" alt="Gonehome">
-						</div>
-						<div class="header-info">
-							<div class="floating-text">
-							<small>Launched: August 2013</small>
-							<h2>Gone Home   </h2>					
-							</div>
-						</div>
-						</a>
-						</header>
-						<section class="project-content">
-							<aside>
-					
-						<ul>
-							<li> <strong> Selected by: </strong>Aina Abiodun </li>
-							<li> <strong> Developed &amp; Published by: </strong> The Fullbright Company</li>
-							<li> <strong> Launched: </strong> August 2013 </li>
-							<li><a class="project-url" href="http://thefullbrightcompany.com/gonehome/" target=_blank> thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
-						</ul>
-					</aside>
 			
-
-						<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
-						<p>Beyond the sheer delight of exploring such a well designed and rendered space, I found myself curious to discover the story through the physical objects. Like many compelling stories, the draw of this one is the familiarity and relatability of the story, and the sense of knowing yet not knowing one's family is made more visceral by the act of the player being the character rather than watching her. Gone Home gives a glimpse into the possibilities of great storytelling in gaming.</p>
-						
-						<p class="author"> By <strong>Aina Abiodun</strong>, Storyteller, Strategist &amp; Futurist
-						<br>
-						<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun</a><br>
-						More from Aina Abiodun - <a href="interactive-landscape#WowAnOpera">Discover: Wow, An Opera</a>
-						</p>
-			
-					</section>
-		
-				</article>
-			</li>
 			<li class="project anchor clearfix Web" id="NSAFiles">
 				<article>
 					<header class="project-header" id="">
@@ -377,7 +337,7 @@
 						<br>
 						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a><br>
 						More from Gabriel Dance - 
-						<a href="interactive-landscape#GreatFalls">Discover: The Perils At Great Falls</a>,
+						<a class="openAll" href="interactive-landscape#GreatFalls">Discover: The Perils At Great Falls</a>,
 						<a href="tfi-interactive-2012#FutureOfNews">Participate: TFI Interactive 2012</a> 
 						</p>
 						
@@ -426,7 +386,7 @@
 						<br>
 						<a href="https://twitter.com/gabrieldance"target=_blank>@gabrieldance</a><br>
 						More from Gabriel Dance - 
-						<a href="interactive-landscape#NSAFiles">Discover: NSA Files: Decoded</a>,
+						<a class="openAll" href="interactive-landscape#NSAFiles">Discover: NSA Files: Decoded</a>,
 						<a href="tfi-interactive-2012#FutureOfNews">Participate: TFI Interactive 2012</a>
 						</p>
 						
@@ -475,7 +435,7 @@
 						<br>
 						<a href="https://twitter.com/michelreilhac"target=_blank>@michelreilhac</a><br>
 						More From Michel Reilhac - 
-						<a href="interactive-landscape#TypeRider">Discover: Type:Ryder</a>, 
+						<a class="openAll" href="interactive-landscape#TypeRider">Discover: Type:Ryder</a>, 
 						<a href="tfi-interactive-2014#Reilhac">Participate: TFI Interactive 2014</a>
 						</p>
 					
@@ -532,7 +492,7 @@
 							<strong>David Osit</strong>, Commercial and Documentary Director, Editor, Composer 
 							<br>
 							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a><br>
-							More from Malika Zouhali-Worrall &amp; David Osit - <a href="interactive-landscape#DragonCancer">Discover: That Dragon, Cancer</a>
+							More from Malika Zouhali-Worrall &amp; David Osit - <a class="openAll" href="interactive-landscape#DragonCancer">Discover: That Dragon, Cancer</a>
 						</p>
 						
 					
@@ -588,7 +548,7 @@
 							<strong>David Osit</strong>, Commercial and Documentary Director, Editor, Composer 
 							<br>
 							<a href="https://twitter.com/davidosit"target=_blank>@davidosit</a><br>
-							More from Malika Zouhali-Worrall &amp; David Osit - <a href="interactive-landscape#ListenToWikipedia">Discover: Listen to Wikipedia</a>
+							More from Malika Zouhali-Worrall &amp; David Osit - <a class="openAll" href="interactive-landscape#ListenToWikipedia">Discover: Listen to Wikipedia</a>
 						</p>
 					
 					</section>
@@ -637,7 +597,7 @@
 						<br>
 						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a><br>
 						More from Mike Robbins - 
-						<a href="interactive-landscape#Highrise">Discover: Highrise </a>, 
+						<a class="openAll" href="interactive-landscape#Highrise">Discover: Highrise </a>, 
 						<a href="project-management-team#one">Build: Teamwork Is All About Communication </a>, 
 						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Pretty Lonely </a>
 						</p>	
@@ -689,7 +649,7 @@
 						<br>
 						<a href="https://twitter.com/mike_j_robbins"target=_blank>@mike_j_robbins</a><br>
 						More from Mike Robbins - 
-						<a href="interactive-landscape#Cowbird">Discover: Cowbird </a>, 
+						<a class="openAll" href="interactive-landscape#Cowbird">Discover: Cowbird </a>, 
 						<a href="project-management-team#one">Build: Teamwork Is All About Communication </a>, 
 						<a href="project-management-prmarketing#Offshore">Build: Promoting Can Be Pretty Lonely </a>
 						</p>
@@ -698,7 +658,49 @@
 		
 				</article>
 			</li>
-			<li class="project anchor clearfix Web" id="PapersPlease">
+			
+			<li class="project anchor clearfix Other" id="GoneHome">
+				<article>
+
+					<header class="project-header" id="">
+						<a class="local-link" href="#GoneHome">
+						<div class="project-image-wrap">
+							<img src="img/content/discover/interactive-landscape/web/gonehome.jpg" alt="Gonehome">
+						</div>
+						<div class="header-info">
+							<div class="floating-text">
+							<small>Launched: August 2013</small>
+							<h2>Gone Home   </h2>					
+							</div>
+						</div>
+						</a>
+						</header>
+						<section class="project-content">
+							<aside>
+					
+						<ul>
+							<li> <strong> Selected by: </strong>Aina Abiodun </li>
+							<li> <strong> Developed &amp; Published by: </strong> The Fullbright Company</li>
+							<li> <strong> Launched: </strong> August 2013 </li>
+							<li><a class="project-url" href="http://thefullbrightcompany.com/gonehome/" target=_blank> thefullbrightcompany.com/gonehome <span class="icon-export"></span></a></li>
+						</ul>
+					</aside>
+			
+
+						<p>Gone Home is a story exploration video game set in 1995, in which the player plays Kaitlin Greenbriar, a 21-year-old college student who arrives at her family’s home in Portland after a year in Europe. Her parents and her sister are gone, and all there is a note from her missing younger sister, Sam, taped to the front door. We play to unravel the mystery.</p>
+						<p>Beyond the sheer delight of exploring such a well designed and rendered space, I found myself curious to discover the story through the physical objects. Like many compelling stories, the draw of this one is the familiarity and relatability of the story, and the sense of knowing yet not knowing one's family is made more visceral by the act of the player being the character rather than watching her. Gone Home gives a glimpse into the possibilities of great storytelling in gaming.</p>
+						
+						<p class="author"> By <strong>Aina Abiodun</strong>, Storyteller, Strategist &amp; Futurist
+						<br>
+						<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun</a><br>
+						More from Aina Abiodun - <a class="openAll" href="interactive-landscape#WowAnOpera">Discover: Wow, An Opera</a>
+						</p>
+			
+					</section>
+		
+				</article>
+			</li>
+			<li class="project anchor clearfix Other" id="PapersPlease">
 				<article>
 
 					<header class="project-header" id="">
@@ -738,7 +740,7 @@
 						<br>
 						<a href="https://twitter.com/nickfortugno"target=_blank>@nickfortugno</a><br>
 						More from Nicholas Fortugno - 
-						<a href="interactive-landscape#Device6">Discover: Device 6</a>, 
+						<a class="openAll" href="interactive-landscape#Device6">Discover: Device 6</a>, 
 						<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
 						<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
 					 </p>
@@ -786,7 +788,7 @@
 					<p class="author"> By <strong>Aina Abiodun</strong>, Storyteller, Strategist &amp; Futurist
 					<br>
 					<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun </a><br>
-					More from Aina Abiodun - <a href="interactive-landscape#GoneHome"> Discover: Gone Home</a>
+					More from Aina Abiodun - <a class="openAll" href="interactive-landscape#GoneHome"> Discover: Gone Home</a>
 					</p>
 					</section>
 
@@ -828,7 +830,7 @@
 					<p class="author"> By <strong> Arnaud Colinart</strong>, AGAT Films &amp; Cie / EX NIHILO 
 					<br>
 					<a href="https://twitter.com/coli_coli"target=_blank> @coli_coli </a><br>
-					More from Arnaud Colinart - <a href="interactive-landscape#Device6">Discover: Device 6</a>
+					More from Arnaud Colinart - <a class="openAll" href="interactive-landscape#Device6">Discover: Device 6</a>
 					</p>
 
 			
@@ -872,7 +874,7 @@
 							<br>
 							<a href="https://twitter.com/brenthoff"target=_blank>@brenthoff</a><br>
 							More from Brent Hoff - 
-							<a href="interactive-landscape#EmotionalArcade">Discover: Emotional Arcade</a>,  
+							<a class="openAll" href="interactive-landscape#EmotionalArcade">Discover: Emotional Arcade</a>,  
 							<a href="tfi-interactive-2013#Storyscapes">Participate: TFI Interactive 2013</a>
 						</p>
 			
@@ -921,7 +923,7 @@
 				</article>
 			</li>		
 			
-			<li class="project anchor clearfix Other" id="EverydayAfrica">
+			<li class="project anchor clearfix Web" id="EverydayAfrica">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#EverydayAfrica">
@@ -957,8 +959,8 @@
 				<br>
 				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 				More from Ingrid Kopp - 
-				<a href="interactive-landscape#DocubaseMIT">Discover: Docubase MIT</a>, 
-				<a href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
+				<a class="openAll" href="interactive-landscape#DocubaseMIT">Discover: Docubase MIT</a>, 
+				<a class="openAll" href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
 				<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
 				<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
 				<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
@@ -968,7 +970,7 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix Other" id="DocubaseMIT">
+			<li class="project anchor clearfix Web" id="DocubaseMIT">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#DocubaseMIT">
@@ -1004,8 +1006,8 @@
 				<br>
 				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 					More from Ingrid Kopp - 
-					<a href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
-					<a href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
+					<a class="openAll" href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
+					<a class="openAll" href="interactive-landscape#PinePoint">Discover: PinePoint</a>,
 					<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
 					<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
 					<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
@@ -1016,7 +1018,7 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix Other" id="PinePoint">
+			<li class="project anchor clearfix Web" id="PinePoint">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#PinePoint">
@@ -1051,8 +1053,8 @@
 				<br>
 				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 				More from Ingrid Kopp - 
-				<a href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
-				<a href="interactive-landscape#DocubaseMIT">Discover: Docubase MIT</a>, 
+				<a class="openAll" href="interactive-landscape#EverydayAfrica">Discover: Everyday Africa</a>, 
+				<a class="openAll" href="interactive-landscape#DocubaseMIT">Discover: Docubase MIT</a>, 
 				<a href="tfi-interactive-2012">Participate: TFI Interactive 2012</a>, 
 				<a href="tfi-interactive-2013">Particpate: TFI Interactive 2013</a>, 
 				<a href="tfi-interactive-2014">Participate: TFI Interactive 2014</a>
@@ -1062,7 +1064,7 @@
 					</section>
 				</article>
 			</li>
-			<li class="project anchor clearfix Other" id="PrisonValley">
+			<li class="project anchor clearfix Web" id="PrisonValley">
 				<article>
 					<header class="project-header" id="">
 						<a class="local-link" href="#PrisonValley">
@@ -1097,7 +1099,7 @@
 				
 						<p class="author"> By <strong>Amelie Leenhardt</strong>, Interactive, Tribeca Film Institute
 						<br>
-						More from Amelie Leenhardt - <a href="interactive-landscape#KentuckyRouteZero">Discover: Kentucky Route Zero</a>
+						More from Amelie Leenhardt - <a class="openAll" href="interactive-landscape#KentuckyRouteZero">Discover: Kentucky Route Zero</a>
 						</p>
 							
 					</section>
@@ -1137,7 +1139,7 @@
 				
 					<p class="author"> By <strong>Amelie Leenhardt</strong>, Interactive, Tribeca Film Institute
 					<br>
-					More from Amelie Leenhardt - <a href="interactive-landscape#PrisonValley">Discover: Prison Valley</a>
+					More from Amelie Leenhardt - <a class="openAll" href="interactive-landscape#PrisonValley">Discover: Prison Valley</a>
 					</p>
 							
 					</section>
