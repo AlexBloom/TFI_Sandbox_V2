@@ -17,7 +17,7 @@
 			
 		<div id="ford-logo"> <img src="img/ui/justfilms_logo.gif" alt="Just Films Ford Foundation"> </div>
 		<div id="footer-info">
-			<p><a href="mailto:interactive@tribecafilminstitute.org"target=_blank> Contact Us </a> |
+			<p><a href="mailto:interactive@tribecafilminstitute.org"> Contact Us </a> |
 			   <a href="https://tribecafilminstitute.org/pages/newsletter_sign_up"target=_blank> Newsletter</a> |
 			   Site by <a href="http://digitalfrontiersman.com"target=_blank>Alex Bloom</a>
 			</p>
