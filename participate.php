@@ -50,8 +50,8 @@
 		<p>Discover what happens at Tribeca Hacks, when storytellers, developers and designers come together to create prototypes over just a few days. These hackathons and workshops give creative media artists the insight and skills to create robust interactive projects that effectively engage with audiences and the chance to experiment with new tools and technologies. They also showcase innovation in this field for artists, funders and the public. A primary goal of Tribeca Hacks is to build new relationships between media artists, technologists and designers.</p>
 
 		<p>Ingrid Kopp<br>
-							Director, Interactive<br>
-							Tribeca Film Institute</p>
+			Director, Interactive<br>
+			Tribeca Film Institute</p>
 	</section>
 						
 </article>

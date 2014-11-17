@@ -42,8 +42,8 @@
 				<p class="intro">Learn more about our initiatives combining education and interactive projects.</p>
 				</section>
 			</header>
-		
-			<div class="left-column clearfix">
+			<section class="clearfix">
+				<div class="left-column clearfix">
 			
 				<nav class="sticky">
 					<h4>Sections</h4>	
@@ -60,8 +60,7 @@
 				</nav>
 				&nbsp;
 			</div>
-			
-			<div class="right-column clearfix">
+				<div class="right-column clearfix">
 				<section class="content anchor" id="NewMediaEducation">
 					<article>
 						<h2>New Media &amp; Education</h2>
@@ -102,6 +101,7 @@
 					</article>
 				</section>
 			</div>
+			</section>
 		</article>	
 	</section>
 	

@@ -1130,6 +1130,9 @@ section{
 	width:80%;
 	padding:0 10%;
 	@media screen and (min-width:(em(800))){
+		position:absolute;
+		height:100%;
+		bottom:0;
 		padding:0 2.5%;
 		width:20%;
 	}	
@@ -1139,17 +1142,19 @@ section{
 	width:100%;
 	padding:0;
 	@media screen and (min-width:(em(800))){
+		margin-left:25%;
 		width:75%;
 	}
 	.content{
 		@media screen and (min-width:(em(1200))){
-			margin:3em auto 3em 2em!important;
+			margin:3em auto 3em 4em!important;
 		}
 	}
 }
 .sticky{
 	position:relative;
-	padding:1em 0 0;
+	padding:1.25em 0 0;	
+	//width:100%;
 	ol{
 		padding:0;
 		li{
@@ -1160,8 +1165,7 @@ section{
 		ul{
 			padding:0 0 0 .5em;
 			margin:0;
-			li{
-				
+			li{	
 				border-top:none;
 				border-left:1px solid $light-grey;
 				padding:0em 0 0em 1em;
@@ -1170,30 +1174,50 @@ section{
 		}
 		a{text-decoration:none;}
 	}
-}
-.sticky.fixed{
 	@media screen and (min-width:(em(800))){
-		position:fixed;
-		top:3em;
-		width:20%;
-	}
-	.scrollnav-link{
-		display:block;
-		margin-left:0;	
-		@include quarter-second-transition;
-	}
-	.scrollnav-link.current{
-		color:$action-color;
-		transition-delay:.25s;
-		@include quarter-second-transition;
-		strong{
-			text-decoration:underline;
+		h4{
+			padding-top:1.5em;
+			border-top: 0.4rem solid $text-color;
+		}
+		position:absolute;
+		top:0;
+		&.top{
+			position:absolute;
+			top:0;
+			//width:25%;
+		}
+		&.bottom{
+			position:absolute;
+			top:auto;
+			bottom:0;
+			//width:25%;
+		}
+		&.fixed{
+				position:fixed;
+				top:0;
+				width:22.5%;
+		}
+		.scrollnav-link{
+			display:block;
+			margin-left:0;	
+			@include quarter-second-transition;
+		}
+		.scrollnav-link.current{
+			color:$action-color;
+			transition-delay:.25s;
+			@include quarter-second-transition;
+			strong{
+				text-decoration:underline;
+			}
 		}
 	}
 }
 
+
+
 //Articles / Content 
 article{
+	position:relative;
 	width:100%;
 	text-align:left;
 	header{

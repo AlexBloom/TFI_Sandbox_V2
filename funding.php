@@ -40,7 +40,8 @@
 			</p>
 			
 		</header>
-		<div class="left-column clearfix">
+		<section class="clearfix">
+			<div class="left-column clearfix">
 			<nav class="sticky">
 				<h4>Sections</h4>	
 				<ol class="clearfix">
@@ -66,7 +67,7 @@
 			</nav>
 			&nbsp;
 		</div>
-		<div class="right-column clearfix">	
+			<div class="right-column clearfix">	
 		<section class="content anchor" id="FundingTimeline">
 			
 			<h2>FUNDING OPPORTUNITIES</h2>
@@ -289,6 +290,7 @@
 			
 		</section>
 		</div>
+		</section>
 	</article>		
 
 <?php include_once 'inc/sharenav.inc' ?>

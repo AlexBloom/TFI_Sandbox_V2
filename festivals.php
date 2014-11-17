@@ -54,7 +54,7 @@
 			</dl>
 			<hr>
 			
-			<section id="List">
+			<section id="List" class="clearfix">
 				<div class="left-column clearfix">
 					<nav class="sticky">
 						<h4>Regions</h4>	

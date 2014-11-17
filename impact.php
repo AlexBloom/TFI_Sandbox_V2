@@ -41,7 +41,7 @@
 				<p class="intro">Exploring through collaborative efforts the emerging system of impact measurement.</p>
 				</section>
 			</header>
-				
+			<section class="clearfix">
 				<div class="left-column clearfix">
 			
 					<nav class="sticky">
@@ -59,7 +59,6 @@
 					</nav>
 					&nbsp;
 				</div>
-				
 				<div class="right-column clearfix">
 					<section class="content anchor" id="ImpactWorkingGroup">
 						<img src="img/content/build/impact/imiwg.jpg" alt="Interactive Media Impact Working Group convening">
@@ -106,7 +105,7 @@
 							<p><a href="http://harmony-institute.org/"target=_blank>harmony-institute.org </a></p>
 					</section>
 				</div>
-				
+			</section>
 		</article>	
 	</section>
 	

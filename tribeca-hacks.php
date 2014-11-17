@@ -54,8 +54,8 @@ $cms = new tfi_ee();
 			</p>
 		</header>
 	
-
-	<div class="left-column clearfix">
+		<section class="clearfix">
+		<div class="left-column clearfix">
 	
 		<nav class="sticky">
 			<h4>Sections</h4>	
@@ -73,8 +73,7 @@ $cms = new tfi_ee();
 		</nav>
 		&nbsp;
 	</div>
-	
-	<div class="right-column clearfix">
+		<div class="right-column clearfix">
 			<section class="content anchor" id="HackathonMentality">
 				<article>
 				
@@ -319,7 +318,8 @@ $cms = new tfi_ee();
 			</section>
 			<?php } ?>
 	</div>
-	
+		</section>
+		
 	</article>
 	
 <?php include_once 'inc/sharenav.inc' ?>

@@ -33,9 +33,6 @@
 	<header id="discover_header">
 		<h1>Discover</h1>
 	</header>
-	
-
-	
 	<section class="content">
 		<ul class="buttonlist two clearfix">
 			<li> 

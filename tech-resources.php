@@ -42,7 +42,8 @@
 				</p>
 				</section>
 			</header>
-		<div class="left-column clearfix">
+			<section class="clearfix">
+			<div class="left-column clearfix">
 			<nav class="sticky">
 				<h4>Sections</h4>	
 				<ol class="clearfix">
@@ -53,7 +54,7 @@
 			</nav>
 			&nbsp;
 		</div>
-		<div class="right-column clearfix">
+			<div class="right-column clearfix">
 			<section class="content anchor" id="TFIResources">
 				<h2>Tools and Platforms</h2>				
 				<ul>					
@@ -324,6 +325,7 @@
 				<p>Recommended by Opeyemi Olukemi, Interactive Manager, Tribeca Film Institute </p>
 			</section>
 		</div>
+			</section>
 		</article>
 
 	</section>

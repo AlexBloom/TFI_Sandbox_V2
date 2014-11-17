@@ -102,18 +102,19 @@ $('.local-link').each(function() {
 });
 	
 // Sticky Navigations		
- $('.left-column').waypoint(
-  function(direction) {   
-    // This div is level with the top  
-    if(direction == 'down'){
-     $('.sticky').addClass('fixed');
-    } //find('.waypoint-inner')
-      else  $('.sticky').removeClass('fixed');
-  },
-  {
-	 offset: 50
- }
-);
+// $('.left-column').waypoint(
+//  function(direction) {   
+//    // This div is level with the top  
+//    if(direction == 'down'){
+//     $('.sticky').addClass('fixed');
+//    }
+//      else  $('.sticky').removeClass('fixed');
+//  },
+//  {
+//	 offset: 50
+// }
+//);
+
 
 // Active Link Highlighting
  // Add Current Class to ScrollNav of Currently Depressed Item
@@ -123,7 +124,7 @@ $('.local-link').each(function() {
   	});	   
 	
 //Side Nav Highlighting 
-$(function(){
+//$(function(){
     $(document).scroll(function(){
         $('.anchor').each(function(){
             var $this = $(this),
@@ -133,9 +134,34 @@ $(function(){
                 $('.scrollnav-link[href="#'+$this.attr('id')+'"]').addClass('current');
             }
         });
+		
+		var columnLength = $('.left-column').height() - $('.sticky').height() + $('.left-column').offset().top;
+	    var scroll = $(this).scrollTop();
+	    var height = $('.sticky').height() + 'px';
+    
+	    if (scroll < $('.left-column').offset().top) {
+    
+	        $('.sticky').addClass('top');
+			$('.sticky').removeClass('fixed');
+			$('.sticky').removeClass('bottom');
+    
+	    } else if (scroll > columnLength) {
+    		$('.sticky').removeClass('top');
+	        $('.sticky').addClass('bottom');
+    		$('.sticky').removeClass('fixed');
+	    } else {
+	        $('.sticky').addClass('fixed');
+			$('.sticky').removeClass('top');
+			$('.sticky').removeClass('bottom');
+	    }
 
     });
-});
+	//});
+	
+	
+	
+    
+
 
 // Filtering Projects By Type
 $('#IL-All').addClass('on');
