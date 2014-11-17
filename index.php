@@ -38,7 +38,11 @@
 		<div class="video-overlay" id="video-1">
 			<div class="video-inner">
 				<button class="close-video" id="close-home"> <span class="icon icon-close"></span> </button>		
-			<iframe src="//player.vimeo.com/video/110588136?byline=0&amp;portrait=0&amp;color=ffffff" width="100%" height:"100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen>
+			<iframe id="vimeoPlayer" src="//player.vimeo.com/video/110588136?byline=0&amp;portrait=0&amp;color=ffffff&amp;api=1&amp;player_id=vimeoPlayer" 
+			width="100%" 
+			height:"100%" 
+			frameborder="0" 
+			webkitallowfullscreen mozallowfullscreen allowfullscreen>
 			</iframe>
 			</div>
 		</div>
@@ -111,5 +115,6 @@
 	
 <section>	
 <!-- End Index Page --> 
+
 	 
 <?php include_once 'inc/footer.inc' ?>

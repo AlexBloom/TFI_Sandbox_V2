@@ -36,6 +36,7 @@
 	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 	<script type="text/javascript" src="js/jquery.localScroll.min.js"></script>
 	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<script src="//f.vimeocdn.com/js/froogaloop2.min.js"></script>
 	<script src="js/main.js"></script>
 	
 	

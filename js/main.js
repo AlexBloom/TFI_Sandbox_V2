@@ -206,22 +206,40 @@ $('#share-engage').click(function() {
 });
  
 
+
+
 // Show and Play Full Screen Videos
-	$(".play-video").click(function(){
-		$('.video-overlay').css("display","block");
-		$('#header').css("display","none");
-		$('body').addClass('overflow-hidden');
-	});
+$(".play-video").click(function(){
+	$('.video-overlay').css("display","block");
+	$('#header').css("display","none");
+	$('body').addClass('overflow-hidden');
+});
+
+   // LOOP VIMEO API TO PAUSE PLAYER ON CLOSE
+	
+	var iframe = $('#vimeoPlayer')[0];
+    var player = $f(iframe);
+    //var status = $('.status');
+	
+	player.addEvent('ready', function() {    
+	        player.addEvent('pause', onPause);
+	    });
+	    $('.close-video').bind('click', function() {
+	        player.api('pause');
+	    });
 
 	$(".close-video").click(function(){
 		$('.video-overlay').css("display","none");
 		$('#header').css("display","block");
 		$('body').removeClass('overflow-hidden');
 	});
+	
+
+  //VIDEOS========================================================================//
  
 	// Load Medium Res Background Video
 	
-	if ($(window).width() > 1000 ){	
+	if ($(window).width() > 800 ){	
 		
 		    var sdVideos = new Array(
 			'<video class="background-video" id="home-bg" autoplay loop muted> <source src="video/sd/HomepageLoop_1-SD.mp4" type="video/mp4"/> <source src="video/sd/HomepageLoop_1-SD.ogg" type="video/ogg"/> </video>',
@@ -236,4 +254,8 @@ $('#share-engage').click(function() {
 		$('.background-video').addClass('display-none');
 	}
 });
+
+// Vimeo Loop
+
+
 
