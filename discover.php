@@ -46,12 +46,11 @@
 			</li>
 		</ul>
 		
-		<p>While gathering contributions for this new edition of Sandbox, I started to feel excited and somehow helpless. I was overwhelmed by the multitude of ground-breaking technologies and platforms that are created as well as the profusion of compelling stories that are told; and many more imaginative ways to create impact and engage audiences, offering a fully interactive and sometimes even immersive experience. When and where does it end? How does one embrace the whole field? Impossible! </p> 
+		<p>There is a profusion of great groundbreaking projects out there, exploring new ways to tell stories and to interact with the audience.</p> 
 		<p>
-			That’s part of the beauty and the magic of the interactive storytelling landscape. How can we expect to find clear limits when we constantly ask creators to push the boundaries? Feeling helpless can actually be a good way to approach interactive and cross-platform projects:  it makes you humble, curious and open to new experiences.</p>
+			Here, to help you embrace this vast and ever-changing interactive field, we assembled an overview of engaging and innovative projects we funded through the TFI New Media Fund or were recommended by industry experts - knowing that there is an infinite number of inspiring projects that we could have also talked about.</p>
 
-		<p>Rather than trying to define the boundaries of this ever-changing field, we proposed an overview of engaging, interactive and innovative projects we funded, projects we liked, projects people we like liked, knowing that there is an infinite number of inspiring projects out there that we could have talked about. How exciting!</p>
-		<p>So, please enjoy, create and innovate!</p>
+		<p>We invite you to discover, experiment and interact with this colorful selection of inspiring projects.</p>
 
 		<p>Amelie Leenhardt,<br>
 		   Program Coordinator, Interactive<br>
