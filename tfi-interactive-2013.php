@@ -103,7 +103,7 @@
 			</p>
 			<p> 
 				<strong> <a href="http://vimeo.com/66591879"target=_blank>SHARE THIS, YOUR STORY, BUT SOCIAL</a> </strong><br>
-				<ul><li>Deanna Zandt, Co-founder, Partner, Lux Digital http://vimeo.com/66591879</li></ul>
+				<ul><li>Deanna Zandt, Co-founder, Partner, Lux Digital</li></ul>
 			</p>
 			<p> 
 				<strong> <a href="http://vimeo.com/66591817"target=_blank>THE AATSINKI SEASON</a> </strong><br>
