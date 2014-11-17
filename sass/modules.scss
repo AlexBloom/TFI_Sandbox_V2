@@ -180,12 +180,10 @@ button{
 		&:hover{
 			text-decoration:none;
 			color:$medium-grey;
-			background-color:$white;
 		}
 		&:active{
 			text-decoration:none;
-			color:$action-color;
-			background-color:$white;	
+			color:$action-color;	
 		}
 		@media screen and (min-width:(em(600))){
 			//display:inline-block;
@@ -490,16 +488,19 @@ font-size:75%;
 		text-decoration:none;
 		color:$white;
 		&:hover{
-			color:$medium-grey;
-			background-color:$white;
 		}
 		&:active{
 			text-decoration:none;
-			color:$action-color;
-			background-color:$white;	
+			color:$black;
 		}
 		@media screen and (min-width:(em(600))){
 			color:$dark-grey;
+			&:hover{
+				color:$medium-grey;
+			}
+			&:active{
+				color:$action-color;	
+			}
 		}
 	}
 	.icon-discover,.icon-participate,.icon-build{

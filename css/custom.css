@@ -453,12 +453,10 @@ button {
     overflow: hidden; }
     #header #logo:hover {
       text-decoration: none;
-      color: #888888;
-      background-color: white; }
+      color: #888888; }
     #header #logo:active {
       text-decoration: none;
-      color: #00afef;
-      background-color: white; }
+      color: #00afef; }
   #header #toggle {
     background: none !important;
     outline: none;
@@ -714,16 +712,16 @@ button {
     padding: 1em;
     text-decoration: none;
     color: white; }
-    .breadcrumb a:hover {
-      color: #888888;
-      background-color: white; }
     .breadcrumb a:active {
       text-decoration: none;
-      color: #00afef;
-      background-color: white; }
+      color: black; }
     @media screen and (min-width: 40em) {
       .breadcrumb a {
-        color: #222222; } }
+        color: #222222; }
+        .breadcrumb a:hover {
+          color: #888888; }
+        .breadcrumb a:active {
+          color: #00afef; } }
   .breadcrumb .icon-discover, .breadcrumb .icon-participate, .breadcrumb .icon-build {
     display: inline !important;
     float: left; }
