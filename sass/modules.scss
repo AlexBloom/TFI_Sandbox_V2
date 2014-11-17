@@ -177,12 +177,16 @@ button{
 		line-height:150%;
 		border-left:1px solid $light-grey;	
 		overflow:hidden;
+		&:hover{
+			text-decoration:none;
+			color:$medium-grey;
+			background-color:$white;
+		}
 		&:active{
 			text-decoration:none;
-			color:$white;
-			background-color:$action-color;	
+			color:$action-color;
+			background-color:$white;	
 		}
-		//display:none;
 		@media screen and (min-width:(em(600))){
 			//display:inline-block;
 		}			
@@ -451,7 +455,7 @@ font-size:75%;
 			position:fixed;
 			z-index:401;
 			top:0;
-			left:14em;
+			left:14.5em;
 			padding-left:0;
 			color:$light-grey;
 		}	
@@ -485,11 +489,14 @@ font-size:75%;
 		padding:1em;
 		text-decoration:none;
 		color:$white;
-	
+		&:hover{
+			color:$medium-grey;
+			background-color:$white;
+		}
 		&:active{
 			text-decoration:none;
-			color:$white;
-			background-color:$action-color;	
+			color:$action-color;
+			background-color:$white;	
 		}
 		@media screen and (min-width:(em(600))){
 			color:$dark-grey;

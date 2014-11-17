@@ -451,10 +451,14 @@ button {
     line-height: 150%;
     border-left: 1px solid #dddddd;
     overflow: hidden; }
+    #header #logo:hover {
+      text-decoration: none;
+      color: #888888;
+      background-color: white; }
     #header #logo:active {
       text-decoration: none;
-      color: white;
-      background-color: #00afef; }
+      color: #00afef;
+      background-color: white; }
   #header #toggle {
     background: none !important;
     outline: none;
@@ -680,7 +684,7 @@ button {
       position: fixed;
       z-index: 401;
       top: 0;
-      left: 14em;
+      left: 14.5em;
       padding-left: 0;
       color: #dddddd; } }
   .breadcrumb ul {
@@ -710,10 +714,13 @@ button {
     padding: 1em;
     text-decoration: none;
     color: white; }
+    .breadcrumb a:hover {
+      color: #888888;
+      background-color: white; }
     .breadcrumb a:active {
       text-decoration: none;
-      color: white;
-      background-color: #00afef; }
+      color: #00afef;
+      background-color: white; }
     @media screen and (min-width: 40em) {
       .breadcrumb a {
         color: #222222; } }
