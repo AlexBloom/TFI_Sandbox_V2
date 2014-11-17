@@ -140,7 +140,7 @@
 			<p id="Storyscapes"> 
 				<strong> <a href="http://vimeo.com/70114618"target=_blank>STORYSCAPES - CREATING IMMERSIVE STORY EXPERIENCES</a> </strong>
 				<ul>
-					<li> Ingrid Kopp, Director of Digital Initiatives,Tribeca Film Institute [Moderator] </li>
+					<li> Ingrid Kopp, Director of Interactive,Tribeca Film Institute [Moderator] </li>
 					<li> Hugues Sweeney, A Journal of Insomnia                                           </li>
 					<li> Brent Hoff, Robots in Residence                                                 </li>
 					<li> Alexander Reben, Robots in Residence                                            </li>

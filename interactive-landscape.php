@@ -953,7 +953,7 @@
 						
 						<p> I love the simplicity of this project, challenging the common media portrayal of the African continent as a place consumed by war, poverty, and disease. The project collects photographs taken on mobile phones across the continent using the hashtag #everydayafrica Simple, beautiful and a great example of using social media creatively. </p>
 				
-				<p class="author"> By <strong>Ingrid Kopp</strong>, Director of Digital Initiatives at Tribeca Film Institute
+				<p class="author"> By <strong>Ingrid Kopp</strong>, Director of Interactive at Tribeca Film Institute
 				<br>
 				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 				More from Ingrid Kopp - 
@@ -1000,7 +1000,7 @@
 
 						<p>Not one project but a collection of projects reflecting the breadth of imagination and creativity in the interactive documentary form. MIT Open Documentary Lab and their partners have done a wonderful job building a home for all these projects and giving us a space to reflect on where we have come from and where we are going. </p>
 				
-				<p class="author"> By <strong>Ingrid Kopp</strong>, Director of Digital Initiatives at Tribeca Film Institute
+				<p class="author"> By <strong>Ingrid Kopp</strong>, Director of Interactive at Tribeca Film Institute
 				<br>
 				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 					More from Ingrid Kopp - 
@@ -1047,7 +1047,7 @@
 
 						<p>Still one of my favorite projects and I wanted to include something from the NFB because I think we owe them so much for investing in this work and pioneering the field. I love the beautiful graphic design, evocative soundtrack and originality of Welcome to Pine Point. It was one of the projects that got me really excited about the potential for storytelling on the web. </p>
 				
-				<p class="author"> By <strong>Ingrid Kopp</strong>, Director of Digital Initiatives at Tribeca Film Institute
+				<p class="author"> By <strong>Ingrid Kopp</strong>, Director of Interactive at Tribeca Film Institute
 				<br>
 				<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 				More from Ingrid Kopp - 
@@ -1095,7 +1095,7 @@
 						
 						<p>In this ever-changing interactive landscape, it is great to see some projects not getting older. Prison Valley, 4 years old, is definitely one of them. Yes the blog is not as active as it used to be, but the overall experience is still stunning. I would attribute this to the bold economic approach of the prison system, the code of the Road movie genre, the use of social media as a creative tool and the overall importance of story and user experience. The user actively participates in this journalistic journey, starting at the same motel where David Dufresne and Philippe Brault stayed, then deciding where to go, what to explore, and how to participate in the debate. </p>
 				
-						<p class="author"> By <strong>Amelie Leenhardt</strong>, Digital Initiatives, Tribeca Film Institute
+						<p class="author"> By <strong>Amelie Leenhardt</strong>, Interactive, Tribeca Film Institute
 						<br>
 						More from Amelie Leenhardt - <a href="interactive-landscape#KentuckyRouteZero">Discover: Kentucky Route Zero</a>
 						</p>
@@ -1135,7 +1135,7 @@
  
 						<p> Described as a magical realist game, Kentucky Route Zero reminds me of a poem with its dark, evocative and mysterious atmosphere. But to me it’s first and foremost a theater play. The player acts as a stage director, controlling Conway’s character, choosing his actions and interactions with other characters, and selecting his dialogues by clicking on text boxes. Most of these dialogues have no impact on the adventure; while they are unnecessary to the action, they allow the player to develop his vision of the main character, to create the backstory and to contribute to the atmosphere of the play. The player shapes the story. In the first scene, a <em>mise en abyme</em> highlights the theatrical aspect of this five-act game. Conway witnesses people playing a “random” but “realistic” roadmap game and discussing the rule: “I don’t think you can win - it says on the box it’s a tragedy”. It's not the destination nor the action but <em>the route</em> that really matters.</p>
 				
-					<p class="author"> By <strong>Amelie Leenhardt</strong>, Digital Initiatives, Tribeca Film Institute
+					<p class="author"> By <strong>Amelie Leenhardt</strong>, Interactive, Tribeca Film Institute
 					<br>
 					More from Amelie Leenhardt - <a href="interactive-landscape#PrisonValley">Discover: Prison Valley</a>
 					</p>

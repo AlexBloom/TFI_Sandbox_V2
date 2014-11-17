@@ -64,7 +64,7 @@
 					<section class="content anchor" id="ImpactWorkingGroup">
 						<img src="img/content/build/impact/imiwg.jpg" alt="Interactive Media Impact Working Group convening">
 						<h2>Interactive Media Impact Working Group</h2>						
-						<p class="author">By Ingrid Kopp, Director of Digital Initiatives at Tribeca Film Institute
+						<p class="author">By Ingrid Kopp, Director of Interactive at Tribeca Film Institute
 						<br>
 						<a href="https://twitter.com/fromthehip"target=_blank>@fromthehip</a><br>
 							More from Ingrid Kopp - 
