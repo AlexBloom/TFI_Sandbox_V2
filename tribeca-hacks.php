@@ -204,8 +204,6 @@ $cms = new tfi_ee();
 			
 				<h2>Innovation &amp; Collaboration</h2>
 			
-				<p><strong>By Neal Hartman,</strong> Artistic Director of the CineGlobe Film Festival at CERN</p>
-			
 				<p>The two key elements to Hackathon success are innovation and collaboration. Projects need to be novel, but they also need to draw on the talents, experience, and unique perspectives of every member of the hackathon team. This is especially true since the teams are interdisciplinary. And while it may be tempting to have the technologist worry about implementation while the storyteller worries about narrative, it’s in fact imperative to do the opposite. Each player needs to step outside her or his comfort zone and provide feedback on the challenges that other teammates are facing in the other disciplines. These outside views within the hackathon group not only test the projects as they develop, but also bring fresh, unexpected, and sometimes revolutionary input to every aspect of the hackathon creation. </p>
 				
 				<img src="img/content/participate/tribecahacks/participants.jpg" alt="Participants">
@@ -214,6 +212,10 @@ $cms = new tfi_ee();
 				<p>This is the kind of collaborative approach we apply at CERN, from small computing projects to building the world’s largest particle detectors, which rival the Eiffel Tower. Most teams have just a coordinator and no “boss”. In fact, it’s often impossible to fire people or change team members, so everyone works within their ability, asks for help when they need it, and tries to offer help when it’s apparent someone else is having trouble. That’s not to say that everything is rosy all of the time.  There are plenty of conflicts in any collaboration, but at CERN they are resolved through roundtable discussion and compromise. One team member’s weakness can be seen as another team member’s opportunity to step up and fill the gap.  In this way, the teams organically, gradually, and peacefully morph until they take on their most efficient form, with team members in their most suited positions.</p> 
 				<p>This process is identical to that which creates a great hackathon team. In fact, innovation of any sort benefits from this collaborative structure. By its definition, innovation is pattern-breaking, spontaneous, and unpredictable. Only a flexible, tolerant, and multi-functional team can be truly innovative. And because innovation can come from anywhere, just like inspiration, working towards it can seem wasteful or inefficient until that breakthrough moment. But if we think of that inefficient work that comes early on as investing towards that future, eureka moment, then we see that we just have to be a little patient, believe that the hard work will pay off, and pull together. If the team believes in its goal, and is open to whatever developments may come, the end result will be better realized and more truly groundbreaking than anyone at the outset could have imagined.</p> 
 				<p>Happy collaborative hacking!</p>
+				
+				<p class="author"> 
+					By<strong> Neal Hartman,</strong> Artistic Director of the CineGlobe Film Festival at CERN
+				</p>
 			
 				</article>
 			</section>

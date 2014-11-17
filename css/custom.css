@@ -1460,6 +1460,9 @@ article {
     color: white;
     background-color: #00afef; }
 
+.author strong {
+  font-weight: normal !important; }
+
 /*
  *
  * //////////////////////////////////////////////////////// HOME

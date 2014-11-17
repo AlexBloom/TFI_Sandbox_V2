@@ -55,9 +55,7 @@
 		</div>
 		<div class="right-column clearfix">
 			<section class="content anchor" id="TFIResources">
-				<h2>Tools and Platforms</h2>
-				<p>Recommended by Opeyemi Olukemi--Interactive Manager, Tribeca Film Institute</p>
-				
+				<h2>Tools and Platforms</h2>				
 				<ul>					
 					<li>
 						<p><strong>3WDOC:</strong>
@@ -153,10 +151,10 @@
 						</p>
 					</li>
 				</ul>
+				<p>Recommended by Opeyemi Olukemi, Interactive Manager, Tribeca Film Institute</p>
 			</section>
 			<section class="content anchor" id="ABloomResources">
 				<h2>Code Resources</h2>
-				<p>Recommended by Alex Bloom, Interaction Designer</p>
 
 				<h3>Design Tools &amp; Software</h3>
 				<ul>
@@ -291,11 +289,10 @@
 					</li>
 				</ul>
 				
-				
+				<p>Recommended by Alex Bloom, Interaction Designer</p>
 			</section>		
 			<section class="content anchor" id="DiversityInCode">
 				<h2>TFI EMBRACES DIVERSITY IN CODE</h2>
-				<p>Recommended by Opeyemi Olukemi--Interactive Manager, Tribeca Film Institute </p>
 				
 				<ul>	 
 					<li> 
@@ -324,6 +321,7 @@
 						</p>
 					</li>	
 				</ul>
+				<p>Recommended by Opeyemi Olukemi, Interactive Manager, Tribeca Film Institute </p>
 			</section>
 		</div>
 		</article>
