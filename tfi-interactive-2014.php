@@ -65,7 +65,7 @@
 	
 			<p> <strong> <a href="https://www.youtube.com/watch?v=zob0aEXXnDI"target=_blank>OPENING KEYNOTE: THE AUDIENCE HAS AN AUDIENCE</a></strong>  
 				<ul>
-					<li> Kenyatta Cheese, Professional Internet Enthusiast</li>
+					Kenyatta Cheese, Professional Internet Enthusiast
 				</ul></p>
 			
 			<p> <strong> <a href="https://www.youtube.com/watch?v=8HZ8nmgsVnc"target=_blank>OBJECT NARRATIVES</a></strong>  
@@ -163,7 +163,7 @@
 			
 			<p> <strong> <a href="https://www.youtube.com/watch?v=bF1NJoLuJYg"target=_blank>CLOSING KEYNOTE: DIGITAL DISSATISFACTION: THE LIMITS OF TECHNOLOGY</a></strong>  
 				<ul>
-					<li> Jonathan Harris, Artist</li>
+					Jonathan Harris, Artist
 				</ul>
 			</p>
 			
@@ -171,7 +171,7 @@
 			
 			<img src="img/content/participate/tfiinteractive/playground_emotionalarcade.jpg" alt="Playground, Emotional Arcade">
 			<h2>TFI Interactive Playground</h2>
-			<p class="intro">TFI’s Interactive Playground gave participants the opportunity to interact directly with interactive projects including: </p>
+			<p class="intro">TFI Interactive Playground gave participants the opportunity to interact directly with interactive projects including: </p>
 			
 			<ul class="no-style">
 				<li> <strong> 42 Butter Lane,</strong> by Sasha Wortzel 
@@ -212,7 +212,7 @@
 				</li>
 				<li> <strong> Tribeca Hacks Mobile</strong>
 				</li>
-				<li> <strong>Uncharted Play,</strong> by Jessica O. Matthews\
+				<li> <strong>Uncharted Play,</strong> by Jessica O. Matthews
 				</li>
 				<li> <strong>Vector, </strong> by Sébastien Brothier, Ben Collins, Eric Drier, Paulo Martins, Mark Melnykowicz and Monica Zoppe 
 				</li>
