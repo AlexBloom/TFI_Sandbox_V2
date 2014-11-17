@@ -210,7 +210,7 @@
 				</li>
 				<li> <strong> The Garment Worker,</strong> by Betty Yu
 				</li>
-				<li> <strong> Tribeca Hacks Mobile</strong>
+				<li> <strong> Tribeca Hacks Mobile Winning Team: Echo</strong> by Deniz Tortum, Rafael Vasquez, Dew Schorno, Pam Mendoza and Stephen Thomas
 				</li>
 				<li> <strong>Uncharted Play,</strong> by Jessica O. Matthews
 				</li>
