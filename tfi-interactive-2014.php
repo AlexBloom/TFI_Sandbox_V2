@@ -202,7 +202,7 @@
 				</li>
 				<li> <strong> Night Forest,</strong> by Maria Paula Saba
 				</li>
-				<li> <strong> phone face photo,</strong> by Alexander Reben 
+				<li> <strong> Phone Face Photo,</strong> by Alexander Reben 
 				</li>
 				<li> <strong> Projection Piano,</strong> by Inpyo Chang, Adria Sas and John Namu Choi
 				</li>
