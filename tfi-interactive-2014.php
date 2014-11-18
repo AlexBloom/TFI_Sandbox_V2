@@ -51,12 +51,12 @@
 			</header>
 		<section class="content">
 			
-			<h2> <em>The Audience Has an Audience:</em><br> Kenyatta Cheese at 2014 TFI Interactive </h2>
+			<h2> The Audience Has an Audience:<br> Kenyatta Cheese at 2014 TFI Interactive </h2>
 			<div class="flexvideo-16-9">
 			<iframe src="//www.youtube.com/embed/zob0aEXXnDI?rel=0" frameborder="0" allowfullscreen></iframe>
 			</div>
 			
-			<h2> <em>The Limits of Technology:</em><br> Jonathan Harris at 2014 TFI Interactive</h2>
+			<h2> The Limits of Technology:<br> Jonathan Harris at 2014 TFI Interactive</h2>
 			<div class="flexvideo-16-9">
 			<iframe src="//www.youtube.com/embed/bF1NJoLuJYg?rel=0" frameborder="0" allowfullscreen></iframe> 
 			</div>
