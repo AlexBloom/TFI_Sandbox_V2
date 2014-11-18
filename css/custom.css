@@ -1795,9 +1795,21 @@ article {
   margin-top: 0; }
 
 .tfi-interactive article header {
+  background-color: #222222;
   margin: 3.5em 0 0 0;
-  padding: 3.5em 0 1.5em 0;
+  padding: 3.5em 0 1em 0;
   width: 100%; }
+  .tfi-interactive article header h1 {
+    padding: 1rem 4rem;
+    margin-bottom: 0;
+    font-size: 1.5em; }
+    @media screen and (min-width: 40em) {
+      .tfi-interactive article header h1 {
+        font-size: 2em;
+        padding: 1rem; } }
+    @media screen and (min-width: 66.66667em) {
+      .tfi-interactive article header h1 {
+        font-size: 2.5em; } }
   @media screen and (min-width: 40em) {
     .tfi-interactive article header {
       padding: 0 0 1.5em 0; } }
