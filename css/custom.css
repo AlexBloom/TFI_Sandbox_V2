@@ -1353,7 +1353,7 @@ article {
   article .content {
     width: 80%;
     margin: 1em auto;
-    max-width: 46.66667em; }
+    max-width: 53.33333em; }
     @media screen and (min-width: 53.33333em) {
       article .content {
         margin: 3em auto; } }
