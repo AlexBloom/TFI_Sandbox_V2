@@ -2,5 +2,8 @@
 *.kate-swp
 .htaccess
 
+#last year sandbox
+2013
+
 #sensitive info file
 inc/database.inc
