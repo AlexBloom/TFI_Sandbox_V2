@@ -362,20 +362,17 @@
 								</div>		
 							</div>
 						</a>
-						</header><section class="project-content"><aside>
-			
-					
-					 
-						<ul>
-							<li> <strong> Selected by:</strong> Gabriel Dance</li>
-							<li> <strong> Created by:</strong> Sohail Al-Jamea, Bonnie Berkowitz, Emily Chow, Laris Karklis &amp; Todd Lindeman</li>
-							<li> <strong> Launched:</strong> August 2013</li>
-							<li><a class="project-url"
-
-			 href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls" target=_blank> washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls <span class="icon-export"></span></a>	
-					
-			</li>
-						</ul></aside>
+						</header>
+						<section class="project-content">
+							<aside>
+ 
+								<ul>
+									<li> <strong> Selected by:</strong> Gabriel Dance</li>
+									<li> <strong> Created by:</strong> Sohail Al-Jamea, Bonnie Berkowitz, Emily Chow, Laris Karklis &amp; Todd Lindeman</li>
+									<li> <strong> Launched:</strong> August 2013</li>
+									<li><a class="project-url" href="http://washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls" target=_blank> washingtonpost.com/wp-srv/special/local/the-perils-of-great-falls <span class="icon-export"></span></a>	</li>
+								</ul>
+							</aside>
 			
 
 						<p>The Washington Post graphics desk explored the part of the Potomac River known as Great Falls, in a beautiful and creative interactive feature. This part of the Potomac is deceptively dangerous, as it's not the white water that makes it so deadly. It's the dangers that lie below the surface that have cost lives. Through creative use of video, 3D and illustrations, the Washington Post shows us why this part of the river has claimed so many lives.</p>
@@ -765,31 +762,32 @@
 								</div>
 							</div>
 						</a>
-						</header><section class="project-content"><aside>
-			
+					</header>
+					<section class="project-content">
+						<aside>					
+							<ul>
+								<li> <strong> Selected by:</strong> Aina Abiodun </li>
+								<li> <strong> Created by:</strong> Joe Diebes, Christian Hawkey &amp; David Levine</li> 
+								<li> <strong> Launched:</strong> January 2014, Live</li>
+								<li><a class="project-url"
 
+				 href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress <span class="icon-export"></span></a>
+						</li>
+							</ul>
+						</aside>
+		
+
+
+						<p>WOW an Opera is the story of Milli Vanilli, the disgraced '90s German pop music duo, told as a Faustian bargain incorporating technology and music in a live experimental and non-linear format. Staged as an immersive experience, the opera combines elements of classical opera with a contemporary story.</p>
 					
-						<ul>
-							<li> <strong> Selected by:</strong> Aina Abiodun </li>
-							<li> <strong> Created by:</strong> Joe Diebes, Christian Hawkey &amp; David Levine</li> 
-							<li> <strong> Launched:</strong> January 2014, Live</li>
-							<li><a class="project-url"
-
-			 href="http://bricartsmedia.org/events/wow-work-in-progress"target=_blank> bricartsmedia.org/events/wow-work-in-progress <span class="icon-export"></span></a>
-					</li>
-						</ul></aside>
-			
-
-
-					<p>WOW an Opera is the story of Milli Vanilli, the disgraced '90s German pop music duo, told as a Faustian bargain incorporating technology and music in a live experimental and non-linear format. Staged as an immersive experience, the opera combines elements of classical opera with a contemporary story.</p>
-						
-					<p>Technology and physical space are leveraged seamlessly to create a truly immersive experience in this opera. The sheer ingenuity of using the raw materials of a very operatic narrative to create a brand new experience of opera is brilliant. Because the very heart of the duo's story involves the technologically-enabled ruse of lip-syncing, technology is a very natural player in the structure of the story, and the creators exploit that division between the production of music and the faux performance to great effect.</p>
-					
-					<p class="author"> By <strong>Aina Abiodun</strong>, Storyteller, Strategist &amp; Futurist
-					<br>
-					<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun </a><br>
-					More from Aina Abiodun - <a class="openAll" href="interactive-landscape#GoneHome"> Discover: Gone Home</a>
-					</p>
+						<p>Technology and physical space are leveraged seamlessly to create a truly immersive experience in this opera. The sheer ingenuity of using the raw materials of a very operatic narrative to create a brand new experience of opera is brilliant. Because the very heart of the duo's story involves the technologically-enabled ruse of lip-syncing, technology is a very natural player in the structure of the story, and the creators exploit that division between the production of music and the faux performance to great effect.</p>
+				
+						<p class="author"> By <strong>Aina Abiodun</strong>, Storyteller, Strategist &amp; Futurist
+						<br>
+						<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun </a><br>
+						More from Aina Abiodun - 
+						<a class="openAll" href="interactive-landscape#GoneHome"> Discover: Gone Home</a>
+						</p>
 					</section>
 
 				</article>
