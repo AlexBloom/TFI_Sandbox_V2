@@ -9,14 +9,14 @@
 		<!--Facebook -->
 				<meta property="og:title" content="TFI Sandbox"/>
 				<meta property="og:description" content="Adventures in storytelling, technology and social change." />
-				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox_<?php $random = rand(1,5); echo $random; ?>.jpg"/>
+				<meta property="og:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta property="og:url" content="http://sandbox.tribecafilminstitute.org/"/>
 		<!--Twitter -->
-				<meta name="twitter:card" content="summary" />
+				<meta name="twitter:card" content="summary"/>
 				<meta name="twitter:site" content="@TribecaFilmIns">
 				<meta name="twitter:title" content="TFI Sandbox"/>
 				<meta name="twitter:description" content="Adventures in storytelling, technology and social change."/>
-				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox_<?php $random = rand(1,5); echo $random; ?>.jpg"/>
+				<meta name="twitter:image" content="http://sandbox.tribecafilminstitute.org/img/content/sandbox.jpg"/>
 				<meta name="twitter:url" content="http://sandbox.tribecafilminstitute.org/" />
 
 <?php include_once 'inc/header.inc' ?>
