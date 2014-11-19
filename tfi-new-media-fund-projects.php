@@ -380,8 +380,8 @@ $projects = $cms->get_project_by_year($current_year);
 						<span class="name"> <strong>Marc Schiller </strong> <br> Campfire, Partner & Creative Director  </span>
 					</li>
 					<li>
-						<img src="img/content/discover/new-media-fund/2012/jury/jury_AndrewDevigao.jpg" alt="Jury AndrewDevigao">
-						<span class="name"> <strong>Andrew DeVigao </strong> <br> Co-founder, A Fourth Act, Chair of Journalism, Innovation and Civic Engagement at University of Oregon’s SOJC  </span>
+						<img src="img/content/discover/new-media-fund/2012/jury/jury_AndrewDevigal.jpg" alt="Jury AndrewDevigal">
+						<span class="name"> <strong>Andrew DeVigal </strong> <br> Co-founder, A Fourth Act, Chair of Journalism, Innovation and Civic Engagement at University of Oregon’s SOJC  </span>
 					</li>
 					<li>
 						<img src="img/content/discover/new-media-fund/2012/jury/jury_SteveCoulson.jpg" alt="Jury SteveCoulson">
@@ -465,10 +465,10 @@ $projects = $cms->get_project_by_year($current_year);
 		</section>
 
 	
-		
+		<?php include_once 'inc/sharenav.inc' ?>
 	</section>
 	
-<?php include_once 'inc/sharenav.inc' ?>
+
 	
 </section>
 
