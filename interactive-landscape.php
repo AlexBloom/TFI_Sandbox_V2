@@ -690,7 +690,7 @@
 						<p class="author"> By <strong>Aina Abiodun</strong>, Storyteller, Strategist &amp; Futurist
 						<br>
 						<a href="https://twitter.com/ainaabiodun"target=_blank>@ainaabiodun</a><br>
-						More from Aina Abiodun - <a class="openAll" href="interactive-landscape#WowAnOpera">Discover: Wow, An Opera</a>
+						More from Aina Abiodun - <a class="openAll" href="interactive-landscape#WOWAnOpera">Discover: Wow, An Opera</a>
 						</p>
 			
 					</section>
