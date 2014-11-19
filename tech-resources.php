@@ -229,40 +229,36 @@
 					<li> <p> <strong> PHP: </strong> Arguably the most popular server-side scripting language. <br>
 						<a href="http://www.php.net/" target=_blank>php.net</a>
 						</p>
-						<ul>
-							<li> <p> <strong> Kirby: </strong> PHP / File Based CMS that can run out of Dropbox. <br>
-								<a href="http://getkirby.com" target=_blank>http://getkirby.com/</a>
-								</p>
-							</li>
-							<li> <p> <strong> Wordpress: </strong> The old standard PHP / database CMS, with one of the largest communities of open source developers on the web. <br>
-								<a href="http://wordpress.org" target=_blank>http://wordpress.org</a>
-								</p>
-							</li>
-							<li>
-								<p> <strong> Symfony and Laravel </strong> Open source PHP frameworks for building web-based projects. <br>
-									<a href="http://symfony.com/"target=_blank>symfony.com </a> and <a href="http://laravel.com/"target=_blank>laravel.com </a>
-								</p>
-							</li>
-						</ul>
+					</li>
+					<li> <p> <strong> Kirby: </strong> PHP / File Based CMS that can run out of Dropbox. <br>
+						<a href="http://getkirby.com" target=_blank>http://getkirby.com/</a>
+						</p>
+					</li>
+					<li> <p> <strong> Wordpress: </strong> The old standard PHP / database CMS, with one of the largest communities of open source developers on the web. <br>
+						<a href="http://wordpress.org" target=_blank>http://wordpress.org</a>
+						</p>
+					</li>
+					<li>
+						<p> <strong> Symfony and Laravel </strong> Open source PHP frameworks for building web-based projects. <br>
+							<a href="http://symfony.com/"target=_blank>symfony.com </a> and <a href="http://laravel.com/"target=_blank>laravel.com </a>
+						</p>
 					</li>
 					<li> <p> <strong> Ruby on Rails: </strong> Open source web framework that boasts a quick learning curve and utility for building web-based applications. <br>
 						<a href="http://rubyonrails.org/" target=_blank>http://rubyonrails.org/</a>
 						</p>
-						<ul>
-							<li>
-								<p> <strong>Github Pages: </strong> Host your pages for free and push live directly from your code repository.
-									<a href="https://pages.github.com/"target=_blank> pages.github.com </a>
-								</p>
-							</li>
-							<li> <p> <strong> Jekyll: </strong> Static blog generator that runs on Ruby, and integrates with Github hosting. Stable, secure, and fast. <br>
-								<a href="http://jekyllrb.com/" target=_blank>http://jekyllrb.com/</a>
-								</p>
-							</li>
-							<li> <p> <strong> SiteLeaf: </strong>  Easily customizable Jekyll-based CMS with affordable plans.<br>
-								<a href="http://www.siteleaf.com/" target=_blank>http://www.siteleaf.com/</a>
-								</p>
-							</li>
-						</ul>	
+					</li>
+					<li>
+						<p> <strong> Github Pages: </strong> Host your pages for free and push live directly from your code repository.
+							<a href="https://pages.github.com/"target=_blank> pages.github.com </a>
+						</p>
+					</li>
+					<li> <p> <strong> Jekyll: </strong> Static blog generator that runs on Ruby, and integrates with Github hosting. Stable, secure, and fast. <br>
+						<a href="http://jekyllrb.com/" target=_blank>http://jekyllrb.com/</a>
+						</p>
+					</li>
+					<li> <p> <strong> SiteLeaf: </strong>  Easily customizable Jekyll-based CMS with affordable plans.<br>
+						<a href="http://www.siteleaf.com/" target=_blank>http://www.siteleaf.com/</a>
+						</p>
 					</li>	
 				</ul>
 				

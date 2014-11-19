@@ -130,9 +130,9 @@
 	position:relative;
 	overflow:hidden;
 	z-index:350;
-	min-height:13.5em;	
+	//min-height:13.5em;	
 	@media screen and (min-width:(em(700))){
-		min-height:20em;	
+		//min-height:20em;	
 	}
 	.project-image-wrap{
 		overflow:hidden;
@@ -153,9 +153,9 @@
  	    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	    -moz-box-sizing: border-box; /* Firefox, other Gecko */
 	    box-sizing: border-box; /* Opera/IE 8+ */		
-		position:absolute;
-		top:0;
-		bottom:0;		
+		//position:absolute;
+		//top:0;
+		//bottom:0;		
 	}
 	.floating-text{
 		display:block;
@@ -168,9 +168,9 @@
 		color:$white;
 		z-index:2;
 		@include quarter-second-transition;
-		position: absolute;
-	  	top:0; 
-		bottom:0;
+		//position: absolute;
+	  	//top:0; 
+		//bottom:0;
 		padding-top:1.5em;
 		small{
 			font-size:1em;
@@ -192,7 +192,7 @@
 			}
 		}
 		p{
-			max-width:(em(1000));
+			max-width:(em(700));
 		}
 	}
 	.floating-text.open{

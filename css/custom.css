@@ -1590,8 +1590,7 @@ article {
   transition-duration: .25s;
   position: relative;
   overflow: hidden;
-  z-index: 350;
-  min-height: 13.5em; }
+  z-index: 350; }
   .project-header img {
     -webkit-transition-duration: .25s;
     -moz-transition-duration: .25s;
@@ -1603,9 +1602,6 @@ article {
       opacity: 1;
       width: 100%;
       margin-top: -20%; } }
-  @media screen and (min-width: 46.66667em) {
-    .project-header {
-      min-height: 20em; } }
   .project-header .project-image-wrap {
     overflow: hidden;
     max-height: 20em;
@@ -1630,10 +1626,7 @@ article {
     -moz-box-sizing: border-box;
     /* Firefox, other Gecko */
     box-sizing: border-box;
-    /* Opera/IE 8+ */
-    position: absolute;
-    top: 0;
-    bottom: 0; }
+    /* Opera/IE 8+ */ }
   .project-header .floating-text {
     display: block;
     margin: auto;
@@ -1649,9 +1642,6 @@ article {
     -ms-transition-duration: .25s;
     -o-transition-duration: .25s;
     transition-duration: .25s;
-    position: absolute;
-    top: 0;
-    bottom: 0;
     padding-top: 1.5em; }
     .project-header .floating-text small {
       font-size: 1em;
@@ -1671,7 +1661,7 @@ article {
         .project-header .floating-text h2 {
           font-size: 4em; } }
     .project-header .floating-text p {
-      max-width: 66.66667em; }
+      max-width: 46.66667em; }
   .project-header .floating-text.open {
     top: 50%;
     bottom: 2em;
