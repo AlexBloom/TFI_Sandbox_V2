@@ -234,13 +234,14 @@ $('#share-engage').click(function() {
 });
  
 
-
+$('#home-video-container').addClass('overflow-hidden');
 
 // Show and Play Full Screen Videos
 $(".play-video").click(function(){
 	$('.video-overlay').css("display","block");
 	$('#header').css("display","none");
 	$('body').addClass('overflow-hidden');
+	$('#home-video-container').removeClass('overflow-hidden');
 });
 
    // LOOP VIMEO API TO PAUSE PLAYER ON CLOSE
@@ -260,6 +261,7 @@ $(".play-video").click(function(){
 		$('.video-overlay').css("display","none");
 		$('#header').css("display","block");
 		$('body').removeClass('overflow-hidden');
+		$('#home-video-container').addClass('overflow-hidden');
 	});
 	
 
