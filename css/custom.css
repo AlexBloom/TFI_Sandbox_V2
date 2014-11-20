@@ -1507,6 +1507,12 @@ article {
     #home-video-container {
       background-image: none !important; } }
 
+#home-bg {
+  display: none; }
+  @media screen and (min-width: 53.33333em) {
+    #home-bg {
+      display: block; } }
+
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }
 

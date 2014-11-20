@@ -35,6 +35,14 @@
 		background-image:none!important;
 	}	
 }
+
+#home-bg{
+	display:none;
+	@media screen and (min-width:(em(800))){
+		display:block;
+	}	
+}
+
 #hacks-video-container{
 	background-image: url('../img/content/prototype/project-image.jpg');
 }
