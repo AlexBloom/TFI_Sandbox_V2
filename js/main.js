@@ -252,10 +252,15 @@ $(".play-video").click(function(){
 	
 	player.addEvent('ready', function() {    
 	        player.addEvent('pause', onPause);
+			player.addEvent('play', onPlay);
 	    });
-	    $('.close-video').bind('click', function() {
+	    $('.play-video').bind('click', function() {
+	        player.api('play');
+	    });
+		$('.close-video').bind('click', function() {
 	        player.api('pause');
 	    });
+	   
 
 	$(".close-video").click(function(){
 		$('.video-overlay').css("display","none");
