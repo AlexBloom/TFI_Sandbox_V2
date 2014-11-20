@@ -35,7 +35,7 @@
 	position:relative;	
     min-height:600px;
 	max-height:800px;
-	overflow:hidden!important;
+	//overflow:hidden!important;
 	background-image:url('../img/ui/home_bg_1.gif');
 	@media screen and (min-width:(em(800))){
 		background-image:none!important;
