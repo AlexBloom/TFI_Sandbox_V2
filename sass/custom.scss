@@ -28,11 +28,29 @@
 }
 #home-video-container{
 	background-color:$black;
-	background-position:50% 50%;
+	background-position:center;
 	background-size:cover;
+	padding:0;
+	width:100%;
+	position:relative;	
+    max-height:1000px !important;
+	overflow:hidden!important;
 	background-image:url('../img/ui/home_bg_1.gif');
 	@media screen and (min-width:(em(800))){
 		background-image:none!important;
+	}
+	img{
+		width:100%;
+	}
+	video{
+		display:block;
+		position:absolute;
+		min-width:100%;
+		min-height:100%;
+		top:0;
+		bottom:0;
+		//left:0;
+		right:0;
 	}	
 }
 
