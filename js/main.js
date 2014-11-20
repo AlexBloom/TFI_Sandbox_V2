@@ -1,10 +1,14 @@
+
 // Fire LocalScroll
+$(window).load(function () {
+	$('body').localScroll({offset:0});
+	$('.left-column').localScroll({offset:-65});
+});
+
 $(document).ready(function () {
 	$('#primary-nav').addClass('closed'); 
 	
-		// Fire LocalScroll
-		$('body').localScroll({offset:0});
-		$('.left-column').localScroll({offset:-65});
+		
 	
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({"min-height":$(window).height()});
@@ -101,19 +105,6 @@ $('.local-link').each(function() {
 	});
 });
 	
-// Sticky Navigations		
-// $('.left-column').waypoint(
-//  function(direction) {   
-//    // This div is level with the top  
-//    if(direction == 'down'){
-//     $('.sticky').addClass('fixed');
-//    }
-//      else  $('.sticky').removeClass('fixed');
-//  },
-//  {
-//	 offset: 50
-// }
-//);
 
 
 // Active Link Highlighting
@@ -282,6 +273,5 @@ $(".play-video").click(function(){
 });
 
 // Vimeo Loop
-
-
+// Fire LocalScroll
 

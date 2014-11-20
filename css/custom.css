@@ -1642,7 +1642,7 @@ article {
     -ms-transition-duration: .25s;
     -o-transition-duration: .25s;
     transition-duration: .25s;
-    padding-top: 1.5em; }
+    padding: 1.5em 0 4.5em 0; }
     .project-header .floating-text small {
       font-size: 1em;
       font-weight: 600;
