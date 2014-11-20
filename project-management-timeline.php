@@ -60,8 +60,8 @@
 					<nav class="sticky">
 						<h4>Sections</h4>	
 						<ol>
-							<li><a class="scrollnav-link" href="#CascadingTimeline"><strong> The Cascading Timeline</strong> </a></li>
-							<li><a class="scrollnav-link" href="#example1"><strong> Creating By Doing</strong>  <br> Local Projects </a></li>
+							<li><a class="scrollnav-link" href="#CascadingTimeline"><strong> The Cascading Timeline</strong> <br> Mike Knowlton </a></li>
+							<li><a class="scrollnav-link" href="#example1"><strong> Creating By Doing</strong>  <br> David Carofano </a></li>
 							<li><a class="scrollnav-link" href="#example2"><strong> Don't Forget to Fail</strong>  <br> Jason Jaacks </a></li>
 						</ol>
 					</nav>

@@ -250,7 +250,7 @@
 		</section>
 		<section class="content anchor" id="HowToRaiseFunds">
 			<h2>How To Raise Funds?</h2>
-			<p>By Laura Bandel,Director of Institutional Development, at Tribeca Film Institute</p>
+			
 
 			<p class="intro">As a Director of Institutional Development here at TFI, I know first hand how difficult fundraising for your project can prove to be. It’s an incredibly competitive space to get your voice heard and project funded, but a few simple strategies can help you to stand out from the pack. Here is my golden list of do's and don'ts.</p>
 
@@ -287,7 +287,7 @@
 				<li> <p><strong>Be annoying. </strong> There is no good that will come of being combative when faced with a declination letter. It’s a small world, but the world of philanthropy is even smaller and you risk damaging your reputation at the organization declining your proposal and any number of others in their network. Use a ‘no’ to start a relationship with that group – sign up for their newsletter, attend any public programming they might offer, and certainly try again next year.  So many excellent projects funded by TFI have come on their second or third proposals. We’ve often referred outstanding proposals to other funding organizations that that project better aligns with, so always put your best foot forward. 
 				</p></li>
 			</ul>
-			
+			<p class="author"> By <strong>Laura Bandel</strong>, Director of Institutional Development at Tribeca Film Institute</p>
 		</section>
 		</div>
 		</section>

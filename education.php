@@ -65,10 +65,6 @@
 					<article>
 						<h2>New Media &amp; Education</h2>
 
-						<p><small>By Caitlin Meissner, Arts Educator</small><br>
-						<a href="https://twitter.com/caitsmeissner"target=_blank>@caitsmeissner</a>
-						</p>
-
 						<h4>TYWLS Bronx</h4>
 
 						<p>The sixth grade girls at The Leadership School of the Bronx used the first semester of 2014 to create a film about their school, and experimented with online new media platforms such as Mozilla Popcorn, Pixton Comics, Aniboom and Shapeshifter.</p>
@@ -85,6 +81,10 @@
 				
 						<p>In partnership with the Department of Education’s DigiReady initiative, students at Brooklyn International High School are prepping to create their first film and web-based interactive exploration of identity. Currently in the brainstorming stages, Brooklyn International students first learned filmmaking through the creation of a narrative short that expresses their love of the arts, multiple identities and diverse cultural community. The high school has students from over thirty countries, and all are immigrant newcomers, adding robust, textured perspectives on what it means to be a high school student in New York City.</p>
 					</article>
+					
+					<p class="author">By <strong>Caitlin Meissner</strong>, Arts Educator<br>
+					<a href="https://twitter.com/caitsmeissner"target=_blank>@caitsmeissner</a>
+					</p>
 				</section>
 				
 				<section class="content anchor" id="EducationalComponent">
@@ -93,12 +93,13 @@
 
 						<h2>Why Having an Educational Component for Your Project is a Good Thing</h2>
 						
-						<p><small>By Flonia Telegrafi, Lead Teaching Artist, Rikers Island Media Lab</small>
-						</p>
-				
 						<p>Building out an education strategy for your project, be it a linear film or a transmedia project, will ultimately help in making your work more accessible to a wider public. Educators are always looking for new and innovative tools and stories to bring into the classroom, novel ways of engaging with an issue be it the disappearance of small towns across America (Hollow), exploring our nation’s immigration and migration history (iNation), looking at the environmental impact of logging (This is My Backyard), or simply just different ways of becoming active in current social movements (The Yes Men Are Revolting). Having the tools to address important issues such as these enables educators and students alike to first learn about the project and then analyze the topic.</p>
 
 					</article>
+					
+					<p class="author">By <strong>Flonia Telegrafi</strong>, Lead Teaching Artist, Rikers Island Media Lab
+					</p>
+					
 				</section>
 			</div>
 			</section>
