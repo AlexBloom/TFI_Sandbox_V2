@@ -1501,10 +1501,11 @@ article {
 #home-video-container {
   background-color: black;
   background-position: 50% 50%;
-  background-size: cover; }
-  @media screen and (max-width: 53.33333em) {
+  background-size: cover;
+  background-image: url("../img/ui/home_bg_1.gif"); }
+  @media screen and (min-width: 53.33333em) {
     #home-video-container {
-      background-image: url("../img/ui/home_bg_1.gif"); } }
+      background-image: none !important; } }
 
 #hacks-video-container {
   background-image: url("../img/content/prototype/project-image.jpg"); }
