@@ -19,7 +19,7 @@
 		<div id="footer-info">
 			<p><a href="mailto:interactive@tribecafilminstitute.org"> Contact Us </a> |
 			   <a href="https://tribecafilminstitute.org/pages/newsletter_sign_up"target=_blank> Newsletter</a> |
-			   Site by <a href="http://digitalfrontiersman.com"target=_blank>Alex Bloom</a>
+			   Site by <a href="http://alexbloom.co"target=_blank>Alex Bloom</a>
 			</p>
 		</div>
 		<div id="copyright">All content &copy; Tribeca Film Institute 2012&ndash;2014</div>
