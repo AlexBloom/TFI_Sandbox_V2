@@ -8,13 +8,18 @@ $(window).load(function () {
 $(document).ready(function () {
 	$('#primary-nav').addClass('closed'); 
 	
-		// Size Full-Screen Videos, Images, & Slideshows to window height.
-		$('#home-video-container').css({"height":$(window).height()});
-		//$('#main >article >header').css({height:$(window).height()/2});
-		$(window).resize(function() {
+		
+		
+		if ($(window).width() > 800 ){	
+			// Size Full-Screen Videos, Images, & Slideshows to window height.
 			$('#home-video-container').css({"height":$(window).height()});
 			//$('#main >article >header').css({height:$(window).height()/2});
-		});
+			$(window).resize(function() {
+				$('#home-video-container').css({"height":$(window).height()});
+				//$('#main >article >header').css({height:$(window).height()/2});
+			}); 
+		}		
+		
 		
 		// Size Full-Screen Videos, Images, & Slideshows to window height.
 		$('.full-screen').css({"min-height":$(window).height()});

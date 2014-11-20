@@ -23,7 +23,7 @@
 
 <!-- Index Page -->
 <section id="main">
-	<section id="home-video-container" class="full-screen">
+	<section id="home-video-container">
 		<div class="overlay-wrap">
 			<div class="floating-text" id="floating-text-home">
 				
