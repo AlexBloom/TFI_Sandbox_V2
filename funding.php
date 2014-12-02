@@ -95,12 +95,7 @@
 							<br> Supporting artists working across a range of media
 							<br><a href="http://creative-capital.org"target=_blank>creative-capital.org</a></p>
 						</li>	
-						<li>
-							<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
-							<p><strong>ITVS</strong> 
-							<br> Supporting new media projects for multiple platforms.
-							<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding/open-call/how</a></p>
-						</li>
+					
 						<li>
 							<img src="img/content/build/funding/logo_visionmaker.gif" alt="Logo Visionmaker">
 							<p><strong>Vision Maker Media—Public Media Content Fund </strong>
@@ -132,12 +127,7 @@
 							<br> Funding co-production for digital documentaries from independent media creators and technologists.
 							<br><a href="http://www.pbs.org/pov/filmmakers/submit.php"target=_blank>pbs.org/pov/filmmakers/submit.php</a></p>
 						</li>	
-						<li>
-							<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
-							<p><strong>ITVS—Grant Cycle 2</strong> 
-							<br> Supporting new media projects for multiple platforms
-							<br><a href="http://itvs.org/funding"target=_blank>itvs.org/funding </a></p>
-						</li>
+					
 					</ul>
 				</li>
 				
@@ -175,12 +165,7 @@
 				<li id="August">
 					<h3>AUGUST</h3>
 					<ul>
-						<li>
-							<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
-							<p><strong>ITVS</strong> 
-							<br> Supporting new media projects for multiple platforms.
-							<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding/open-call/how</a></p>
-						</li>
+		
 					</ul>
 				</li>
 
@@ -237,12 +222,7 @@
 						<br><a href="http://bavc.org/mediamaker  "target=_blank>bavc.org/mediamaker</a></p>
 					
 					</li>
-					<li>
-						<img src="img/content/build/funding/logo_itvs.gif" alt="Logo Itvs">
-						<p><strong>ITVS—Grant Cycle 1</strong> 
-						<br> ITVS 360 supports new media projects for multiple platforms
-						<br><a href="http://itvs.org/funding/open-call/how"target=_blank>itvs.org/funding/open-call/how</a></p>
-					</li>
+
 				</ul>
 				</li>
 			</ul>
