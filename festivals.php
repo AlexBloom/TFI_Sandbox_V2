@@ -238,10 +238,10 @@
 							</li>
 			
 							<li> <h4> Cross Video Days</h4>
-								A european crossmedia content market.
+								The leading Transmedia Market in Europe to meet interactive Commissioners and connect with co-producers.
 								<br><strong>Time of year:</strong> June
 								<br><strong>Location:</strong> Paris, France
-								<br> <a href="http://www.crossvideodays.com/"target=_blank> crossvideodays.com </a>
+								<br> <a href="http://www.crossvideodays.com/en"target=_blank> crossvideodays.com </a>
 							</li>
 			 
 							<li> <h4>DEAF: Dutch Electronic Art Festival </h4>
