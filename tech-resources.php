@@ -95,6 +95,12 @@
 						</p>
 					</li>
 					<li>
+						<p><strong>Harvis:</strong>
+						 A mobile web application that empowers individuals to share their perspectives and be active participants in collective action-oriented dialogue by capturing their real-time emotional responses to recorded or live-media.<br>
+							<a href="http://www.afourthact.com/harvis-overview"target=_blank> interlude.fm </a>
+						</p>
+					</li>
+					<li>
 						<p><strong>Interlude:</strong>
 						 A self-service HTML5 web app that unleashes your creativity and lets you design and publish your own interactive videos<br>
 							<a href="http://interlude.fm/"target=_blank> interlude.fm </a>
